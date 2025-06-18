@@ -64,7 +64,7 @@
     https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_Scripts.xml
     https://github.com/mrlimbic/reascripts/raw/master/index.xml
     https://github.com/n0ner/Reaper/raw/master/index.xml
-    https://github.com/nikolalkc/LKC-Tools/raw/master/index.xml
+    https://raw.githubusercontent.com/nikolalkc/LKC-Tools/master/index.xml
     https://github.com/nofishonfriday/ReaScripts/raw/master/index.xml
     https://github.com/pelori/PeloReaper/raw/master/index.xml
     https://github.com/przemoc/REAPER-ReaScripts/raw/master/index.xml
