@@ -12,7 +12,7 @@ jobs:
       - name: Delete all files except README
         run: |
           shopt -s extglob
-          rm -rf !(README.md|.git)
+          rm -rf !(README.md|.git|additional.txt)
           shopt -u extglob
       - name: Optimize space of ubuntu installation
         run: |
@@ -20,9 +20,16 @@ jobs:
           docker system prune -af || true
           docker builder prune -af || true
           df -h
+      - name: Fetch reapack URLS
+        run: |
+          curl -o repos.txt https://reapack.com/repos.txt
+          echo additional.txt >> repos.txt
       - name: Generate
         run: |
-          nix run github:silvarc141/reapkgs -- -gprqo .
+          nix run github:silvarc141/reapkgs -- -gpr -i repos.txt -o .
+      - name: Clean Up
+        run: |
+          rm -rf repos.txt
       - name: Lock
         run: |
           df -h
