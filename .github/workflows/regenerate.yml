@@ -14,6 +14,12 @@ jobs:
           shopt -s extglob
           rm -rf !(README.md|.git)
           shopt -u extglob
+      - name: Optimize space of ubuntu installation
+        run: |
+          run: curl -fsSL https://raw.githubusercontent.com/kou/arrow/e49d8ae15583ceff03237571569099a6ad62be32/ci/scripts/util_free_space.sh | bash
+          docker system prune -af || true
+          docker builder prune -af || true
+          df -h
       - name: Generate
         run: |
           nix run github:silvarc141/reapkgs -- -gprqo .
