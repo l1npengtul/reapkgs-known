@@ -76,6 +76,9 @@
     https://ply.github.io/ReaScripts/index.xml
     https://raw.githubusercontent.com/juanriccio/Reaperism/master/index.xml
     https://reaticulate.com/release.xml
+    https://raw.githubusercontent.com/gapalil001/FlatMadness/master/index.xml
+    https://raw.githubusercontent.com/jeremybernstein/ReaScripts/main/index.xml
+    https://raw.githubusercontent.com/iliaspoulakis/Reaper-Tools/master/index.xml
 
     Links:
     Main repo: https://github.com/silvarc141/reapkgs
