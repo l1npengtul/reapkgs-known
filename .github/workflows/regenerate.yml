@@ -22,14 +22,16 @@ jobs:
           df -h
       - name: Fetch reapack URLS
         run: |
-          curl -o repos.txt https://reapack.com/repos.txt
-          echo additional.txt >> repos.txt
+          curl -o reapack.txt https://reapack.com/repos.txt
+          cp additional.txt repos.txt
+          cat reapack.txt >> repos.txt
       - name: Generate
         run: |
           nix run github:silvarc141/reapkgs -- -gpr -i repos.txt -o .
       - name: Clean Up
         run: |
           rm -rf repos.txt
+          rm -rf reapack.txt
       - name: Lock
         run: |
           df -h
