@@ -50375,20 +50375,6 @@
         }
       ];
     };
-    neftovsky-floating-solo-toolbar-lua-1-1 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "neftovsky-floating-solo-toolbar-lua-1-1";
-      indexName = "ReaTeam Scripts";
-      categoryName = "Tracks";
-      packageType = "script";
-      sources = [
-        {
-          path = '''';
-          url = "https://github.com/ReaTeam/ReaScripts/raw/c3b8cbd16b5ef4716eec404a01dd2700a6430e24/Tracks/Neftovsky_Floating%20solo%20toolbar.lua";
-          sha256 = "1avfx6lkr4h148dhjp4p6li6583ifmbxzsi0p3621rgz01bx4mrb";
-        }
-      ];
-    };
     neftovsky-floating-solo-toolbar-lua-1-2 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "neftovsky-floating-solo-toolbar-lua-1-2";
