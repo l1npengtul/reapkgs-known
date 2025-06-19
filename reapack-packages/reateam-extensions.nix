@@ -6169,6 +6169,85 @@
         }
       ];
     };
+    reaper-imgui-ext-0-9-3-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "reaper-imgui-ext-0-9-3-3";
+      indexName = "ReaTeam Extensions";
+      categoryName = "API";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_imgui-i386.dylib'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-i386.dylib";
+          sha256 = "0nb87fx0rxh2cmsrf0359pracfr9rcb6kxy0h29dzkp3lm090p9q";
+        }
+        {
+          path = ''reaper_imgui-x86_64.dylib'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-x86_64.dylib";
+          sha256 = "1isn30b8l254749phsl8m4gwqb8n5j3w73gwjzlrksp36nhwg0jx";
+        }
+        {
+          path = ''reaper_imgui-arm64.dylib'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-arm64.dylib";
+          sha256 = "1dz5djhxwrnd420gd8g7sms00xjhfqh9pi4x2xh0zlcwf3ibl1qs";
+        }
+        {
+          path = ''reaper_imgui-i686.so'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-i686.so";
+          sha256 = "1hr13ax9k6j8kwdw75yr9m57wl9k2s89ii02wajypl0n1fc5i0wg";
+        }
+        {
+          path = ''reaper_imgui-x86_64.so'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-x86_64.so";
+          sha256 = "0h3kdizgi99shk1sx46s15wq8f9z4c1hs3n0fzdki7qymmczzr3z";
+        }
+        {
+          path = ''reaper_imgui-armv7l.so'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-armv7l.so";
+          sha256 = "1dhb32fygzpsafs6d7782ncvaq3x4jkdn2frkpnw4223mw4qjqjq";
+        }
+        {
+          path = ''reaper_imgui-aarch64.so'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-aarch64.so";
+          sha256 = "1i8x80q28r45q17ykv3vjr9s11vc5n885i6b077ilx3yxkfch4cs";
+        }
+        {
+          path = ''reaper_imgui-x86.dll'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-x86.dll";
+          sha256 = "1xra3mzl9g75z9idd63p14q999mcl9xyy5rdji089g674swakg3i";
+        }
+        {
+          path = ''reaper_imgui-x64.dll'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui-x64.dll";
+          sha256 = "16idpi90ja6ppwadyrm4knwdmc0ls3c67zvn2ypvsp2qiwpd9h6l";
+        }
+        {
+          path = ''ReaImGui_Demo.lua'';
+          url = "https://github.com/cfillion/reaimgui/raw/v0.9.3.3/examples/demo.lua";
+          sha256 = "11vkw670sxc935lizm0khsc1nbfsvvgrmixgwwk9yl66yzv87a37";
+        }
+        {
+          path = ''imgui.py'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/imgui.py";
+          sha256 = "16jrcr323bcinbsnzj0dq6ban3pgmkayk9bp12yc04ncfck0rcb6";
+        }
+        {
+          path = ''reaper_imgui_doc.html'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/reaper_imgui_doc.html";
+          sha256 = "1cv9x7cck0j5v0z53ivk6flb5g005jnyrj6dap7gsfzwhmgwc0cv";
+        }
+        {
+          path = ''imgui.lua'';
+          url = "https://github.com/cfillion/reaimgui/raw/v0.9.3.3/shims/imgui.lua";
+          sha256 = "14xhahj7qhh8glr2r5pvqyix90agx243b9vynj7jsglpknasqgdp";
+        }
+        {
+          path = ''gfx2imgui.lua'';
+          url = "https://github.com/cfillion/reaimgui/releases/download/v0.9.3.3/gfx2imgui.lua";
+          sha256 = "1hncsf55xqi3pbcm181bh65mcdlgfp9q40kjhx3nrp0gwva7j26a";
+        }
+      ];
+    };
     ak5k-reasolotus-reaper-solo-bus-extension-ext-0-1-6 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ak5k-reasolotus-reaper-solo-bus-extension-ext-0-1-6";
@@ -6382,6 +6461,64 @@
         }
       ];
     };
+    navelpluisje-reasonus-native-ext-0-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "navelpluisje-reasonus-native-ext-0-1-1";
+      indexName = "ReaTeam Extensions";
+      categoryName = "Control Surfaces";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_ReasonusNative-arm64-x86_64.dylib'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/v0.1.1/reaper_ReasonusNative-arm64-x86_64.dylib";
+          sha256 = "166fdcyrhajxk41ml5r31q5x8c1b0y38zxkwx228aff9ixig4is5";
+        }
+        {
+          path = ''reaper_ReasonusNative-x64.dll'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/v0.1.1/reaper_ReasonusNative-x64.dll";
+          sha256 = "0dv4lp6cmpsa8v2dby068sv6cp44rrak9n51hlpz2l9hiv62hf2h";
+        }
+        {
+          path = ''reaper_ReasonusNative-x86.dll'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/v0.1.1/reaper_ReasonusNative-x86.dll";
+          sha256 = "1pqkznrz78hkdny5jsvraln604h7nvvnx95bkbqa28gsq8al0009";
+        }
+        {
+          path = ''reaper_ReasonusNative-arm64-x86_64.dylib'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/v0.1.1/reaper_ReasonusNative-arm64-x86_64.dylib";
+          sha256 = "166fdcyrhajxk41ml5r31q5x8c1b0y38zxkwx228aff9ixig4is5";
+        }
+      ];
+    };
+    navelpluisje-reasonus-native-ext-0-1-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "navelpluisje-reasonus-native-ext-0-1-3";
+      indexName = "ReaTeam Extensions";
+      categoryName = "Control Surfaces";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_ReasonusNative-arm64-x86_64.dylib'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.1.3/reaper_ReasonusNative-arm64-x86_64.dylib";
+          sha256 = "1dwmy2fv8jmg2zg9yr0m5v0yhask1mw97ai2j81yvqqlpr6nxwpr";
+        }
+        {
+          path = ''reaper_ReasonusNative-x64.dll'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.1.3/reaper_ReasonusNative-x64.dll";
+          sha256 = "182kslpxqv88ccmya1l30klbhx5424bmgfqmr5blz9xdl32q4sc7";
+        }
+        {
+          path = ''reaper_ReasonusNative-x86.dll'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.1.3/reaper_ReasonusNative-x86.dll";
+          sha256 = "0zi716hjljfzy0q0lz2m4wslif0ycvr14jl5ixas9snk5bvypw4b";
+        }
+        {
+          path = ''reaper_ReasonusNative-arm64-x86_64.dylib'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.1.3/reaper_ReasonusNative-arm64-x86_64.dylib";
+          sha256 = "1dwmy2fv8jmg2zg9yr0m5v0yhask1mw97ai2j81yvqqlpr6nxwpr";
+        }
+      ];
+    };
     ruxton-tascamus2400-ext-1-2-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ruxton-tascamus2400-ext-1-2-1";
@@ -6427,7 +6564,7 @@
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - FKey - 5).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20FKey%20-%205).py";
-          sha256 = "";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
         }
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - FKey - 6).py'';
@@ -6442,7 +6579,7 @@
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 2).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20MKey%20-%202).py";
-          sha256 = "";
+          sha256 = "09i5pg0sms8xwfkpkyv9kh1fg09yhr7p3paq4kz4a9jfabxvxj6m";
         }
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 3).py'';
@@ -6462,7 +6599,7 @@
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 6).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20MKey%20-%206).py";
-          sha256 = "";
+          sha256 = "1594yv27wpj2a1a5kw0h9fk1cqm43i7g4pwzhqrh1wl506ps2v34";
         }
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 1).py'';
@@ -6472,7 +6609,7 @@
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 2).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%202).py";
-          sha256 = "";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
         }
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 3).py'';
@@ -6482,7 +6619,7 @@
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 4).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%204).py";
-          sha256 = "";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
         }
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 5).py'';
@@ -6492,12 +6629,12 @@
         {
           path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 6).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%206).py";
-          sha256 = "";
+          sha256 = "1liap9rslczf0s5w1ckkjqh5kwpzpwc2k54rzf67nmlvapn140h7";
         }
         {
           path = ''General/Redo (US-2400 - FKey - FFwd).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/General/Redo%20(US-2400%20-%20FKey%20-%20FFwd).py";
-          sha256 = "";
+          sha256 = "10sj8r5aqxvf8pjn0454wbxnrbf21hfxkr0a68fx7w78x12s6n4r";
         }
         {
           path = ''General/Render (US-2400 - FKey - Rec).py'';
@@ -6522,12 +6659,12 @@
         {
           path = ''Splits/JS/(Auto Vol - Send)'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(Auto%20Vol%20-%20Send)";
-          sha256 = "";
+          sha256 = "1frzjxvzaym107gs5c9qwdd2zfjqmviz9d06grj4px901av944m9";
         }
         {
           path = ''Splits/JS/(Auto Vol - Split Receive)'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(Auto%20Vol%20-%20Split%20Receive)";
-          sha256 = "";
+          sha256 = "1n9kgzgqqfk09cyrx3519mljsdqv1c0bw2gkkizvj1h83xd8qzbs";
         }
         {
           path = ''Splits/JS/(LH-Split)'';
@@ -6537,7 +6674,7 @@
         {
           path = ''Splits/JS/(LMH-Split)'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(LMH-Split)";
-          sha256 = "";
+          sha256 = "0i8bck6gwdf8lh42ydvf2d1w14gjj13xcx61g9wmznx2ql7ll1sf";
         }
         {
           path = ''Splits/JS/(LMMH-Split)'';
@@ -6552,7 +6689,7 @@
         {
           path = ''Splits/JS/(MS-Split)'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(MS-Split)";
-          sha256 = "1sz0aa08g0hxrh6vkki0x06722xx6plpzpgpfgmkxmrhb8n6qr5l";
+          sha256 = "0l5l7p243w3152vmls3ihsagd8l53va527vnhcbm1ldrvyf2vgh0";
         }
         {
           path = ''Splits/ReaScript/Add parallel processor to first selected track (US-2400 - MKey - 6).py'';
@@ -6562,37 +6699,37 @@
         {
           path = ''Splits/ReaScript/Split first selected track LFHF (US-2400 - MKey - 3).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20LFHF%20(US-2400%20-%20MKey%20-%203).py";
-          sha256 = "";
+          sha256 = "0nnigbymjvgkhnz6dgrnviwmcbq6sbwlavckdblq8rlkzdmdjcdd";
         }
         {
           path = ''Splits/ReaScript/Split first selected track LMH (US-2400 - MKey - 4).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20LMH%20(US-2400%20-%20MKey%20-%204).py";
-          sha256 = "";
+          sha256 = "0jjp5zcp1i0mphjky886zyqrd6anpw7b3zinl70bximczl2bsylb";
         }
         {
           path = ''Splits/ReaScript/Split first selected track LMMH (US-2400 - MKey - 5).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20LMMH%20(US-2400%20-%20MKey%20-%205).py";
-          sha256 = "";
+          sha256 = "0wkd7af2nivj1jsw4idhx7bn4db3b5c0814kdqh6pz47f8kfkcpw";
         }
         {
           path = ''Splits/ReaScript/Split first selected track LR (US-2400 - MKey - 1).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20LR%20(US-2400%20-%20MKey%20-%201).py";
-          sha256 = "";
+          sha256 = "0cf3vg62lkavgdi0qv5899r3mng3acxx2bzmv424nvqk04mq338n";
         }
         {
           path = ''Splits/ReaScript/Split first selected track MS (US-2400 - MKey - 2).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20MS%20(US-2400%20-%20MKey%20-%202).py";
-          sha256 = "06j61nsqbd5qlgyry73ynipvr085sqq6ln9mgq95s3w6hwq4y7h4";
+          sha256 = "0h5ybh4fmh2470c9n4hbqii1jvc9r5ifcvkgrxspldxqrcgqla3r";
         }
         {
           path = ''Splits/ReaScript/Unsplit first selected split (US-2400 - MKey - Null).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Unsplit%20first%20selected%20split%20(US-2400%20-%20MKey%20-%20Null).py";
-          sha256 = "";
+          sha256 = "1ylhcfnw3jpwxrc1xbjjcdyz3bbva16hm8bkpiynv103jrf4f5hk";
         }
         {
           path = ''Time Zoom Scroll/Next POI (US-2400 - NoKey - FFwd).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Next%20POI%20(US-2400%20-%20NoKey%20-%20FFwd).py";
-          sha256 = "";
+          sha256 = "0r1jvzn5ywcih7913xcd9z9ngc5wnsgn170hc3akzcqv8p2y5h79";
         }
         {
           path = ''Time Zoom Scroll/Previous POI (US-2400 - NoKey - Rew).py'';
@@ -6602,32 +6739,32 @@
         {
           path = ''Time Zoom Scroll/Show playpos (US-2400 - FKey - Null).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Show%20playpos%20(US-2400%20-%20FKey%20-%20Null).py";
-          sha256 = "0z51dh01a74acm4m26radd8gi63rw0yk7a090llv2q00p5q7nhsv";
+          sha256 = "1gm61i3hmzmr5f718h6v5bj1dy17jra7b0si11b03halbai88wrd";
         }
         {
           path = ''Time Zoom Scroll/Toggle scroll playpos (US-2400 - FKey - Stop).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Toggle%20scroll%20playpos%20(US-2400%20-%20FKey%20-%20Stop).py";
-          sha256 = "";
+          sha256 = "0mk7j3bcqv2ph8w8y0jala9n9vps0xzz440nqlq9nwfsyr47ykga";
         }
         {
           path = ''Time Zoom Scroll/Zoom time selection (US-2400 - NoKey - Null).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Zoom%20time%20selection%20(US-2400%20-%20NoKey%20-%20Null).py";
-          sha256 = "";
+          sha256 = "0dw248lb25br4vrfv4sbhkl7y9ld0pll6kgbxwqdhwjp68cwa5sg";
         }
         {
           path = ''Time Zoom Scroll/Zoom track selection (US-2400 - Shift - Null).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Zoom%20track%20selection%20(US-2400%20-%20Shift%20-%20Null).py";
-          sha256 = "";
+          sha256 = "1kvnf6girbwnj648psjawy1cq85d9hk3f174kb8bzh884wngy5c7";
         }
         {
           path = ''Track Actions/Delete selected tracks (US-2400 - Shift - 5).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Delete%20selected%20tracks%20(US-2400%20-%20Shift%20-%205).py";
-          sha256 = "";
+          sha256 = "02nv9jh45vn6z3d8k70lk5ksjhmzsj29iq2r2rvkv1smjb06kafr";
         }
         {
           path = ''Track Actions/Duplicate selected tracks (US-2400 - FKey - 3).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Duplicate%20selected%20tracks%20(US-2400%20-%20FKey%20-%203).py";
-          sha256 = "";
+          sha256 = "1pacpbs2jp5rx20lk9spkpkvs6ab34b5vmpid5iqs0xl4d041m1n";
         }
         {
           path = ''Track Actions/Fold or unfold selected folders (US-2400 - Shift - 2).py'';
@@ -6647,12 +6784,12 @@
         {
           path = ''Track Actions/Move selected tracks left (US-2400 - FKey - 1).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Move%20selected%20tracks%20left%20(US-2400%20-%20FKey%20-%201).py";
-          sha256 = "1lk4hqz3wlnwzqh6kg3h4ykwp2lzw20fnk2fxd9n9fh2g2ndkvwg";
+          sha256 = "0428am8ycbf1m3nyhk6nx0pwzfssa9jcjvgzr0m9w8xfkink1h9z";
         }
         {
           path = ''Track Actions/Move selected tracks right (US-2400 - FKey - 2).py'';
           url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Move%20selected%20tracks%20right%20(US-2400%20-%20FKey%20-%202).py";
-          sha256 = "04j6pjxiac1f9ll9678dlmwlq94xw01znghyf0fxbzdpfhv4amb6";
+          sha256 = "0j9b67mxsa9adqyqgc6nqhw61n686h340rhln9jz9icvfjy2i0qw";
         }
         {
           path = ''Track Actions/Rename selected tracks (US-2400 - FKey - 4).py'';
@@ -7031,12 +7168,12 @@
         {
           path = ''Grooves/MPC 59% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/MPC%2059%25%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "04w07aafzrr2rvv9wy1dy6v5d8gg1pqap0lhnlglfhq4nghr3h1y";
         }
         {
           path = ''Grooves/MPC 60% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/MPC%2060%25%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "05l3csf2bpmhqxkbp93zhlzyx52hipjvd4l7wmzgwmwda80jpyzs";
         }
         {
           path = ''Grooves/MPC 61% Subz 4 bar.rgt'';
@@ -7056,12 +7193,12 @@
         {
           path = ''Grooves/MPC 64% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/MPC%2064%25%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "0x0y8aiw9ybc1mpvbcl8sq5y2m71yp6jydgqnhc5xsih3vy6yy9w";
         }
         {
           path = ''Grooves/MPC 65% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/MPC%2065%25%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "1lgfa2s6pcl9lkrmwgy49xd95wvxrz10kjf3mljm8wrv6qv01jjz";
         }
         {
           path = ''Grooves/MPC 66% Subz 4 bar.rgt'';
@@ -7081,7 +7218,7 @@
         {
           path = ''Grooves/MPC 69% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/MPC%2069%25%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "12phqhv6lzcmg6qif0l14vzimrqffb39fa6kqzcfa4f9ir8bh0ab";
         }
         {
           path = ''Grooves/MPC 70% Subz 4 bar.rgt'';
@@ -7121,17 +7258,17 @@
         {
           path = ''Grooves/SP1200_50%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/SP1200_50%25.rgt";
-          sha256 = "";
+          sha256 = "1kba1q7ramzh6a17g8z8iaknpypanywmhrf3vzi3lgkycai7v6i6";
         }
         {
           path = ''Grooves/SP1200_50%_16T.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/SP1200_50%25_16T.rgt";
-          sha256 = "";
+          sha256 = "18zdvhnqxsccf43ix020dwxysism7xiq5qqj2c463ms8p6ay8srd";
         }
         {
           path = ''Grooves/SP1200_50%_32_2bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/SP1200_50%25_32_2bar.rgt";
-          sha256 = "";
+          sha256 = "005vd5pbb62cs67fxnam33p0vm1qn1kry7d8f4fq7p429fwd4d16";
         }
         {
           path = ''Grooves/SP1200_50%_8T.rgt'';
@@ -7166,7 +7303,7 @@
         {
           path = ''Grooves/SP1200_67%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14/FingersExtras/Grooves/SP1200_67%25.rgt";
-          sha256 = "";
+          sha256 = "0nnz0ygvafwlpakwr6cvppkndzanpk8n8xb37pmwsz7y9by3yr4b";
         }
         {
           path = ''Grooves/SP1200_71%.rgt'';
@@ -7305,12 +7442,12 @@
         {
           path = ''Grooves/ASR10 8'th Subz 2 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.1/FingersExtras/Grooves/ASR10%208'th%20Subz%202%20bar.rgt";
-          sha256 = "";
+          sha256 = "1pagf4n0f3kqv74wgp0n09d8ipdqwncpm6q8v5156sq1kr0h8lkc";
         }
         {
           path = ''Grooves/ASR10 8'th triplet Subz 2 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.1/FingersExtras/Grooves/ASR10%208'th%20triplet%20Subz%202%20bar.rgt";
-          sha256 = "";
+          sha256 = "0hpq0w5l0i442m13vnagsi7r25in0mlix7dflg9v3wjiws21jmlp";
         }
         {
           path = ''Grooves/DX_16_ 50% swing.rgt'';
@@ -7325,7 +7462,7 @@
         {
           path = ''Grooves/DX_16_ 58% swing.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.1/FingersExtras/Grooves/DX_16_%2058%25%20swing.rgt";
-          sha256 = "";
+          sha256 = "0584dzjlfzx00kl9f2nk4gq8fygg11qzkkrpg3l4xdnssvka652n";
         }
         {
           path = ''Grooves/DX_16_ 62% swing.rgt'';
@@ -7370,7 +7507,7 @@
         {
           path = ''Grooves/Korg DDD-1-16 58%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.1/FingersExtras/Grooves/Korg%20DDD-1-16%2058%25.rgt";
-          sha256 = "";
+          sha256 = "0cdz3nmqd6mqx3rppwaligd6qq4rn8zbk9hvxlcylis2v0jp6smr";
         }
         {
           path = ''Grooves/Korg DDD-1-16 63%.rgt'';
@@ -7395,7 +7532,7 @@
         {
           path = ''Grooves/Korg DDD-1-16 79%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.1/FingersExtras/Grooves/Korg%20DDD-1-16%2079%25.rgt";
-          sha256 = "";
+          sha256 = "0ilnfd55z4mliphci13dvr20kkhb4r9phgvk8vpb58yf6sc6nw6i";
         }
         {
           path = ''Grooves/Korg DDD-1-16 83%.rgt'';
@@ -7460,7 +7597,7 @@
         {
           path = ''Grooves/Logic_8C.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.1/FingersExtras/Grooves/Logic_8C.rgt";
-          sha256 = "";
+          sha256 = "1sa0yqidqb8a5z7wk1c38kaprfdx0ahvy8kagg54mis9b8pj9brz";
         }
         {
           path = ''Grooves/Logic_8D.rgt'';
@@ -7485,7 +7622,7 @@
         {
           path = ''Grooves/MPC 32'nd Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.1/FingersExtras/Grooves/MPC%2032'nd%20Subz%204%20bar.rgt";
-          sha256 = "1mk7fyr5xkyd6ywic4pzr0fs6r0s2ijb024i927wpnx1c7glh8q3";
+          sha256 = "1hzl14s8lmkhfb1qlpc4a2b3mn0gvqww5awkx3bkpbcxg730qsml";
         }
         {
           path = ''Grooves/MPC 32'nd Triplet Subz 4 bar.rgt'';
@@ -7540,7 +7677,7 @@
         {
           path = ''Grooves/MPC 59% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.1/FingersExtras/Grooves/MPC%2059%25%20Subz%204%20bar.rgt";
-          sha256 = "1hkdxmlr75jhmsch4x4x2600xpxrjqdg0ckyjnipifcpwlv33i55";
+          sha256 = "04w07aafzrr2rvv9wy1dy6v5d8gg1pqap0lhnlglfhq4nghr3h1y";
         }
         {
           path = ''Grooves/MPC 60% Subz 4 bar.rgt'';
@@ -8164,7 +8301,7 @@
         {
           path = ''Grooves/SP1200_54%_16T.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.2/FingersExtras/Grooves/SP1200_54%25_16T.rgt";
-          sha256 = "";
+          sha256 = "1cmkchbcx1n347k6g0xqzdj5g7j43mk0d6pbfrvgv5cvxy04acp0";
         }
         {
           path = ''Grooves/SP1200_54%_8T.rgt'';
@@ -8323,7 +8460,7 @@
         {
           path = ''Grooves/ASR10 8'th Subz 2 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/ASR10%208'th%20Subz%202%20bar.rgt";
-          sha256 = "";
+          sha256 = "1pagf4n0f3kqv74wgp0n09d8ipdqwncpm6q8v5156sq1kr0h8lkc";
         }
         {
           path = ''Grooves/ASR10 8'th triplet Subz 2 bar.rgt'';
@@ -8338,7 +8475,7 @@
         {
           path = ''Grooves/DX_16_ 54% swing.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/DX_16_%2054%25%20swing.rgt";
-          sha256 = "";
+          sha256 = "00lsbycl08850zk9r2aigx7v4ia0y90vzm5mijr2dk76rph5ba43";
         }
         {
           path = ''Grooves/DX_16_ 58% swing.rgt'';
@@ -8348,12 +8485,12 @@
         {
           path = ''Grooves/DX_16_ 62% swing.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/DX_16_%2062%25%20swing.rgt";
-          sha256 = "";
+          sha256 = "0akq53rxkk5m66bdl42fhzm18rdlpaj0yfcg1zhlhs4z0gcdkwvm";
         }
         {
           path = ''Grooves/DX_16_ 66% swing.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/DX_16_%2066%25%20swing.rgt";
-          sha256 = "";
+          sha256 = "0vizri7nfhdayff5lb2igcbfxymiyzcxmci4nc7a1wq93zxx6d2a";
         }
         {
           path = ''Grooves/DX_16_ 70% swing.rgt'';
@@ -8373,17 +8510,17 @@
         {
           path = ''Grooves/DX_32_ 83% swing.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/DX_32_%2083%25%20swing.rgt";
-          sha256 = "";
+          sha256 = "1hv6lqjg8rq2f3dk5awl62f2wgzs7yxbdgnjsg4q564lgh3xm1ip";
         }
         {
           path = ''Grooves/Korg DDD-1-16 50%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/Korg%20DDD-1-16%2050%25.rgt";
-          sha256 = "";
+          sha256 = "15nyx0p6prnifkv01miwmq49d21hy6aifmcp8qwp4wk97wcj7lkp";
         }
         {
           path = ''Grooves/Korg DDD-1-16 54%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/Korg%20DDD-1-16%2054%25.rgt";
-          sha256 = "";
+          sha256 = "0nijbglrczmm9v3kgnc5vf4b8l4749mchc2zf8vr64bhv0lsn1wl";
         }
         {
           path = ''Grooves/Korg DDD-1-16 58%.rgt'';
@@ -8413,12 +8550,12 @@
         {
           path = ''Grooves/Korg DDD-1-16 79%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/Korg%20DDD-1-16%2079%25.rgt";
-          sha256 = "";
+          sha256 = "0ilnfd55z4mliphci13dvr20kkhb4r9phgvk8vpb58yf6sc6nw6i";
         }
         {
           path = ''Grooves/Korg DDD-1-16 83%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/Korg%20DDD-1-16%2083%25.rgt";
-          sha256 = "";
+          sha256 = "1pczl9mmnd47pfhp2q8l2dn88lgig83xksz1qfaw4w0lln35pg96";
         }
         {
           path = ''Grooves/Korg DDD-1-16 88%.rgt'';
@@ -8428,7 +8565,7 @@
         {
           path = ''Grooves/Korg DDD-1-16T%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/Korg%20DDD-1-16T%25.rgt";
-          sha256 = "";
+          sha256 = "12dhxjj1m4i4mf4a8lzbpigq4dygkgl40xhrvx6dsvsc4si7vx2s";
         }
         {
           path = ''Grooves/Korg DDD-1-8T%.rgt'';
@@ -8443,7 +8580,7 @@
         {
           path = ''Grooves/Logic_16B.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/Logic_16B.rgt";
-          sha256 = "";
+          sha256 = "0dmccpvq8zhqdzfkwzch6p34xp3jzcr31ay89b6d44x08rm9444w";
         }
         {
           path = ''Grooves/Logic_16C.rgt'';
@@ -8478,7 +8615,7 @@
         {
           path = ''Grooves/Logic_8C.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/Logic_8C.rgt";
-          sha256 = "";
+          sha256 = "1sa0yqidqb8a5z7wk1c38kaprfdx0ahvy8kagg54mis9b8pj9brz";
         }
         {
           path = ''Grooves/Logic_8D.rgt'';
@@ -8523,17 +8660,17 @@
         {
           path = ''Grooves/MPC 52% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/MPC%2052%25%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "1qv5y4fcpwmvdazphlfwjpxcbr2ak1r13f11lgjqnv0r8nzp4zac";
         }
         {
           path = ''Grooves/MPC 53% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/MPC%2053%25%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "06dnhh57pc5n8v18nc0ifhi7gvkxn52qf4jmcmwc867l4qva4d8k";
         }
         {
           path = ''Grooves/MPC 54% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/MPC%2054%25%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "1x2h6vybwl503lshva0m9g1n1w7ss0l59xg16bpx4s2xg6cqjx4m";
         }
         {
           path = ''Grooves/MPC 55% Subz 4 bar.rgt'';
@@ -8548,7 +8685,7 @@
         {
           path = ''Grooves/MPC 57% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/MPC%2057%25%20Subz%204%20bar.rgt";
-          sha256 = "1k7q9az3islzpa000lk026pm4i6260nbhj681f8fcyiz6ay3lf0s";
+          sha256 = "0jqdgg6hq2s319yi8vg5nk1szpc3bin3gnqlai7n6n5jprd7xjr3";
         }
         {
           path = ''Grooves/MPC 58% Subz 4 bar.rgt'';
@@ -8563,7 +8700,7 @@
         {
           path = ''Grooves/MPC 60% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/MPC%2060%25%20Subz%204%20bar.rgt";
-          sha256 = "0rlyba79s85kkkzxiw99cljyc9jf1yimi02l1ygd5a981bfpj9bj";
+          sha256 = "05l3csf2bpmhqxkbp93zhlzyx52hipjvd4l7wmzgwmwda80jpyzs";
         }
         {
           path = ''Grooves/MPC 61% Subz 4 bar.rgt'';
@@ -8578,12 +8715,12 @@
         {
           path = ''Grooves/MPC 63% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/MPC%2063%25%20Subz%204%20bar.rgt";
-          sha256 = "0mmyvvjqv1y9q3d2s6h9bdnp40kci6fx2q3q0dklp7lx79y6hxz4";
+          sha256 = "189jzaxy8wnzr7f2clhfgxf2asgw82b1kvfxhq2hjpgfl3jcy8j2";
         }
         {
           path = ''Grooves/MPC 64% Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.3/FingersExtras/Grooves/MPC%2064%25%20Subz%204%20bar.rgt";
-          sha256 = "1mn40g1iqm6whz680xqddns563b1vifqgr1zyfmj21wpqv5fi4zw";
+          sha256 = "0x0y8aiw9ybc1mpvbcl8sq5y2m71yp6jydgqnhc5xsih3vy6yy9w";
         }
         {
           path = ''Grooves/MPC 65% Subz 4 bar.rgt'';
@@ -8722,12 +8859,12 @@
         {
           path = ''reaper_sws-i386.dylib'';
           url = "https://github.com/reaper-oss/sws/releases/download/v2.14.0.4-beta/reaper_sws-i386.dylib";
-          sha256 = "18nziylvgkgx2zm8f2q6rdd6hm0kkr5az6ksi7hfzi8xplwbb1kk";
+          sha256 = "1vfmljcv2k62cqc7zidp25q46mxmvm28gwfviclc62xzr0jwi9k5";
         }
         {
           path = ''reaper_sws-x86_64.dylib'';
           url = "https://github.com/reaper-oss/sws/releases/download/v2.14.0.4-beta/reaper_sws-x86_64.dylib";
-          sha256 = "1bs5qbygq2n4sr462xyy925ibznz2zpv6z31v7j7qfh4n37fi3z2";
+          sha256 = "1hp7r308b7jlrqig8gzwxbfgvycp2jv88i80nzq6jv34vxk7b8xg";
         }
         {
           path = ''reaper_sws-aarch64.so'';
@@ -8752,12 +8889,12 @@
         {
           path = ''reaper_sws-x86.dll'';
           url = "https://github.com/reaper-oss/sws/releases/download/v2.14.0.4-beta/reaper_sws-x86.dll";
-          sha256 = "1890m5xv0g5jbmgpnvk8sj8pngnwah64qar080g2jljw1i2ymvh4";
+          sha256 = "0sz23qv2g6rpdmkw6gdr2c09fsbd4n305swj84jy024g56k3j6iw";
         }
         {
           path = ''reaper_sws-x64.dll'';
           url = "https://github.com/reaper-oss/sws/releases/download/v2.14.0.4-beta/reaper_sws-x64.dll";
-          sha256 = "1dkr6hnigniz7yjbkx53jrxkb3lxsh3x60p84nf8jz380cf7y3qs";
+          sha256 = "0d58lqfshsrwsxwcfmhrrybrc6iqkhngnml77fjz5l1927ry8sf2";
         }
         {
           path = ''../API/sws.py'';
@@ -9152,12 +9289,12 @@
         {
           path = ''Grooves/MPC 8'th Triplet Subz 4 bar.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.4-beta/FingersExtras/Grooves/MPC%208'th%20Triplet%20Subz%204%20bar.rgt";
-          sha256 = "";
+          sha256 = "1rm173xx2k9wyvqk1qijx9200dhivbf5jw016csh20qzpgy9rcf7";
         }
         {
           path = ''Grooves/SP1200_50%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.4-beta/FingersExtras/Grooves/SP1200_50%25.rgt";
-          sha256 = "";
+          sha256 = "1kba1q7ramzh6a17g8z8iaknpypanywmhrf3vzi3lgkycai7v6i6";
         }
         {
           path = ''Grooves/SP1200_50%_16T.rgt'';
@@ -9182,7 +9319,7 @@
         {
           path = ''Grooves/SP1200_54%_16T.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.4-beta/FingersExtras/Grooves/SP1200_54%25_16T.rgt";
-          sha256 = "";
+          sha256 = "1cmkchbcx1n347k6g0xqzdj5g7j43mk0d6pbfrvgv5cvxy04acp0";
         }
         {
           path = ''Grooves/SP1200_54%_8T.rgt'';
@@ -9197,12 +9334,12 @@
         {
           path = ''Grooves/SP1200_63%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.4-beta/FingersExtras/Grooves/SP1200_63%25.rgt";
-          sha256 = "";
+          sha256 = "06mmapd4p4lfpw36yjiq34hfx1g2na4cpykq6a7a8qbgn4h87vkg";
         }
         {
           path = ''Grooves/SP1200_67%.rgt'';
           url = "https://github.com/reaper-oss/sws/raw/v2.14.0.4-beta/FingersExtras/Grooves/SP1200_67%25.rgt";
-          sha256 = "";
+          sha256 = "0nnz0ygvafwlpakwr6cvppkndzanpk8n8xb37pmwsz7y9by3yr4b";
         }
         {
           path = ''Grooves/SP1200_71%.rgt'';

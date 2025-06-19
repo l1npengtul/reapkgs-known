@@ -1447,6 +1447,48 @@
         }
       ];
     };
+    zaibuyidao-batch-rename-source-files-of-selected-items-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-batch-rename-source-files-of-selected-items-lua-1-0";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2cf726538437f392f10acb3fc9624c23c7ecaa82/Items%20Editing/zaibuyidao_Batch%20Rename%20Source%20Files%20of%20Selected%20Items.lua";
+          sha256 = "1h6qf9jxg1w21gi3wirdqkxdbppviivw517n8ix3a4y6p2j6ywyh";
+        }
+      ];
+    };
+    zaibuyidao-batch-rename-source-files-of-selected-items-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-batch-rename-source-files-of-selected-items-lua-1-0-1";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/0ce8ac00a9487da64c8c0bf7308f7a6a7f2f7476/Items%20Editing/zaibuyidao_Batch%20Rename%20Source%20Files%20of%20Selected%20Items.lua";
+          sha256 = "0s6p7vw23kpndvhpzdfp2i7abjbchjqfrcdp0v3wgm39b1dcnygl";
+        }
+      ];
+    };
+    zaibuyidao-batch-rename-source-files-of-selected-items-lua-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-batch-rename-source-files-of-selected-items-lua-1-0-2";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d418bcecf7c8fbd83320fce55f33d2e3587fc3b2/Items%20Editing/zaibuyidao_Batch%20Rename%20Source%20Files%20of%20Selected%20Items.lua";
+          sha256 = "0cjmzhw44462pjnhhzh4lh9pdkxh33wf099d52rwh9f6i0y43nzi";
+        }
+      ];
+    };
     zaibuyidao-batch-set-item-names-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "zaibuyidao-batch-set-item-names-lua-1-0";
@@ -7039,6 +7081,90 @@
         }
       ];
     };
+    zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/1de0070ad359b202f066052e0fe674805657bb6d/MIDI%20Editor/zaibuyidao_Hold%20to%20Preview%20Selected%20MIDI%20Notes.lua";
+          sha256 = "1qp9y1nwgrqgmhm270ckdxw84b0nwiqsmfn2vkmj72z4n3hkv43l";
+        }
+      ];
+    };
+    zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-1";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58fb75cda124e336b9b86e5a5011959404ca0ef0/MIDI%20Editor/zaibuyidao_Hold%20to%20Preview%20Selected%20MIDI%20Notes.lua";
+          sha256 = "0scydmjk6chc3gik1136w1p29ipbywgd3lnl83nw5ipa39ps3mc3";
+        }
+      ];
+    };
+    zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-2";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/f0ccbb902886afaf4a39ea3617568b7345b0c13b/MIDI%20Editor/zaibuyidao_Hold%20to%20Preview%20Selected%20MIDI%20Notes.lua";
+          sha256 = "0nqiyzmfnsgvx87shxw0b3f384rlcp9chbdlcqna0dmpjr8l9n06";
+        }
+      ];
+    };
+    zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-3";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/160c95a87c9f1574415eb71922809b94bed24760/MIDI%20Editor/zaibuyidao_Hold%20to%20Preview%20Selected%20MIDI%20Notes.lua";
+          sha256 = "0s4cdm9qdnrmyy83lp7d4kzgss174x1yfgm8x00ijwpaab7g5kyx";
+        }
+      ];
+    };
+    zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-4";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/30ac39767e65166c6fd9f348812bef1da2109e6d/MIDI%20Editor/zaibuyidao_Hold%20to%20Preview%20Selected%20MIDI%20Notes.lua";
+          sha256 = "1jx24xlv5acxm4j5p37gy406wf8agmg2h07n5972ma1fqzs0pji4";
+        }
+      ];
+    };
+    zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-hold-to-preview-selected-midi-notes-lua-1-0-5";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/864adfe73127c762832ed789167e162dee4409cf/MIDI%20Editor/zaibuyidao_Hold%20to%20Preview%20Selected%20MIDI%20Notes.lua";
+          sha256 = "07r9qxrra6q0vcvzyryhvi5nxikz115vgkwyv0c3pw58yxkhy7l1";
+        }
+      ];
+    };
     zaibuyidao-humanize-velocity-customize-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "zaibuyidao-humanize-velocity-customize-lua-1-0";
@@ -9363,6 +9489,132 @@
         }
       ];
     };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-2";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/c4c06b56a8809f440e04c562317b52fcf47818ea/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "1bwx96k9skkiaain783ggdck0j3wcb0w3zfflkwdh7azrsqvhpmb";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-3";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d3e4261f03db58f614245c173435d0820ff0b2c5/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "1lhipzb5116iz5zwzzx0cg41sj8lw2988igprz9brzgpzi9kqvwd";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-4";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/7cacc95d129dfc1f23319e1cb7a96b2c5af4a1d7/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "03i1d6yib0712ar9vbap300ycr14zr0i7bwxj9r9namg4jgbvmq6";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-5";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/987303b07c60c2e6eb22ae2feb1e87c74a8c2fcf/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "1y4xjcj7filznibwqxhrr7q31p1djicg69z80k4vmxaswwaqmms5";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-6";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/5e1f9dc8d88ace677f44b76e9ed1094cde5ebb42/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "1gv0x477ynz82zvxa9llrrmrk2n4irpp9nqcmks2d05wnbyf7z96";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-7 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-7";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/abd358110c41b0d5d293ab00362598651d0d4776/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "1i46sd2m6nl9vvca220ifjl6ywj4s0g7jinnczx0bmpzvzwwc214";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-8 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-8";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6bb1d2325ddafb766f5df024e89bf23b410a3947/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "1dqc33nqxzqw2hv2cd2makkj2pci50sjkgbxnmng7w94pa37wb93";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-9 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-9";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2e527b0f5000e4fe6142aed0fe7868117d12fe94/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "0316nn95h5drh6wfmagg9rj69a62ng24g8ryhgfsj894ibsfp5fq";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-pitch-bend-lua-1-0-10 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-pitch-bend-lua-1-0-10";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/47cdf935b511215fb4d511cf0063f0fb13c123f5/MIDI%20Editor/zaibuyidao_Notes%20to%20Pitch%20Bend.lua";
+          sha256 = "1p91jpsyk9xl9llf9n11khqsnkvhh02kq41p7xg26m357z6hnrim";
+        }
+      ];
+    };
     zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0";
@@ -9374,6 +9626,90 @@
           path = '''';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/eeffbae1be8b1ece26fb0a998cd5ca3faaf8539c/MIDI%20Editor/zaibuyidao_Notes%20to%20Smooth%20Pitch%20Bend.lua";
           sha256 = "0hdpbclh142vqhsgahkynif3afx5y00ylapjmbmxb0xj3kygd0mi";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-1";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/c4c06b56a8809f440e04c562317b52fcf47818ea/MIDI%20Editor/zaibuyidao_Notes%20to%20Smooth%20Pitch%20Bend.lua";
+          sha256 = "0d2zd1bkmwpn1k4h9m1g87xp8pfi4vp2lw3xkxxwy148jh0nxdsm";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-2";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/987303b07c60c2e6eb22ae2feb1e87c74a8c2fcf/MIDI%20Editor/zaibuyidao_Notes%20to%20Smooth%20Pitch%20Bend.lua";
+          sha256 = "0mn0f8pbj4ib4xswpa9c5ifmr0pzp1jz6ayzz3n8hh62sgd1c7yp";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-3";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/abd358110c41b0d5d293ab00362598651d0d4776/MIDI%20Editor/zaibuyidao_Notes%20to%20Smooth%20Pitch%20Bend.lua";
+          sha256 = "163plwjxkcswvbr5i2blxgkf7a5d1sp749dcc43ybadzkp3nv05y";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-4";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6bb1d2325ddafb766f5df024e89bf23b410a3947/MIDI%20Editor/zaibuyidao_Notes%20to%20Smooth%20Pitch%20Bend.lua";
+          sha256 = "1s2jgfhsgq21wlgkjgykc6g4y7qwkisd1w74l807jmxjz8dr7gzj";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-5";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2e527b0f5000e4fe6142aed0fe7868117d12fe94/MIDI%20Editor/zaibuyidao_Notes%20to%20Smooth%20Pitch%20Bend.lua";
+          sha256 = "00jiw27gaxgllc68r2yisz5h1xyndllympq4vcccsgzpm8s2j0vf";
+        }
+      ];
+    };
+    zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-notes-to-smooth-pitch-bend-lua-1-0-6";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/47cdf935b511215fb4d511cf0063f0fb13c123f5/MIDI%20Editor/zaibuyidao_Notes%20to%20Smooth%20Pitch%20Bend.lua";
+          sha256 = "1nx0b3hi6d12h726mi3fmqnh7iqgk9355nnwdxj0vagyn1qqhrb6";
         }
       ];
     };
@@ -9542,6 +9878,20 @@
           path = '''';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/3cd3d7d786cae21ad492f921d986023ab0facab3/MIDI%20Editor/zaibuyidao_Paste%20Selected%20Rhythm.lua";
           sha256 = "1nyc2a2wcfr2ihjag10khkn24zhlb0yz44khcfmx9xc2sq8x805r";
+        }
+      ];
+    };
+    zaibuyidao-preview-selected-midi-notes-for-1-second-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-preview-selected-midi-notes-for-1-second-lua-1-0";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/4cfbae522155891eaa6941047cc1e9bfc01d96e8/MIDI%20Editor/zaibuyidao_Preview%20Selected%20MIDI%20Notes%20for%201%20Second.lua";
+          sha256 = "0w7qkaylpjb7hqcs0c442yf8xbgnfr1lvfzakpk81r25vgm36jpj";
         }
       ];
     };
@@ -10928,6 +11278,34 @@
           path = '''';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/201cd3b960bcb9ff1d35bafa9e7a270a02563d85/MIDI%20Editor/zaibuyidao_Random%20Velocity.lua";
           sha256 = "18dq8mxav0fnsx13mfd4wjdnxb91z39ld83rr4ja4cwwy7pxgs3p";
+        }
+      ];
+    };
+    zaibuyidao-remove-duplicate-zero-pitch-bends-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-remove-duplicate-zero-pitch-bends-lua-1-0";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/987303b07c60c2e6eb22ae2feb1e87c74a8c2fcf/MIDI%20Editor/zaibuyidao_Remove%20Duplicate%20Zero%20Pitch%20Bends.lua";
+          sha256 = "09bp0xgnlzkk15510g69y2fsqzda4r1zxbcgc8gkzwanbdv68y9j";
+        }
+      ];
+    };
+    zaibuyidao-remove-duplicate-zero-pitch-bends-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-remove-duplicate-zero-pitch-bends-lua-1-0-1";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/abd358110c41b0d5d293ab00362598651d0d4776/MIDI%20Editor/zaibuyidao_Remove%20Duplicate%20Zero%20Pitch%20Bends.lua";
+          sha256 = "1flwlnrk194665h3qkh6p5zq5hbc3fmhmzvzy19rvbcq4bm6aa4m";
         }
       ];
     };
@@ -15383,6 +15761,48 @@
         }
       ];
     };
+    chinese-simplified-reaperlangpack-7-36 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "chinese-simplified-reaperlangpack-7-36";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Translations";
+      packageType = "langpack";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/4f066c657bdf5488fc8513ee98300ecb25efdb31/Translations/Chinese%20(Simplified).ReaperLangPack";
+          sha256 = "0p4mr6bvi4bs8r7w3jyvrimzbvxrb5ww96ajlzd73jm31b20hw5y";
+        }
+      ];
+    };
+    chinese-simplified-reaperlangpack-7-38 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "chinese-simplified-reaperlangpack-7-38";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Translations";
+      packageType = "langpack";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/fdea3a5b5492679ac7a803470f7edacee7f9a661/Translations/Chinese%20(Simplified).ReaperLangPack";
+          sha256 = "0qz45bda4q5bxqz9rb7pq6sqd5qpgvqqyghgj51iqq22mqbvf7gf";
+        }
+      ];
+    };
+    chinese-simplified-reaperlangpack-7-39 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "chinese-simplified-reaperlangpack-7-39";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Translations";
+      packageType = "langpack";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/0350a32f8cf006c87a5472dd5d3cc5a5b4be4d6a/Translations/Chinese%20(Simplified).ReaperLangPack";
+          sha256 = "0vin1ki2vijswjwyllbfd15zz85ga0xrv5p2ibndvvraid6mkg1k";
+        }
+      ];
+    };
     chinese-traditional-reaperlangpack-1-0-724 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "chinese-traditional-reaperlangpack-1-0-724";
@@ -15537,6 +15957,48 @@
         }
       ];
     };
+    chinese-traditional-reaperlangpack-7-36 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "chinese-traditional-reaperlangpack-7-36";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Translations";
+      packageType = "langpack";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/4f066c657bdf5488fc8513ee98300ecb25efdb31/Translations/Chinese%20(Traditional).ReaperLangPack";
+          sha256 = "1gz36zncn4njnfy87k9yqmzyqn48aaivvjd08p92168n2barg3l8";
+        }
+      ];
+    };
+    chinese-traditional-reaperlangpack-7-38 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "chinese-traditional-reaperlangpack-7-38";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Translations";
+      packageType = "langpack";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/fdea3a5b5492679ac7a803470f7edacee7f9a661/Translations/Chinese%20(Traditional).ReaperLangPack";
+          sha256 = "0gygmpjin46xxdf249735pq4pranc5rhrvsihnc205mq16bxnpzq";
+        }
+      ];
+    };
+    chinese-traditional-reaperlangpack-7-39 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "chinese-traditional-reaperlangpack-7-39";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Translations";
+      packageType = "langpack";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/0350a32f8cf006c87a5472dd5d3cc5a5b4be4d6a/Translations/Chinese%20(Traditional).ReaperLangPack";
+          sha256 = "0vkc39sg9xy30hmr7ndkk745rlhv6x3wyh7vmapi2bdvbf9l3snh";
+        }
+      ];
+    };
     zaibuyidao-add-midi-hardware-output-amp-receives-to-selected-tracks-transcription-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "zaibuyidao-add-midi-hardware-output-amp-receives-to-selected-tracks-transcription-lua-1-0";
@@ -15579,185 +16041,255 @@
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0 = mkReapackPackage {
+    zaibuyidao-batch-import-audio-from-folder-as-tracks-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0";
+      name = "zaibuyidao-batch-import-audio-from-folder-as-tracks-lua-1-0";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/9fef4c76fe4e1eb12b786d3a3d7261d791cdba96/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "09306a38nqk3hl7iqh2hr572kw17x1nmc5ac2adv4z5ni0gdhza6";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/5b963f2fb4b72025ec3451b4631e3992b78c7969/Utility/zaibuyidao_Batch%20Import%20Audio%20from%20Folder%20as%20Tracks.lua";
+          sha256 = "05w1jf0d1vyi327vbqrs9kqj6s9knm9dswb8kr9w69d918s6wxi3";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-1 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-1";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/af4aa8f24b328e7e7cac0675051fa5942beb197f/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "0qr6ks7gaw4f6vzd3rh1w6izj6xyfcs12rlzgxvrhbz3lhdkyf26";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/e1e98da656f5dffceea9082c01660bb1b973fee4/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "1jrh2w72smhvpbdm67my4460idzaj2jymapan1bhf2fvmq18rcsj";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-2 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-2";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-1";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/db966c3cb1b0ac323d82d1567d2d7c9c0719e06a/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "01cirnqjdnil31lj1nqi0s01hr076m6fvbxy6y4zngzh1jrvpdd6";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/ebfaf7657820781793840356be63063f212cfb4d/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "15r4niz06g2ks8midr520azwpgadc2afnhwx48658yl3icc6ylw2";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-3 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-2 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-3";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-2";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/c310b8b942899f1c815e9ddfba3d43b42bc276ca/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "0m2gzir7lkx7lw1gvg7z9zx0byqcaliqv8z9f2k546f4z17l8lls";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/ba1d679d97af141f646f4e3854b199d54e4dcfe8/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "0ya2wspsjni3lbrband1a9603wpfzl76m65vc0y88bkp0md6dmar";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-4 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-3 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-4";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-3";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/491ae036d8ccf1fc4ea0169923b67bb2ead69df7/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "0pvi1rw3ndqynq3r9hzc5l8xrn2g79bjhrplq5hmnb47ip3dviai";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/ef8c3f97b886f6036d331abb5362cba70e89f8e5/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "0ndd1438ib05z2pfslgbla5yf3h7xl7naa07f1f4cilqapdz2jr1";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-5 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-4 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-5";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-4";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/22334ccb2f091e6830d4c302e08575c02fa79e47/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "1lccm9a8flxpccygvc4m17sfx16fck0710qa5pxs4pbgh1n1z28s";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d6548275c563edb3959e42e7916f60d53d49fec0/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "0r761qshaazwi1hvl396xr9ig7ikccvf1p0jjqn6cbh3vdkfxka8";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-6 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-5 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-6";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-5";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/0766590a662b3a800bc4c5f66f9e87f02c31ed2a/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "1hi3xf9p65m4n8mfqyba0ir9fqak5iv32xdq9nwvfxgbsrifj9ky";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/503ddf749cfbb145415e9480083e18adaf4b2c1f/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "07w9si3pxg960js4h3hdbdf8njf1cf975c9kxxz999yx5ricx1x2";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-7 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-6 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-7";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-6";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/51a55a29c51610c5458bd0bb3ce7c09ff594b300/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "0gx4bsr72z1l9x72izl19mm7kjxjm9qisz8z9dq154jzqd8wp628";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/44cc62064b450ff69c2662307f98ac3b0f21e56b/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "056q56gipzbmpn9arans5sdrk8wwxkpjz8sdx6b315ihbrzzgp6n";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-8 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-7 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-8";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-7";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/11634d7ccea07e7f3c41d058b5fcd25fb1926156/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "1zvj0k830c6qi6556j3cnf2c87x9v37f9wr3w5idrfgdxrllh6js";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/09acbfaee8f10cafd44170b559ae2cdad62fed9d/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "0fsgsg87rf9jzj0ziz14fz0hyxz39zlx9yz3jjf7jf192mhyrxcq";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-0-9 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-8 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-0-9";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-8";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/0acc0c12c4508221c8c17341f5e33e7633206b6f/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "0x1bpalk66i504xy2fb9q01jgf9w1w2dx1434n0khd62glsrcb5l";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/c0e8209ba72e4b384f06d4b7211dbf821b448d55/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "0ghs15y7yw2zqffxfp0vh4hhm6jvd2h0ass54jvz9ajdf5h2hg6s";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-1-0 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-9 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-1-0";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-9";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/0d8ca13d0692a04f84af86bbbb2a3c277999db04/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "1sqf9gb0m1wplwvcsiabk3z8s22r9xyjax8zswffcphxq2fdxnsb";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/60b59af911a36eb3e81cbd28c15186d43d2b2d2a/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "05gyxfjag1r40i1yxcc3jw4n3marj293dlwgx8xj6j4g76c6723z";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-1-1 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-10 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-1-1";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-10";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/7278b8001b31e5e828449df9f5d7c48a4c8f83c7/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "0pv0cpag73qhyjdj564s48prjc7j4yv898lbqs6x2lq2s93w3cpa";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/96ee7faeba7ac6487b13a6dde7a3c4c0d283c69e/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "0f1lh7gdg7yl5pnmwk4lh9g583957dm88zbm4sgh7yxmq5fmljq7";
         }
       ];
     };
-    zaibuyidao-batch-folder-media-importer-lua-1-1-2 = mkReapackPackage {
+    zaibuyidao-batch-rename-plus-lua-1-0-11 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-batch-folder-media-importer-lua-1-1-2";
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-11";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/a9b768e25477487a870eaf54e0c825bae8093817/Utility/zaibuyidao_Batch%20Folder%20Media%20Importer.lua";
-          sha256 = "02pkd98wsc2xsz6syhpq1dkfs6gwg3s048ynkf36jmkkfd3md8cr";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/c59893119a82b0945794932c97b98ab16cd0e5d9/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "00q0gigwfp3hdpd1dz82g9h088dqm8adsy4njgshqcnrsimsa053";
+        }
+      ];
+    };
+    zaibuyidao-batch-rename-plus-lua-1-0-12 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-12";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/83675c68bafae9b6f9ae7e36e46f80756133ea10/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "1ca61rr41nq52kwbm92mjjhdrp261agw7wv11aw3b1zbhw1cxwzk";
+        }
+      ];
+    };
+    zaibuyidao-batch-rename-plus-lua-1-0-13 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-13";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/7279d191736dc4c337168beb172d18100181990b/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "1qrrr1svn9jyz9ig7j5fzlgz6b83y6gkd38zbxbx8g6zz4fdm48z";
+        }
+      ];
+    };
+    zaibuyidao-batch-rename-plus-lua-1-0-14 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-14";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/161ecab445472960d525069c752eb07481ec08b3/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "14pdvddpwzq0xhhxmlnq8cwpazjrc94qa808vqjznwg3vf4w1rb1";
+        }
+      ];
+    };
+    zaibuyidao-batch-rename-plus-lua-1-0-15 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-15";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/925832c26e3bb1977332af59bdc53c7a200168e1/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "0ahn04df071kinv6bap2fbvrr360q1y0mh0g1rmczbqffflcj1qz";
+        }
+      ];
+    };
+    zaibuyidao-batch-rename-plus-lua-1-0-16 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-batch-rename-plus-lua-1-0-16";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/0e60bfc4e91f06af8c9d1a8bbe01983db02cfb94/Utility/zaibuyidao_Batch%20Rename%20Plus.lua";
+          sha256 = "1x67fnybszp80xn5ahqkwgnnr267mvh73ilzl0izva3mj5b3yn2q";
         }
       ];
     };
@@ -16293,101 +16825,17 @@
         }
       ];
     };
-    zaibuyidao-functions-lua-1-0 = mkReapackPackage {
+    zaibuyidao-functions-lua-1-0-11 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "zaibuyidao-functions-lua-1-0";
+      name = "zaibuyidao-functions-lua-1-0-11";
       indexName = "zaibuyidao Scripts";
       categoryName = "Utility";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/f27c5fbffb853f5130a12f70c67382a7eb5ba260/Utility/zaibuyidao_Functions.lua";
-          sha256 = "0in3gpa48316gcdi4hb4nfsvfly3idkbx763k3dmnp9zcaihfcf3";
-        }
-      ];
-    };
-    zaibuyidao-functions-lua-1-0-1 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "zaibuyidao-functions-lua-1-0-1";
-      indexName = "zaibuyidao Scripts";
-      categoryName = "Utility";
-      packageType = "script";
-      sources = [
-        {
-          path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/ce59dc115e3335597aca9721a18c0ae5f7a4bf53/Utility/zaibuyidao_Functions.lua";
-          sha256 = "05hyqhli1fgyh3szf77dhk794f1djnc1ynawbns2n6324vwgw8qw";
-        }
-      ];
-    };
-    zaibuyidao-functions-lua-1-0-2 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "zaibuyidao-functions-lua-1-0-2";
-      indexName = "zaibuyidao Scripts";
-      categoryName = "Utility";
-      packageType = "script";
-      sources = [
-        {
-          path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/b1a1cc2dd0943a7ac9a18d7a9cec8192da18ca6c/Utility/zaibuyidao_Functions.lua";
-          sha256 = "1b2hk5qm64afbhkir4njpdz7srbmqy3fcladldbv0qkj2v4cnb1b";
-        }
-      ];
-    };
-    zaibuyidao-functions-lua-1-0-3 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "zaibuyidao-functions-lua-1-0-3";
-      indexName = "zaibuyidao Scripts";
-      categoryName = "Utility";
-      packageType = "script";
-      sources = [
-        {
-          path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/ef06a968ac1a89efbaf9e27cb0f54cb5d1986323/Utility/zaibuyidao_Functions.lua";
-          sha256 = "123m6fjq4ymsinpcpn33m5pb2b216xbg162c06v4nhw9f9mcmjbj";
-        }
-      ];
-    };
-    zaibuyidao-functions-lua-1-0-4 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "zaibuyidao-functions-lua-1-0-4";
-      indexName = "zaibuyidao Scripts";
-      categoryName = "Utility";
-      packageType = "script";
-      sources = [
-        {
-          path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/783504f7115e5edf4fe913da85d70a4d0c8c073c/Utility/zaibuyidao_Functions.lua";
-          sha256 = "0yx3pr11p39cssyj100l5638x2rkzhqhhy9r9nbnfv2p0mcw9ymm";
-        }
-      ];
-    };
-    zaibuyidao-functions-lua-1-0-5 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "zaibuyidao-functions-lua-1-0-5";
-      indexName = "zaibuyidao Scripts";
-      categoryName = "Utility";
-      packageType = "script";
-      sources = [
-        {
-          path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/391b7e3b579a4a0ce6151a2efd3a58e4ef600e85/Utility/zaibuyidao_Functions.lua";
-          sha256 = "1p08q6is4dzhg2xplzf9ajr78ayycwyscg2hxkjhdzkdc831k2if";
-        }
-      ];
-    };
-    zaibuyidao-functions-lua-1-0-6 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "zaibuyidao-functions-lua-1-0-6";
-      indexName = "zaibuyidao Scripts";
-      categoryName = "Utility";
-      packageType = "script";
-      sources = [
-        {
-          path = '''';
-          url = "https://github.com/zaibuyidao/ReaScripts/raw/9d10d322e2f16d93ec517c3532268283c2759739/Utility/zaibuyidao_Functions.lua";
-          sha256 = "0fycr0kgqfzcmabfwacpgfw78lzfbclc5nlg5jsalllf3b0bygq0";
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/5a66817f5cb9a656ef8e6168160717bc20e52e65/Utility/zaibuyidao_Functions.lua";
+          sha256 = "1xwdxwqm9y582iswy4is66cb27w7jpglkxqc805x27bpi6xfbrhz";
         }
       ];
     };
@@ -16794,6 +17242,468 @@
           path = '''';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/2cb69e8f0d98267ab14439e8b64ece8634592d8d/Utility/zaibuyidao_Paste%20Tempo%20Time%20Signature%20In%20Time%20Selection%20(Relative%20Position).lua";
           sha256 = "18f1m5ba23kilfzmvx0pamy53civhlyl475s734pdsk56dli8h7j";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/c7e455060110d941d7ccfe54ce21ba5caa10c21c/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "105cff4zfar8v10lr5m9bxd9aqdsdb7f7ibcnjxhkk0s8fhg5486";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-1";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/3e383dca63a76d581fccb7e7368adbf35257bc29/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1k1ij9hb5468xpg79744na8iy9aqh7av0x134iij66a8050v1srg";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-2";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/8db2d8dedb84f0a4e01e1e8b2da8bbcc6075f0bb/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "18vmy5j0s5w6c48glq7f68vmd6x10m4i6hvv5b6asgbwmfky56sq";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-3";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/3997408c6f6fc9641a6287be45ebebde5b638214/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "14lq5w3w4l3r32c8q2xgibb797w3lp3dwh1iiifvv0qzh3fwqcxn";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-4";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/be67feb3e48b2b995d3fae54ba23a0ea663d4e44/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1qc1nl5ab5ijycxqq74fkyshyxjkzgr20ndns021vwgkm7cldx0r";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-5";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/1af4fa3b9097080fb149ea0633591f150565b0a7/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1n1ll68acimin1mwkhhs8f68qwqhhs67a8398p30d9l29g7904xi";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-6";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/1112020a252b132e8e7827fd6f3bd4712ade3772/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1a6ak7bla1bvsxidasm0zz8yhn0ki27qg3cmp13khrkqzwfw9xs5";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-7 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-7";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2c15f62c602c74c33a30a520f00b016182d4335f/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0lyypk69bwds4psm8r4lfsvbfjzc8chcf9d5ilbj37fa4pqicghb";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-8 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-8";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/7a29675c9f96c204c25ba614670dc3a1d23de0d4/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1b1z9q9nyslky96s4nhza9qh4l1apxv417qjq6i9pq80xdawni8p";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-9 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-9";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/80500c8c3ce748fa425bef65893b82fe7979d31a/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0zsysr7jnpi6hmdcz6xn4pqzqdic9kbrlvcyzdywmyk8mpvyswz0";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-10 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-10";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/635a674bc13f0c0f093ef583115d55376e2770cc/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "04c9gwchlmrx5lxy8mrsamh31i08mxq0n9qrpxxvyj2m3a7n99yn";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-11 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-11";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/5d50ff53121e54d70b0ef755c20b7b8c04981235/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "09d29ghvx7764v92q7km0xbkpmmwhn8rbgajc7q8j66c8pfnnmpg";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-12 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-12";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/03446c92c4b526409154e13c3dbecdac6f119dff/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "18fxskahm593b22sz85jrvzmi4x5xsvs9mpba65vz64fz39hb23m";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-13 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-13";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/11cffb00f7635e4dd8ace83caacb3082f082825b/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0qdlwnmhjirdx6s3dp1qz2gavzwnnp9z1jkrdf8n3ihll5cyx1gf";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-14 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-14";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/08a47caa49421fd9677ed5f6faca6616cdb9540f/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1qbpb49i9gb9dwnhws375l7ia5976jrxa5k1ix16brj287hmxpw2";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-15 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-15";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/239d72e71d1a5479e13b1b202a16f8a04f228245/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0g4f3rrvxy5n1pnri4vq6qzb2dylc84jvfwmn9bs5gawz7q8qppm";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-16 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-16";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/758162b6a2c9dd92d8a6bbee1c520d3b725a799f/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0ywkxjiln4ipxp34r032zmvcgapzs2pnssypq3fg89ac7l7yvnm1";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-17 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-17";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/988fb7e8515ab92c3a0abb0b7165d43152aed31f/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1xjn65m5kd9ldzh66gc47r845rzkjr1iww6pr791hy1p34wq0lf9";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-18 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-18";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/cfe96dfe7407f47cf752f511a7468a7245b14567/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1yqg2pwvnmj8f5rxn254q1rlfb2nmjva91gvimg2ggp8ldn84is7";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-19 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-19";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/01b038e3138815cc95ee5170f228bd5f591b8445/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "10n10wxhrq0m3j3p1yfcazjmbpk473332l7swkm66lc54bqddgn6";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-20 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-20";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/9b307c3c999df393be4fb766990648a517a77739/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1dhjq916ixm5m9i1v82pzl4zsbqk2p1h1afzv8z77c87pwlkh4ss";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-21 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-21";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/33c65627be4fc86a1a548de7423861b64dfe7e62/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "13cmx570da330p0y4d5r12hafy157axf7q5pjqcjyccgjd5ja00v";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-22 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-22";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/0b27147666a7584da2a65e6ac27a881394340bf3/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "10n18fd65kswl4hgi5v50v4mddrgdrsd1n1xwymyp43iqkw030vx";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-23 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-23";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/331ec6c636af6fa2a423a66423e42d6ef622e98e/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1ph8ngkmsy7wrqcrvfxsr4ih2hc72k6dg101hkckdvx3628l3nbq";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-24 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-24";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/29977557fc351c73cae0b348d9d0d0b6384fdccf/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "15qyxaaw55zm6jpdanvl15v971rkmry9w3jb8bqn66rn9v5yag4l";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-25 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-25";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/3f0cb4c881f04d845613422e36bcf8355b6f176a/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0j3rfg24vh3mngmvckh2xdpvp3gc3dkhq26h85rfdw8gd1yw99ig";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-26 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-26";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/b881fc57c91d9f4e4cd66cac3fbf9f3989da44ce/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1rz80wzs61jbaxajdfzynq5h9bffsy7iin49xcyvw5s6jfgsry6i";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-27 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-27";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/c96e2ee88eca693ea8467a05a6509258393047c0/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1dh68y94lkycigyaiif6pyg05m354r2cgwhh9k2f21zzh4wg0saq";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-28 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-28";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/277e5afb37f7d0f9f56da447472e826830c9f5ab/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0nw410g6i0ck9y3f5ddifbfwyy1nvnghna16agyvx15979plvf09";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-29 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-29";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/1584fd5e572b55181d25060f96cf32f8b0eedb18/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0hzf1sr11x2lf0pwwagfpdfvrqsgbz7f0sa11jq7bams3lb0whg8";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-30 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-30";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/b0494180dbc9ff1fb252f51ca9c1beb6007d3794/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "05vbwk0qfzn6mpvyqax3m2457bp25586z8nz32i1wymkckyzhzav";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-31 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-31";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/ffd1b7cf5350bce5dbb1a1f36c9150d73b3594b6/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1sgpmzfa2j5mjgsdrwwbizh00k91l9qbvhdpj2di61z6lsswz8d9";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-32 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-32";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2d3d048993d91c205c9deb833eb6fd2156f1c4fe/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1yn3wbby1rajznfz8w3nsjdkjwq1r66591gbza0s6cmq75cfsdmj";
         }
       ];
     };
@@ -17512,6 +18422,165 @@
         {
           path = ''Advanced Solo/lib/serpent.lua'';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/a328fc787eff11565e6877a8db6f812006308827/Various/Advanced%20Solo/lib/serpent.lua";
+          sha256 = "01i3v3i9x12m6zvglaf9h876manwhsvdjycvw3hwq2j7cn80gc2k";
+        }
+      ];
+    };
+    advanced-solo-bundle-lua-1-0-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "advanced-solo-bundle-lua-1-0-3";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Item from Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Item%20from%20Edit%20Cursor.lua";
+          sha256 = "07an7bjhg8fwj0jw5jl9if3vq1hb11fxawlbs7w7i988bsvqhkmq";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Item from First Selected Item.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Item%20from%20First%20Selected%20Item.lua";
+          sha256 = "1zn088d140hahcy6jj0vdffjwmgk1cayv74i7g7wdsm27svbh0fl";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Item from Mouse Position.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Item%20from%20Mouse%20Position.lua";
+          sha256 = "1fg47zm9r5blh765ink4imjn25mca3alf7apbg422ygqc4x7bh7b";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Item Without Moving Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Item%20Without%20Moving%20Edit%20Cursor.lua";
+          sha256 = "1ma8wd492vnpwsfn5swgmg33xf6q5lsdm8737mx87z576v1q6ixl";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo MIDI Item from Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20MIDI%20Item%20from%20Edit%20Cursor.lua";
+          sha256 = "01whbwqbfqwyvsiqrrzfc3dlidz1kgx5z9hvbjk4c89gn2a7048j";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo MIDI Item from Mouse Position.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20MIDI%20Item%20from%20Mouse%20Position.lua";
+          sha256 = "04blyp3z85lm5dclzlmwwjhlgsag3cfmh2rwh3axcywj79lybflp";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Note from Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Note%20from%20Edit%20Cursor.lua";
+          sha256 = "0zap9167gvibrgxj7mln6m4sl5p9096kh1k9f43647l05akp3wik";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Note from Mouse Position.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Note%20from%20Mouse%20Position.lua";
+          sha256 = "1hbf51hgminyyk4j0rlxvh2mlavqrvh8ffmzdawh3g3fgqv8wb33";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Track from Edit Cursor (Exclude Item Selection).lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Track%20from%20Edit%20Cursor%20(Exclude%20Item%20Selection).lua";
+          sha256 = "1zcq0748vj1g76cr2wlqjlh66q69xw0q4s2m3lilz7awljmpn74g";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Track from Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Track%20from%20Edit%20Cursor.lua";
+          sha256 = "0ikr742bwzs3lvwzg84k9ra5917ha4zl4k0gam6j9c5jl1d27q2l";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Track from Mouse Position (Exclude Item Selection).lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Track%20from%20Mouse%20Position%20(Exclude%20Item%20Selection).lua";
+          sha256 = "05k5yr81b8cx41s7l6qpmkksma7fan9w4pi2cs4vq85m1z5lkrrr";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Track from Mouse Position.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Track%20from%20Mouse%20Position.lua";
+          sha256 = "1nx6kwkss2nmsc7s1hqg302i3l1jl1m0k6q2ccmx23dkxy26rbsq";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Track Without Moving Edit Cursor (Exclude Item Selection).lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Track%20Without%20Moving%20Edit%20Cursor%20(Exclude%20Item%20Selection).lua";
+          sha256 = "04538cjnvnlqq22z0vvzq9vla312vpldjjlyp0s0crvblafd57wg";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Hold to Solo Track Without Moving Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Hold%20to%20Solo%20Track%20Without%20Moving%20Edit%20Cursor.lua";
+          sha256 = "0hgkznwgfvvyian574vwn2fxmm91navhri7r3j4xqmq9m15jg2x4";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo Item from Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20Item%20from%20Edit%20Cursor.lua";
+          sha256 = "026w8pv37rdy987mrcg08sl0n1dd34hmkmz5gibw02rx55z8dppy";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo Item from First Selected Item.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20Item%20from%20First%20Selected%20Item.lua";
+          sha256 = "076f2kkqh5ipvqf8hs4ih7611b64hx3zppjnd5ylv7dr7v7s9wf5";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo Item from Mouse Position.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20Item%20from%20Mouse%20Position.lua";
+          sha256 = "1yqmw7r76jafn6qshkbph7ixxcg0v8qwlq87sjqxa5laz0lsfdv9";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo MIDI Item from Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20MIDI%20Item%20from%20Edit%20Cursor.lua";
+          sha256 = "0sh9lkd51h3bz4xhvkmgrqvv7gcbf9470ppc7sp3d1qkaxhn9lwx";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo MIDI Item from Mouse Position.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20MIDI%20Item%20from%20Mouse%20Position.lua";
+          sha256 = "1pl0nhlcjpwzb7i96szabavvi5xl7vm4n3mxl9a45gzib2d255m6";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo Note from Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20Note%20from%20Edit%20Cursor.lua";
+          sha256 = "0sgp5gkasx2q4nnflz27xb2fc1r4zn3pjw767xbm39czqilqh7qj";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo Note from Mouse Position.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20Note%20from%20Mouse%20Position.lua";
+          sha256 = "0l6gr2xk1s02z8dcmm1mp1kr4j992i5pid8mln6z0jmbwzpqf90f";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo Track from Edit Cursor.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20Track%20from%20Edit%20Cursor.lua";
+          sha256 = "14km21l8vbwk4lpp4nwpsqkiicwxv0a0cigrxdagnc82849k7f3k";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Instant Solo Track from Mouse Position.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Instant%20Solo%20Track%20from%20Mouse%20Position.lua";
+          sha256 = "1b4yqirwjbkwvjp69wggqzbcqhqlsh12dr7hq9ab70kwa4zhz40v";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Toggle Solo Automatically for Selected Tracks.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Toggle%20Solo%20Automatically%20for%20Selected%20Tracks.lua";
+          sha256 = "18f6s7m12q7gnx3pwwphqxsqvg96cf8ksb3hfwgz99gwajybh0pw";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Toggle Solo for Selected Tracks or Track Under Mouse.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Toggle%20Solo%20for%20Selected%20Tracks%20or%20Track%20Under%20Mouse.lua";
+          sha256 = "1wrsnm5448cjkrhv32lp0lbrygbbqsvria3rsq14fy49zcx2rvsa";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Toggle Solo for Selected Tracks.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Toggle%20Solo%20for%20Selected%20Tracks.lua";
+          sha256 = "1698y7lj7gjjldil0044kq0b55178x4jzvax3hijhdyqf6xxg85w";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Toggle Solo for Specific Track (Settings).lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Toggle%20Solo%20for%20Specific%20Track%20(Settings).lua";
+          sha256 = "05lwrxj77fd9b3lkfsjwrzqpiahm332gjzc49sz5jhsnrgnsnlx2";
+        }
+        {
+          path = ''Advanced Solo/zaibuyidao_Toggle Solo for Specific Track.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/zaibuyidao_Toggle%20Solo%20for%20Specific%20Track.lua";
+          sha256 = "05ldg1sbmhbkqgcc295q7prg3www37067lrb2s9l24f2kjmx5xvi";
+        }
+        {
+          path = ''Advanced Solo/lib/speaker.cur'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/lib/speaker.cur";
+          sha256 = "0lg8c4bqq2mx6rn09lk9ia4ginngfyzk9vf3pjisv1fp9q9a78j7";
+        }
+        {
+          path = ''Advanced Solo/lib/serpent.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/d98dba3b95c568ce5ef99940bcd2c002861632f3/Various/Advanced%20Solo/lib/serpent.lua";
           sha256 = "01i3v3i9x12m6zvglaf9h876manwhsvdjycvw3hwq2j7cn80gc2k";
         }
       ];
@@ -40368,6 +41437,548 @@
         {
           path = ''SFX Tag Search/lib/config-ucs-synonym-index-default.ini'';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/e1ed16543d7bfdfccdfca935739298311d9d574d/Various/SFX%20Tag%20Search/lib/config-ucs-synonym-index-default.ini";
+          sha256 = "0sfm4ffcdps1pbl0z1j0w13mkwbwigiiskmgbvixxslj1zbxci3s";
+        }
+      ];
+    };
+    sfx-tag-search-bundle-lua-2-0-16 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sfx-tag-search-bundle-lua-2-0-16";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Custom Tags.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Custom%20Tags.lua";
+          sha256 = "1mrszjb4d0flhffdgnppihgzx3p6b60avfvf184czzvp4w4mkrsq";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Database.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Database.lua";
+          sha256 = "11bvdvhr9pazhddzjblcbpnj929hqk00v9spzibqmw15xgrpdd0l";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Favorite.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Favorite.lua";
+          sha256 = "1xzar0mv919825qwdj6brbjqdi0n3j7gb29ism072w12v1q34lq7";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Thesaurus.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Thesaurus.lua";
+          sha256 = "0wwzhfyd603rqvm1w4ckba92q6hdsrn88xhwbkwd70lh2jz31mmf";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - UCS Synonym Index.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20UCS%20Synonym%20Index.lua";
+          sha256 = "0j40vf7wnwrxinysjqbd9iljivi1mgw81fk64r7nj4pmn1aq5cqj";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - UCS.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20UCS.lua";
+          sha256 = "1r31agwzan4w5gpc2lgdh8bx3pvi788w2k4ig0al5cdcf5icr2r9";
+        }
+        {
+          path = ''SFX Tag Search/lib/LIP.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/LIP.lua";
+          sha256 = "0pg4rv129jrfqqsxla26y1s8pn8qkkvvj7f4qrbnfgsfm00s1hi1";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_custom_tags.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/core_custom_tags.lua";
+          sha256 = "1h0wfpxckfhszszf5x7d3q1cvi7ii6qw3dwinp0xlcknf66cl0sk";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_database.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/core_database.lua";
+          sha256 = "19zdjrph06nq3hlw5hfllcay2d38600ffv7sfyrxsg7iqv2xpjla";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_favorite.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/core_favorite.lua";
+          sha256 = "1bkxy3774gjnqmnb5azik8dz0g3928lfvqpkmk245k6spmyj6jj7";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_thesaurus.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/core_thesaurus.lua";
+          sha256 = "0vic5rrhzplda5alkcm55a8b4nb029d21n0rpsp6abh3cfkcsiik";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_ucs.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/core_ucs.lua";
+          sha256 = "0vic5rrhzplda5alkcm55a8b4nb029d21n0rpsp6abh3cfkcsiik";
+        }
+        {
+          path = ''SFX Tag Search/lib/pinyin.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/pinyin.lua";
+          sha256 = "1kldrr4nj0ww8xxznyiw2qal24cz56ynb98sij1as3pd0a3d5fhf";
+        }
+        {
+          path = ''SFX Tag Search/req/JGui.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/JGui.lua";
+          sha256 = "02mp1gxy71iqdq3srdam9l89rvlb2hhl6lbrnr68cdcm4pibzq7f";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiColors.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/JGuiColors.lua";
+          sha256 = "06229kwfw1ciz5mj2k3fqh1077414m3nf8zkndky3nmz6rkdlsvf";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiControls.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/JGuiControls.lua";
+          sha256 = "17j4g8b8fii2dibqrpnbwfd4if34kci7ik2gbs0iz7if356fvfja";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiFunctions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/JGuiFunctions.lua";
+          sha256 = "1q2ir1q8k7bk0qwikkxczv141ydllndsffwz3n8fq1s7b7vqqvx6";
+        }
+        {
+          path = ''SFX Tag Search/req/JProjectClass.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/JProjectClass.lua";
+          sha256 = "09wqnsdn6dps0ds662w4prhfl02m0hgz6jc29jx5d3686sa86i7y";
+        }
+        {
+          path = ''SFX Tag Search/req/JProjectClassReq.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/JProjectClassReq.lua";
+          sha256 = "1czgh7pzch4q1laalqhga00nj05acbi2jk1mwrp1mzvzfrdi49rb";
+        }
+        {
+          path = ''SFX Tag Search/req/jKeyboard.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/jKeyboard.lua";
+          sha256 = "0byw6y4y25g8c6286nj0i32bmm6sv4m8inrqa8nnwqkpqgbb9210";
+        }
+        {
+          path = ''SFX Tag Search/req/j_file_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/j_file_functions.lua";
+          sha256 = "10v70h0ayjijv21kbhhyp9xr5ba31jcli0z0b2jgkmpfv3n8j7sb";
+        }
+        {
+          path = ''SFX Tag Search/req/j_settings_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/j_settings_functions.lua";
+          sha256 = "0kjz15q9ck2nvn830bpir82g7abgg49ba4ddj0sxc700mkklnbjx";
+        }
+        {
+          path = ''SFX Tag Search/req/j_string_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/j_string_functions.lua";
+          sha256 = "1mxxqqrnpdhsxsg9ki6wq893plsj0xq1qjx80fz4v14dy3h6q3hd";
+        }
+        {
+          path = ''SFX Tag Search/req/j_tables.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/j_tables.lua";
+          sha256 = "0cg5nd8yq16q7liijaxv6nw715dgrbr6b1mhvp0nc9aawghmwhdq";
+        }
+        {
+          path = ''SFX Tag Search/req/j_trackstatechunk_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/j_trackstatechunk_functions.lua";
+          sha256 = "1bgxnn471yvl7iqs28c7mcmlnrhw5pdcdbg0mbmhf0bxy3x8mk71";
+        }
+        {
+          path = ''SFX Tag Search/req/mouse.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/req/mouse.lua";
+          sha256 = "1aqvcxb7jqqifwhswa2b42gbm83lxbwa469rkjj4l1dzi8kj1hbd";
+        }
+        {
+          path = ''SFX Tag Search/keywords_thesaurus.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/keywords_thesaurus.csv";
+          sha256 = "0wa3zc08jrfz63mqpa1i2dndca520z7wcxabzcxjxwckl5zi9jda";
+        }
+        {
+          path = ''SFX Tag Search/keywords_ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/keywords_ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-custom-tags-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/config-custom-tags-default.ini";
+          sha256 = "0z0nqdm6dcljil8vkxb5qw35z11ac08qisdpv02nnvfhj14crz3v";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-database-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/config-database-default.ini";
+          sha256 = "0h4h7mcamvl8q6pqb49rfp15khm68sv9ggm3b03y25j17fj5z5l3";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-favorite-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/config-favorite-default.ini";
+          sha256 = "1lsv45dl2i2x4vbp91612c78x7khawlr2ivw3krm103p8s7am4j9";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-thesaurus-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/config-thesaurus-default.ini";
+          sha256 = "0ci53gcfaavk6v16hqjmq9xnfn9j0jz4kgl32pnn64z20cgz3vld";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-ucs-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/config-ucs-default.ini";
+          sha256 = "0gfj1qf29yjyiprc4xf6bjvxnxw3p7kibj1p2zv6mqa3gfdxck6i";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-ucs-synonym-index-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6e9ca556dd50db2bcb8372c61ca20dfe10ed78a1/Various/SFX%20Tag%20Search/lib/config-ucs-synonym-index-default.ini";
+          sha256 = "0sfm4ffcdps1pbl0z1j0w13mkwbwigiiskmgbvixxslj1zbxci3s";
+        }
+      ];
+    };
+    sfx-tag-search-bundle-lua-2-0-17 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sfx-tag-search-bundle-lua-2-0-17";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Custom Tags.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Custom%20Tags.lua";
+          sha256 = "1mrszjb4d0flhffdgnppihgzx3p6b60avfvf184czzvp4w4mkrsq";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Database.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Database.lua";
+          sha256 = "11bvdvhr9pazhddzjblcbpnj929hqk00v9spzibqmw15xgrpdd0l";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Favorite.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Favorite.lua";
+          sha256 = "1xzar0mv919825qwdj6brbjqdi0n3j7gb29ism072w12v1q34lq7";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Thesaurus.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Thesaurus.lua";
+          sha256 = "0wwzhfyd603rqvm1w4ckba92q6hdsrn88xhwbkwd70lh2jz31mmf";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - UCS Synonym Index.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20UCS%20Synonym%20Index.lua";
+          sha256 = "0j40vf7wnwrxinysjqbd9iljivi1mgw81fk64r7nj4pmn1aq5cqj";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - UCS.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20UCS.lua";
+          sha256 = "1r31agwzan4w5gpc2lgdh8bx3pvi788w2k4ig0al5cdcf5icr2r9";
+        }
+        {
+          path = ''SFX Tag Search/lib/LIP.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/LIP.lua";
+          sha256 = "0pg4rv129jrfqqsxla26y1s8pn8qkkvvj7f4qrbnfgsfm00s1hi1";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_custom_tags.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/core_custom_tags.lua";
+          sha256 = "1h0wfpxckfhszszf5x7d3q1cvi7ii6qw3dwinp0xlcknf66cl0sk";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_database.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/core_database.lua";
+          sha256 = "19zdjrph06nq3hlw5hfllcay2d38600ffv7sfyrxsg7iqv2xpjla";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_favorite.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/core_favorite.lua";
+          sha256 = "1bkxy3774gjnqmnb5azik8dz0g3928lfvqpkmk245k6spmyj6jj7";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_thesaurus.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/core_thesaurus.lua";
+          sha256 = "0vic5rrhzplda5alkcm55a8b4nb029d21n0rpsp6abh3cfkcsiik";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_ucs.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/core_ucs.lua";
+          sha256 = "0vic5rrhzplda5alkcm55a8b4nb029d21n0rpsp6abh3cfkcsiik";
+        }
+        {
+          path = ''SFX Tag Search/lib/pinyin.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/pinyin.lua";
+          sha256 = "1kldrr4nj0ww8xxznyiw2qal24cz56ynb98sij1as3pd0a3d5fhf";
+        }
+        {
+          path = ''SFX Tag Search/req/JGui.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/JGui.lua";
+          sha256 = "02mp1gxy71iqdq3srdam9l89rvlb2hhl6lbrnr68cdcm4pibzq7f";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiColors.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/JGuiColors.lua";
+          sha256 = "06229kwfw1ciz5mj2k3fqh1077414m3nf8zkndky3nmz6rkdlsvf";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiControls.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/JGuiControls.lua";
+          sha256 = "17j4g8b8fii2dibqrpnbwfd4if34kci7ik2gbs0iz7if356fvfja";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiFunctions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/JGuiFunctions.lua";
+          sha256 = "1q2ir1q8k7bk0qwikkxczv141ydllndsffwz3n8fq1s7b7vqqvx6";
+        }
+        {
+          path = ''SFX Tag Search/req/JProjectClass.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/JProjectClass.lua";
+          sha256 = "09wqnsdn6dps0ds662w4prhfl02m0hgz6jc29jx5d3686sa86i7y";
+        }
+        {
+          path = ''SFX Tag Search/req/JProjectClassReq.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/JProjectClassReq.lua";
+          sha256 = "1czgh7pzch4q1laalqhga00nj05acbi2jk1mwrp1mzvzfrdi49rb";
+        }
+        {
+          path = ''SFX Tag Search/req/jKeyboard.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/jKeyboard.lua";
+          sha256 = "0byw6y4y25g8c6286nj0i32bmm6sv4m8inrqa8nnwqkpqgbb9210";
+        }
+        {
+          path = ''SFX Tag Search/req/j_file_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/j_file_functions.lua";
+          sha256 = "10v70h0ayjijv21kbhhyp9xr5ba31jcli0z0b2jgkmpfv3n8j7sb";
+        }
+        {
+          path = ''SFX Tag Search/req/j_settings_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/j_settings_functions.lua";
+          sha256 = "0kjz15q9ck2nvn830bpir82g7abgg49ba4ddj0sxc700mkklnbjx";
+        }
+        {
+          path = ''SFX Tag Search/req/j_string_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/j_string_functions.lua";
+          sha256 = "1mxxqqrnpdhsxsg9ki6wq893plsj0xq1qjx80fz4v14dy3h6q3hd";
+        }
+        {
+          path = ''SFX Tag Search/req/j_tables.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/j_tables.lua";
+          sha256 = "0cg5nd8yq16q7liijaxv6nw715dgrbr6b1mhvp0nc9aawghmwhdq";
+        }
+        {
+          path = ''SFX Tag Search/req/j_trackstatechunk_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/j_trackstatechunk_functions.lua";
+          sha256 = "1bgxnn471yvl7iqs28c7mcmlnrhw5pdcdbg0mbmhf0bxy3x8mk71";
+        }
+        {
+          path = ''SFX Tag Search/req/mouse.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/req/mouse.lua";
+          sha256 = "1aqvcxb7jqqifwhswa2b42gbm83lxbwa469rkjj4l1dzi8kj1hbd";
+        }
+        {
+          path = ''SFX Tag Search/keywords_thesaurus.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/keywords_thesaurus.csv";
+          sha256 = "0wa3zc08jrfz63mqpa1i2dndca520z7wcxabzcxjxwckl5zi9jda";
+        }
+        {
+          path = ''SFX Tag Search/keywords_ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/keywords_ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-custom-tags-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/config-custom-tags-default.ini";
+          sha256 = "0z0nqdm6dcljil8vkxb5qw35z11ac08qisdpv02nnvfhj14crz3v";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-database-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/config-database-default.ini";
+          sha256 = "0h4h7mcamvl8q6pqb49rfp15khm68sv9ggm3b03y25j17fj5z5l3";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-favorite-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/config-favorite-default.ini";
+          sha256 = "1lsv45dl2i2x4vbp91612c78x7khawlr2ivw3krm103p8s7am4j9";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-thesaurus-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/config-thesaurus-default.ini";
+          sha256 = "0ci53gcfaavk6v16hqjmq9xnfn9j0jz4kgl32pnn64z20cgz3vld";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-ucs-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/config-ucs-default.ini";
+          sha256 = "0gfj1qf29yjyiprc4xf6bjvxnxw3p7kibj1p2zv6mqa3gfdxck6i";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-ucs-synonym-index-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search/lib/config-ucs-synonym-index-default.ini";
+          sha256 = "0sfm4ffcdps1pbl0z1j0w13mkwbwigiiskmgbvixxslj1zbxci3s";
+        }
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/58616059591d330292e04df7e8b11d09197953b8/Various/SFX%20Tag%20Search%20Bundle.lua";
+          sha256 = "0f98ppkbfpjwz8sh04i9h7mh9x05yan14p10vxdbh90k70ns0z7n";
+        }
+      ];
+    };
+    sfx-tag-search-bundle-lua-2-0-18 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sfx-tag-search-bundle-lua-2-0-18";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Custom Tags.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Custom%20Tags.lua";
+          sha256 = "1mrszjb4d0flhffdgnppihgzx3p6b60avfvf184czzvp4w4mkrsq";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Database.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Database.lua";
+          sha256 = "11bvdvhr9pazhddzjblcbpnj929hqk00v9spzibqmw15xgrpdd0l";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Favorite.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Favorite.lua";
+          sha256 = "1xzar0mv919825qwdj6brbjqdi0n3j7gb29ism072w12v1q34lq7";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - Thesaurus.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20Thesaurus.lua";
+          sha256 = "0wwzhfyd603rqvm1w4ckba92q6hdsrn88xhwbkwd70lh2jz31mmf";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - UCS Synonym Index.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20UCS%20Synonym%20Index.lua";
+          sha256 = "0j40vf7wnwrxinysjqbd9iljivi1mgw81fk64r7nj4pmn1aq5cqj";
+        }
+        {
+          path = ''SFX Tag Search/zaibuyidao_SFX Tag Search - UCS.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/zaibuyidao_SFX%20Tag%20Search%20-%20UCS.lua";
+          sha256 = "1r31agwzan4w5gpc2lgdh8bx3pvi788w2k4ig0al5cdcf5icr2r9";
+        }
+        {
+          path = ''SFX Tag Search/lib/LIP.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/LIP.lua";
+          sha256 = "0pg4rv129jrfqqsxla26y1s8pn8qkkvvj7f4qrbnfgsfm00s1hi1";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_custom_tags.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/core_custom_tags.lua";
+          sha256 = "1h0wfpxckfhszszf5x7d3q1cvi7ii6qw3dwinp0xlcknf66cl0sk";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_database.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/core_database.lua";
+          sha256 = "19zdjrph06nq3hlw5hfllcay2d38600ffv7sfyrxsg7iqv2xpjla";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_favorite.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/core_favorite.lua";
+          sha256 = "1bkxy3774gjnqmnb5azik8dz0g3928lfvqpkmk245k6spmyj6jj7";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_thesaurus.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/core_thesaurus.lua";
+          sha256 = "0vic5rrhzplda5alkcm55a8b4nb029d21n0rpsp6abh3cfkcsiik";
+        }
+        {
+          path = ''SFX Tag Search/lib/core_ucs.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/core_ucs.lua";
+          sha256 = "0vic5rrhzplda5alkcm55a8b4nb029d21n0rpsp6abh3cfkcsiik";
+        }
+        {
+          path = ''SFX Tag Search/lib/pinyin.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/pinyin.lua";
+          sha256 = "1kldrr4nj0ww8xxznyiw2qal24cz56ynb98sij1as3pd0a3d5fhf";
+        }
+        {
+          path = ''SFX Tag Search/req/JGui.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/JGui.lua";
+          sha256 = "02mp1gxy71iqdq3srdam9l89rvlb2hhl6lbrnr68cdcm4pibzq7f";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiColors.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/JGuiColors.lua";
+          sha256 = "06229kwfw1ciz5mj2k3fqh1077414m3nf8zkndky3nmz6rkdlsvf";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiControls.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/JGuiControls.lua";
+          sha256 = "17j4g8b8fii2dibqrpnbwfd4if34kci7ik2gbs0iz7if356fvfja";
+        }
+        {
+          path = ''SFX Tag Search/req/JGuiFunctions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/JGuiFunctions.lua";
+          sha256 = "1q2ir1q8k7bk0qwikkxczv141ydllndsffwz3n8fq1s7b7vqqvx6";
+        }
+        {
+          path = ''SFX Tag Search/req/JProjectClass.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/JProjectClass.lua";
+          sha256 = "09wqnsdn6dps0ds662w4prhfl02m0hgz6jc29jx5d3686sa86i7y";
+        }
+        {
+          path = ''SFX Tag Search/req/JProjectClassReq.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/JProjectClassReq.lua";
+          sha256 = "1czgh7pzch4q1laalqhga00nj05acbi2jk1mwrp1mzvzfrdi49rb";
+        }
+        {
+          path = ''SFX Tag Search/req/jKeyboard.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/jKeyboard.lua";
+          sha256 = "0byw6y4y25g8c6286nj0i32bmm6sv4m8inrqa8nnwqkpqgbb9210";
+        }
+        {
+          path = ''SFX Tag Search/req/j_file_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/j_file_functions.lua";
+          sha256 = "10v70h0ayjijv21kbhhyp9xr5ba31jcli0z0b2jgkmpfv3n8j7sb";
+        }
+        {
+          path = ''SFX Tag Search/req/j_settings_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/j_settings_functions.lua";
+          sha256 = "0kjz15q9ck2nvn830bpir82g7abgg49ba4ddj0sxc700mkklnbjx";
+        }
+        {
+          path = ''SFX Tag Search/req/j_string_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/j_string_functions.lua";
+          sha256 = "1mxxqqrnpdhsxsg9ki6wq893plsj0xq1qjx80fz4v14dy3h6q3hd";
+        }
+        {
+          path = ''SFX Tag Search/req/j_tables.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/j_tables.lua";
+          sha256 = "0cg5nd8yq16q7liijaxv6nw715dgrbr6b1mhvp0nc9aawghmwhdq";
+        }
+        {
+          path = ''SFX Tag Search/req/j_trackstatechunk_functions.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/j_trackstatechunk_functions.lua";
+          sha256 = "1bgxnn471yvl7iqs28c7mcmlnrhw5pdcdbg0mbmhf0bxy3x8mk71";
+        }
+        {
+          path = ''SFX Tag Search/req/mouse.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/req/mouse.lua";
+          sha256 = "1aqvcxb7jqqifwhswa2b42gbm83lxbwa469rkjj4l1dzi8kj1hbd";
+        }
+        {
+          path = ''SFX Tag Search/keywords_thesaurus.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/keywords_thesaurus.csv";
+          sha256 = "0wa3zc08jrfz63mqpa1i2dndca520z7wcxabzcxjxwckl5zi9jda";
+        }
+        {
+          path = ''SFX Tag Search/keywords_ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/keywords_ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-custom-tags-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/config-custom-tags-default.ini";
+          sha256 = "0z0nqdm6dcljil8vkxb5qw35z11ac08qisdpv02nnvfhj14crz3v";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-database-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/config-database-default.ini";
+          sha256 = "0h4h7mcamvl8q6pqb49rfp15khm68sv9ggm3b03y25j17fj5z5l3";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-favorite-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/config-favorite-default.ini";
+          sha256 = "1lsv45dl2i2x4vbp91612c78x7khawlr2ivw3krm103p8s7am4j9";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-thesaurus-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/config-thesaurus-default.ini";
+          sha256 = "0ci53gcfaavk6v16hqjmq9xnfn9j0jz4kgl32pnn64z20cgz3vld";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-ucs-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/config-ucs-default.ini";
+          sha256 = "0gfj1qf29yjyiprc4xf6bjvxnxw3p7kibj1p2zv6mqa3gfdxck6i";
+        }
+        {
+          path = ''SFX Tag Search/lib/config-ucs-synonym-index-default.ini'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2abbeae9997b824436ec9ae6733052c61d4a3c0b/Various/SFX%20Tag%20Search/lib/config-ucs-synonym-index-default.ini";
           sha256 = "0sfm4ffcdps1pbl0z1j0w13mkwbwigiiskmgbvixxslj1zbxci3s";
         }
       ];

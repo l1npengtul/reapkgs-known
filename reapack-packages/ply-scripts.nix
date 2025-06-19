@@ -106,6 +106,74 @@
         }
       ];
     };
+    ply-source-destination-edit-lua-1-5-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ply-source-destination-edit-lua-1-5-0";
+      indexName = "ply Scripts";
+      categoryName = "Items Editing/Source-Destination";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ply/ReaScripts/raw/66bbf987bd4dfb9dc8080f6bcdb12179640b3628/Items%20Editing/Source-Destination/ply_Source-Destination%20edit.lua";
+          sha256 = "11xsfdx791143sk2b9g7kvrhnp069krvv7g1r4jm6jkwmmwg7q7i";
+        }
+        {
+          path = ''ply_Source-Destination setup.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/66bbf987bd4dfb9dc8080f6bcdb12179640b3628/Items%20Editing/Source-Destination/ply_Source-Destination%20setup.lua";
+          sha256 = "0xbjr42nqxr7cvpd1ns8rg6v58g3kmpmhihhmap5565kkvbcqdkd";
+        }
+        {
+          path = ''ply_Source-Destination configuration.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/66bbf987bd4dfb9dc8080f6bcdb12179640b3628/Items%20Editing/Source-Destination/ply_Source-Destination%20configuration.lua";
+          sha256 = "1f67qaj32jmyfp92cfl634dssbvd66ld23vxp0rfjic1q5zacd86";
+        }
+        {
+          path = ''config.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/66bbf987bd4dfb9dc8080f6bcdb12179640b3628/Items%20Editing/Source-Destination/config.lua";
+          sha256 = "01qhm5glv8wq7j8vblfm8zc7digb1w9lq2qqkvca5mjyd1m519m3";
+        }
+        {
+          path = ''gfxu.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/66bbf987bd4dfb9dc8080f6bcdb12179640b3628/Items%20Editing/Source-Destination/gfxu.lua";
+          sha256 = "136h8p3xdrqfjxk4zbzz9sv60mb8wsr6dpbj1b0l32wakflfvjvv";
+        }
+      ];
+    };
+    ply-source-destination-edit-lua-1-6-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ply-source-destination-edit-lua-1-6-0";
+      indexName = "ply Scripts";
+      categoryName = "Items Editing/Source-Destination";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ply/ReaScripts/raw/f0a200c612b3618b2ab2f2079d4ca518b34992da/Items%20Editing/Source-Destination/ply_Source-Destination%20edit.lua";
+          sha256 = "1lmwc3bzhm2vx2gig16i5pnalqcambqg2rbr0d38c37ry6zdc0rd";
+        }
+        {
+          path = ''ply_Source-Destination setup.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/f0a200c612b3618b2ab2f2079d4ca518b34992da/Items%20Editing/Source-Destination/ply_Source-Destination%20setup.lua";
+          sha256 = "0xbjr42nqxr7cvpd1ns8rg6v58g3kmpmhihhmap5565kkvbcqdkd";
+        }
+        {
+          path = ''ply_Source-Destination configuration.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/f0a200c612b3618b2ab2f2079d4ca518b34992da/Items%20Editing/Source-Destination/ply_Source-Destination%20configuration.lua";
+          sha256 = "1f67qaj32jmyfp92cfl634dssbvd66ld23vxp0rfjic1q5zacd86";
+        }
+        {
+          path = ''config.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/f0a200c612b3618b2ab2f2079d4ca518b34992da/Items%20Editing/Source-Destination/config.lua";
+          sha256 = "08s1jfdaj7sxj1whfmp42kmrzpv80g4vrxb50xvfjp87sv5y92sb";
+        }
+        {
+          path = ''gfxu.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/f0a200c612b3618b2ab2f2079d4ca518b34992da/Items%20Editing/Source-Destination/gfxu.lua";
+          sha256 = "136h8p3xdrqfjxk4zbzz9sv60mb8wsr6dpbj1b0l32wakflfvjvv";
+        }
+      ];
+    };
     ply-export-positions-of-selected-items-to-clipboard-lua-1-1-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ply-export-positions-of-selected-items-to-clipboard-lua-1-1-1";

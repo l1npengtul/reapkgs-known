@@ -354,27 +354,27 @@
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/105a5c42d8e7057928e4eda6a390d1bb944e0354/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1ywm9vlz1ayf170174pys8vimx1hqbk9rw3xj8c6ipvr5y78vcq8";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/105a5c42d8e7057928e4eda6a390d1bb944e0354/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0lqi6wckxwji3x5rl059nh81xi6q63lbgaqhsrwpz4f5ybywhgf6";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/105a5c42d8e7057928e4eda6a390d1bb944e0354/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0d1r3k9841a2m8favnfgzwirspi6s44la9jbjkh7xs2rggljbazb";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/105a5c42d8e7057928e4eda6a390d1bb944e0354/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "147y9qz77p7zvcwyrds744dvg301w534pd3bkm1ha5n5jvxwhcz3";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/105a5c42d8e7057928e4eda6a390d1bb944e0354/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0cw4vkjnz1l2icf6hzvmx9wylbk5myb4945y9qhhxsldggrkdr9y";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
@@ -398,17 +398,17 @@
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/bf784160892082c7c5de559093ad02caf25a8b7f/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "0n2ww0bk658r50dp52lw6hlfs5d6j849pna8pn0k1bfsmpb038c0";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/bf784160892082c7c5de559093ad02caf25a8b7f/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "1x3fd4w9vj7za8lkvhxznz3p5f5c7x7g9rkfglbq9qfhfwgmwrzi";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/bf784160892082c7c5de559093ad02caf25a8b7f/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1ywm9vlz1ayf170174pys8vimx1hqbk9rw3xj8c6ipvr5y78vcq8";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -418,22 +418,22 @@
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/bf784160892082c7c5de559093ad02caf25a8b7f/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0d1r3k9841a2m8favnfgzwirspi6s44la9jbjkh7xs2rggljbazb";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/bf784160892082c7c5de559093ad02caf25a8b7f/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "147y9qz77p7zvcwyrds744dvg301w534pd3bkm1ha5n5jvxwhcz3";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/bf784160892082c7c5de559093ad02caf25a8b7f/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0cw4vkjnz1l2icf6hzvmx9wylbk5myb4945y9qhhxsldggrkdr9y";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/bf784160892082c7c5de559093ad02caf25a8b7f/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0bpyd1rm724dpjp1qbm95xhyha8dqa3a20mny0xscdcvpr8f7wm9";
         }
       ];
     };
@@ -447,22 +447,22 @@
         {
           path = ''Adaptive grid menu.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9a90e4c6e886200a9e0ca8a1c68399d6477bc03e/Adaptive%20grid/Adaptive%20grid%20menu.lua";
-          sha256 = "";
+          sha256 = "0n4y7y3iccdyild2fv170slwr71w4b27iqj03wz27cc64hwz1mj8";
         }
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9a90e4c6e886200a9e0ca8a1c68399d6477bc03e/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "0n2ww0bk658r50dp52lw6hlfs5d6j849pna8pn0k1bfsmpb038c0";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9a90e4c6e886200a9e0ca8a1c68399d6477bc03e/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "0bpjnlib158lfrf6qv7igq0gd71lxb6xsz7dp0v2ixgzmm0gd31a";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9a90e4c6e886200a9e0ca8a1c68399d6477bc03e/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1ywm9vlz1ayf170174pys8vimx1hqbk9rw3xj8c6ipvr5y78vcq8";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -472,7 +472,7 @@
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9a90e4c6e886200a9e0ca8a1c68399d6477bc03e/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0d1r3k9841a2m8favnfgzwirspi6s44la9jbjkh7xs2rggljbazb";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
@@ -482,12 +482,12 @@
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9a90e4c6e886200a9e0ca8a1c68399d6477bc03e/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0cw4vkjnz1l2icf6hzvmx9wylbk5myb4945y9qhhxsldggrkdr9y";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9a90e4c6e886200a9e0ca8a1c68399d6477bc03e/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0bpyd1rm724dpjp1qbm95xhyha8dqa3a20mny0xscdcvpr8f7wm9";
         }
       ];
     };
@@ -506,27 +506,27 @@
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/de3ab7b0f90ce927496519608e10641787df321b/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "0n2ww0bk658r50dp52lw6hlfs5d6j849pna8pn0k1bfsmpb038c0";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/de3ab7b0f90ce927496519608e10641787df321b/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "0bpjnlib158lfrf6qv7igq0gd71lxb6xsz7dp0v2ixgzmm0gd31a";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/de3ab7b0f90ce927496519608e10641787df321b/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1ywm9vlz1ayf170174pys8vimx1hqbk9rw3xj8c6ipvr5y78vcq8";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/de3ab7b0f90ce927496519608e10641787df321b/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0lqi6wckxwji3x5rl059nh81xi6q63lbgaqhsrwpz4f5ybywhgf6";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/de3ab7b0f90ce927496519608e10641787df321b/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0d1r3k9841a2m8favnfgzwirspi6s44la9jbjkh7xs2rggljbazb";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
@@ -536,7 +536,7 @@
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/de3ab7b0f90ce927496519608e10641787df321b/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0cw4vkjnz1l2icf6hzvmx9wylbk5myb4945y9qhhxsldggrkdr9y";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
@@ -560,7 +560,7 @@
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9cd7102be1060a0538f2e1e237d13fc48916bb2e/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "1h0n8ghvmfhw9aq0ahnh54dy57p4l6w1cd8hkjgamsybyfjvm219";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
@@ -570,12 +570,12 @@
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9cd7102be1060a0538f2e1e237d13fc48916bb2e/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1ywm9vlz1ayf170174pys8vimx1hqbk9rw3xj8c6ipvr5y78vcq8";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9cd7102be1060a0538f2e1e237d13fc48916bb2e/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0lqi6wckxwji3x5rl059nh81xi6q63lbgaqhsrwpz4f5ybywhgf6";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
@@ -585,7 +585,7 @@
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9cd7102be1060a0538f2e1e237d13fc48916bb2e/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "147y9qz77p7zvcwyrds744dvg301w534pd3bkm1ha5n5jvxwhcz3";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
@@ -595,7 +595,7 @@
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9cd7102be1060a0538f2e1e237d13fc48916bb2e/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0bpyd1rm724dpjp1qbm95xhyha8dqa3a20mny0xscdcvpr8f7wm9";
         }
       ];
     };
@@ -609,37 +609,37 @@
         {
           path = ''Adaptive grid menu.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/43dd192c8b74eec12f5d65e4260678d428748edf/Adaptive%20grid/Adaptive%20grid%20menu.lua";
-          sha256 = "";
+          sha256 = "190lbfc6f6ikwc49d4x54w0f30gw646hhzcxnldl3n743xy59ais";
         }
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/43dd192c8b74eec12f5d65e4260678d428748edf/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "1h0n8ghvmfhw9aq0ahnh54dy57p4l6w1cd8hkjgamsybyfjvm219";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/43dd192c8b74eec12f5d65e4260678d428748edf/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "0bpjnlib158lfrf6qv7igq0gd71lxb6xsz7dp0v2ixgzmm0gd31a";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/43dd192c8b74eec12f5d65e4260678d428748edf/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1ywm9vlz1ayf170174pys8vimx1hqbk9rw3xj8c6ipvr5y78vcq8";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/43dd192c8b74eec12f5d65e4260678d428748edf/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0lqi6wckxwji3x5rl059nh81xi6q63lbgaqhsrwpz4f5ybywhgf6";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/43dd192c8b74eec12f5d65e4260678d428748edf/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0d1r3k9841a2m8favnfgzwirspi6s44la9jbjkh7xs2rggljbazb";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/43dd192c8b74eec12f5d65e4260678d428748edf/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "147y9qz77p7zvcwyrds744dvg301w534pd3bkm1ha5n5jvxwhcz3";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
@@ -668,12 +668,12 @@
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/32e51f5fda94a3830c70066fdb95c90313e31abb/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "1wblcc3wiqra22s2drf0pl9winxdrnmi6ci4d19wczh4r1cw1d6i";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/32e51f5fda94a3830c70066fdb95c90313e31abb/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "0bpjnlib158lfrf6qv7igq0gd71lxb6xsz7dp0v2ixgzmm0gd31a";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -683,12 +683,12 @@
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/32e51f5fda94a3830c70066fdb95c90313e31abb/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0mwac8hq87fgfydbz9zkszwni9wy9r8hwh05lr6xs1qwv83n9s7p";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/32e51f5fda94a3830c70066fdb95c90313e31abb/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0p5g6jgllkswbvfsza3m75mg5s5ibdihvqyp2wgsq7wi71sn0k61";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
@@ -698,7 +698,7 @@
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/32e51f5fda94a3830c70066fdb95c90313e31abb/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1dj1mp4k9gr9c6hmjmbyyml17chm679qfw87l2lm89gm4gaaccvf";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
@@ -717,7 +717,7 @@
         {
           path = ''Adaptive grid menu.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c3f90a77f4365b09a0fb2ba0837a4f8617da762c/Adaptive%20grid/Adaptive%20grid%20menu.lua";
-          sha256 = "";
+          sha256 = "05fd4wlryl5k0aqvcdsf8bgy0dlyicd24nay64xnrysmrb2114rc";
         }
         {
           path = ''Adaptive grid (background service).lua'';
@@ -727,12 +727,12 @@
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c3f90a77f4365b09a0fb2ba0837a4f8617da762c/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "0bpjnlib158lfrf6qv7igq0gd71lxb6xsz7dp0v2ixgzmm0gd31a";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c3f90a77f4365b09a0fb2ba0837a4f8617da762c/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1i8xq35ylvwx1dgpqyckb89c42j16wm9swqgjyqw9flsqdwq8dy0";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -742,7 +742,7 @@
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c3f90a77f4365b09a0fb2ba0837a4f8617da762c/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "03sxwla7w4g5vxwrxykkaf9inl2vg7l2hy53ww1hd3bdwwl8afn6";
+          sha256 = "0p5g6jgllkswbvfsza3m75mg5s5ibdihvqyp2wgsq7wi71sn0k61";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
@@ -757,7 +757,7 @@
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c3f90a77f4365b09a0fb2ba0837a4f8617da762c/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "094k5fdhfm6pkpycyjvbkv0f8nyss2mmkbq9c9vy46wcynjkrxwx";
         }
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
@@ -781,12 +781,12 @@
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/e79ae565249faf91cd2fe0f35d85d4a9623dd272/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "0pgk9p6l53k2pn0cc9kj079s3wsc9la5rvif3lb71hs0pyh10cnf";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/e79ae565249faf91cd2fe0f35d85d4a9623dd272/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "19b7w36ixll2r9l49w2h91zshlbvrmvz4ivwb79dd6fnr271fwh3";
+          sha256 = "0bpjnlib158lfrf6qv7igq0gd71lxb6xsz7dp0v2ixgzmm0gd31a";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -811,7 +811,7 @@
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/e79ae565249faf91cd2fe0f35d85d4a9623dd272/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "11gp019118zmvaxgpk3h3wsvqsayifd9p1qhsqmg2kh60ckwp84b";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
@@ -821,7 +821,7 @@
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/e79ae565249faf91cd2fe0f35d85d4a9623dd272/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "094k5fdhfm6pkpycyjvbkv0f8nyss2mmkbq9c9vy46wcynjkrxwx";
         }
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
@@ -865,7 +865,7 @@
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/50521afe3d228cc0c2386c493563a859a0485ef3/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0mwac8hq87fgfydbz9zkszwni9wy9r8hwh05lr6xs1qwv83n9s7p";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
@@ -875,12 +875,12 @@
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/50521afe3d228cc0c2386c493563a859a0485ef3/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "11gp019118zmvaxgpk3h3wsvqsayifd9p1qhsqmg2kh60ckwp84b";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/50521afe3d228cc0c2386c493563a859a0485ef3/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1dj1mp4k9gr9c6hmjmbyyml17chm679qfw87l2lm89gm4gaaccvf";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
@@ -890,7 +890,7 @@
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/50521afe3d228cc0c2386c493563a859a0485ef3/Adaptive%20grid/Adjust%20adaptive%20grid%20(mousewheel).lua";
-          sha256 = "";
+          sha256 = "0ka54dvkxlf531c1rrwrbp5xx4ni0m9s17sis6zinc78zvhjw7sf";
         }
       ];
     };
@@ -914,7 +914,7 @@
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cceec8bc442d88f2aa2a8ad7d4390d5306a7b851/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "19g1jqzm9x59ib045g55cj99hainc81q365lk4910rv7app9awig";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -929,32 +929,32 @@
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cceec8bc442d88f2aa2a8ad7d4390d5306a7b851/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "1k8nh48f45pzynyr22py109r46l73nlxipjz9f1k1k277wiwl3d3";
+          sha256 = "0mwac8hq87fgfydbz9zkszwni9wy9r8hwh05lr6xs1qwv83n9s7p";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cceec8bc442d88f2aa2a8ad7d4390d5306a7b851/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0p5g6jgllkswbvfsza3m75mg5s5ibdihvqyp2wgsq7wi71sn0k61";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cceec8bc442d88f2aa2a8ad7d4390d5306a7b851/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "0rms5zcl6q3846lvlcdpa77jxmr2cgd45yyyvz0d7v1rfw7vs0hp";
+          sha256 = "11gp019118zmvaxgpk3h3wsvqsayifd9p1qhsqmg2kh60ckwp84b";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cceec8bc442d88f2aa2a8ad7d4390d5306a7b851/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "12kdmc1dqgw915xmj0fr90m0c1gzskfd95qzwdadywzbb2l9n4dd";
+          sha256 = "1dj1mp4k9gr9c6hmjmbyyml17chm679qfw87l2lm89gm4gaaccvf";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cceec8bc442d88f2aa2a8ad7d4390d5306a7b851/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "094k5fdhfm6pkpycyjvbkv0f8nyss2mmkbq9c9vy46wcynjkrxwx";
         }
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cceec8bc442d88f2aa2a8ad7d4390d5306a7b851/Adaptive%20grid/Adjust%20adaptive%20grid%20(mousewheel).lua";
-          sha256 = "";
+          sha256 = "0ka54dvkxlf531c1rrwrbp5xx4ni0m9s17sis6zinc78zvhjw7sf";
         }
       ];
     };
@@ -978,7 +978,7 @@
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/d854460b781a83453060ba82249c7b934a90f5f3/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "19g1jqzm9x59ib045g55cj99hainc81q365lk4910rv7app9awig";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -988,7 +988,7 @@
         {
           path = ''Set grid to fixed (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/d854460b781a83453060ba82249c7b934a90f5f3/Adaptive%20grid/Set%20grid%20to%20fixed%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "07g1bpdp3kwl9j646vsnxsfr59pwg0i2zw4nfhr3k5g5w5l9yyh9";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -998,7 +998,7 @@
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/d854460b781a83453060ba82249c7b934a90f5f3/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0p5g6jgllkswbvfsza3m75mg5s5ibdihvqyp2wgsq7wi71sn0k61";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
@@ -1008,17 +1008,17 @@
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/d854460b781a83453060ba82249c7b934a90f5f3/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "12kdmc1dqgw915xmj0fr90m0c1gzskfd95qzwdadywzbb2l9n4dd";
+          sha256 = "1dj1mp4k9gr9c6hmjmbyyml17chm679qfw87l2lm89gm4gaaccvf";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/d854460b781a83453060ba82249c7b934a90f5f3/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "094k5fdhfm6pkpycyjvbkv0f8nyss2mmkbq9c9vy46wcynjkrxwx";
         }
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/d854460b781a83453060ba82249c7b934a90f5f3/Adaptive%20grid/Adjust%20adaptive%20grid%20(mousewheel).lua";
-          sha256 = "";
+          sha256 = "0ka54dvkxlf531c1rrwrbp5xx4ni0m9s17sis6zinc78zvhjw7sf";
         }
       ];
     };
@@ -1032,17 +1032,17 @@
         {
           path = ''Adaptive grid menu.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bf63d7c4410bd38771fef7aacbbd1803b197ab9/Adaptive%20grid/Adaptive%20grid%20menu.lua";
-          sha256 = "";
+          sha256 = "0zljq6vr90anmf6b97ynyfg6m67iwmqwim2kg8m509nrlkv6hnkq";
         }
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bf63d7c4410bd38771fef7aacbbd1803b197ab9/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "0yzlxybwkl9j292l2vq7fn3bhjj6f8cfi08q3nh70px0aimzga01";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bf63d7c4410bd38771fef7aacbbd1803b197ab9/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "1d8zsk4qp07r46j9diy5a276v9c91gzl2d5chrqrhbwqhri6krya";
+          sha256 = "1vi3lv4vgc2py4rfdln9nifjp0l66gzjkfy72jh3qy1qynmglwc5";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -1052,12 +1052,12 @@
         {
           path = ''Set grid to fixed (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bf63d7c4410bd38771fef7aacbbd1803b197ab9/Adaptive%20grid/Set%20grid%20to%20fixed%20(adaptive).lua";
-          sha256 = "0357xw0954mafmpg944afhr7dwga7bj57ab8p3hxz2nrabn7lg26";
+          sha256 = "1vjcq5iayjfzfsyv5x2pxvz0i17dxh2pjzlkg1g4n4i4jrw5ii1m";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bf63d7c4410bd38771fef7aacbbd1803b197ab9/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0243fx0sh069x2pgw3jdwp4cvmg5iacjhl5jyz4vaad6zqdd4ms0";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
@@ -1077,7 +1077,7 @@
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bf63d7c4410bd38771fef7aacbbd1803b197ab9/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "067hs0q5glcrmr4vfmnj473jm69dvi03f7v4wwilralc6l7xplda";
+          sha256 = "1xfjjnkxa0iv3xc4rr9pq9rni6g0l99ng9pajgwwsqik85qs07gk";
         }
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
@@ -1111,12 +1111,12 @@
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4172f4ea7a2c00ad2257f9d0f8c6a4b777151871/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "179shx82fy503zcwkj24bpd2jrmzq6hnnb6ssfp4cx4fic7m7vsy";
+          sha256 = "09ia66sbyxa6a0n3fxjj195j69xgp7jqv5jdjknyhwqy6p4d26dh";
         }
         {
           path = ''Set grid to fixed (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4172f4ea7a2c00ad2257f9d0f8c6a4b777151871/Adaptive%20grid/Set%20grid%20to%20fixed%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1vjcq5iayjfzfsyv5x2pxvz0i17dxh2pjzlkg1g4n4i4jrw5ii1m";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -1160,7 +1160,7 @@
         {
           path = ''Adaptive grid menu.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4066d8bceb013c6f08e336b01d9d0daa0ac1f4ef/Adaptive%20grid/Adaptive%20grid%20menu.lua";
-          sha256 = "";
+          sha256 = "1idmhxvzvsp477xl8aqx05jihsmsvrif9zypvnh68hviqxxzl8a8";
         }
         {
           path = ''Adaptive grid (background service).lua'';
@@ -1259,7 +1259,7 @@
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/73f7e223027c1254fe7d6cec276feca63165fe25/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "12gjrxa7wydbr5d909rm7lwvanl5mk7s7862374cw1nhl59s8iqq";
+          sha256 = "094wvg4q3y00m1z1wsj1yk02la38plg564r0xhl16lcnsg92p6w3";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
@@ -1293,12 +1293,12 @@
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/44a1959bfc74d67aefdc2eea49a490d4a1fecc6a/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "03877y8cf4fj91b78hfp9nppg0b6h340gykqn294mpypn8qsq2l5";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/44a1959bfc74d67aefdc2eea49a490d4a1fecc6a/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "0nlcxblhjzlj66zavibg847v0yhw65xx1362m4wi9vd93wwlqf3p";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -1308,7 +1308,7 @@
         {
           path = ''Set grid to fixed (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/44a1959bfc74d67aefdc2eea49a490d4a1fecc6a/Adaptive%20grid/Set%20grid%20to%20fixed%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1vjcq5iayjfzfsyv5x2pxvz0i17dxh2pjzlkg1g4n4i4jrw5ii1m";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -1377,7 +1377,7 @@
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4881579c5ff6424b1c53483f22aa09b26a3ca2c8/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "12n8xiajwp1d4iwpf8csfya2wcknhci7yz6bs8zwpdahpk0wmgr5";
+          sha256 = "0243fx0sh069x2pgw3jdwp4cvmg5iacjhl5jyz4vaad6zqdd4ms0";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
@@ -1525,7 +1525,7 @@
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0963523907a9d4d94bffc73db2b41246095135f7/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1xfjjnkxa0iv3xc4rr9pq9rni6g0l99ng9pajgwwsqik85qs07gk";
         }
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
@@ -1579,7 +1579,7 @@
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/7c764c18fa5099643dd0a7004ab6a9c7e9b8cc49/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "094wvg4q3y00m1z1wsj1yk02la38plg564r0xhl16lcnsg92p6w3";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
@@ -1618,7 +1618,7 @@
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c88e490d371ca22a8abc881b73f7b04c153dda36/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "1k9zbsad55fcaxxrf1l29751yd46g9b5ryk1snqjj9r4sp7hvp6p";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -1628,7 +1628,7 @@
         {
           path = ''Set grid to fixed (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c88e490d371ca22a8abc881b73f7b04c153dda36/Adaptive%20grid/Set%20grid%20to%20fixed%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1vjcq5iayjfzfsyv5x2pxvz0i17dxh2pjzlkg1g4n4i4jrw5ii1m";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -1722,7 +1722,7 @@
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/55f8612d14d931f0edf7fcc2a4c6e914f1d01523/Adaptive%20grid/Adjust%20adaptive%20grid%20(mousewheel).lua";
-          sha256 = "0cbl49n1n1n9g399wrc1fwk2rb7jndk04i36cbcpx1ixjkdj7pck";
+          sha256 = "1h4mifpgffhwip09mmccqp10wi0k1vvicgi3s476pqwcns28kcx2";
         }
       ];
     };
@@ -1746,12 +1746,12 @@
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bb436bdca015acad8ca18e12c454ff0fb0d4ad8/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "1j30qlii7ad0spa8v35mav7sy8nfdky5n4lrv93qfa91h698w7py";
+          sha256 = "08nigjizc6hyrmpl2nh078hs1wyxc8v7amk2xky8sc3fdr1p61jq";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bb436bdca015acad8ca18e12c454ff0fb0d4ad8/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "1sgiqrz6d90xy6rwvk5hjywi53bdvqnb9wcylszk3yj282ls2556";
+          sha256 = "1kww624kfdnyqsyd64mlddzb6kjbp8y9whpvrv0q1j15alslrfk5";
         }
         {
           path = ''Set grid to fixed (adaptive).lua'';
@@ -1771,7 +1771,7 @@
         {
           path = ''Set grid to narrowest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6bb436bdca015acad8ca18e12c454ff0fb0d4ad8/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
-          sha256 = "12gjrxa7wydbr5d909rm7lwvanl5mk7s7862374cw1nhl59s8iqq";
+          sha256 = "094wvg4q3y00m1z1wsj1yk02la38plg564r0xhl16lcnsg92p6w3";
         }
         {
           path = ''Set grid to wide (adaptive).lua'';
@@ -1914,7 +1914,7 @@
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/ff543be42af512acefdf1efed8e01e1a8ffe2aef/Adaptive%20grid/Adjust%20adaptive%20grid%20(mousewheel).lua";
-          sha256 = "";
+          sha256 = "04x5raks82pxymqw41s6y3v40ffblm16bpknbvp6r24yn65xiqry";
         }
         {
           path = ''Adjust fixed grid (mousewheel).lua'';
@@ -1924,7 +1924,7 @@
         {
           path = ''Adjust fixed grid by 1 ∕ divisor.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/ff543be42af512acefdf1efed8e01e1a8ffe2aef/Adaptive%20grid/Adjust%20fixed%20grid%20by%201%20%E2%88%95%20divisor.lua";
-          sha256 = "";
+          sha256 = "05njv9dh0xflii6p97pkkmhnmwx6ihs4rgh8cmxaxplx0xypr104";
         }
         {
           path = ''Adjust fixed grid by divisor.lua'';
@@ -1958,7 +1958,7 @@
         {
           path = ''Set grid to custom size (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f55f6e197c0ffc89a1ad8015d6d2a6dbacb57005/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1kww624kfdnyqsyd64mlddzb6kjbp8y9whpvrv0q1j15alslrfk5";
         }
         {
           path = ''Set grid to fixed (adaptive).lua'';
@@ -1988,7 +1988,7 @@
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f55f6e197c0ffc89a1ad8015d6d2a6dbacb57005/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1xfjjnkxa0iv3xc4rr9pq9rni6g0l99ng9pajgwwsqik85qs07gk";
         }
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
@@ -2022,7 +2022,7 @@
         {
           path = ''Adaptive grid menu.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cc8a4ff02d59a565479e5ba385441708c22e65af/Adaptive%20grid/Adaptive%20grid%20menu.lua";
-          sha256 = "0104d6bcglbmkbsjjj1a6ca69imh34bldy2llwbpyxsaj2hax4c2";
+          sha256 = "0x7493g4l5l0l6dch0jk7hsjdchlwk8kcxc3v4xx4mpxyvpncrbx";
         }
         {
           path = ''Adaptive grid (background service).lua'';
@@ -2032,7 +2032,7 @@
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cc8a4ff02d59a565479e5ba385441708c22e65af/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "05dgrq2b1szyicy2lfq96l1n3xzfw87ai0gqxwazvb0w4s30ss9b";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -2047,12 +2047,12 @@
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cc8a4ff02d59a565479e5ba385441708c22e65af/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "12n8xiajwp1d4iwpf8csfya2wcknhci7yz6bs8zwpdahpk0wmgr5";
+          sha256 = "0243fx0sh069x2pgw3jdwp4cvmg5iacjhl5jyz4vaad6zqdd4ms0";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cc8a4ff02d59a565479e5ba385441708c22e65af/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1shnqisphiq46m2q1byq5r6wkawpw3kxhaaxacwfc79r4087j1nm";
         }
         {
           path = ''Set grid to narrowest (adaptive).lua'';
@@ -2082,12 +2082,12 @@
         {
           path = ''Adjust fixed grid by 1 ∕ divisor.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cc8a4ff02d59a565479e5ba385441708c22e65af/Adaptive%20grid/Adjust%20fixed%20grid%20by%201%20%E2%88%95%20divisor.lua";
-          sha256 = "";
+          sha256 = "1kvkbwrxnfsipnnp7kxca36wcwj6nz42nq8i8s7fgpsc572mvq52";
         }
         {
           path = ''Adjust fixed grid by divisor.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/cc8a4ff02d59a565479e5ba385441708c22e65af/Adaptive%20grid/Adjust%20fixed%20grid%20by%20divisor.lua";
-          sha256 = "";
+          sha256 = "1c7wwwzlxqg41c4aivxrgkdrchlc7yq8r9cc5p6jmgp4w6vpdbbk";
         }
       ];
     };
@@ -2111,7 +2111,7 @@
         {
           path = ''Adapt grid to zoom level.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6411e2ff51ed57f0afe33734629e3eca13961b89/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
-          sha256 = "";
+          sha256 = "05dgrq2b1szyicy2lfq96l1n3xzfw87ai0gqxwazvb0w4s30ss9b";
         }
         {
           path = ''Set grid to custom size (adaptive).lua'';
@@ -2126,7 +2126,7 @@
         {
           path = ''Set grid to medium (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6411e2ff51ed57f0afe33734629e3eca13961b89/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "0243fx0sh069x2pgw3jdwp4cvmg5iacjhl5jyz4vaad6zqdd4ms0";
         }
         {
           path = ''Set grid to narrow (adaptive).lua'';
@@ -2141,7 +2141,7 @@
         {
           path = ''Set grid to wide (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6411e2ff51ed57f0afe33734629e3eca13961b89/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "081lycgnwkkbasipiycacch2jmcpslgb3wf355mnc1hgznixx1a9";
         }
         {
           path = ''Set grid to widest (adaptive).lua'';
@@ -2151,7 +2151,7 @@
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6411e2ff51ed57f0afe33734629e3eca13961b89/Adaptive%20grid/Adjust%20adaptive%20grid%20(mousewheel).lua";
-          sha256 = "";
+          sha256 = "1rrsqq4vm37qa6i2v39g42z1jckay2c3dgnx1b97z7i3lj4lvgw6";
         }
         {
           path = ''Adjust fixed grid (mousewheel).lua'';
@@ -2166,7 +2166,7 @@
         {
           path = ''Adjust fixed grid by divisor.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6411e2ff51ed57f0afe33734629e3eca13961b89/Adaptive%20grid/Adjust%20fixed%20grid%20by%20divisor.lua";
-          sha256 = "";
+          sha256 = "1c7wwwzlxqg41c4aivxrgkdrchlc7yq8r9cc5p6jmgp4w6vpdbbk";
         }
       ];
     };
@@ -2180,12 +2180,12 @@
         {
           path = ''Adaptive grid menu.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/20d56c2da1aeacd783294cf9d8e8aa4b18a8172a/Adaptive%20grid/Adaptive%20grid%20menu.lua";
-          sha256 = "";
+          sha256 = "0vd1776524cf9wkl0j9zcaxplv72a0nn8cr5v2minp53a02blq72";
         }
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/20d56c2da1aeacd783294cf9d8e8aa4b18a8172a/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "";
+          sha256 = "103zl9qsicajldiq66l41km5vsnri3af1mp31xwf7k3nm0zany99";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
@@ -2200,7 +2200,7 @@
         {
           path = ''Set grid to fixed (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/20d56c2da1aeacd783294cf9d8e8aa4b18a8172a/Adaptive%20grid/Set%20grid%20to%20fixed%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1vjcq5iayjfzfsyv5x2pxvz0i17dxh2pjzlkg1g4n4i4jrw5ii1m";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -2225,7 +2225,7 @@
         {
           path = ''Set grid to widest (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/20d56c2da1aeacd783294cf9d8e8aa4b18a8172a/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
-          sha256 = "";
+          sha256 = "1xfjjnkxa0iv3xc4rr9pq9rni6g0l99ng9pajgwwsqik85qs07gk";
         }
         {
           path = ''Adjust adaptive grid (mousewheel).lua'';
@@ -2259,12 +2259,12 @@
         {
           path = ''Adaptive grid menu.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4fe67dfc1a3cadf81cf37471e7d7d54685f252c2/Adaptive%20grid/Adaptive%20grid%20menu.lua";
-          sha256 = "0fm8a0sbwh0zvr0z5p2zg1y5qivzg90vq9r49rf3xbs8qfgm2kda";
+          sha256 = "0vd1776524cf9wkl0j9zcaxplv72a0nn8cr5v2minp53a02blq72";
         }
         {
           path = ''Adaptive grid (background service).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4fe67dfc1a3cadf81cf37471e7d7d54685f252c2/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
-          sha256 = "1344agcy8l60pgd3r5s28dcgqz7qy42ygk90z14kl6vm52ss16sc";
+          sha256 = "0c13w33l4l8vswic2mlwx7pagx7s15nk6igbj0yk1j3xwlak3gal";
         }
         {
           path = ''Adapt grid to zoom level.lua'';
@@ -2279,7 +2279,7 @@
         {
           path = ''Set grid to fixed (adaptive).lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4fe67dfc1a3cadf81cf37471e7d7d54685f252c2/Adaptive%20grid/Set%20grid%20to%20fixed%20(adaptive).lua";
-          sha256 = "0357xw0954mafmpg944afhr7dwga7bj57ab8p3hxz2nrabn7lg26";
+          sha256 = "1vjcq5iayjfzfsyv5x2pxvz0i17dxh2pjzlkg1g4n4i4jrw5ii1m";
         }
         {
           path = ''Set grid to medium (adaptive).lua'';
@@ -2324,6 +2324,85 @@
         {
           path = ''Adjust fixed grid by divisor.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4fe67dfc1a3cadf81cf37471e7d7d54685f252c2/Adaptive%20grid/Adjust%20fixed%20grid%20by%20divisor.lua";
+          sha256 = "1c7wwwzlxqg41c4aivxrgkdrchlc7yq8r9cc5p6jmgp4w6vpdbbk";
+        }
+      ];
+    };
+    adaptive-grid-lua-2-0-7 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "adaptive-grid-lua-2-0-7";
+      indexName = "FTC Tools";
+      categoryName = "Adaptive grid";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Adaptive grid menu.lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Adaptive%20grid%20menu.lua";
+          sha256 = "0vd1776524cf9wkl0j9zcaxplv72a0nn8cr5v2minp53a02blq72";
+        }
+        {
+          path = ''Adaptive grid (background service).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Adaptive%20grid%20(background%20service).lua";
+          sha256 = "0c13w33l4l8vswic2mlwx7pagx7s15nk6igbj0yk1j3xwlak3gal";
+        }
+        {
+          path = ''Adapt grid to zoom level.lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Adapt%20grid%20to%20zoom%20level.lua";
+          sha256 = "103flznp8m81nqym1w1xn5z5hzxl5j1mx98wiyxhxj50lim8h41x";
+        }
+        {
+          path = ''Set grid to custom size (adaptive).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Set%20grid%20to%20custom%20size%20(adaptive).lua";
+          sha256 = "1kww624kfdnyqsyd64mlddzb6kjbp8y9whpvrv0q1j15alslrfk5";
+        }
+        {
+          path = ''Set grid to fixed (adaptive).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Set%20grid%20to%20fixed%20(adaptive).lua";
+          sha256 = "1vjcq5iayjfzfsyv5x2pxvz0i17dxh2pjzlkg1g4n4i4jrw5ii1m";
+        }
+        {
+          path = ''Set grid to medium (adaptive).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Set%20grid%20to%20medium%20(adaptive).lua";
+          sha256 = "0243fx0sh069x2pgw3jdwp4cvmg5iacjhl5jyz4vaad6zqdd4ms0";
+        }
+        {
+          path = ''Set grid to narrow (adaptive).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Set%20grid%20to%20narrow%20(adaptive).lua";
+          sha256 = "1shnqisphiq46m2q1byq5r6wkawpw3kxhaaxacwfc79r4087j1nm";
+        }
+        {
+          path = ''Set grid to narrowest (adaptive).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Set%20grid%20to%20narrowest%20(adaptive).lua";
+          sha256 = "094wvg4q3y00m1z1wsj1yk02la38plg564r0xhl16lcnsg92p6w3";
+        }
+        {
+          path = ''Set grid to wide (adaptive).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Set%20grid%20to%20wide%20(adaptive).lua";
+          sha256 = "081lycgnwkkbasipiycacch2jmcpslgb3wf355mnc1hgznixx1a9";
+        }
+        {
+          path = ''Set grid to widest (adaptive).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Set%20grid%20to%20widest%20(adaptive).lua";
+          sha256 = "1xfjjnkxa0iv3xc4rr9pq9rni6g0l99ng9pajgwwsqik85qs07gk";
+        }
+        {
+          path = ''Adjust adaptive grid (mousewheel).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Adjust%20adaptive%20grid%20(mousewheel).lua";
+          sha256 = "1rrsqq4vm37qa6i2v39g42z1jckay2c3dgnx1b97z7i3lj4lvgw6";
+        }
+        {
+          path = ''Adjust fixed grid (mousewheel).lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Adjust%20fixed%20grid%20(mousewheel).lua";
+          sha256 = "057dlbgf9hwk9c99vzsbdmvgr761bdm9092i6rwfridrybyza25b";
+        }
+        {
+          path = ''Adjust fixed grid by 1 ∕ divisor.lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Adjust%20fixed%20grid%20by%201%20%E2%88%95%20divisor.lua";
+          sha256 = "1kvkbwrxnfsipnnp7kxca36wcwj6nz42nq8i8s7fgpsc572mvq52";
+        }
+        {
+          path = ''Adjust fixed grid by divisor.lua'';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9dacab9059153f0dbc464b0bf7d238d983fdeab4/Adaptive%20grid/Adjust%20fixed%20grid%20by%20divisor.lua";
           sha256 = "1c7wwwzlxqg41c4aivxrgkdrchlc7yq8r9cc5p6jmgp4w6vpdbbk";
         }
       ];
@@ -4510,7 +4589,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/458cfa03c42401741c15baeb6bb57a6955d3dcd1/Media%20explorer/MX%20Tuner.lua";
-          sha256 = "0hn9m5l705l350s9ziaq9c7a76ksls70k5v8rd3ggnvms3vv0sk2";
+          sha256 = "07yi0wv5ngv74rrdq8pg5jbwwdfbslk85z0cgvywyjny58180xxy";
         }
       ];
     };
@@ -4594,7 +4673,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/525e7ccf21a861724965b17d5ac3906e1c93eead/Media%20explorer/MX%20Tuner.lua";
-          sha256 = "0c7aignlzcwzikvaqd9z659f3krpzwf7vy7nxx7ycrf99ykfy1f3";
+          sha256 = "0rf9q31hl03zi3msgyqzhsxrfgz40jbbvf984ilj1yh0vwir7jw1";
         }
       ];
     };
@@ -4678,7 +4757,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/149bf60e6f6492337560e33b237a1daa728c4099/Media%20explorer/MX%20Tuner.lua";
-          sha256 = "";
+          sha256 = "0ylrmyn10fzfyblhx25wzna1acsd8in0xgkm8c1i9hn206pq1lj2";
         }
       ];
     };
@@ -4692,7 +4771,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/a25f0d1370f17fdec7896361ceeccaf6d6e71486/Media%20explorer/MX%20Tuner.lua";
-          sha256 = "";
+          sha256 = "02hhk4z0vpkqylml0kjilpg303bxm3wlik50x82q04rdmy0dx0q0";
         }
       ];
     };
@@ -4818,7 +4897,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6eb95e20214842659c897160906efa666ca06776/Media%20explorer/MX%20Tuner.lua";
-          sha256 = "0qnag8dyg65bybryl7d0r6cdidbfdfic0g104wczngb24h1qr6ws";
+          sha256 = "0nib0yh96avp0s072nrl9j90m5wb5zbl8hcm2hw3p4x7vwdcycvg";
         }
       ];
     };
@@ -4930,7 +5009,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a2e9f43feb4dfd177a8376139927235d4c2eb9e/MIDI%20editor/Lil%20Chordbox.lua";
-          sha256 = "14hxy07ny5qzxxi1z0yvw7whms8nmpkfk4ksnxj2lpd7spixrqrj";
+          sha256 = "0j2whrr424if1ks60j49ipdllf7wa8z6lwsby37ibmsmwf2zxnlb";
         }
       ];
     };
@@ -5014,7 +5093,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/38524fd1170c3e3faf7e5a732a13b1899388f7dc/MIDI%20editor/Lil%20Chordbox.lua";
-          sha256 = "1k00y5n5ipg2pdihfq5b8q6w4armfgrb8f09c5i4y9li32lw96jl";
+          sha256 = "1i9gq5fzq18gdrrchyly4jb7xxxaj5r66aqkaxrrcd2mxfv4hmpz";
         }
       ];
     };
@@ -5070,7 +5149,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/5596ccf1e9ed4b6b765fe8de8c556660455e110b/MIDI%20editor/Lil%20Chordbox.lua";
-          sha256 = "";
+          sha256 = "1v6ysg6j8nyq9l5aa2jka8b7gqwpamvc45rxyc5phwpvzxx384v4";
         }
       ];
     };
@@ -5084,7 +5163,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4a0656c72e12648104e22e9f7da17edac60e8ba5/MIDI%20editor/Lil%20Chordbox.lua";
-          sha256 = "020r603ikrngip15fd8q42h8cppi085xlzrwhwknd6bn36zfab6l";
+          sha256 = "1r0546s0iqcd622w8hzvz9nval8di1is15g2w6cvmm2lhpgpnrjy";
         }
       ];
     };
@@ -5126,7 +5205,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/28168a67c0193756d48d0265d4e7f76246bfc414/MIDI%20editor/Lil%20Chordbox.lua";
-          sha256 = "";
+          sha256 = "06d1wf5rlv4sspwvyi9mvd6xyax6xcp60sm042mqznws1k9j41mf";
         }
       ];
     };
@@ -5238,7 +5317,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/a0c9b7e93388542f8209ab40b63fc588af1c8fd4/MIDI%20editor/Lil%20Chordbox.lua";
-          sha256 = "";
+          sha256 = "13kd4zpxibwyyzrzjv8fpi10sc87ajbndqzcr99nhabsv4bky9gb";
         }
       ];
     };
@@ -5364,7 +5443,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-2) Vertically zoom to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/59aab2974bf2ef9d3d1aee029bc53509a8644f31/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-2)%20Vertically%20zoom%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "139wal5pg33p1vmphqrshfjk3vzmkhmmbh1jpndm36rhhz0pwnr9";
+          sha256 = "1bapv7br1n9s0b70qh0nfhhk4yci1n3mns9m7a4hw3ilh3n3c9lj";
         }
         {
           path = ''Generated/FTC_MeMagic (1-3) Vertically zoom to all notes in item.lua'';
@@ -5404,7 +5483,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-10) Vertically scroll to highest note in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/59aab2974bf2ef9d3d1aee029bc53509a8644f31/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-10)%20Vertically%20scroll%20to%20highest%20note%20in%20item.lua";
-          sha256 = "0b6w0y24fxhard96vqx3r22n4b8nic4jhvq1dxm3c45sdgs6ka3f";
+          sha256 = "19sdiysl2ll0b0d02q6v5dkg6k0lcc3v65mag914q0f3w30prq2f";
         }
         {
           path = ''Generated/FTC_MeMagic (1-11) Vertically scroll to center of notes in visible area.lua'';
@@ -5529,7 +5608,7 @@
         {
           path = ''Generated/FTC_MeMagic (3-11) Horizontally zoom to 4 measures at mouse or edit cursor | Vertically scroll to center of notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/59aab2974bf2ef9d3d1aee029bc53509a8644f31/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(3-11)%20Horizontally%20zoom%20to%204%20measures%20at%20mouse%20or%20edit%20cursor%20%7C%20Vertically%20scroll%20to%20center%20of%20notes%20in%20visible%20area.lua";
-          sha256 = "1g8ny8knj0dz4sd89yvpvs2m73pv7vh6nllsbj0g2qrn12p88lqb";
+          sha256 = "039j9sk8972a9f1dwi7qlv9aq2hb5cksbq06xr45rqfriq1zjcrk";
         }
         {
           path = ''Generated/FTC_MeMagic (3-12) Horizontally zoom to 4 measures at mouse or edit cursor | Vertically scroll to center of notes in item.lua'';
@@ -5584,7 +5663,7 @@
         {
           path = ''Generated/FTC_MeMagic (4-10) Horizontally zoom to 4 measures at at mouse or edit cursor, restrict to item | Vertically scroll to highest note in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/59aab2974bf2ef9d3d1aee029bc53509a8644f31/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(4-10)%20Horizontally%20zoom%20to%204%20measures%20at%20at%20mouse%20or%20edit%20cursor,%20restrict%20to%20item%20%7C%20Vertically%20scroll%20to%20highest%20note%20in%20item.lua";
-          sha256 = "";
+          sha256 = "05a211ywj2zcm3baz6ccmxkrzwc6bczgf79vwm0vkvb8mvax8xkm";
         }
         {
           path = ''Generated/FTC_MeMagic (4-11) Horizontally zoom to 4 measures at at mouse or edit cursor, restrict to item | Vertically scroll to center of notes in visible area.lua'';
@@ -5754,7 +5833,7 @@
         {
           path = ''Generated/FTC_MeMagic (7-8) Horizontally scroll to mouse or edit cursor | Vertically scroll to lowest note in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/59aab2974bf2ef9d3d1aee029bc53509a8644f31/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(7-8)%20Horizontally%20scroll%20to%20mouse%20or%20edit%20cursor%20%7C%20Vertically%20scroll%20to%20lowest%20note%20in%20item.lua";
-          sha256 = "01djvdphmc215p3panyslcgqkp9k5vqrjs1z0n218xc477yp4q90";
+          sha256 = "1z89lbqyddifqs4jkp1z6zd2626frdg9136a3pajprf1mdvryr02";
         }
         {
           path = ''Generated/FTC_MeMagic (7-9) Horizontally scroll to mouse or edit cursor | Vertically scroll to highest note in visible area.lua'';
@@ -5803,7 +5882,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-5) Vertically scroll to note row under mouse cursor, restrict to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/e0adcd9d1352034d83ec5e5122731c5e4a2a7f36/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-5)%20Vertically%20scroll%20to%20note%20row%20under%20mouse%20cursor,%20restrict%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "0d817c6qyaj26iayb8b9hqcy7b2kgksg5a6xxnvhvi80plm6alg6";
+          sha256 = "1gdzllv65a1jipdiwyhn2v4p90f5m1kzfga66x9976pzkk2jj77b";
         }
         {
           path = ''Generated/FTC_MeMagic (1-6) Vertically scroll to note row under mouse cursor, restrict to notes in item.lua'';
@@ -5818,12 +5897,12 @@
         {
           path = ''Generated/FTC_MeMagic (1-8) Vertically scroll to lowest note in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/e0adcd9d1352034d83ec5e5122731c5e4a2a7f36/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-8)%20Vertically%20scroll%20to%20lowest%20note%20in%20item.lua";
-          sha256 = "1j4kb5xwjdrb5nwqdzv1dqaxi66fn6gn88zr08kmbvmadabaqxbn";
+          sha256 = "04fhyd32lyb6j7fddi6ayy0j9czmzv20gx7dkzgm1h725205m7zq";
         }
         {
           path = ''Generated/FTC_MeMagic (1-9) Vertically scroll to highest note in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/e0adcd9d1352034d83ec5e5122731c5e4a2a7f36/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-9)%20Vertically%20scroll%20to%20highest%20note%20in%20visible%20area.lua";
-          sha256 = "01whdmfi44y7q1mahrxi7hkcgx8gypvygl9d451jjnq5m1iriw4d";
+          sha256 = "10gmhyi2s3r86wn6ph8x01v4678jis9wxxg83kkd34sbvxpk2mnq";
         }
         {
           path = ''Generated/FTC_MeMagic (1-10) Vertically scroll to highest note in item.lua'';
@@ -9593,7 +9672,7 @@
         {
           path = ''Generated/FTC_MeMagic (8-7) Horizontally smart zoom to measures at mouse or edit cursor, restrict to item + Vertically scroll to center of notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c481e48468be3ad57b8613a4cd9a00bfc39e499e/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(8-7)%20Horizontally%20smart%20zoom%20to%20measures%20at%20mouse%20or%20edit%20cursor,%20restrict%20to%20item%20+%20Vertically%20scroll%20to%20center%20of%20notes%20in%20visible%20area.lua";
-          sha256 = "";
+          sha256 = "0k83pbx03gn2wlk9r6ac3fqb39v9kbs9p1qksqyn0rn0cfh666ir";
         }
         {
           path = ''Generated/FTC_MeMagic (8-8) Horizontally smart zoom to measures at mouse or edit cursor, restrict to item + Vertically scroll to center of notes in item.lua'';
@@ -9613,7 +9692,7 @@
         {
           path = ''Generated/FTC_MeMagic (9-3) Horizontally scroll to mouse or edit cursor + Vertically zoom to all notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c481e48468be3ad57b8613a4cd9a00bfc39e499e/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(9-3)%20Horizontally%20scroll%20to%20mouse%20or%20edit%20cursor%20+%20Vertically%20zoom%20to%20all%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "03fmg7x6hpjshfzcz15ynbys3r6qsk68ahpai0p4y9mz497d7qww";
         }
         {
           path = ''Generated/FTC_MeMagic (9-4) Horizontally scroll to mouse or edit cursor + Vertically scroll to pitch.lua'';
@@ -9623,12 +9702,12 @@
         {
           path = ''Generated/FTC_MeMagic (9-5) Horizontally scroll to mouse or edit cursor + Vertically scroll to pitch, restrict to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c481e48468be3ad57b8613a4cd9a00bfc39e499e/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(9-5)%20Horizontally%20scroll%20to%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch,%20restrict%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "1pkws65fj10krwf2h630qs6r6dgvlys4d40b9dmrnd2ngz9lhyl3";
+          sha256 = "0dgkspmxvrb1wqfw5axzkr32gff85kfzjq3wnzhz1y6d9sd2gg85";
         }
         {
           path = ''Generated/FTC_MeMagic (9-6) Horizontally scroll to mouse or edit cursor + Vertically scroll to pitch, restrict to notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/c481e48468be3ad57b8613a4cd9a00bfc39e499e/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(9-6)%20Horizontally%20scroll%20to%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch,%20restrict%20to%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "1m071fcxpgzjf0jkv3rjpwvjhrr3w50ldp7sfkrq6jd4a5y2rwbf";
         }
         {
           path = ''Generated/FTC_MeMagic (9-7) Horizontally scroll to mouse or edit cursor + Vertically scroll to center of notes in visible area.lua'';
@@ -9667,7 +9746,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-3s) Vertically zoom to all selected notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-3s)%20Vertically%20zoom%20to%20all%20selected%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "1dq6ia97y1zb5d3pa5wldrq5134fc7xizkd8bzhb7g7jg9k9sdjd";
         }
         {
           path = ''Generated/FTC_MeMagic (1-4) Vertically scroll to pitch.lua'';
@@ -9787,7 +9866,7 @@
         {
           path = ''Generated/FTC_MeMagic (3-2) Horizontally zoom to 4 measures at mouse or edit cursor + Vertically zoom to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(3-2)%20Horizontally%20zoom%20to%204%20measures%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20zoom%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "1ilx894prr7qaym7i4wrkvhs53qxm47j20k2b11pawpc7xbvy388";
+          sha256 = "1lck7l1wsn5fb2hzyb1l7z2yq5i06zxrvvnm5djknv884c4q0n93";
         }
         {
           path = ''Generated/FTC_MeMagic (3-3) Horizontally zoom to 4 measures at mouse or edit cursor + Vertically zoom to all notes in item.lua'';
@@ -9802,7 +9881,7 @@
         {
           path = ''Generated/FTC_MeMagic (3-5) Horizontally zoom to 4 measures at mouse or edit cursor + Vertically scroll to pitch, restrict to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(3-5)%20Horizontally%20zoom%20to%204%20measures%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch,%20restrict%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "1fcxlmgjqm5b247xn7x74cnffhbwbjvl2v6bqzx5gljv8f017295";
+          sha256 = "0qcjr4hkjpmckhmw5mf0bw1vs5zj6vvkp3aa5ajnd2cnwh618jbq";
         }
         {
           path = ''Generated/FTC_MeMagic (3-6) Horizontally zoom to 4 measures at mouse or edit cursor + Vertically scroll to pitch, restrict to notes in item.lua'';
@@ -9837,7 +9916,7 @@
         {
           path = ''Generated/FTC_MeMagic (4-4) Horizontally zoom to 4 measures at mouse or edit cursor, restrict to item + Vertically scroll to pitch.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(4-4)%20Horizontally%20zoom%20to%204%20measures%20at%20mouse%20or%20edit%20cursor,%20restrict%20to%20item%20+%20Vertically%20scroll%20to%20pitch.lua";
-          sha256 = "";
+          sha256 = "160nrcdm3r6hywm1kd47ai86qv8w35sdj2w0a29il0rs36rwnryq";
         }
         {
           path = ''Generated/FTC_MeMagic (4-5) Horizontally zoom to 4 measures at mouse or edit cursor, restrict to item + Vertically scroll to pitch, restrict to notes in visible area.lua'';
@@ -9872,7 +9951,7 @@
         {
           path = ''Generated/FTC_MeMagic (5-3) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically zoom to all notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(5-3)%20Horizontally%20smart%20zoom%20to%2020%20notes%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20zoom%20to%20all%20notes%20in%20item.lua";
-          sha256 = "1w6ilvw00nlwyyhfngg9mki0wpvmv8sb5isx8dxhbh9cqzmzzga0";
+          sha256 = "11iq4l1pp6z3vcyymw9qkxdwj36nzcnhazl3xhi9873j3slhjzdr";
         }
         {
           path = ''Generated/FTC_MeMagic (5-4) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically scroll to pitch.lua'';
@@ -9887,7 +9966,7 @@
         {
           path = ''Generated/FTC_MeMagic (5-6) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically scroll to pitch, restrict to notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(5-6)%20Horizontally%20smart%20zoom%20to%2020%20notes%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch,%20restrict%20to%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "0wyrybxc5dl3yv4jjm8sb9zsqb31ghhaz97wn4qkq1zbw67lixss";
         }
         {
           path = ''Generated/FTC_MeMagic (5-7) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically scroll to center of notes in visible area.lua'';
@@ -9957,17 +10036,17 @@
         {
           path = ''Generated/FTC_MeMagic (7-4) Horizontally smart zoom to measures at mouse or edit cursor + Vertically scroll to pitch.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(7-4)%20Horizontally%20smart%20zoom%20to%20measures%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch.lua";
-          sha256 = "";
+          sha256 = "0qz6xzqbab77d54zlqddbcjlbnfsn6wx9zj5kvgzyd1kdm9k24zk";
         }
         {
           path = ''Generated/FTC_MeMagic (7-5) Horizontally smart zoom to measures at mouse or edit cursor + Vertically scroll to pitch, restrict to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(7-5)%20Horizontally%20smart%20zoom%20to%20measures%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch,%20restrict%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "1akxs0gyn997mb9cr8wqfry7669s2k2b9k7n6gh9wy2nqk8hzd05";
+          sha256 = "1xlgjb0dfhlzqz75drch6y8rymnhwj2dnar6z4vkm8vjlly0l5y9";
         }
         {
           path = ''Generated/FTC_MeMagic (7-6) Horizontally smart zoom to measures at mouse or edit cursor + Vertically scroll to pitch, restrict to notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(7-6)%20Horizontally%20smart%20zoom%20to%20measures%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch,%20restrict%20to%20notes%20in%20item.lua";
-          sha256 = "0g8q0dwv7hzr5jsl9dwi1n3madw4nalvagyhxdh91n3fznapbkjd";
+          sha256 = "08jkb8mxnd2z37li4vvnj1fp5xd0jif9zc0sa4cqxdqa93yy13y1";
         }
         {
           path = ''Generated/FTC_MeMagic (7-7) Horizontally smart zoom to measures at mouse or edit cursor + Vertically scroll to center of notes in visible area.lua'';
@@ -10052,7 +10131,7 @@
         {
           path = ''Generated/FTC_MeMagic (9-7) Horizontally scroll to mouse or edit cursor + Vertically scroll to center of notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/f8d2c43ebfe097742ac68ae401c7a998d5c214d0/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(9-7)%20Horizontally%20scroll%20to%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20center%20of%20notes%20in%20visible%20area.lua";
-          sha256 = "";
+          sha256 = "15d6rlds8rc6ngdq5bk0nwnbfnxnqjynqh06ahjxg0jnmll8fnml";
         }
         {
           path = ''Generated/FTC_MeMagic (9-8) Horizontally scroll to mouse or edit cursor + Vertically scroll to center of notes in item.lua'';
@@ -10071,7 +10150,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-2) Vertically zoom to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-2)%20Vertically%20zoom%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "0vpvxqpimg69in1nn3g06sxnbm76yawd5njyi03hqxglms2x6868";
+          sha256 = "04f054v828gad1171wni3fakfnn36brmrpfw4j6d0qsdks6c0m57";
         }
         {
           path = ''Generated/FTC_MeMagic (1-2s) Vertically zoom to selected notes in visible area.lua'';
@@ -10116,7 +10195,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-8) Vertically scroll to center of notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-8)%20Vertically%20scroll%20to%20center%20of%20notes%20in%20item.lua";
-          sha256 = "000ric9jm9wca2prhk742r5nnwyh1xwj1080wyrwpj6lx9y64kw7";
+          sha256 = "0h0nb3afhbhi3qaj95f9ahgx8kd485js6qkgic71m9khsfa1hdrg";
         }
         {
           path = ''Generated/FTC_MeMagic (1-8s) Vertically scroll to center of selected notes in item.lua'';
@@ -10136,7 +10215,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-10) Vertically scroll to lowest note in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-10)%20Vertically%20scroll%20to%20lowest%20note%20in%20item.lua";
-          sha256 = "1g9mwlyxikh1wg204h302hf791fq604ky92q2wq795wg2ipjcnw2";
+          sha256 = "0261842fggj59c6sl9mfi5knwsd74qayv926v6bianvdvxxdd40w";
         }
         {
           path = ''Generated/FTC_MeMagic (1-10s) Vertically scroll to lowest selected note in item.lua'';
@@ -10236,7 +10315,7 @@
         {
           path = ''Generated/FTC_MeMagic (3-8) Horizontally zoom to 4 measures at mouse or edit cursor + Vertically scroll to center of notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(3-8)%20Horizontally%20zoom%20to%204%20measures%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20center%20of%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "0hqbvy5dznaviri6fisfmz1im817nvq25hq2dvq85nbv2iyiq0qi";
         }
         {
           path = ''Generated/FTC_MeMagic (4-1) Horizontally zoom to 4 measures at mouse or edit cursor, restrict to item.lua'';
@@ -10276,7 +10355,7 @@
         {
           path = ''Generated/FTC_MeMagic (4-8) Horizontally zoom to 4 measures at mouse or edit cursor, restrict to item + Vertically scroll to center of notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(4-8)%20Horizontally%20zoom%20to%204%20measures%20at%20mouse%20or%20edit%20cursor,%20restrict%20to%20item%20+%20Vertically%20scroll%20to%20center%20of%20notes%20in%20item.lua";
-          sha256 = "0fxqqm213x02lvby4q54nc6ymz8rhzmc25fmlnz7kq52yliiahh1";
+          sha256 = "0h9q1d2vzs76k2lkhyrx7l0xib45mjqbhrp94l8d4slysk8ks4kh";
         }
         {
           path = ''Generated/FTC_MeMagic (5-1) Horizontally smart zoom to 20 notes at mouse or edit cursor.lua'';
@@ -10306,7 +10385,7 @@
         {
           path = ''Generated/FTC_MeMagic (5-6) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically scroll to pitch, restrict to notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(5-6)%20Horizontally%20smart%20zoom%20to%2020%20notes%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch,%20restrict%20to%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "14ijwkbzdgbq5vp45j5hw9q9j1is27g6zbjnxh9x9mv6wj29zwz0";
         }
         {
           path = ''Generated/FTC_MeMagic (5-7) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically scroll to center of notes in visible area.lua'';
@@ -10386,7 +10465,7 @@
         {
           path = ''Generated/FTC_MeMagic (7-6) Horizontally smart zoom to measures at mouse or edit cursor + Vertically scroll to pitch, restrict to notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(7-6)%20Horizontally%20smart%20zoom%20to%20measures%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20pitch,%20restrict%20to%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "0myl88a7zdad02zpasl86bg9kdfw3b079946vk0cj6r8fb0ngbc2";
         }
         {
           path = ''Generated/FTC_MeMagic (7-7) Horizontally smart zoom to measures at mouse or edit cursor + Vertically scroll to center of notes in visible area.lua'';
@@ -10431,7 +10510,7 @@
         {
           path = ''Generated/FTC_MeMagic (8-7) Horizontally smart zoom to measures at mouse or edit cursor, restrict to item + Vertically scroll to center of notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(8-7)%20Horizontally%20smart%20zoom%20to%20measures%20at%20mouse%20or%20edit%20cursor,%20restrict%20to%20item%20+%20Vertically%20scroll%20to%20center%20of%20notes%20in%20visible%20area.lua";
-          sha256 = "";
+          sha256 = "0z4qx0f35n11qvifr4i18a9fdvn5ikzg0pdsm63v55k43qski3qg";
         }
         {
           path = ''Generated/FTC_MeMagic (8-8) Horizontally smart zoom to measures at mouse or edit cursor, restrict to item + Vertically scroll to center of notes in item.lua'';
@@ -10446,7 +10525,7 @@
         {
           path = ''Generated/FTC_MeMagic (9-2) Horizontally scroll to mouse or edit cursor + Vertically zoom to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(9-2)%20Horizontally%20scroll%20to%20mouse%20or%20edit%20cursor%20+%20Vertically%20zoom%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "1r7dlw9r0f3hgib9c2b47wrvvxidjgwa2mi63sjpnjd6l6rphwqi";
+          sha256 = "1ywx4nh9g09sfxvkm8vn5inblalv7k1raj29fw3w3y97d9ndnziy";
         }
         {
           path = ''Generated/FTC_MeMagic (9-3) Horizontally scroll to mouse or edit cursor + Vertically zoom to all notes in item.lua'';
@@ -10476,7 +10555,7 @@
         {
           path = ''Generated/FTC_MeMagic (9-8) Horizontally scroll to mouse or edit cursor + Vertically scroll to center of notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0c25513e420834675682d5132361dfef22e622ae/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(9-8)%20Horizontally%20scroll%20to%20mouse%20or%20edit%20cursor%20+%20Vertically%20scroll%20to%20center%20of%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "1wdfldckhjlqm9162pdxvpp15vrxfhzf8lmd0wz9i1h38p8cw05z";
         }
       ];
     };
@@ -10505,7 +10584,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-3s) Vertically zoom to all selected notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-3s)%20Vertically%20zoom%20to%20all%20selected%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "106wff8zr7vq1w8s3jqhcgxgf8l5nkjfvbyrl1qca8k1vizqlzd0";
         }
         {
           path = ''Generated/FTC_MeMagic (1-4) Vertically scroll to mouse or pitch cursor.lua'';
@@ -10550,12 +10629,12 @@
         {
           path = ''Generated/FTC_MeMagic (1-9s) Vertically scroll to lowest selected note in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-9s)%20Vertically%20scroll%20to%20lowest%20selected%20note%20in%20visible%20area.lua";
-          sha256 = "15vllkdds1bqs3amnp0xiviarnncnq8jsb7jra0byp27g5mwj1iz";
+          sha256 = "17ym6478xh0gxx6xmahqm6jgv45gcpavybzr9rfpca60g9qlghqr";
         }
         {
           path = ''Generated/FTC_MeMagic (1-10) Vertically scroll to lowest note in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-10)%20Vertically%20scroll%20to%20lowest%20note%20in%20item.lua";
-          sha256 = "0l16v9snsw3spings0jqjfzi3g67wazqvg616jkbq3snmzs21va7";
+          sha256 = "1g8cdmr2x7lvhw94rwh6ggwrwip22gbq77zphsxbclkbyjjs6zlr";
         }
         {
           path = ''Generated/FTC_MeMagic (1-10s) Vertically scroll to lowest selected note in item.lua'';
@@ -10575,7 +10654,7 @@
         {
           path = ''Generated/FTC_MeMagic (1-12) Vertically scroll to highest note in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(1-12)%20Vertically%20scroll%20to%20highest%20note%20in%20item.lua";
-          sha256 = "1nw9yallk78viqxjqpgg2ilh268bhjkqfr3k8f23q16g75lpm0rl";
+          sha256 = "1pszim5m9wl1m3qmqrsrgqrajywfddvfbrrybgskr2sd1ccb03aj";
         }
         {
           path = ''Generated/FTC_MeMagic (1-12s) Vertically scroll to highest selected note in item.lua'';
@@ -10610,7 +10689,7 @@
         {
           path = ''Generated/FTC_MeMagic (2-10) Horizontally zoom to item + Vertically scroll to lowest note in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(2-10)%20Horizontally%20zoom%20to%20item%20+%20Vertically%20scroll%20to%20lowest%20note%20in%20item.lua";
-          sha256 = "13lcai0q5jnff9vjrdsczymwi64nk4zj24p9rbla3kcncpjgmw6q";
+          sha256 = "0iyilxw1763q10gr6s76kzwrbnhqrm6wf64l6a60p17p0q2xyczj";
         }
         {
           path = ''Generated/FTC_MeMagic (2-12) Horizontally zoom to item + Vertically scroll to highest note in item.lua'';
@@ -10695,7 +10774,7 @@
         {
           path = ''Generated/FTC_MeMagic (4-8) Horizontally zoom to 4 measures at mouse or edit cursor, restrict to item + Vertically scroll to center of notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(4-8)%20Horizontally%20zoom%20to%204%20measures%20at%20mouse%20or%20edit%20cursor,%20restrict%20to%20item%20+%20Vertically%20scroll%20to%20center%20of%20notes%20in%20item.lua";
-          sha256 = "";
+          sha256 = "0mszvq1iw4zgy6qa647aw1x2rpwkfxhdcv7y6jvbq9rzh5ss2idf";
         }
         {
           path = ''Generated/FTC_MeMagic (5-1) Horizontally smart zoom to 20 notes at mouse or edit cursor.lua'';
@@ -10705,12 +10784,12 @@
         {
           path = ''Generated/FTC_MeMagic (5-2) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically zoom to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(5-2)%20Horizontally%20smart%20zoom%20to%2020%20notes%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20zoom%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "1xpkkfxwwjmwxadk6bcnda2fvaly910m4liy1bam62vxnvj46d6b";
+          sha256 = "0d4rqm3d3qsxfirq1zk129dghmkzsfx0lmpzgf1av7spnj24a2li";
         }
         {
           path = ''Generated/FTC_MeMagic (5-3) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically zoom to all notes in item.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(5-3)%20Horizontally%20smart%20zoom%20to%2020%20notes%20at%20mouse%20or%20edit%20cursor%20+%20Vertically%20zoom%20to%20all%20notes%20in%20item.lua";
-          sha256 = "06018svch3nlabzir29ghmjxrvzc1b9zmzaa0qnhjll5d1r44i8n";
+          sha256 = "031z2yvj1v4zi124mik5ibzvcc05jfanwj9kpsgskik3r38jpqil";
         }
         {
           path = ''Generated/FTC_MeMagic (5-4) Horizontally smart zoom to 20 notes at mouse or edit cursor + Vertically scroll to mouse or pitch cursor.lua'';
@@ -10825,7 +10904,7 @@
         {
           path = ''Generated/FTC_MeMagic (8-2) Horizontally smart zoom to measures at mouse or edit cursor, restrict to item + Vertically zoom to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(8-2)%20Horizontally%20smart%20zoom%20to%20measures%20at%20mouse%20or%20edit%20cursor,%20restrict%20to%20item%20+%20Vertically%20zoom%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "1b53pm1lk49j4lvbqilipl4xyd86ilcw1s3nscn81j480vchi9ym";
+          sha256 = "0zbz46xqg3jq0vd2rrkm5rw21lsxr6ch31md39b1dlkwmjg49p66";
         }
         {
           path = ''Generated/FTC_MeMagic (8-3) Horizontally smart zoom to measures at mouse or edit cursor, restrict to item + Vertically zoom to all notes in item.lua'';
@@ -10850,7 +10929,7 @@
         {
           path = ''Generated/FTC_MeMagic (8-7) Horizontally smart zoom to measures at mouse or edit cursor, restrict to item + Vertically scroll to center of notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(8-7)%20Horizontally%20smart%20zoom%20to%20measures%20at%20mouse%20or%20edit%20cursor,%20restrict%20to%20item%20+%20Vertically%20scroll%20to%20center%20of%20notes%20in%20visible%20area.lua";
-          sha256 = "";
+          sha256 = "031fvvda49varppxshg84c6yza9lxx1jllf0wqvbbxgqfmll7pfy";
         }
         {
           path = ''Generated/FTC_MeMagic (8-8) Horizontally smart zoom to measures at mouse or edit cursor, restrict to item + Vertically scroll to center of notes in item.lua'';
@@ -10865,7 +10944,7 @@
         {
           path = ''Generated/FTC_MeMagic (9-2) Horizontally scroll to mouse or edit cursor + Vertically zoom to notes in visible area.lua'';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/Generated/FTC_MeMagic%20(9-2)%20Horizontally%20scroll%20to%20mouse%20or%20edit%20cursor%20+%20Vertically%20zoom%20to%20notes%20in%20visible%20area.lua";
-          sha256 = "1rjh2x84mv33lsg06jx3q7dl24hzj6zz6zk7d8l0pdq3brdgsc6w";
+          sha256 = "1sg6dprllqzpsz9vhvc1cq4hj9g18a5llr7d5x484adg4m0lc0yh";
         }
         {
           path = ''Generated/FTC_MeMagic (9-3) Horizontally scroll to mouse or edit cursor + Vertically zoom to all notes in item.lua'';
@@ -10979,7 +11058,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9873b2adee8841dd5ffdcc194ebc1932a6984835/MIDI%20Editor%20Magic/FTC_MeMagic.lua";
-          sha256 = "0mp2g2l9f1wkmarglakv8bdsbjhnfswlcn4kvri004cpbxgxxpwz";
+          sha256 = "1m2raqwz5wf5h4izrjhb81sx69s79gs49xgmgrz5fb3xxs4blyx9";
         }
       ];
     };
@@ -11035,7 +11114,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/27a12daf75775152d97b07af6aa9b8d5a94a8cd0/MIDI%20Editor%20Magic/FTC_MeMagic.lua";
-          sha256 = "1rjdjakjynslr83xb7yz791wvxv8j948as7s0pa6x2cpv626qi0l";
+          sha256 = "0ncp2lxxzqr9hkkznsh4fnyc7smyxjdcrxhrc16dsy2aql6ff3jq";
         }
       ];
     };
@@ -11120,6 +11199,20 @@
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/0a4125c79df1d735726d4ff182c357b11faebd97/MIDI%20Editor%20Magic/FTC_MeMagic.lua";
           sha256 = "02d5nly7g96xz9k8rqpfvmsbs9yvwpd1l82yxfzjyj44mg94dcbk";
+        }
+      ];
+    };
+    ftc-memagic-lua-1-3-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ftc-memagic-lua-1-3-4";
+      indexName = "FTC Tools";
+      categoryName = "MIDI Editor Magic";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/54e43ab7cf0ee6568e3e13c2f6d217b266a7f0df/MIDI%20Editor%20Magic/FTC_MeMagic.lua";
+          sha256 = "1dasw3hxwxfr2mv9672l7cw1faamxnl5a7zfylrh6a02g2zy76k6";
         }
       ];
     };
@@ -11445,6 +11538,20 @@
         }
       ];
     };
+    ftc-multi-edit-scroll-lua-1-5-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ftc-multi-edit-scroll-lua-1-5-3";
+      indexName = "FTC Tools";
+      categoryName = "MIDI Editor Magic";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/54e43ab7cf0ee6568e3e13c2f6d217b266a7f0df/MIDI%20Editor%20Magic/FTC_Multi%20edit%20scroll.lua";
+          sha256 = "1503s9dp0spkh94m0d48zabdrhrd5ilbz4i96bb9vxj1s4gg86kn";
+        }
+      ];
+    };
     ftc-multi-edit-zoom-lua-1-0-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ftc-multi-edit-zoom-lua-1-0-0";
@@ -11497,7 +11604,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/7816c10d79654877f8bbeb5f40d074e809d7bd95/MIDI%20Editor%20Magic/FTC_Multi%20edit%20zoom.lua";
-          sha256 = "0njfdwvbnfkxixbr76k360y0wfwbb1d3xi12z6718dh6qs250ary";
+          sha256 = "17263svjl011n8xag24zlr71c1kzpwg45ykn0k1k5qcq7dbnknbp";
         }
       ];
     };
@@ -11624,6 +11731,20 @@
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/dc92413b80a8110b8c781bf848f2a8c6170e353c/MIDI%20Editor%20Magic/FTC_Multi%20edit%20zoom.lua";
           sha256 = "062scm6zalwc3i758wi2radf6h6splb2pcdy7cj4rwkf0nwhdqkf";
+        }
+      ];
+    };
+    ftc-multi-edit-zoom-lua-1-5-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ftc-multi-edit-zoom-lua-1-5-3";
+      indexName = "FTC Tools";
+      categoryName = "MIDI Editor Magic";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/54e43ab7cf0ee6568e3e13c2f6d217b266a7f0df/MIDI%20Editor%20Magic/FTC_Multi%20edit%20zoom.lua";
+          sha256 = "0y52div6fxhhqc9zzin93jw14j9yhakzjl25q13aa4a8dgcrx7wb";
         }
       ];
     };
@@ -11805,7 +11926,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/5ebfba4499f1c1689945e97e92cd36d84d03a590/Razor%20edits/Resize%20razor%20edit%20left%20by%20grid%20size.lua";
-          sha256 = "127lscjbva62sapljd09frkpsyhwr1fbvdgvnrkz1sh5k2x4qjhn";
+          sha256 = "0aj0pj07hdxcs1gm8g767lby72c5mmx8fs5fykmpay6cbplff1va";
         }
       ];
     };
@@ -11917,7 +12038,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/9d79d5cc7b9cb1db56fa799751d82fac3747f646/ReaSamplOmatic5000/Insert%20media%20into%20sample%20player%20on%20next%20played%20note(s).lua";
-          sha256 = "0hpwv6nivcdcx9fhxw0bwkp70vx9c65qdmsjjz1q23lzal3nd05q";
+          sha256 = "09jfj501hm5w3cfd7rk6p7mz34bvrm42y1pfjw8x9acr152cihn0";
         }
       ];
     };
@@ -12057,7 +12178,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/4cd70221f873c9b6c1a740a7c762392498faed93/ReaSamplOmatic5000/Link%20media%20explorer%20to%20active%20sample%20player.lua";
-          sha256 = "10rn9w7gxq49bhfjg5bz6d3fw26j84n7dvpbx8aihdpmj3a2y4wj";
+          sha256 = "1kvi4r082ix8qsz6gw58wasf20ks194xcwzjrg2d09nn7l3b7l1b";
         }
       ];
     };
@@ -12183,7 +12304,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/5cf75e7111642208794bf89ff3f8853a7076427e/ReaSamplOmatic5000/Link%20media%20explorer%20to%20active%20sample%20player.lua";
-          sha256 = "";
+          sha256 = "10fdkn99rmqsqn5jqxbzh5j3w9amfawc94jfmazzrh9awa1m78cv";
         }
       ];
     };
@@ -12547,7 +12668,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/6a6ed3a39801deb73221fefe75094fa5a2d3cbc4/Various/FTC_Side%20Mixer.lua";
-          sha256 = "10wvygfw1ijaf4kgsdx1i4c479lr7qh7mvj5p8npqq1pc1i9kxp7";
+          sha256 = "0l2787y5ssb6hb1bdklrbs404j1r3h03yiwl6lf3v7amz81qf4ia";
         }
       ];
     };
@@ -13051,7 +13172,7 @@
         {
           path = '''';
           url = "https://github.com/iliaspoulakis/Reaper-Tools/raw/bf446eb7fedfa1d538ad692ec644a0cd03db7972/Various/REAPER%20Update%20Utility.lua";
-          sha256 = "14n7m1bkj0lbymm9lihrh9msf1lk43g18kb3svaqmkfs4a5bwxqb";
+          sha256 = "1ij493rig83vr9j44kfwla9mm7h13xylv8ifz7mvxwbj74hplia6";
         }
       ];
     };

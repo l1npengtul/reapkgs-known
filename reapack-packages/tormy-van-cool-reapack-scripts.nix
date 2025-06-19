@@ -160,22 +160,22 @@
         {
           path = ''yt-dlp/yt-dlp.exe'';
           url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe";
-          sha256 = "0z1ki4wbm3bf8cqxqpj8chrfbhw5qx33d8i068fndgjvlrnw8x2k";
+          sha256 = "0hx4n8cvcrvbrss369api3vv8gjswrbzjajj3chlf03pa6h22nf3";
         }
         {
           path = ''yt-dlp/yt-dlp_macos'';
           url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos";
-          sha256 = "0kgzxah77hh0lgq98q0sjqym6bc926rmnjdq6z8gs7wi0vfvqnlz";
+          sha256 = "0wzx6ir7n19dhzddf7ib75pql8g6glk22f75bfn1065amyf9cry1";
         }
         {
           path = ''yt-dlp/yt-dlp_macos'';
           url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos";
-          sha256 = "0kgzxah77hh0lgq98q0sjqym6bc926rmnjdq6z8gs7wi0vfvqnlz";
+          sha256 = "0wzx6ir7n19dhzddf7ib75pql8g6glk22f75bfn1065amyf9cry1";
         }
         {
           path = ''yt-dlp/yt-dlp_linux'';
           url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp";
-          sha256 = "0kaxm48cc8fx57h4yklh8m7473gxfbnhwwcpccmaxrgwirawb2qf";
+          sha256 = "1c7fmvwhjmmgh9wxbxny8k9bg2i1rxyl7dsvydmvj4brpsrr9fpg";
         }
         {
           path = '''';
@@ -265,7 +265,7 @@
         {
           path = ''TormyVanCool_VSTs-VSTis-Extractor.lua'';
           url = "https://github.com/tormyvancool/TormyVanCool_ReaPack_Scripts/raw/f03f40cd1e68e091a036bc7cca6fac72a2da1a25/TormyVanCool_VSTs-VSTis-Extractor.lua";
-          sha256 = "03bxwjpjxfvzpj88rv3v8r0fm85k1inzmfkcs5kq57ndpxx04a6c";
+          sha256 = "0p3sql5wv9l5rmmhw5ikrgfp10pqxpqhcixkh6cgxklh0790qdyb";
         }
       ];
     };

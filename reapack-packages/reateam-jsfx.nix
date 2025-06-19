@@ -1199,6 +1199,20 @@
         }
       ];
     };
+    mschnell-note-on-delay-tool-jsfx-1-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mschnell-note-on-delay-tool-jsfx-1-3";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/65012bd6e6cb500f050a639ed957132053c01cae/MIDI/mschnell_Note%20On%20Delay%20Tool.jsfx";
+          sha256 = "0dq231s1i3n22kz3f5di4knp6rhb51jzdbr6di2gfyrzn3anxiy7";
+        }
+      ];
+    };
     mschnell-note-on-under-x-velocity-to-note-off-and-send-all-notes-off-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mschnell-note-on-under-x-velocity-to-note-off-and-send-all-notes-off-jsfx-1-0";
@@ -5999,6 +6013,385 @@
         }
       ];
     };
+    talagan-midi-cc-mapper-x-jsfx-5-4-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-midi-cc-mapper-x-jsfx-5-4-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X.jsfx";
+          sha256 = "1xr3fpjzn09xjb081x6wvfnk3b0xjdskp5hvwzl922fzfdmqy7gs";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/MIDI CC Mapper X - Dump Current Function.lua'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/MIDI%20CC%20Mapper%20X%20-%20Dump%20Current%20Function.lua";
+          sha256 = "05q5hzbl79xmz9yfgajx4kwkzqggbcvyp44y56xa4c57jmvzh296";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/README.md'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/README.md";
+          sha256 = "00g3r82xk36sj5q7k2190hm2z6q44liwpdcir900b1fqicsa4y39";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/lib.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/lib.txt";
+          sha256 = "03xfx6zkvan2m1ppybjl0pj812ryvcfs732nf8nkd5ngk7n851gc";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/_tools/make_curves.rb'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/_tools/make_curves.rb";
+          sha256 = "0907mkqq1y3mbfzsm5jqn2ad8xz8l84cmgksn2qrpr9017zm9dph";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/LIB_FILES_GO_HERE.md'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/LIB_FILES_GO_HERE.md";
+          sha256 = "1qffz5ggjrvqaain9bmca39pd5c4940v1h0rc697ccyx3zsbyhim";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/classic.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/classic.txt";
+          sha256 = "0f0677p74yb1faz5rrmf8454va39zgmdk86pjkqrqv273bvhc2i2";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/classic_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/classic_m.txt";
+          sha256 = "0zw5m1a7v34bl2c8x39p29v9y65nj67l2p2ws1zj3ik0y2kvvxkg";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/classic_m_gate.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/classic_m_gate.txt";
+          sha256 = "1nx5z9mx6kzsbhlh2f4cxp9lxb8m8hriwr4hzrp4bqc10nh1z52m";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/classic_r.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/classic_r.txt";
+          sha256 = "0rkacsyk580lmf2v2ak6v7qfa7p2pvgw9wdqhx1kh3kqlf0d4n7b";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/classic_rm.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/classic_rm.txt";
+          sha256 = "1kgnliz5p4ymwanfqn3xv73vqrnyz1p7aaq7wvmnsibbbi4k49f3";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/classic_rm_gate.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/classic_rm_gate.txt";
+          sha256 = "0c1skq27ira0q4h8n2dp38ybfbjgrlmvxa7qz7gw8m1waancsxvq";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/step.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/step.txt";
+          sha256 = "0x168pdiwpg6k81kdfxpgmckxi67fdqbsnpm1jlix69qawg2bggz";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/step_gate.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/step_gate.txt";
+          sha256 = "1cfdl5351abhj8sxlrgigw66w9nvph31qkpf8vwiwwrddkfifwiv";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/step_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/step_m.txt";
+          sha256 = "0fdk80g119i603l11lginmxc6pl73c1ps3agimm1bbzl8xrwcr4d";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/step_m_gate.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/step_m_gate.txt";
+          sha256 = "1ckvqnshyry668iiiyvflb4nsxabp8j4jk7iyai0av1vhm7r8ljy";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/step_r.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/step_r.txt";
+          sha256 = "0nib6may70jcbf09clwc3qpsp7arp47jrxg8ac300b6lcck40k5b";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/circ/step_rm.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/circ/step_rm.txt";
+          sha256 = "0mff3hqg8lw177vykmaasmgla9v9ycm7qzbp1g9msamb09f31rhv";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/kawaik4/exp2_classic.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/kawaik4/exp2_classic.txt";
+          sha256 = "1wg6c79kc8ky2gsdzm60bi28zr0rrzzw3xl6ga9p8ff6n3d2sm02";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/kawaik4/exp_classic.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/kawaik4/exp_classic.txt";
+          sha256 = "12hkx7fhcx3c2wldcivj434d5a8x93k4yrv5ghdwvkbixj936aij";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/kawaik4/lin_clamp_hi.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/kawaik4/lin_clamp_hi.txt";
+          sha256 = "0v8bpn8nwc0wi7bqmc28sz2hnn48ayw0bbwg9cwp8ckzj35q4m15";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/kawaik4/lin_clamp_lo.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/kawaik4/lin_clamp_lo.txt";
+          sha256 = "03jp61yl5lm0r7rpsq5whpk3qm1wlvgsids37730md8cxhg1qhmf";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/kawaik4/lin_classic.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/kawaik4/lin_classic.txt";
+          sha256 = "10khwi9fm1bv9rfki81m2nay0spqbvm85y2dcxxqk4p0r5zy1wrk";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/classic.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/classic.txt";
+          sha256 = "1vbcd52ng6zjj2m9gz92594g5sgl0ziga05shgjd178ckqgglc0v";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/classic_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/classic_m.txt";
+          sha256 = "0zh5dbky93gbgamrqjf1jjpljp3iz5qr6268saqn1nrbvgq9dqal";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/classic_m_gate.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/classic_m_gate.txt";
+          sha256 = "0s9rhr8l6mjjl2g2l5l7x4198m97hsk89c0fd9nr2xgr6lfdpna9";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/classic_r.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/classic_r.txt";
+          sha256 = "1a1110x6c358jpjckj5gb7z2gfpqdwg4hv4y2g0yza0k9ysr9ngw";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/classic_rm.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/classic_rm.txt";
+          sha256 = "0d4c65rz80hnhacsnm360g7amhv7fmib308g038ywvdyd7q94a7d";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/classic_rm_gate.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/classic_rm_gate.txt";
+          sha256 = "1fci3sfqjcl8ai87cs4ha98qs7m2zjl2qmp2dv0iln39y399nf5z";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/inverse.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/inverse.txt";
+          sha256 = "1qjwhq8awdyywn0g45llnw52jhp5gkvr42lkz6hf9pnw0xph36cj";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/inverse_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/inverse_m.txt";
+          sha256 = "0ypysjrv7g6whvh5npnxybs00np5lfkwzx26v0140hdhanknh51z";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/inverse_r.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/inverse_r.txt";
+          sha256 = "0csrk7x1589a50gv4q9wnbg9yzjcb6alhni3hnf368xnzica4r72";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/inverse_rm.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/inverse_rm.txt";
+          sha256 = "0szgr3a86yjg3rldcld76l67wgy8w5j0412xq7lyrvf1w2nand07";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/inverse_step.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/inverse_step.txt";
+          sha256 = "1ns5bl99z1k4dy3qsvbq0bnivjry3yik1xpmfifck0hzgzs0fdfs";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/inverse_step_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/inverse_step_m.txt";
+          sha256 = "0l3jn2ckd7mjnm3pdg02yg1zqkljac941bfljh4d0043xysr2is2";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/inverse_step_r.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/inverse_step_r.txt";
+          sha256 = "19x0fvr1nl8pdf6ac5hfwvpc4w585vlggqgz0cn10xsbw8zlhvk2";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/inverse_step_rm.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/inverse_step_rm.txt";
+          sha256 = "11sj6p0spfrlgrd2zrkj9gghdqdk8qc6j3h1fl8cn7m6dihwk96i";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/step.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/step.txt";
+          sha256 = "1q4aqbmgd80a1sp35iw6hs4yl001pgzdql06rzw2nlbkh660w7sr";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/step_gate.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/step_gate.txt";
+          sha256 = "0xgpxm54gdz39jlnkdhsrqxrky5c2z6jdin63kxm3y8fbian531d";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/step_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/step_m.txt";
+          sha256 = "0x794l9bsxgvsysib7hvj0yrg570sdgsr7hfy3jjrfqc5van7a5f";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/step_m_gate.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/step_m_gate.txt";
+          sha256 = "1akmd7r62c8lkg2hi0i5dp0aqfi10b99143lddmcjlvayhvnpf4i";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/step_r.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/step_r.txt";
+          sha256 = "1pw18vf110gn054y7s5mfywz9p645xnl1jc0yj23z6jjm7ahz7p9";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sin/step_rm.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sin/step_rm.txt";
+          sha256 = "0hb14ciwxclv5qlwkfqkwsqi90hs5v73lkfwvfkv669qyivx7c6d";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s0.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s0.txt";
+          sha256 = "10khwi9fm1bv9rfki81m2nay0spqbvm85y2dcxxqk4p0r5zy1wrk";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s0_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s0_m.txt";
+          sha256 = "0djvfwa7jxmcwz163ccprhxabaw1ilwh3fvps6kn1vj904p6914w";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s1.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s1.txt";
+          sha256 = "095hpp7w1inmybwjkv7wv0dr2iw8kicigw01z9v1w3hgifppkmpx";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s10.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s10.txt";
+          sha256 = "0v1n4ljczxp3igqkyd4ysl4bdwk26anyi808krha6iirfpfs79w2";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s10_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s10_m.txt";
+          sha256 = "03l6avfbkk06ihy09qi20ll903likg7r71cz0jjb6f69m658bxyp";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s11.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s11.txt";
+          sha256 = "1r9cr94j77vfzdf2xwbj7634m33ri68p1vckn8vdz6k18fb6dd5r";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s11_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s11_m.txt";
+          sha256 = "11fh2j87nxdlrp47p0s4fni53fcivl8i0z4d2fr5qb0gq9zzq82i";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s12.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s12.txt";
+          sha256 = "1l5q8ck61rl505mjwnbmmb7b5fk3dw3wvl48a4j8khs9llm5yhwq";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s12_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s12_m.txt";
+          sha256 = "16cpz4vd81w2j1b9plg35fxl2fbzi7sj02vi9ys75pwjwizwj8hg";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s13.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s13.txt";
+          sha256 = "1lv2y0q6hl8wnb55akxkgdddw3618nlq4nz47y9hd0lgzb38wdw3";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s13_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s13_m.txt";
+          sha256 = "1ln42qvrm1p9i0s8hlj3jfkgijgiyfnmr0qqkbay0n46sjkxwgab";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s14.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s14.txt";
+          sha256 = "09398rg1jy1d5h2x1axswvz96xz97rxxzd9p6ijm5c8mvswmfp46";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s14_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s14_m.txt";
+          sha256 = "15h6ca63ljavp073wiqihfwrgbd6izg6m48yxnxsflf47xs38mb6";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s1_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s1_m.txt";
+          sha256 = "1pnfvlk5a34ahjk2hb35m2f1l7yfclmpcn0wizamgiqzigdfyc6l";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s2.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s2.txt";
+          sha256 = "03dg7khipbvxv3zlzxxchs66shk58arh2f2lkin1c0p6ayn41viv";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s2_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s2_m.txt";
+          sha256 = "1sz1zchb2vdbwnfaadn51y2vn7rwcj7q5ih5rk0dhs5gsnifwmc0";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s3.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s3.txt";
+          sha256 = "1j3yx6zkbx5gcvdv9z5lnj8z4943h88cfqraml6mphnyd8kdq694";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s3_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s3_m.txt";
+          sha256 = "1z12p4xcv3vhnlrbqbhvaxshm7wlisbzvgk3xsj2cx8ynwhlj5sy";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s4.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s4.txt";
+          sha256 = "04n4ha08c63b0h6wl4zphakq2j1hfzqnv85vvcfy181wlf8iyjjz";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s4_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s4_m.txt";
+          sha256 = "034xcgcqq2hq5wkdwfjd9nnmip10599ifjnw941xdfr2rck4zkbx";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s5.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s5.txt";
+          sha256 = "15mghjxsdbdpdivk1awagjbznr6ml399275mac9ag1p5dyg5jyik";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s5_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s5_m.txt";
+          sha256 = "0kb4vd9cm3xw2gz3ssfb92c3ax12gzk4zy8mgzqmrxq5b59xban5";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s6.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s6.txt";
+          sha256 = "10rnbakl2y06ad952kmwln17d9c4g3x4fwvp03hc2wmfiqhmaahh";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s6_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s6_m.txt";
+          sha256 = "0r78cfkrapr9hnd6gbb8m5z3vnirynb24iajv2c47m0hqrvnznw0";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s7.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s7.txt";
+          sha256 = "19rb42j1cmvfavhvpcxxk39q86sg7f1za89yzx071cfxk6g63wls";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s7_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s7_m.txt";
+          sha256 = "07cjyaxw9brvp0sws3naf2ma1h8kqn289pvx72mdxkm7zj4kwhj5";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s8.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s8.txt";
+          sha256 = "0ynh5cwqcmkzzls9q8rrlk6arp0pfz3zfc9p827m0b1hhqihjhys";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s8_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s8_m.txt";
+          sha256 = "1ll422kzni1jalq8a73gbzvmw572zfs3i497v3gmg2bm325pxh1i";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s9.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s9.txt";
+          sha256 = "0l1r95y2iz08z92n05m0qwzi5mmi73byf4px2ma897lk82733xqp";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/lib/sstep/s9_m.txt'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/lib/sstep/s9_m.txt";
+          sha256 = "1hzmkiijd2gb8w868qa9hch7p6l0yfjvjf0r6gmb6b4vqxjx61cr";
+        }
+        {
+          path = ''talagan_MIDI CC Mapper X/func/user_lib/USER_LIB_FILES_GO_HERE.md'';
+          url = "https://github.com/ReaTeam/JSFX/raw/66be53b0e7bd620ad186f7284afc8d126406b1bb/MIDI/talagan_MIDI%20CC%20Mapper%20X/func/user_lib/USER_LIB_FILES_GO_HERE.md";
+          sha256 = "1rfzymy0vrr8g1f26l4q7wvfysyfl2cy7ifci6ypfm2q9605icdh";
+        }
+      ];
+    };
     talagan-midi-channel-matrix-router-jsfx-0-9 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "talagan-midi-channel-matrix-router-jsfx-0-9";
@@ -6094,6 +6487,39 @@
           path = '''';
           url = "https://github.com/ReaTeam/JSFX/raw/75226ffbcdabab68d94ccf87727f2d7ee956077e/MIDI/talagan_MIDI%20Force%20Notes%20to%20Range.jsfx";
           sha256 = "0m676nr8sgb0hjs7jskhiqg0v93vsip2ch5py3x0b2qmyjb48ca2";
+        }
+      ];
+    };
+    talagan-midi-multi-channel-pre-delay-jsfx-0-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-midi-multi-channel-pre-delay-jsfx-0-5";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/268ecd157d90b802dc7bc2ac10c732ef1fb20de1/MIDI/talagan_MIDI%20Multi%20Channel%20Pre-Delay.jsfx";
+          sha256 = "0ly1xndglfwz3649370gdym8kwymll0m01cf223fpamjh3qv39rp";
+        }
+      ];
+    };
+    talagan-midi-multi-channel-pre-delay-jsfx-0-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-midi-multi-channel-pre-delay-jsfx-0-6";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/84b688dfa127042cce339c482406436f9f0e1771/MIDI/talagan_MIDI%20Multi%20Channel%20Pre-Delay.jsfx";
+          sha256 = "1lghlaskgzwsgdwzfk83x5xcjsv2x63w16c4ryh6y0bnx55mqia2";
+        }
+        {
+          path = ''talagan_MIDI Multi Channel Pre-Delay Live Flagger.jsfx'';
+          url = "https://github.com/ReaTeam/JSFX/raw/84b688dfa127042cce339c482406436f9f0e1771/MIDI/talagan_MIDI%20Multi%20Channel%20Pre-Delay%20Live%20Flagger.jsfx";
+          sha256 = "1kqf2yyi3jkjba15mxbhmqqmkzf999mzycw38dkl94xynaaz1i8c";
         }
       ];
     };

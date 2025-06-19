@@ -1,6 +1,7 @@
 {
   description = ''
     A reapkgs flake generated from the following Reapack indexes:
+    additional.txt
     https://acendan.github.io/reascripts/index.xml
     https://bitbucket.org/kawaCat/kawascript2/raw/master/index.xml
     https://bitbucket.org/kawaCat/reascript-m2bpack/raw/master/index.xml
@@ -64,7 +65,7 @@
     https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_Scripts.xml
     https://github.com/mrlimbic/reascripts/raw/master/index.xml
     https://github.com/n0ner/Reaper/raw/master/index.xml
-    https://raw.githubusercontent.com/nikolalkc/LKC-Tools/master/index.xml
+    https://github.com/nikolalkc/LKC-Tools/raw/master/index.xml
     https://github.com/nofishonfriday/ReaScripts/raw/master/index.xml
     https://github.com/pelori/PeloReaper/raw/master/index.xml
     https://github.com/przemoc/REAPER-ReaScripts/raw/master/index.xml
@@ -76,9 +77,6 @@
     https://ply.github.io/ReaScripts/index.xml
     https://raw.githubusercontent.com/juanriccio/Reaperism/master/index.xml
     https://reaticulate.com/release.xml
-    https://raw.githubusercontent.com/gapalil001/FlatMadness/master/index.xml
-    https://raw.githubusercontent.com/jeremybernstein/ReaScripts/main/index.xml
-    https://raw.githubusercontent.com/iliaspoulakis/Reaper-Tools/master/index.xml
 
     Links:
     Main repo: https://github.com/silvarc141/reapkgs

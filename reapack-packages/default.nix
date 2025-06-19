@@ -5,6 +5,7 @@
   fetchurl,
 }: let
   imports = [
+    ./.nix
     ./acendan-scripts.nix
     ./albertov5-reapertools.nix
     ./amelianceskymusic-scripts.nix
@@ -28,7 +29,7 @@
     ./eugene27771-reascripts.nix
     ./fernsehmull-scripts.nix
     ./ftc-tools.nix
-    ./fx-devices.nix
+    ./fx-device.nix
     ./geraint-s-jsfx.nix
     ./helgoboss-projects.nix
     ./ix.nix

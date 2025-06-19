@@ -2038,6 +2038,20 @@
         }
       ];
     };
+    ms-20-jsfx-1-06 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ms-20-jsfx-1-06";
+      indexName = "Saike Tools";
+      categoryName = "Basics";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/JoepVanlier/JSFX/raw/f13d210af3e5fff22012701e94540921dbac6af0/Basics/MS-20.jsfx";
+          sha256 = "0k3n2n6v01zphljil76dh2n01m7ika4q02x0gabnq796d29nvglk";
+        }
+      ];
+    };
     saike-stereo-bub-ii-jsfx-0-03 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "saike-stereo-bub-ii-jsfx-0-03";
@@ -11124,6 +11138,25 @@
         }
       ];
     };
+    filther-jsfx-3-20 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "filther-jsfx-3-20";
+      indexName = "Saike Tools";
+      categoryName = "Filther";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/JoepVanlier/JSFX/raw/f13d210af3e5fff22012701e94540921dbac6af0/Filther/Filther.jsfx";
+          sha256 = "03vxbgkr2ww5gr5kvkxyh1nzndgy231pyfmanckzpnb6ddgx4lpp";
+        }
+        {
+          path = ''Filther.jsfx.rpl'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/f13d210af3e5fff22012701e94540921dbac6af0/Filther/Filther.jsfx.rpl";
+          sha256 = "10x3xfa2zmrkd4ba0cxr3q8axmnhs724ffg3gkbh3ac5yvwa3y38";
+        }
+      ];
+    };
     saike-final-boss-jsfx-0-01 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "saike-final-boss-jsfx-0-01";
@@ -14292,6 +14325,60 @@
         {
           path = ''saike_lava.jsfx.rpl'';
           url = "https://github.com/JoepVanlier/JSFX/raw/c4f6629d3661bcc0ea7f77a9c3fda13c9165f672/lavaverb/saike_lava.jsfx.rpl";
+          sha256 = "1l7xy9vrx944fgdc948dhhwdw1b2zxskcnz21ddissxracwwbk72";
+        }
+      ];
+    };
+    saike-lava-jsfx-0-28 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "saike-lava-jsfx-0-28";
+      indexName = "Saike Tools";
+      categoryName = "lavaverb";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/saike_lava.jsfx";
+          sha256 = "153jsq285fcwm73zplfbxxka0mq7m6smy4wzy07lwzwa0ydi75g2";
+        }
+        {
+          path = ''Lava_Dependencies/saike_fft_verb.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/Lava_Dependencies/saike_fft_verb.jsfx-inc";
+          sha256 = "08hf45ax323zr9772cnk3vj4n9yfcl0jww86zk34g3f0zhrbn02b";
+        }
+        {
+          path = ''Lava_Dependencies/saike_lava_cabs.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/Lava_Dependencies/saike_lava_cabs.jsfx-inc";
+          sha256 = "0nxx2p3y4rkia3zqgpypwvhn5i0m7lzsn8i7bzx2l24n26b6bnh7";
+        }
+        {
+          path = ''Lava_Dependencies/saike_lava_delays.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/Lava_Dependencies/saike_lava_delays.jsfx-inc";
+          sha256 = "1s92d6sbadblprn581nsp2s3dbzxn85kxmlnpnifvjwcqqp4c4qi";
+        }
+        {
+          path = ''Lava_Dependencies/saike_lava_fluid.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/Lava_Dependencies/saike_lava_fluid.jsfx-inc";
+          sha256 = "0zww3n17x9paw1m3gxzbrjkwl8p52h2mbqzawv8a8w5f7529r7a8";
+        }
+        {
+          path = ''Lava_Dependencies/saike_lava_gfx.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/Lava_Dependencies/saike_lava_gfx.jsfx-inc";
+          sha256 = "01kp1ci5x561lw2vggyvi12mvw7h7q6610sqlgpvdyllz8p1m2q8";
+        }
+        {
+          path = ''Lava_Dependencies/saike_lava_pitchlib.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/Lava_Dependencies/saike_lava_pitchlib.jsfx-inc";
+          sha256 = "03wapvs7bgydv34cqq7pqsn1a8z3rcd267xva94s8l3f4xqg7j49";
+        }
+        {
+          path = ''Lava_Dependencies/saike_lava_verb.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/Lava_Dependencies/saike_lava_verb.jsfx-inc";
+          sha256 = "0sy328amasgyjlsaghk2gpd4jms0fnnjspix5frlgh7qp0qqijg9";
+        }
+        {
+          path = ''saike_lava.jsfx.rpl'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/b71575017be404a845e1a45c92cab276032dec84/lavaverb/saike_lava.jsfx.rpl";
           sha256 = "1l7xy9vrx944fgdc948dhhwdw1b2zxskcnz21ddissxracwwbk72";
         }
       ];
@@ -29498,6 +29585,64 @@
         {
           path = ''midi_arp_dependencies/saike_midi_arp_pattern_handling.jsfx-inc'';
           url = "https://github.com/JoepVanlier/JSFX/raw/79b9c9e9b25db95920d5c10c73d4e6801414441a/saike_midi_arp/midi_arp_dependencies/saike_midi_arp_pattern_handling.jsfx-inc";
+          sha256 = "1jswzidp4vwfsyjbavlk1bla7zwwkbk41bm2q9j4ajdwggx3k8zh";
+        }
+      ];
+    };
+    saike-midi-arp-jsfx-0-43 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "saike-midi-arp-jsfx-0-43";
+      indexName = "Saike Tools";
+      categoryName = "saike_midi_arp";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/JoepVanlier/JSFX/raw/1660b823ac4f00cd91888518d108da9ffb017f88/saike_midi_arp/saike_midi_arp.jsfx";
+          sha256 = "1mchbqhy1f46x6qdskp5xc1ccqwwcda4137l2zhx0281d2mnascr";
+        }
+        {
+          path = ''midi_arp_dependencies/saike_arp_midi_handling.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/1660b823ac4f00cd91888518d108da9ffb017f88/saike_midi_arp/midi_arp_dependencies/saike_arp_midi_handling.jsfx-inc";
+          sha256 = "185nv88wiwyn8b1zh59077b8aagav31p22a288hppqfw7abcsr6h";
+        }
+        {
+          path = ''midi_arp_dependencies/saike_midi_arp_gfx_funcs.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/1660b823ac4f00cd91888518d108da9ffb017f88/saike_midi_arp/midi_arp_dependencies/saike_midi_arp_gfx_funcs.jsfx-inc";
+          sha256 = "0ilp0xjixsqj1g59g4vpcwh6n1xs7rc48w6s4094k35f86wjfwwl";
+        }
+        {
+          path = ''midi_arp_dependencies/saike_midi_arp_pattern_handling.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/1660b823ac4f00cd91888518d108da9ffb017f88/saike_midi_arp/midi_arp_dependencies/saike_midi_arp_pattern_handling.jsfx-inc";
+          sha256 = "1jswzidp4vwfsyjbavlk1bla7zwwkbk41bm2q9j4ajdwggx3k8zh";
+        }
+      ];
+    };
+    saike-midi-arp-jsfx-0-44 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "saike-midi-arp-jsfx-0-44";
+      indexName = "Saike Tools";
+      categoryName = "saike_midi_arp";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/JoepVanlier/JSFX/raw/9348b4203c1f80e500c95172f13addfe5e24e9eb/saike_midi_arp/saike_midi_arp.jsfx";
+          sha256 = "1sg1h9g8i1rhgnva8bpbgaahlvmybxh5vj4mkgmfnmlqihzv8piz";
+        }
+        {
+          path = ''midi_arp_dependencies/saike_arp_midi_handling.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/9348b4203c1f80e500c95172f13addfe5e24e9eb/saike_midi_arp/midi_arp_dependencies/saike_arp_midi_handling.jsfx-inc";
+          sha256 = "10dw5f634phjjb3c2yay8imn85i0jmwrygsdm289vnr5yv46ksrl";
+        }
+        {
+          path = ''midi_arp_dependencies/saike_midi_arp_gfx_funcs.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/9348b4203c1f80e500c95172f13addfe5e24e9eb/saike_midi_arp/midi_arp_dependencies/saike_midi_arp_gfx_funcs.jsfx-inc";
+          sha256 = "0ilp0xjixsqj1g59g4vpcwh6n1xs7rc48w6s4094k35f86wjfwwl";
+        }
+        {
+          path = ''midi_arp_dependencies/saike_midi_arp_pattern_handling.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/9348b4203c1f80e500c95172f13addfe5e24e9eb/saike_midi_arp/midi_arp_dependencies/saike_midi_arp_pattern_handling.jsfx-inc";
           sha256 = "1jswzidp4vwfsyjbavlk1bla7zwwkbk41bm2q9j4ajdwggx3k8zh";
         }
       ];

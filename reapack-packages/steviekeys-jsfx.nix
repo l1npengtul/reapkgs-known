@@ -757,6 +757,20 @@
         }
       ];
     };
+    hard-antiderivative-antialiasing-clipper-jsfx-1-0-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "hard-antiderivative-antialiasing-clipper-jsfx-1-0-3";
+      indexName = "StevieKeys JSFX";
+      categoryName = "Distortion";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/224f5cb37245ba29e517e0fc95f7dd8b2586eb77/Distortion/Hard%20AntiDerivative%20AntiAliasing%20Clipper.jsfx";
+          sha256 = "17gp7s7x8bfnqla882h64hj3sv5y1xd4vm3fr3mm316rwdzjcxi0";
+        }
+      ];
+    };
     octave-fuzz-jsfx-0-5-0beta = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "octave-fuzz-jsfx-0-5-0beta";
@@ -2485,6 +2499,48 @@
         }
       ];
     };
+    highpass-lowpass-12db-jsfx-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "highpass-lowpass-12db-jsfx-1-0-1";
+      indexName = "StevieKeys JSFX";
+      categoryName = "EQ";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/0e78aaec49ea52dae65cfde40d85cac50597f234/EQ/Highpass%20Lowpass%2012dB.jsfx";
+          sha256 = "1ci6p3y9qlfm0073wk5v56icjzwrb1vnm1xj274z9hnr0ra7s8ig";
+        }
+      ];
+    };
+    highpass-lowpass-12db-jsfx-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "highpass-lowpass-12db-jsfx-1-0-2";
+      indexName = "StevieKeys JSFX";
+      categoryName = "EQ";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/ee7946f976097ef4804fd9e939d835e287e1adfe/EQ/Highpass%20Lowpass%2012dB.jsfx";
+          sha256 = "1424w1h8bjc5dzpc40n6m64nrk4jq9qqk9vp3cab65jaf6h1s74y";
+        }
+      ];
+    };
+    highpass-lowpass-12db-jsfx-1-0-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "highpass-lowpass-12db-jsfx-1-0-3";
+      indexName = "StevieKeys JSFX";
+      categoryName = "EQ";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/de18c4816a47018e33188f129a9fcc637e8b215c/EQ/Highpass%20Lowpass%2012dB.jsfx";
+          sha256 = "07i9fh31hc65nddh1wnj52mm28jh4wm0p2gs8kb1njffz388zr9s";
+        }
+      ];
+    };
     retro-mod-a-exciter-jsfx-0-1-0beta = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "retro-mod-a-exciter-jsfx-0-1-0beta";
@@ -2510,6 +2566,20 @@
           path = '''';
           url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/30c3e12497aa3eb9669324847dbe4af2d570650f/EQ/Retro%20Mod%20A%20Exciter.jsfx";
           sha256 = "1shm5v23jni1dzhs4jw4lh2sz1rmvma4npfq4pnbd38ax5q0izm1";
+        }
+      ];
+    };
+    retro-mod-a-exciter-jsfx-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "retro-mod-a-exciter-jsfx-1-0-1";
+      indexName = "StevieKeys JSFX";
+      categoryName = "EQ";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/17f4190e97f8ebe5d53d45e261ce565f2d773230/EQ/Retro%20Mod%20A%20Exciter.jsfx";
+          sha256 = "028dl5ri2gs8zmj1y37vf0fl900mdqg1xdxvq60i8p214i03769q";
         }
       ];
     };
@@ -2985,6 +3055,20 @@
         }
       ];
     };
+    wide-crosstalk-jsfx-1-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "wide-crosstalk-jsfx-1-2";
+      indexName = "StevieKeys JSFX";
+      categoryName = "Stereo Enhancers";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/3122cf58556b0c40ac761a2f3ef477accfeae696/Stereo%20Enhancers/Wide%20Crosstalk.jsfx";
+          sha256 = "0rd24caa4zbb1l1w5br3l6yld8qkb3g45rwhwvkxk5yg7qfq9hws";
+        }
+      ];
+    };
     auto-deesser-jsfx-0-2-0beta = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "auto-deesser-jsfx-0-2-0beta";
@@ -3150,6 +3234,34 @@
           path = '''';
           url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/1e942906e2dcaa5ccec6718c7ba76b0395355c3d/utility/Trapezoid%20PDF%20Dither.jsfx";
           sha256 = "1qg8z0vww1zqh067qmmcjkbjb9shhr5v7j89vqwlsswg0ap2s2xi";
+        }
+      ];
+    };
+    trapezoid-pdf-dither-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-0";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/fdffb646284a5b5c789b1d6f0a4d5a66503419c8/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "0r9wgv19aapk4m9lcw0rdpds2yw4nqhciqfhrg6dvhi95bbpxird";
+        }
+      ];
+    };
+    trapezoid-pdf-dither-jsfx-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-1";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/4e2ab2d7a8195b8236a78eb37e4d726244083f59/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "1hlg6gxl1n9ai7fp3hmjwnyby6wsb8nfnz12zsb5wj2251jsspms";
         }
       ];
     };
