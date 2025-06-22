@@ -43167,6 +43167,30 @@
         }
       ];
     };
+    mpl-mapping-panel-background-lua-4-21 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-mapping-panel-background-lua-4-21";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/f91b6e2c04985eb7f50981abfdf64d5b4c90f382/Various/mpl_Mapping%20Panel%20(background).lua";
+          sha256 = "1fk1dry221r1yawk8c3i7cjd8k9ci4ixa5m1ixcpymigh8jijk69";
+        }
+        {
+          path = ''mpl_MappingPanel_master.jsfx'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/f91b6e2c04985eb7f50981abfdf64d5b4c90f382/Various/mpl_MappingPanel_master.jsfx";
+          sha256 = "0605c70k0kx8igxv6arkg9ciwnp138ki1g2xxkl7kcr5nahv44sm";
+        }
+        {
+          path = ''mpl_MappingPanel_slave.jsfx'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/f91b6e2c04985eb7f50981abfdf64d5b4c90f382/Various/mpl_MappingPanel_slave.jsfx";
+          sha256 = "0jm1syxqhi9bv8z20qb13d82h1vjvip6ms51n2mjlclrdnv2zrjz";
+        }
+      ];
+    };
     mpl-open-and-close-media-explorer-when-item-is-inserted-background-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-open-and-close-media-explorer-when-item-is-inserted-background-lua-1-0";
