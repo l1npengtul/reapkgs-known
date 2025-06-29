@@ -17735,6 +17735,104 @@
         }
       ];
     };
+    zaibuyidao-project-audio-file-explorer-lua-1-0-35 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-0-35";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/f19034e6ff3aacd24b00a7d10c823c77a43d6dc4/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "0g291q7f7nhm0kwn7v64mc4ky7cikf2ggrid4mm5a8s87pfhain1";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-5";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/3c1c810c86a5a2e8a619973b6bd85b573863dcfd/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1v2d7ip9n08cjq6p4h7fgil4cqvqyjhj04z0wid1v6k7697yzfdp";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-5-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-5-1";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6c919b33083b820f56da685a2c37354e27cbf5fc/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "17mqi66z9gz6p6pzhalhfxr85a8sxkf832p1kwkx6ssqmcqmjb2i";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-5-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-5-2";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/6648bf2002881c3e1db592f0ccd1de3743be2679/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1mlh9p5h8vdqj1a25d220vrd6n6ygnr6ic7fcwfvdsma74q371c7";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-5-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-5-3";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/19ce6a2eca96d154cda9732f1c0204bbd357aa09/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "05m76hji8qixf0z8hadhp6lw3lx7py3ijnhnaw7h2277gfd6mb6q";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-5-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-5-4";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2451364822280386c5b373e8bab7dd1c93981037/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1acgrla332iwf6y6b0jgir4h1bsxpspc7z3fmm5jx9dvca46xk11";
+        }
+      ];
+    };
+    zaibuyidao-project-audio-file-explorer-lua-1-5-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "zaibuyidao-project-audio-file-explorer-lua-1-5-5";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Utility";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/03251bc760dbbc7090811e83561f26092a2eceb8/Utility/zaibuyidao_Project%20Audio%20File%20Explorer.lua";
+          sha256 = "1lndirxdl40m40r6mnf7i9900h1vxcnngzbd04b7v40miy3xp4vr";
+        }
+      ];
+    };
     zaibuyidao-set-default-reabank-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "zaibuyidao-set-default-reabank-lua-1-0";
@@ -28876,7 +28974,7 @@
         {
           path = ''SFX/lib/REQ/j_string_functions.lua'';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/ad8cb0cad4c181645b3dc4bb92771852dd312c14/Various/SFX/lib/REQ/j_string_functions.lua";
-          sha256 = "";
+          sha256 = "1mxxqqrnpdhsxsg9ki6wq893plsj0xq1qjx80fz4v14dy3h6q3hd";
         }
         {
           path = ''SFX/lib/REQ/j_tables.lua'';
@@ -35133,7 +35231,7 @@
         {
           path = ''SFX/lib/config-custom.lua'';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/0a52cd9f15c01b0cf58177ed6144e750df5f9f32/Various/SFX/lib/config-custom.lua";
-          sha256 = "1z1ka8igz382k20yhc8q5wpzxi9ffk590xqh0axzj73cj043csgq";
+          sha256 = "";
         }
         {
           path = ''SFX/lib/config-database.lua'';
