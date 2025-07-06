@@ -15705,6 +15705,30 @@
         }
       ];
     };
+    az-conform-project-using-metadata-post-production-tools-lua-0-7-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "az-conform-project-using-metadata-post-production-tools-lua-0-7-1";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/f3718723eb85c0ef328b9ba6cc8ef16a335237ee/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools).lua";
+          sha256 = "1422n2c5iyww95x4n3j759gg8nf8l55ahnjrxh5137ykqc8wm881";
+        }
+        {
+          path = ''az_Conform project using metadata (post-production tools)/az_Conform project_Core.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/f3718723eb85c0ef328b9ba6cc8ef16a335237ee/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools)/az_Conform%20project_Core.lua";
+          sha256 = "0dmwzyaci3a8s710npl8wi1mv6qyh8sg2g6bkwya8ni6kg9z3r7d";
+        }
+        {
+          path = ''az_Conform project using metadata (post-production tools)/az_Rename takes with last used settings (post-production tools).lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/f3718723eb85c0ef328b9ba6cc8ef16a335237ee/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools)/az_Rename%20takes%20with%20last%20used%20settings%20(post-production%20tools).lua";
+          sha256 = "1vn6jjpmc6zyq0ig5bgz6jfrmqc5c61fkhal6sbvb2349d274x92";
+        }
+      ];
+    };
     az-fade-tool-work-on-context-of-mouse-razor-or-time-selection-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "az-fade-tool-work-on-context-of-mouse-razor-or-time-selection-lua-1-0";
@@ -56435,6 +56459,20 @@
           path = '''';
           url = "https://github.com/ReaTeam/ReaScripts/raw/03706738676d83dbf8f6f7d17a8b1a2d3ffaa5b5/Various/az_Simple%20project%20reconform.lua";
           sha256 = "0kgv7qppdl0sxkfgnn5j61372gp4nrzjwxwg9ynr0q5wgrbcf3pn";
+        }
+      ];
+    };
+    az-simple-project-reconform-lua-0-8 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "az-simple-project-reconform-lua-0-8";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/f9153b7f3ce74e52e522a1cd87050a393a678f5c/Various/az_Simple%20project%20reconform.lua";
+          sha256 = "15ayg7x2jd2h0ymfb1wg3c6klp5l9a878y8z80l385hn9cz3xbd3";
         }
       ];
     };

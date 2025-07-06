@@ -32623,6 +32623,20 @@
         }
       ];
     };
+    mpl-send-control-lua-1-29 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-send-control-lua-1-29";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/5e1e044526800de6997dffb5b1374706bb28e0b6/Tracks%20Properties/mpl_Send%20control.lua";
+          sha256 = "16yn3aw869rvk57dg20hp5vrxj8khx87xgn24s4nzl7rjlq8xya1";
+        }
+      ];
+    };
     mpl-set-hardware-midi-output-to-gm-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-set-hardware-midi-output-to-gm-lua-1-0";
@@ -45508,6 +45522,34 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/3a53defe80eb0bff6f22820e037e9be1bd0ae413/Various/mpl_Visual%20Mixer.lua";
           sha256 = "0crczq0p74cj5qlkvv90calwfr78bkym5sfjbp2msv45sdfmzhgz";
+        }
+      ];
+    };
+    mpl-visual-mixer-lua-3-08 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-visual-mixer-lua-3-08";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/41a597cf2a0a57d3a38aa3677e7bcba5fe813919/Various/mpl_Visual%20Mixer.lua";
+          sha256 = "0c39kmav1nwywizx95m8l705fy7wsq7qjc8nqfdfx6swmfclzjxd";
+        }
+      ];
+    };
+    mpl-visual-mixer-lua-3-09 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-visual-mixer-lua-3-09";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/f0cf6973f988c2347b10a85fb0ceac9b3c5260f7/Various/mpl_Visual%20Mixer.lua";
+          sha256 = "1pba4np4dqqsf72yrwfqnhra8syc8ljpsy7i641lg28j551y2dk8";
         }
       ];
     };
