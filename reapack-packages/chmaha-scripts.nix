@@ -5,90 +5,6 @@
   fetchurl,
 }: {
   chmaha-scripts = {
-    rcplugs-jsfx-1-12 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "rcplugs-jsfx-1-12";
-      indexName = "chmaha Scripts";
-      categoryName = "RCPlugs";
-      packageType = "effect";
-      sources = [
-        {
-          path = ''RCComp.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCComp.jsfx";
-          sha256 = "1yy08b65bgfhjnva120p4164yv9dwffnv3jgkk0p3f98b3vjlgaa";
-        }
-        {
-          path = ''RCDeEss.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCDeEss.jsfx";
-          sha256 = "093h9qgnh472rkbrr3y1rx6rskjf75rpqskw96hm29x4sxpdq4p1";
-        }
-        {
-          path = ''RCDeEss_Advanced.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCDeEss_Advanced.jsfx";
-          sha256 = "12mb3i549ya156w1yrdjwr2908hj8dw9rs7vkv78yzgyih72m3zv";
-        }
-        {
-          path = ''RCDither.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCDither.jsfx";
-          sha256 = "1l2ayxdi2wsv1pn699y00fbma9j83r2qmg08h1zvdm834mhccrkm";
-        }
-        {
-          path = ''RCChannelEQ.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCChannelEQ.jsfx";
-          sha256 = "1ggi0b63z7izz6cj69i2wr650093prnx5xccrpzzvpfi1qfaab4q";
-        }
-        {
-          path = ''RCGain.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCGain.jsfx";
-          sha256 = "09l1irvlrczx9gjv11fh2bhz6qq6425kb7a61k9jvazkc19531vn";
-        }
-        {
-          path = ''RCLimiter.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCLimiter.jsfx";
-          sha256 = "02hf8x2lj827nplxr7yywgnkv57hyj6ggnmdlzxcclvp6i29fyrs";
-        }
-        {
-          path = ''RCParallelK.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCParallelK.jsfx";
-          sha256 = "1kc88insyvbwhpv175ziyxhzbqj6ag8k168vrwq5vgg1wihqhiv3";
-        }
-        {
-          path = ''RCMasteringEQ.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCMasteringEQ.jsfx";
-          sha256 = "1qy0fshij6am3qymvkr1q941vdky11bkklp2xb7wwq67fzxlp3i1";
-        }
-        {
-          path = ''RCInflator.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCInflator.jsfx";
-          sha256 = "080ghrpi35y4cvj3lnfx3fnxs18b37d5637a5v7rs9yhy859q11h";
-        }
-        {
-          path = ''RCTimePhase.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCTimePhase.jsfx";
-          sha256 = "03s2zyy59nj8yl11bsfl8gs9vliv39gn3y8vn5255mklzwnz5inb";
-        }
-        {
-          path = ''RCConsoleBus.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCConsoleBus.jsfx";
-          sha256 = "0wlr2ad8zyylssc538f39j0h6icqlc1bxv2pdnafra5c7p7156sn";
-        }
-        {
-          path = ''RCConsoleChannel.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCConsoleChannel.jsfx";
-          sha256 = "1cmy685qs7i7hrdapj8s7fms9fr5wmbmrns8lfhwhnf4fd1cb3x5";
-        }
-        {
-          path = ''RCConsoleFinalizer.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCConsoleFinalizer.jsfx";
-          sha256 = "04h5yjvp9xkzj61a2ian94dwpi6x2l6ijzigj6hzbyyf29d01zbc";
-        }
-        {
-          path = ''RCMidSide.jsfx'';
-          url = "https://github.com/chmaha/ReaClassical/raw/e0b70d2932030a1c046d21efba035ccd9c70c1ae/RCPlugs/RCMidSide.jsfx";
-          sha256 = "17c3disgplh1ckzq6y9ccpzfdbc0rxiqk2ygw1pkix3dr6ki434n";
-        }
-      ];
-    };
     rcplugs-jsfx-1-13 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "rcplugs-jsfx-1-13";
@@ -170,6 +86,100 @@
           path = ''RCMidSide.jsfx'';
           url = "https://github.com/chmaha/ReaClassical/raw/05b989ef6678cd758ab8723d30d0efd982c6e22a/RCPlugs/RCMidSide.jsfx";
           sha256 = "17c3disgplh1ckzq6y9ccpzfdbc0rxiqk2ygw1pkix3dr6ki434n";
+        }
+      ];
+    };
+    rcplugs-jsfx-1-14 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "rcplugs-jsfx-1-14";
+      indexName = "chmaha Scripts";
+      categoryName = "RCPlugs";
+      packageType = "effect";
+      sources = [
+        {
+          path = ''RCComp.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCComp.jsfx";
+          sha256 = "1yy08b65bgfhjnva120p4164yv9dwffnv3jgkk0p3f98b3vjlgaa";
+        }
+        {
+          path = ''RCDeEss.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCDeEss.jsfx";
+          sha256 = "093h9qgnh472rkbrr3y1rx6rskjf75rpqskw96hm29x4sxpdq4p1";
+        }
+        {
+          path = ''RCDeEss_Advanced.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCDeEss_Advanced.jsfx";
+          sha256 = "12mb3i549ya156w1yrdjwr2908hj8dw9rs7vkv78yzgyih72m3zv";
+        }
+        {
+          path = ''RCDither.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCDither.jsfx";
+          sha256 = "1l2ayxdi2wsv1pn699y00fbma9j83r2qmg08h1zvdm834mhccrkm";
+        }
+        {
+          path = ''RCChannelEQ.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCChannelEQ.jsfx";
+          sha256 = "1ggi0b63z7izz6cj69i2wr650093prnx5xccrpzzvpfi1qfaab4q";
+        }
+        {
+          path = ''RCGain.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCGain.jsfx";
+          sha256 = "09l1irvlrczx9gjv11fh2bhz6qq6425kb7a61k9jvazkc19531vn";
+        }
+        {
+          path = ''RCLimiter.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCLimiter.jsfx";
+          sha256 = "02hf8x2lj827nplxr7yywgnkv57hyj6ggnmdlzxcclvp6i29fyrs";
+        }
+        {
+          path = ''RCParallelK.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCParallelK.jsfx";
+          sha256 = "1kc88insyvbwhpv175ziyxhzbqj6ag8k168vrwq5vgg1wihqhiv3";
+        }
+        {
+          path = ''RCMasteringEQ.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCMasteringEQ.jsfx";
+          sha256 = "1qy0fshij6am3qymvkr1q941vdky11bkklp2xb7wwq67fzxlp3i1";
+        }
+        {
+          path = ''RCInflator.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCInflator.jsfx";
+          sha256 = "0g4mn6lr0pd53ywqwnsn8hzigh5l5khny3vfhx3lc2xhx7222inb";
+        }
+        {
+          path = ''RCTimePhase.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCTimePhase.jsfx";
+          sha256 = "03s2zyy59nj8yl11bsfl8gs9vliv39gn3y8vn5255mklzwnz5inb";
+        }
+        {
+          path = ''RCConsoleBus.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCConsoleBus.jsfx";
+          sha256 = "0wlr2ad8zyylssc538f39j0h6icqlc1bxv2pdnafra5c7p7156sn";
+        }
+        {
+          path = ''RCConsoleChannel.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCConsoleChannel.jsfx";
+          sha256 = "1cmy685qs7i7hrdapj8s7fms9fr5wmbmrns8lfhwhnf4fd1cb3x5";
+        }
+        {
+          path = ''RCConsoleFinalizer.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCConsoleFinalizer.jsfx";
+          sha256 = "04h5yjvp9xkzj61a2ian94dwpi6x2l6ijzigj6hzbyyf29d01zbc";
+        }
+        {
+          path = ''RCMidSide.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCMidSide.jsfx";
+          sha256 = "17c3disgplh1ckzq6y9ccpzfdbc0rxiqk2ygw1pkix3dr6ki434n";
+        }
+        {
+          path = ''RCReverb_Insert.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCReverb_Insert.jsfx";
+          sha256 = "0yhdjn4vhb3a0l73wblbs55ngsxacxs27k38xgi93cz74wzpcvns";
+        }
+        {
+          path = ''RCReverb_Send.jsfx'';
+          url = "https://github.com/chmaha/ReaClassical/raw/ee1224bab941100234421c98914e40eb6578dc66/RCPlugs/RCReverb_Send.jsfx";
+          sha256 = "0dfh76w6g6gpi78pxrhzij6cpgqqgfqhlrqkq27h9qs5358y2sry";
         }
       ];
     };

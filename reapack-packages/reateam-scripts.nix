@@ -1711,6 +1711,20 @@
         }
       ];
     };
+    graysonsolis-list-fx-parameter-indices-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "graysonsolis-list-fx-parameter-indices-lua-1-0";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Development";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/32c81a2bebf158f6e20d418d4f20eafa03e5598b/Development/graysonsolis_List%20FX%20parameter%20indices.lua";
+          sha256 = "0cgix6f5ykxsn2r6az67badhb6j04wa47z9c2xlxnywxlyx2pk0a";
+        }
+      ];
+    };
     lokasenna-gui-library-v2-developer-tools-lua-2-9-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "lokasenna-gui-library-v2-developer-tools-lua-2-9-0";
@@ -7548,6 +7562,104 @@
         }
       ];
     };
+    talagan-reaimgui-markdown-lua-0-1-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-reaimgui-markdown-lua-0-1-2";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Development";
+      packageType = "script";
+      sources = [
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/ext/imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e19efa624a39d563f7475c6e37e65e0bfb3c7dcd/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/ext/imgui.lua";
+          sha256 = "1dqvjvfficbpvav4qkbnha70gpr65ak8ina5fm9lg5vf4fnpka4a";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-ast.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e19efa624a39d563f7475c6e37e65e0bfb3c7dcd/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-ast.lua";
+          sha256 = "1hfikjsiibnrj98xylg1gxdvs1jdlvj72va0az53c84kpkp5nsm2";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-html.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e19efa624a39d563f7475c6e37e65e0bfb3c7dcd/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-html.lua";
+          sha256 = "11qxcm5fs10p5im7pzwmkvifjbw0d1j52qxx8wqb4lzjwz6shgpv";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e19efa624a39d563f7475c6e37e65e0bfb3c7dcd/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-imgui.lua";
+          sha256 = "1z04yl4ibzrng6lk5vh73c2611mryvk3zbd7g7av0mp0ph60vvik";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-test.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e19efa624a39d563f7475c6e37e65e0bfb3c7dcd/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-test.lua";
+          sha256 = "12790mrdzy0bssfx2y1612wncfyp80v5jif5fscbwrq97s97qlxy";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-text.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e19efa624a39d563f7475c6e37e65e0bfb3c7dcd/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-text.lua";
+          sha256 = "0ycb6k9hx09x6rz85i617x6hm2d9bavakgr3yakn9zq26531j52j";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e19efa624a39d563f7475c6e37e65e0bfb3c7dcd/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown.lua";
+          sha256 = "0vgjj9qcd6sxbh711bn0smq05vbb54x4hgkscf4sf3yhwrw4h2fr";
+        }
+        {
+          path = ''./talagan_ReaImGui Markdown Demo.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e19efa624a39d563f7475c6e37e65e0bfb3c7dcd/Development/talagan_ReaImGui%20Markdown/actions/talagan_ReaImGui%20Markdown%20Demo.lua";
+          sha256 = "0vkzpn77608xjipkz3z9l3vadf0ykj3kmk6aibmnjrgh99gmvrls";
+        }
+      ];
+    };
+    talagan-reaimgui-markdown-lua-0-1-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-reaimgui-markdown-lua-0-1-3";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Development";
+      packageType = "script";
+      sources = [
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/ext/imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/933eec62ceb2516e7ecd82545e983708b85b1f52/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/ext/imgui.lua";
+          sha256 = "1dqvjvfficbpvav4qkbnha70gpr65ak8ina5fm9lg5vf4fnpka4a";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-ast.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/933eec62ceb2516e7ecd82545e983708b85b1f52/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-ast.lua";
+          sha256 = "1hfikjsiibnrj98xylg1gxdvs1jdlvj72va0az53c84kpkp5nsm2";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-html.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/933eec62ceb2516e7ecd82545e983708b85b1f52/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-html.lua";
+          sha256 = "11qxcm5fs10p5im7pzwmkvifjbw0d1j52qxx8wqb4lzjwz6shgpv";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/933eec62ceb2516e7ecd82545e983708b85b1f52/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-imgui.lua";
+          sha256 = "0vc36bynx8msmvqpb7v5vaycx74zssma4nj4w5jisk91an95nihc";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-test.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/933eec62ceb2516e7ecd82545e983708b85b1f52/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-test.lua";
+          sha256 = "12790mrdzy0bssfx2y1612wncfyp80v5jif5fscbwrq97s97qlxy";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-text.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/933eec62ceb2516e7ecd82545e983708b85b1f52/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-text.lua";
+          sha256 = "0ycb6k9hx09x6rz85i617x6hm2d9bavakgr3yakn9zq26531j52j";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/933eec62ceb2516e7ecd82545e983708b85b1f52/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown.lua";
+          sha256 = "0vgjj9qcd6sxbh711bn0smq05vbb54x4hgkscf4sf3yhwrw4h2fr";
+        }
+        {
+          path = ''./talagan_ReaImGui Markdown Demo.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/933eec62ceb2516e7ecd82545e983708b85b1f52/Development/talagan_ReaImGui%20Markdown/actions/talagan_ReaImGui%20Markdown%20Demo.lua";
+          sha256 = "0vkzpn77608xjipkz3z9l3vadf0ykj3kmk6aibmnjrgh99gmvrls";
+        }
+      ];
+    };
     willdevelop-read-tags-for-plugin-tag-system-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "willdevelop-read-tags-for-plugin-tag-system-lua-1-0";
@@ -7629,6 +7741,20 @@
           path = '''';
           url = "https://github.com/ReaTeam/ReaScripts/raw/aaff2332dae3006cb66d150ea60392369feb9e44/Development/RPP-Parser/Reateam_RPP-Parser.lua";
           sha256 = "064yl095mpikswqa49fjg9vmlgp4krjr4db8k32k566gcwg4dxr4";
+        }
+      ];
+    };
+    reateam-rpp-parser-lua-2-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "reateam-rpp-parser-lua-2-0-1";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Development/RPP-Parser";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/53b368b67d4dfb4e5c5647f59c7e87dcfc4f7e6b/Development/RPP-Parser/Reateam_RPP-Parser.lua";
+          sha256 = "1d5nsq9id2ywrrxcgscsnm6qrm1z38hlgxf00h1pnj4adx9wh4nz";
         }
       ];
     };
@@ -8486,6 +8612,20 @@
           path = '''';
           url = "https://github.com/ReaTeam/ReaScripts/raw/95ebdcb04713797ab507fdc76ffb64146bb3bd22/Envelopes/edgemeal_Toggle%20visible%20envelopes%20inlane%20for%20selected%20track.lua";
           sha256 = "1mhvhbkinp3yi1ja7srb1n809ykc56rwjk3fs2cqkzd6i1sccjra";
+        }
+      ];
+    };
+    graysonsolis-toggle-reapitch-shift-cents-envelope-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "graysonsolis-toggle-reapitch-shift-cents-envelope-lua-1-0";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Envelopes";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/75f960c923015d2f6b9a91fc31579e8e9b04bd27/Envelopes/graysonsolis_Toggle%20ReaPitch%20shift%20(cents)%20envelope.lua";
+          sha256 = "0x8xjyk7gkjr8xl7fpxwvwc4an2i57byxhn1niw08f98w498wa8p";
         }
       ];
     };
@@ -12254,6 +12394,20 @@
         }
       ];
     };
+    graysonsolis-add-js-humanizer-to-top-of-track-chain-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "graysonsolis-add-js-humanizer-to-top-of-track-chain-lua-1-0";
+      indexName = "ReaTeam Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/85f66aae0626aa90e203a3bfbb777b190c25a57d/FX/graysonsolis_Add%20JS%20Humanizer%20to%20top%20of%20track%20chain.lua";
+          sha256 = "10lmh3cm5zcmda06z62k98a7ldpgdwz7m934pksg0b8zzv33mw3g";
+        }
+      ];
+    };
     jrtaylormusic-get-and-propagate-last-touched-fx-parameter-to-all-instances-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "jrtaylormusic-get-and-propagate-last-touched-fx-parameter-to-all-instances-lua-1-0";
@@ -13875,6 +14029,20 @@
           path = '''';
           url = "https://github.com/ReaTeam/ReaScripts/raw/af4ff8f2a602793c0b79c41a91776a9399b87d34/Items%20Editing/80icio_Perfect%20Timing!%20-%20Audio%20Quantizer.lua";
           sha256 = "0rfw15fypxaddwjb0mc2bwhx0w14qs0468zhxzdhvjyvakpvs9wq";
+        }
+      ];
+    };
+    _80icio-perfect-timing-audio-quantizer-lua-0-29 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "_80icio-perfect-timing-audio-quantizer-lua-0-29";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/69a143814d07fe21636a05c5329dd5fc52e08dc2/Items%20Editing/80icio_Perfect%20Timing!%20-%20Audio%20Quantizer.lua";
+          sha256 = "0wypc80a24shrpvnzvl19bcvm9pcisar6jvnsm8c8bc9igkz23gz";
         }
       ];
     };
@@ -20193,6 +20361,20 @@
           path = ''cfillion_Set item volume control mode to handle (center).lua'';
           url = "https://github.com/ReaTeam/ReaScripts/raw/444fc4adaf974bdaaef3a44189a64b4456ba22b4/Items%20Properties/cfillion_Set%20item%20volume%20control%20mode.lua";
           sha256 = "19n7l9j9afyx934c3s4cl7ma3dshdhx0cijjmmhnabw899w3qf99";
+        }
+      ];
+    };
+    graysonsolis-toggle-grouping-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "graysonsolis-toggle-grouping-lua-1-0";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/7da037e4fb778d0259affd34617c51e5aec63292/Items%20Properties/graysonsolis_Toggle%20grouping.lua";
+          sha256 = "16xl2df6rzk7hnmx67b8pqnwaap5p7qx46ij61x43q6bxd5y8xwa";
         }
       ];
     };
@@ -48033,6 +48215,20 @@
           path = '''';
           url = "https://github.com/ReaTeam/ReaScripts/raw/0abc6f18ec5344962ebedc1b4b0fa21040853a75/Regions/epacheco_Create%20a%20single%20region%20with%20name%20from%20selected%20items.lua";
           sha256 = "1xg241dbjvyymwbxb5xv57ajbg7l43xhhz5g989j2i2ihx0n7pvc";
+        }
+      ];
+    };
+    graysonsolis-make-renderable-track-regions-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "graysonsolis-make-renderable-track-regions-lua-1-0";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Regions";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/54590ebbdc3699d6aeac62098031e79fa0d7661b/Regions/graysonsolis_Make%20renderable%20track%20regions.lua";
+          sha256 = "1q4vharhji4zyg0i5n6p1m996nq45dpdn93av98952vlpa82jpgq";
         }
       ];
     };

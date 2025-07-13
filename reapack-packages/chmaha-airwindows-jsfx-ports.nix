@@ -1076,6 +1076,20 @@
         }
       ];
     };
+    sonatareverb-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sonatareverb-jsfx-1-0";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Reverbs";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/e7332b7191398b94ac7f5eb4f5d5c4b9a04a4b8a/Reverbs/SonataReverb.jsfx";
+          sha256 = "0214wvixiav6fxm9dwfl94nnlxj7w0bd8ihmglrybmm6aa0frcc3";
+        }
+      ];
+    };
     _78slewclipper-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "_78slewclipper-jsfx-1-0";

@@ -16921,6 +16921,20 @@
         }
       ];
     };
+    x-raym-state-chunk-editor-reaimgui-lua-1-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-state-chunk-editor-reaimgui-lua-1-1-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/c6194173174573f95356a6b0ff989e6946838f8a/Various/X-Raym_State%20chunk%20editor_ReaImGui.lua";
+          sha256 = "1dwsl3bdnmk6n145hl6npj1zrn0hpx6xinbdznxv0lan8fvgciv0";
+        }
+      ];
+    };
     x-raym-toggle-sonarworks-soundid-monitor-fx-instance-calibration-state-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-toggle-sonarworks-soundid-monitor-fx-instance-calibration-state-lua-1-0";
