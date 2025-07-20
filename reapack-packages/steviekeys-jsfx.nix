@@ -3265,5 +3265,103 @@
         }
       ];
     };
+    trapezoid-pdf-dither-jsfx-1-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-2";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/cdc95ce3e6affefb3f43e7d0f46397d0b139a1d7/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "1dwmw0w4pdw25b2hx7hgmkhpii437ycx0p32wji10g71cm2aasvy";
+        }
+      ];
+    };
+    trapezoid-pdf-dither-jsfx-1-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-3";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/ae7b31d12331f7e9540fd02446293a00863ec517/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "19isa0rmy0ivyn5abrr825cwhn7iwwpq1r6ysw9y3ixigqabp422";
+        }
+      ];
+    };
+    trapezoid-pdf-dither-jsfx-1-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-4";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/fecdc0ff03d99145766e28c35f19dd83035bc0c9/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "0f5rk6vnaw5kc300q5j24yxw17a9jcvn3w9y93ccy56c054iz5lk";
+        }
+      ];
+    };
+    trapezoid-pdf-dither-jsfx-1-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-5";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/e3fbbc6215c28bfb12a4d22539e3b673d7dc33f6/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "0v65lxqd1hwcwl83375wb35vn0k8911pyqwsb5dgqi6cggds4j2c";
+        }
+      ];
+    };
+    trapezoid-pdf-dither-jsfx-1-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-6";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/8ea834dc332da09e98f2f6413a7e6d1b90a16fef/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "0sl0slzgf03x56pdxdp5ilpv5zh5i4zv56kyr84r2sgw8h6k88ih";
+        }
+      ];
+    };
+    trapezoid-pdf-dither-jsfx-1-7 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-7";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/9d333e729fd06bba2c410ad67c203ade5a44f240/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "1sm3nsqcmblvr3axpaa3vwdz4hydkfnz45v8j83blmcbp1ncn3ak";
+        }
+      ];
+    };
+    trapezoid-pdf-dither-jsfx-1-8 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "trapezoid-pdf-dither-jsfx-1-8";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/2f18136aec6c6e94ed80fdf6d10527f6c2f905dd/utility/Trapezoid%20PDF%20Dither.jsfx";
+          sha256 = "0xmis44f894wq5aicf0a3if4jm948x5d9hkgiakhfbr4xq4acimp";
+        }
+      ];
+    };
   };
 }
