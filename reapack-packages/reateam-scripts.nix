@@ -51299,6 +51299,20 @@
         }
       ];
     };
+    jwm-group-selected-track-sends-lua-0-9-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "jwm-group-selected-track-sends-lua-0-9-3";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/7842b2b3e0fb46aa3e203c9c302f3859459a5cc8/Tracks/JWM_Group%20selected%20track%20sends.lua";
+          sha256 = "0ib657dqq1qsfd3mppamd440n7ja9fay8l03jlacfacf3yfy5m66";
+        }
+      ];
+    };
     kaddaok-import-uvr-separations-into-comping-lane-structure-lua-0-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "kaddaok-import-uvr-separations-into-comping-lane-structure-lua-0-1";

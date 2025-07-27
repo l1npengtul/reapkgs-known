@@ -16664,6 +16664,20 @@
         }
       ];
     };
+    x-raym-set-sws-notes-window-font-size-lua-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-sws-notes-window-font-size-lua-1-0-2";
+      indexName = "X-Raym Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/52fc95c992d82ae810591470c1bf4d5c93cbafb1/Various/X-Raym_Set%20SWS%20Notes%20window%20font%20size.lua";
+          sha256 = "0whzdfhnrw2cvg6gdl85hzwjqhbpvgrabdwbkk2l88yify485afp";
+        }
+      ];
+    };
     x-raym-set-sws-project-startup-action-extstate-value-to-off-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-set-sws-project-startup-action-extstate-value-to-off-lua-1-0";

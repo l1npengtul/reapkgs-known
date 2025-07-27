@@ -183,6 +183,34 @@
         }
       ];
     };
+    reincore-megagrit-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "reincore-megagrit-jsfx-1-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "Distortion";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/2e992d33e9fa76af1df04ba34e74c043cd2059dc/Distortion/reincore_MegaGrit.jsfx";
+          sha256 = "0xzih2j9dadl549g4agb5zbl4q42s0jrqqsgk7z2biy9s6fb3zc8";
+        }
+      ];
+    };
+    reincore-megagrit-jsfx-2-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "reincore-megagrit-jsfx-2-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "Distortion";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/9ff4669c904ab09d2109007e66d3eb1ecafeae11/Distortion/reincore_MegaGrit.jsfx";
+          sha256 = "0p595x67q442k7yy9q7hzwr58wgx1dzpkbq7a1ygy2b0n890vsc1";
+        }
+      ];
+    };
     tiar-ze-morpho-dist-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "tiar-ze-morpho-dist-jsfx-1-0";

@@ -101450,7 +101450,7 @@
         {
           path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC1 after cursor.tfmrPreset'';
           url = "https://github.com/jeremybernstein/ReaScripts/raw/5ed78dbeb2837d4396b764edd96d29e6733f7260/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC1%20after%20cursor.tfmrPreset";
-          sha256 = "0f40kcyjyg0y2f9nj3qc31l89y0zv5i8bchjipr8y6q1crcnv9b9";
+          sha256 = "";
         }
         {
           path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC1 before cursor.tfmrPreset'';
@@ -114960,7 +114960,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.1";
-          sha256 = "1rs6gr1wq2aqalvlmkx2gkdlvx9b7z35wsg10x4mqizivbakbjz0";
+          sha256 = "18v8bz8wqcrcnwa1mypfjw5q79f4gwy0j1l1h94rkibjlx8ivkg1";
         }
       ];
     };
@@ -114974,7 +114974,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.2";
-          sha256 = "11xf1mik5zwdyd3kzn3id0p4snzdaajygzrdssn0c26mjs806ji1";
+          sha256 = "0qjajk3gq5a4j1456b1hyjh7pq5q2n6jl5n3jx7gyd13f0p54rmi";
         }
       ];
     };
@@ -114988,7 +114988,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.3";
-          sha256 = "0f1zpa3pacg9iv4y4l99mg5c25zc2ls7z08h3cxhcidp8id8rks9";
+          sha256 = "1whkm2y63ajq07dhiiadccs7gk83r87n5w04iv6mj6l5k57lbhy4";
         }
       ];
     };
@@ -115002,7 +115002,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.4";
-          sha256 = "1wxrpvwssp37zjsq9pcg197k2sdhn7xbf3byrvampd5v79pc43qm";
+          sha256 = "1m96j0kghq77jcs94w2ka1ss728z0dgg4f2amp2hvmgy2i02wrxc";
         }
       ];
     };

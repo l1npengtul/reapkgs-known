@@ -42616,6 +42616,127 @@
         }
       ];
     };
+    soundmole-lua-1-0-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "soundmole-lua-1-0-3";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Soundmole/zaibuyidao_Soundmole.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/339ec4bca38b97735204a9c1049f686df6f1d0b6/Various/Soundmole/zaibuyidao_Soundmole.lua";
+          sha256 = "0yybpp1pv5hfsbm7zlzjg7whflw8dj8i83lx7zys8nqy0hpiqknr";
+        }
+        {
+          path = ''Soundmole/lib/core.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/339ec4bca38b97735204a9c1049f686df6f1d0b6/Various/Soundmole/lib/core.lua";
+          sha256 = "01llzyq3nlblaxhy3ds2lncjrirlgsmzjsi5kwd842n6nk7p6cqb";
+        }
+        {
+          path = ''Soundmole/lib/utils.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/339ec4bca38b97735204a9c1049f686df6f1d0b6/Various/Soundmole/lib/utils.lua";
+          sha256 = "0yz2hzxz7wlmzn96iszgyj3hcdxq3y1ysxam30b05hslpcp4ac32";
+        }
+        {
+          path = ''Soundmole/data/ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/339ec4bca38b97735204a9c1049f686df6f1d0b6/Various/Soundmole/data/ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+      ];
+    };
+    soundmole-lua-1-0-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "soundmole-lua-1-0-4";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Soundmole/zaibuyidao_Soundmole.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/5d837b76021c73b631f28ebe4c32493679bb76fb/Various/Soundmole/zaibuyidao_Soundmole.lua";
+          sha256 = "0b89z24qpcz1fq80f0yjnnx07bj2yblaif9byrvidmpzs5hfiwsb";
+        }
+        {
+          path = ''Soundmole/lib/core.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/5d837b76021c73b631f28ebe4c32493679bb76fb/Various/Soundmole/lib/core.lua";
+          sha256 = "0qwa6say7l9m9gifsp55c9c1h4s55akpwqfqfz9ma3sv2f2ilm22";
+        }
+        {
+          path = ''Soundmole/lib/utils.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/5d837b76021c73b631f28ebe4c32493679bb76fb/Various/Soundmole/lib/utils.lua";
+          sha256 = "0yz2hzxz7wlmzn96iszgyj3hcdxq3y1ysxam30b05hslpcp4ac32";
+        }
+        {
+          path = ''Soundmole/data/ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/5d837b76021c73b631f28ebe4c32493679bb76fb/Various/Soundmole/data/ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+      ];
+    };
+    soundmole-lua-1-0-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "soundmole-lua-1-0-5";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Soundmole/zaibuyidao_Soundmole.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/b86e5ce9346e83fa9b08cb30eb3f3736cbabfc72/Various/Soundmole/zaibuyidao_Soundmole.lua";
+          sha256 = "0kzgzd59q18pb8gla3hn1lvz17qjhwayj7ard5db9jypwifcxxy0";
+        }
+        {
+          path = ''Soundmole/lib/core.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/b86e5ce9346e83fa9b08cb30eb3f3736cbabfc72/Various/Soundmole/lib/core.lua";
+          sha256 = "0qwa6say7l9m9gifsp55c9c1h4s55akpwqfqfz9ma3sv2f2ilm22";
+        }
+        {
+          path = ''Soundmole/lib/utils.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/b86e5ce9346e83fa9b08cb30eb3f3736cbabfc72/Various/Soundmole/lib/utils.lua";
+          sha256 = "0yz2hzxz7wlmzn96iszgyj3hcdxq3y1ysxam30b05hslpcp4ac32";
+        }
+        {
+          path = ''Soundmole/data/ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/b86e5ce9346e83fa9b08cb30eb3f3736cbabfc72/Various/Soundmole/data/ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+      ];
+    };
+    soundmole-lua-1-0-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "soundmole-lua-1-0-6";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Soundmole/zaibuyidao_Soundmole.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2408698e7cc2b97637b141b4594113f48a6f0089/Various/Soundmole/zaibuyidao_Soundmole.lua";
+          sha256 = "1pr6i4aghn91pmvz7ma4dhflc8qimhsicqml32bxw1rihba6yicf";
+        }
+        {
+          path = ''Soundmole/lib/core.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2408698e7cc2b97637b141b4594113f48a6f0089/Various/Soundmole/lib/core.lua";
+          sha256 = "0qwa6say7l9m9gifsp55c9c1h4s55akpwqfqfz9ma3sv2f2ilm22";
+        }
+        {
+          path = ''Soundmole/lib/utils.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2408698e7cc2b97637b141b4594113f48a6f0089/Various/Soundmole/lib/utils.lua";
+          sha256 = "0yz2hzxz7wlmzn96iszgyj3hcdxq3y1ysxam30b05hslpcp4ac32";
+        }
+        {
+          path = ''Soundmole/data/thesaurus.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2408698e7cc2b97637b141b4594113f48a6f0089/Various/Soundmole/data/thesaurus.csv";
+          sha256 = "0wa3zc08jrfz63mqpa1i2dndca520z7wcxabzcxjxwckl5zi9jda";
+        }
+        {
+          path = ''Soundmole/data/ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/2408698e7cc2b97637b141b4594113f48a6f0089/Various/Soundmole/data/ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+      ];
+    };
     ucs-tag-search-rename-bundle-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ucs-tag-search-rename-bundle-lua-1-0";
