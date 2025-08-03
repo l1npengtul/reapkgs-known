@@ -15921,6 +15921,30 @@
         }
       ];
     };
+    az-conform-project-using-metadata-post-production-tools-lua-0-7-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "az-conform-project-using-metadata-post-production-tools-lua-0-7-2";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/96b9dc4ce15ff11840a3b5171b9ce19ae2715f07/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools).lua";
+          sha256 = "09hbqashyin2vzv15i62xnzp6ffkvqwxny3716b6xx3c939hbv7g";
+        }
+        {
+          path = ''az_Conform project using metadata (post-production tools)/az_Conform project_Core.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/96b9dc4ce15ff11840a3b5171b9ce19ae2715f07/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools)/az_Conform%20project_Core.lua";
+          sha256 = "0dmwzyaci3a8s710npl8wi1mv6qyh8sg2g6bkwya8ni6kg9z3r7d";
+        }
+        {
+          path = ''az_Conform project using metadata (post-production tools)/az_Rename takes with last used settings (post-production tools).lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/96b9dc4ce15ff11840a3b5171b9ce19ae2715f07/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools)/az_Rename%20takes%20with%20last%20used%20settings%20(post-production%20tools).lua";
+          sha256 = "1vn6jjpmc6zyq0ig5bgz6jfrmqc5c61fkhal6sbvb2349d274x92";
+        }
+      ];
+    };
     az-fade-tool-work-on-context-of-mouse-razor-or-time-selection-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "az-fade-tool-work-on-context-of-mouse-razor-or-time-selection-lua-1-0";
@@ -16261,6 +16285,30 @@
         {
           path = ''az_Fade tool (work on context of mouse, razor or time selection)/az_Open options for az_Fade tool.lua'';
           url = "https://github.com/ReaTeam/ReaScripts/raw/5aaa00750666143b8e0dd1333e3bbbdb25fc1623/Items%20Editing/az_Fade%20tool%20(work%20on%20context%20of%20mouse,%20razor%20or%20time%20selection)/az_Open%20options%20for%20az_Fade%20tool.lua";
+          sha256 = "08cwc7hvnrh113h3b3s4m4zdq6ycb1xaq9m5gfl0sc0qsy93pjxh";
+        }
+      ];
+    };
+    az-fade-tool-work-on-context-of-mouse-razor-or-time-selection-lua-2-2-8 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "az-fade-tool-work-on-context-of-mouse-razor-or-time-selection-lua-2-2-8";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/6c385be0b5b040ea1e688b2f7ea1344f5f95292e/Items%20Editing/az_Fade%20tool%20(work%20on%20context%20of%20mouse,%20razor%20or%20time%20selection).lua";
+          sha256 = "194c2bpnh4zcfk1hsmixxwfplc4i10r320y7kdyw341ncjsqqh99";
+        }
+        {
+          path = ''az_Fade tool (work on context of mouse, razor or time selection)/az_Options window for az_Fade tool.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/6c385be0b5b040ea1e688b2f7ea1344f5f95292e/Items%20Editing/az_Fade%20tool%20(work%20on%20context%20of%20mouse,%20razor%20or%20time%20selection)/az_Options%20window%20for%20az_Fade%20tool.lua";
+          sha256 = "0nxgna0k9s18gn57p8qy673a045barj6c9sr2nh2n8f7lwf60z9r";
+        }
+        {
+          path = ''az_Fade tool (work on context of mouse, razor or time selection)/az_Open options for az_Fade tool.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/6c385be0b5b040ea1e688b2f7ea1344f5f95292e/Items%20Editing/az_Fade%20tool%20(work%20on%20context%20of%20mouse,%20razor%20or%20time%20selection)/az_Open%20options%20for%20az_Fade%20tool.lua";
           sha256 = "08cwc7hvnrh113h3b3s4m4zdq6ycb1xaq9m5gfl0sc0qsy93pjxh";
         }
       ];

@@ -299,6 +299,50 @@
         }
       ];
     };
+    rcmodeq-jsfx-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "rcmodeq-jsfx-1-0-0";
+      indexName = "RCJacH Scripts";
+      categoryName = "JSFX/Audio/RCModEQ";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/RCJacH/ReaScripts/raw/46b9ffb71124c72a35bcf76c79ed36e98043e435/JSFX/Audio/RCModEQ/RCModEQ.jsfx";
+          sha256 = "1m55zxqj7103f2zmh5zcsjj6dqw8hpx1rdz9silanfnzgb4r1l6x";
+        }
+        {
+          path = ''dependencies/eq_node.jsfx-inc'';
+          url = "https://github.com/RCJacH/ReaScripts/raw/46b9ffb71124c72a35bcf76c79ed36e98043e435/JSFX/Audio/RCModEQ/dependencies/eq_node.jsfx-inc";
+          sha256 = "09cbqf4xvcx07512bdgd77gq0ffxiggdldd0v6nir19w1hzx789j";
+        }
+        {
+          path = ''dependencies/hsl_colors.jsfx-inc'';
+          url = "https://github.com/RCJacH/ReaScripts/raw/46b9ffb71124c72a35bcf76c79ed36e98043e435/JSFX/Audio/RCModEQ/dependencies/hsl_colors.jsfx-inc";
+          sha256 = "06xy5z8mcfppdjj1vw4ynf3zjxdsi4x7xxwwx5lzgq0yxqm6xlav";
+        }
+        {
+          path = ''dependencies/lfo.jsfx-inc'';
+          url = "https://github.com/RCJacH/ReaScripts/raw/46b9ffb71124c72a35bcf76c79ed36e98043e435/JSFX/Audio/RCModEQ/dependencies/lfo.jsfx-inc";
+          sha256 = "1c11kkp0y14is3i3y6a2azkra791bk27ii8ykq8g16lcnljsk0sz";
+        }
+        {
+          path = ''dependencies/router.jsfx-inc'';
+          url = "https://github.com/RCJacH/ReaScripts/raw/46b9ffb71124c72a35bcf76c79ed36e98043e435/JSFX/Audio/RCModEQ/dependencies/router.jsfx-inc";
+          sha256 = "1i6ypnlw4hff73rz885sws36cp88zvk2hc90khm57jds7hap1q28";
+        }
+        {
+          path = ''dependencies/sidechain.jsfx-inc'';
+          url = "https://github.com/RCJacH/ReaScripts/raw/46b9ffb71124c72a35bcf76c79ed36e98043e435/JSFX/Audio/RCModEQ/dependencies/sidechain.jsfx-inc";
+          sha256 = "0828zis3mwsl7ma16f69i9zlahyynp714rdfirdrvg13p1qmiaq5";
+        }
+        {
+          path = ''dependencies/svf_filter.jsfx-inc'';
+          url = "https://github.com/RCJacH/ReaScripts/raw/46b9ffb71124c72a35bcf76c79ed36e98043e435/JSFX/Audio/RCModEQ/dependencies/svf_filter.jsfx-inc";
+          sha256 = "0k4srsvy4lfmk7lkbmh6xlwpl463i5dsvb6h0j7k0p5m6qpw9fxj";
+        }
+      ];
+    };
     rcmship-perfect-pitch-jsfx-1-0rc1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "rcmship-perfect-pitch-jsfx-1-0rc1";

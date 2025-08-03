@@ -7797,6 +7797,20 @@
         }
       ];
     };
+    mpl-multi-mono-container-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-multi-mono-container-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/0a55c99a7d378fd612a483671a233870f2a89c68/FX/mpl_Multi-mono%20container.lua";
+          sha256 = "0823zj0fz3gs730zgn31l64n9x9nkvw63m4hwqksb0nbjzdbkzq5";
+        }
+      ];
+    };
     mpl-offline-all-the-track-fx-before-focused-fx-including-focused-fx-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-offline-all-the-track-fx-before-focused-fx-including-focused-fx-lua-1-0";
@@ -23880,6 +23894,20 @@
         }
       ];
     };
+    mpl-convert-cc64-sustain-to-note-off-and-remove-lua-1-02 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-convert-cc64-sustain-to-note-off-and-remove-lua-1-02";
+      indexName = "MPL Scripts";
+      categoryName = "MIDI";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/c9bd66a5058bb7cfc63018c6670dcf39312fe63c/MIDI/mpl_Convert%20CC64%20sustain%20to%20note-off%20and%20remove.lua";
+          sha256 = "1l0bs8445j9z51f4qzfdasjfnn4lfi65rpnf3bqip1dpfc3fd6ja";
+        }
+      ];
+    };
     mpl-export-selected-items-as-midi-files-into-project-path-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-export-selected-items-as-midi-files-into-project-path-lua-1-0";
@@ -34379,6 +34407,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/dd7efb1fc12d94876af6e3007b5b6af6bf47b5a7/Various/mpl_Align%20takes.lua";
           sha256 = "0ln3y0awdyfqpzfsjwimaza083r3pw46ib92m3g64lck61iada8n";
+        }
+      ];
+    };
+    mpl-align-takes-lua-3-10 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-align-takes-lua-3-10";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/88a8699dcff592efb5c14d02cc8c06b5b01f8492/Various/mpl_Align%20takes.lua";
+          sha256 = "1v7h2k3bnzligw6cy9qjr5fcz8l3lfr3bcld93xqppl7kzavrvpw";
         }
       ];
     };
@@ -45671,6 +45713,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/f0cf6973f988c2347b10a85fb0ceac9b3c5260f7/Various/mpl_Visual%20Mixer.lua";
           sha256 = "1pba4np4dqqsf72yrwfqnhra8syc8ljpsy7i641lg28j551y2dk8";
+        }
+      ];
+    };
+    mpl-visual-mixer-lua-3-10 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-visual-mixer-lua-3-10";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/46cf8466c4e10e5ce3f6e6fe81216044f2e4c7b8/Various/mpl_Visual%20Mixer.lua";
+          sha256 = "1lrs2xm4dmmw97dlsn5ypmvwwywx3cldnjlc6b5m8kkk0fj21x4b";
         }
       ];
     };

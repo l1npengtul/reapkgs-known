@@ -649,6 +649,65 @@
         }
       ];
     };
+    ak5k-reablink-ext-0-5-7 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ak5k-reablink-ext-0-5-7";
+      indexName = "ReaTeam Extensions";
+      categoryName = "API";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_reablink-x64.dll'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-x64.dll";
+          sha256 = "18wm2has0kl9xwwvq7knhg01xpzxy583qg1ys94agfgnsqzjry71";
+        }
+        {
+          path = ''ReaBlink_Monitor.lua'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/ReaBlink_Monitor.lua";
+          sha256 = "1zwil1q03x2x8qx389z0dm9yakrlkfypd0fqwqicx81dx047svd3";
+        }
+        {
+          path = ''reaper_reablink-x86.dll'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-x86.dll";
+          sha256 = "1vijgc463wx5c64ypjzk1260qgyh11da31yailak1j9ykmdrswyl";
+        }
+        {
+          path = ''reaper_reablink-i686.so'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-i686.so";
+          sha256 = "0ddk952pv561xv4hc0ls85pn7bl92igx24qn0li7l4anmb700ydi";
+        }
+        {
+          path = ''reaper_reablink-x86_64.so'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-x86_64.so";
+          sha256 = "0b627icq345g9gviv4dc976qx7pb3bh1anagagarw5x2frsznggc";
+        }
+        {
+          path = ''reaper_reablink-armv7l.so'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-armv7l.so";
+          sha256 = "0xaywkjydv1pfnvcsaivn4sz9yrg0p87yh6vbfb5516yg9v93pql";
+        }
+        {
+          path = ''reaper_reablink-aarch64.so'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-aarch64.so";
+          sha256 = "04441clxrkzg5l71d3mwz59an44csggkgfzakkn8zlz33kcz328z";
+        }
+        {
+          path = ''reaper_reablink-arm64.dylib'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-arm64.dylib";
+          sha256 = "08iy8lrinqhj27qpf8xmbkn5m1zpsqpl8ilykqc157aj7l4n40nx";
+        }
+        {
+          path = ''reaper_reablink-x86_64.dylib'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-x86_64.dylib";
+          sha256 = "13vsc2a4fw8d2bgil4q00ghcv61qrhnjp1qg6z36z2wyxh12l888";
+        }
+        {
+          path = ''reaper_reablink-i386.dylib'';
+          url = "https://github.com/ak5k/reablink/releases/download/0.5.7/reaper_reablink-i386.dylib";
+          sha256 = "133rrsqqm5k9ilqgwvq95i7qydh5jsf25qyc40c7pxwy1acxyp58";
+        }
+      ];
+    };
     ak5k-reamculive-programmable-reascript-api-control-surface-extension-ext-0-1-6 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ak5k-reamculive-programmable-reascript-api-control-surface-extension-ext-0-1-6";
