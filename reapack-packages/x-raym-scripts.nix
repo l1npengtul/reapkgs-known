@@ -3855,6 +3855,20 @@
         }
       ];
     };
+    x-raym-split-selected-items-according-to-items-on-selected-tracks-and-delete-new-items-at-spaces-lua-2-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-split-selected-items-according-to-items-on-selected-tracks-and-delete-new-items-at-spaces-lua-2-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/72d0b37e29671200b5df35f2b145adc400b392be/Items%20Editing/X-Raym_Split%20selected%20items%20according%20to%20items%20on%20selected%20tracks%20and%20delete%20new%20items%20at%20spaces.lua";
+          sha256 = "0v8brdz067z5f2s0vkxsp5sd5mvczmniyfx0pwmac7lsm165hddq";
+        }
+      ];
+    };
     x-raym-split-selected-items-according-to-items-on-selected-tracks-and-keep-new-items-at-spaces-lua-2-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-split-selected-items-according-to-items-on-selected-tracks-and-keep-new-items-at-spaces-lua-2-0";
