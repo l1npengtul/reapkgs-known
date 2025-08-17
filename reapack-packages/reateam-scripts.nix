@@ -49172,6 +49172,20 @@
         }
       ];
     };
+    solger-realauncher-lua-2-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "solger-realauncher-lua-2-6";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Project Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/e0950b8691212e76c96c6a1cb2f4287d083086ca/Project%20Properties/solger_ReaLauncher.lua";
+          sha256 = "0yf5y5699rmp6zm2f4isra1j20qv5fmcbclc6fi3cgw8050z32vx";
+        }
+      ];
+    };
     wikylepedia-export-track-names-to-channel-list-csv-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "wikylepedia-export-track-names-to-channel-list-csv-lua-1-0";

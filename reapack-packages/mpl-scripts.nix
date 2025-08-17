@@ -8917,6 +8917,34 @@
         }
       ];
     };
+    mpl-set-mono-processing-for-selected-tracks-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-set-mono-processing-for-selected-tracks-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/0db2793797adf55d65798c4bb9ff0347d45cb908/FX/mpl_Set%20mono%20processing%20for%20selected%20tracks.lua";
+          sha256 = "1lakscn5pg6lv63ai7pg4579jyx6mwk21x6lr377y7j34ljr2vap";
+        }
+      ];
+    };
+    mpl-set-mono-processing-for-track-under-mouse-cursor-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-set-mono-processing-for-track-under-mouse-cursor-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/5fd18b92a42efa6c30d9248a3d4edf7fab09c3e1/FX/mpl_Set%20mono%20processing%20for%20track%20under%20mouse%20cursor.lua";
+          sha256 = "0vb5h0wxjh0f8x2g1cc8s6h5mhd9aqsaji1bfv83daf09v8v8hmc";
+        }
+      ];
+    };
     mpl-set-selected-track-fx-outputs-to-incremental-stereo-pairs-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-set-selected-track-fx-outputs-to-incremental-stereo-pairs-lua-1-0";
@@ -9865,6 +9893,20 @@
           path = ''mpl_Toggle set to 8x oversampling for selected track FX.lua'';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/82bd289bb859259bd77f16aa313acf6b95947ae1/FX/mpl_Toggle%20FX%20oversampling.lua";
           sha256 = "1n5sv1is19qa69wahharny05yg42sl7mcwcy8la03dy0axzbkbjs";
+        }
+      ];
+    };
+    mpl-toggle-mono-processing-for-track-under-mouse-cursor-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-toggle-mono-processing-for-track-under-mouse-cursor-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/5fd18b92a42efa6c30d9248a3d4edf7fab09c3e1/FX/mpl_Toggle%20mono%20processing%20for%20track%20under%20mouse%20cursor.lua";
+          sha256 = "03mfz5rankyrh22rchz1hbgx5i50h0daap47l80afi5ag7y8d1nx";
         }
       ];
     };

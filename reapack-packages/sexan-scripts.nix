@@ -2985,6 +2985,34 @@
         }
       ];
     };
+    sexan-fx-browser-parserv7-lua-1-47 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sexan-fx-browser-parserv7-lua-1-47";
+      indexName = "Sexan_Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/81d3a9c82820c77462505e5d4364f5fee25ceb6d/FX/Sexan_FX_Browser_ParserV7.lua";
+          sha256 = "10fhkrqdkj5czwi6cgq0zbvwqr98s5a8whzcph8p0zhkvxi5203m";
+        }
+      ];
+    };
+    sexan-fx-browser-parserv7-lua-1-48 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sexan-fx-browser-parserv7-lua-1-48";
+      indexName = "Sexan_Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/520c39c58b41fe68ab648c0acc59fa1490c381cb/FX/Sexan_FX_Browser_ParserV7.lua";
+          sha256 = "1lyrnzlax86abypwq3xwcss0xh4j80p426nbmqdbxxr8rl07gbaw";
+        }
+      ];
+    };
     filemanager-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "filemanager-lua-1-0";
@@ -3293,6 +3321,20 @@
         }
       ];
     };
+    lil-item-homie-lua-1-25 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "lil-item-homie-lua-1-25";
+      indexName = "Sexan_Scripts";
+      categoryName = "Lil_Series";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/81ece895e176605808f592d2601b1f9a7eb4613e/Lil_Series/Lil_Item_Homie.lua";
+          sha256 = "1xscxn28aj55w8xamdwyzzwg2is04ldz4nb8n0w7fnndcdsq345c";
+        }
+      ];
+    };
     lil-track-homie-lua-1-9 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "lil-track-homie-lua-1-9";
@@ -3374,6 +3416,20 @@
           path = '''';
           url = "https://github.com/GoranKovac/ReaScripts/raw/6122b788d19d53d94c59d173d8224556d0f31060/Lil_Series/Lil_Track_Homie.lua";
           sha256 = "03zzrwc5zkq7rgc9c4h7p62ni5hlh0js02lrqcxzw0737cl9i3k7";
+        }
+      ];
+    };
+    lil-track-homie-lua-1-15 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "lil-track-homie-lua-1-15";
+      indexName = "Sexan_Scripts";
+      categoryName = "Lil_Series";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/81ece895e176605808f592d2601b1f9a7eb4613e/Lil_Series/Lil_Track_Homie.lua";
+          sha256 = "17mscb3x5fsxdxyjqn4almc1i11shlksg95i48zzyicrkd1slzs7";
         }
       ];
     };
@@ -26021,7 +26077,7 @@
         {
           path = ''PieUtils.lua'';
           url = "https://github.com/GoranKovac/ReaScripts/raw/4341c6860e65c29a133e430bc21191d7307e704d/Pie3000/PieUtils.lua";
-          sha256 = "0vxpd34m4iph59xqsvbnicp1wnnpzw7zngmqnynam2bn6b6q3xqg";
+          sha256 = "";
         }
         {
           path = ''fontello1.ttf'';
@@ -26095,6 +26151,360 @@
         {
           path = ''Sexan_PieCleanFiles.lua'';
           url = "https://github.com/GoranKovac/ReaScripts/raw/4f2809a81dff8d4e721eb03497221784e839aa23/Pie3000/Sexan_PieCleanFiles.lua";
+          sha256 = "0vjz8d0yj0cjgvlx6vxyx9lr6f7jydydx7syfa7n40z5cjsby58q";
+        }
+      ];
+    };
+    sexan-pie3000-lua-0-35-65 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sexan-pie3000-lua-0-35-65";
+      indexName = "Sexan_Scripts";
+      categoryName = "Pie3000";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/Sexan_Pie3000.lua";
+          sha256 = "17gkhb417bd4kmqjpq5asrxka5xq04qsfqg7s02q10vjqjlx1jp3";
+        }
+        {
+          path = ''Sexan_Pie3000_Setup.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/Sexan_Pie3000_Setup.lua";
+          sha256 = "123996ybgwb6y6i5w32fmcjqr5ngcczgk554qnp8c4fs3603r95d";
+        }
+        {
+          path = ''Sexan_Pie3000_Tracker_BG.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/Sexan_Pie3000_Tracker_BG.lua";
+          sha256 = "0rvqzpsccwgyjmlww9g9gcjq8sb00kdzwajil5ih5snvq9cpxcgs";
+        }
+        {
+          path = ''CustomImages/Readme.txt'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/CustomImages/Readme.txt";
+          sha256 = "07ladjq7i1l9xhxcacrxlqnig6ggcvbj3pqqjq5f8360r53scpl3";
+        }
+        {
+          path = ''easing.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/easing.lua";
+          sha256 = "14l323lx8nswy137xf5mypwyf7yzka5wkny476lzlbr17xbz2wyp";
+        }
+        {
+          path = ''Common.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/Common.lua";
+          sha256 = "1fhzvds0fqijcfd975l068526ikfd4xx31hl3n9cvfa4r4qa2pj2";
+        }
+        {
+          path = ''PieUtils.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/PieUtils.lua";
+          sha256 = "0vxpd34m4iph59xqsvbnicp1wnnpzw7zngmqnynam2bn6b6q3xqg";
+        }
+        {
+          path = ''fontello1.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/fontello1.ttf";
+          sha256 = "1jfccw6kl0b63mc2xxd2cp37x0rs342lsgk6hl58nqifp8fa3r0g";
+        }
+        {
+          path = ''Roboto-Medium.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/Roboto-Medium.ttf";
+          sha256 = "1y259gk2iqixax9za1g2fqvsjysalj3ih5svpaidhlddi4n16nc5";
+        }
+        {
+          path = ''Sexan_PieCleanFiles.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/d54adbe79dbdde2332ccdded3a21823a3f3ee071/Pie3000/Sexan_PieCleanFiles.lua";
+          sha256 = "0vjz8d0yj0cjgvlx6vxyx9lr6f7jydydx7syfa7n40z5cjsby58q";
+        }
+      ];
+    };
+    sexan-pie3000-lua-0-35-66 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sexan-pie3000-lua-0-35-66";
+      indexName = "Sexan_Scripts";
+      categoryName = "Pie3000";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/Sexan_Pie3000.lua";
+          sha256 = "19w2dbxv9ig7ldgjlxbzh99syjpgrj8ljm8bvv3ic8my37sr8niv";
+        }
+        {
+          path = ''Sexan_Pie3000_Setup.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/Sexan_Pie3000_Setup.lua";
+          sha256 = "123996ybgwb6y6i5w32fmcjqr5ngcczgk554qnp8c4fs3603r95d";
+        }
+        {
+          path = ''Sexan_Pie3000_Tracker_BG.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/Sexan_Pie3000_Tracker_BG.lua";
+          sha256 = "0rvqzpsccwgyjmlww9g9gcjq8sb00kdzwajil5ih5snvq9cpxcgs";
+        }
+        {
+          path = ''CustomImages/Readme.txt'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/CustomImages/Readme.txt";
+          sha256 = "07ladjq7i1l9xhxcacrxlqnig6ggcvbj3pqqjq5f8360r53scpl3";
+        }
+        {
+          path = ''easing.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/easing.lua";
+          sha256 = "14l323lx8nswy137xf5mypwyf7yzka5wkny476lzlbr17xbz2wyp";
+        }
+        {
+          path = ''Common.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/Common.lua";
+          sha256 = "0qwsxh9qvl20i82l8w7jnwsjkyqy0lf246cci2gm5grvjdy17gmj";
+        }
+        {
+          path = ''PieUtils.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/PieUtils.lua";
+          sha256 = "0vxpd34m4iph59xqsvbnicp1wnnpzw7zngmqnynam2bn6b6q3xqg";
+        }
+        {
+          path = ''fontello1.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/fontello1.ttf";
+          sha256 = "1jfccw6kl0b63mc2xxd2cp37x0rs342lsgk6hl58nqifp8fa3r0g";
+        }
+        {
+          path = ''Roboto-Medium.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/Roboto-Medium.ttf";
+          sha256 = "1y259gk2iqixax9za1g2fqvsjysalj3ih5svpaidhlddi4n16nc5";
+        }
+        {
+          path = ''Sexan_PieCleanFiles.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/7fa968fd0f7cf8f88dcc6369ee9b253983d8e6fc/Pie3000/Sexan_PieCleanFiles.lua";
+          sha256 = "0vjz8d0yj0cjgvlx6vxyx9lr6f7jydydx7syfa7n40z5cjsby58q";
+        }
+      ];
+    };
+    sexan-pie3000-lua-0-36 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sexan-pie3000-lua-0-36";
+      indexName = "Sexan_Scripts";
+      categoryName = "Pie3000";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/Sexan_Pie3000.lua";
+          sha256 = "08p3gdcd2v85799056vcypmy3mjfx8pybf908zliv5qycvnyj1js";
+        }
+        {
+          path = ''Sexan_Pie3000_Setup.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/Sexan_Pie3000_Setup.lua";
+          sha256 = "123996ybgwb6y6i5w32fmcjqr5ngcczgk554qnp8c4fs3603r95d";
+        }
+        {
+          path = ''Sexan_Pie3000_Tracker_BG.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/Sexan_Pie3000_Tracker_BG.lua";
+          sha256 = "0rvqzpsccwgyjmlww9g9gcjq8sb00kdzwajil5ih5snvq9cpxcgs";
+        }
+        {
+          path = ''CustomImages/Readme.txt'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/CustomImages/Readme.txt";
+          sha256 = "07ladjq7i1l9xhxcacrxlqnig6ggcvbj3pqqjq5f8360r53scpl3";
+        }
+        {
+          path = ''easing.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/easing.lua";
+          sha256 = "14l323lx8nswy137xf5mypwyf7yzka5wkny476lzlbr17xbz2wyp";
+        }
+        {
+          path = ''Common.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/Common.lua";
+          sha256 = "1ljk2ip4fmq9ak3qyfmxcxhir8qvhvsriw67h7qg5s64w42rl9yh";
+        }
+        {
+          path = ''PieUtils.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/PieUtils.lua";
+          sha256 = "0vxpd34m4iph59xqsvbnicp1wnnpzw7zngmqnynam2bn6b6q3xqg";
+        }
+        {
+          path = ''fontello1.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/fontello1.ttf";
+          sha256 = "1jfccw6kl0b63mc2xxd2cp37x0rs342lsgk6hl58nqifp8fa3r0g";
+        }
+        {
+          path = ''Roboto-Medium.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/Roboto-Medium.ttf";
+          sha256 = "1y259gk2iqixax9za1g2fqvsjysalj3ih5svpaidhlddi4n16nc5";
+        }
+        {
+          path = ''Sexan_PieCleanFiles.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4db8dcdab63abf01f7445eb1c2145ba568fe813f/Pie3000/Sexan_PieCleanFiles.lua";
+          sha256 = "0vjz8d0yj0cjgvlx6vxyx9lr6f7jydydx7syfa7n40z5cjsby58q";
+        }
+      ];
+    };
+    sexan-pie3000-lua-0-36-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sexan-pie3000-lua-0-36-1";
+      indexName = "Sexan_Scripts";
+      categoryName = "Pie3000";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/Sexan_Pie3000.lua";
+          sha256 = "0h9kaihhxqk4v17px0nl4kj2h7ipsldq7ys0fi714gh2wjhygp3q";
+        }
+        {
+          path = ''Sexan_Pie3000_Setup.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/Sexan_Pie3000_Setup.lua";
+          sha256 = "123996ybgwb6y6i5w32fmcjqr5ngcczgk554qnp8c4fs3603r95d";
+        }
+        {
+          path = ''Sexan_Pie3000_Tracker_BG.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/Sexan_Pie3000_Tracker_BG.lua";
+          sha256 = "0rvqzpsccwgyjmlww9g9gcjq8sb00kdzwajil5ih5snvq9cpxcgs";
+        }
+        {
+          path = ''CustomImages/Readme.txt'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/CustomImages/Readme.txt";
+          sha256 = "07ladjq7i1l9xhxcacrxlqnig6ggcvbj3pqqjq5f8360r53scpl3";
+        }
+        {
+          path = ''easing.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/easing.lua";
+          sha256 = "14l323lx8nswy137xf5mypwyf7yzka5wkny476lzlbr17xbz2wyp";
+        }
+        {
+          path = ''Common.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/Common.lua";
+          sha256 = "0icmzi3xdks4h8pgk8qz15nsgxv3vxcyhha8cl7bs7bd2rgscxrw";
+        }
+        {
+          path = ''PieUtils.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/PieUtils.lua";
+          sha256 = "0vxpd34m4iph59xqsvbnicp1wnnpzw7zngmqnynam2bn6b6q3xqg";
+        }
+        {
+          path = ''fontello1.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/fontello1.ttf";
+          sha256 = "1jfccw6kl0b63mc2xxd2cp37x0rs342lsgk6hl58nqifp8fa3r0g";
+        }
+        {
+          path = ''Roboto-Medium.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/Roboto-Medium.ttf";
+          sha256 = "1y259gk2iqixax9za1g2fqvsjysalj3ih5svpaidhlddi4n16nc5";
+        }
+        {
+          path = ''Sexan_PieCleanFiles.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/41f130b9a0cf4e659884f745c3a910d43bffae45/Pie3000/Sexan_PieCleanFiles.lua";
+          sha256 = "0vjz8d0yj0cjgvlx6vxyx9lr6f7jydydx7syfa7n40z5cjsby58q";
+        }
+      ];
+    };
+    sexan-pie3000-lua-0-36-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sexan-pie3000-lua-0-36-2";
+      indexName = "Sexan_Scripts";
+      categoryName = "Pie3000";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/Sexan_Pie3000.lua";
+          sha256 = "0kkp5f0vx0ficr6880566r4flanrbh01rdgcz8j2rqx6qz1bgcz3";
+        }
+        {
+          path = ''Sexan_Pie3000_Setup.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/Sexan_Pie3000_Setup.lua";
+          sha256 = "123996ybgwb6y6i5w32fmcjqr5ngcczgk554qnp8c4fs3603r95d";
+        }
+        {
+          path = ''Sexan_Pie3000_Tracker_BG.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/Sexan_Pie3000_Tracker_BG.lua";
+          sha256 = "0rvqzpsccwgyjmlww9g9gcjq8sb00kdzwajil5ih5snvq9cpxcgs";
+        }
+        {
+          path = ''CustomImages/Readme.txt'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/CustomImages/Readme.txt";
+          sha256 = "07ladjq7i1l9xhxcacrxlqnig6ggcvbj3pqqjq5f8360r53scpl3";
+        }
+        {
+          path = ''easing.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/easing.lua";
+          sha256 = "14l323lx8nswy137xf5mypwyf7yzka5wkny476lzlbr17xbz2wyp";
+        }
+        {
+          path = ''Common.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/Common.lua";
+          sha256 = "0j486c32dz6cg6iaygx916sm8pcaj4i9fh7clm0dxa32jhvr4lgm";
+        }
+        {
+          path = ''PieUtils.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/PieUtils.lua";
+          sha256 = "0vxpd34m4iph59xqsvbnicp1wnnpzw7zngmqnynam2bn6b6q3xqg";
+        }
+        {
+          path = ''fontello1.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/fontello1.ttf";
+          sha256 = "1jfccw6kl0b63mc2xxd2cp37x0rs342lsgk6hl58nqifp8fa3r0g";
+        }
+        {
+          path = ''Roboto-Medium.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/Roboto-Medium.ttf";
+          sha256 = "1y259gk2iqixax9za1g2fqvsjysalj3ih5svpaidhlddi4n16nc5";
+        }
+        {
+          path = ''Sexan_PieCleanFiles.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/015d8e83d131b52b93e377bc9ae081914a837e12/Pie3000/Sexan_PieCleanFiles.lua";
+          sha256 = "0vjz8d0yj0cjgvlx6vxyx9lr6f7jydydx7syfa7n40z5cjsby58q";
+        }
+      ];
+    };
+    sexan-pie3000-lua-0-36-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sexan-pie3000-lua-0-36-3";
+      indexName = "Sexan_Scripts";
+      categoryName = "Pie3000";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/Sexan_Pie3000.lua";
+          sha256 = "0g9s5lpaf9dbk6zfyy5acgn3pz778nmf2rk4ndjvw07qalas1hs9";
+        }
+        {
+          path = ''Sexan_Pie3000_Setup.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/Sexan_Pie3000_Setup.lua";
+          sha256 = "123996ybgwb6y6i5w32fmcjqr5ngcczgk554qnp8c4fs3603r95d";
+        }
+        {
+          path = ''Sexan_Pie3000_Tracker_BG.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/Sexan_Pie3000_Tracker_BG.lua";
+          sha256 = "0rvqzpsccwgyjmlww9g9gcjq8sb00kdzwajil5ih5snvq9cpxcgs";
+        }
+        {
+          path = ''CustomImages/Readme.txt'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/CustomImages/Readme.txt";
+          sha256 = "07ladjq7i1l9xhxcacrxlqnig6ggcvbj3pqqjq5f8360r53scpl3";
+        }
+        {
+          path = ''easing.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/easing.lua";
+          sha256 = "14l323lx8nswy137xf5mypwyf7yzka5wkny476lzlbr17xbz2wyp";
+        }
+        {
+          path = ''Common.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/Common.lua";
+          sha256 = "1bc53f0v808l64hdc00d8nddpgd5pgi41zii1a8prjrf5napz9yh";
+        }
+        {
+          path = ''PieUtils.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/PieUtils.lua";
+          sha256 = "0vxpd34m4iph59xqsvbnicp1wnnpzw7zngmqnynam2bn6b6q3xqg";
+        }
+        {
+          path = ''fontello1.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/fontello1.ttf";
+          sha256 = "1jfccw6kl0b63mc2xxd2cp37x0rs342lsgk6hl58nqifp8fa3r0g";
+        }
+        {
+          path = ''Roboto-Medium.ttf'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/Roboto-Medium.ttf";
+          sha256 = "1y259gk2iqixax9za1g2fqvsjysalj3ih5svpaidhlddi4n16nc5";
+        }
+        {
+          path = ''Sexan_PieCleanFiles.lua'';
+          url = "https://github.com/GoranKovac/ReaScripts/raw/4a12479f304abfaa0ffa1ba4d61c2d68e6212032/Pie3000/Sexan_PieCleanFiles.lua";
           sha256 = "0vjz8d0yj0cjgvlx6vxyx9lr6f7jydydx7syfa7n40z5cjsby58q";
         }
       ];

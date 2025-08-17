@@ -71608,7 +71608,7 @@
         {
           path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Velocity +6.tfmrPreset'';
           url = "https://github.com/jeremybernstein/ReaScripts/raw/c25390c9bbcdc96388b03d023a6807ffd484439b/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Velocity%20+6.tfmrPreset";
-          sha256 = "0skslvkrfi33vj1kwi114vx87nf0n778xvr2snsva7cfdv3i8gp3";
+          sha256 = "";
         }
         {
           path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Velocity -6.tfmrPreset'';
@@ -114960,7 +114960,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.1";
-          sha256 = "0x30c2m72r3gxg9cq2qdai4hn1fd5mpv498i2icywxm3d5wakd6v";
+          sha256 = "0nr8rlxcmn2a0fkdcw9saaijbg7sjdy5d3xny1lpzvhxadvzj2yn";
         }
       ];
     };
@@ -114974,7 +114974,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.2";
-          sha256 = "063dvvi0ksc630hhpbaagpgq4n8nn1mc1jm45ch5y2qyhiyzz1q1";
+          sha256 = "04v4d7lbb8n5q14v1m1w45d7sjixysflp22s14mkxx7is14fhzmw";
         }
       ];
     };
@@ -114988,7 +114988,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.3";
-          sha256 = "1lr0ykx675pfjn11zi74k0zd3iy27q5xmjvrl8nqssjd8p502hlb";
+          sha256 = "15sv5digl5q3fdjcankn2pa3hgm6zbiljbv6k2awdsjyz9j4i1xp";
         }
       ];
     };
@@ -115002,7 +115002,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.4";
-          sha256 = "1gkgd7f1787g8nyr20f4lqqjl33frw5c0hqmxna5xxpy9ark1byj";
+          sha256 = "0s9hff65xryfm5jhgs739ddkv6x59psn00ph5va6bkmph07qd6q4";
         }
       ];
     };
