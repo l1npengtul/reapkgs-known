@@ -32268,6 +32268,20 @@
         }
       ];
     };
+    mpl-return-control-lua-1-13 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-return-control-lua-1-13";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/f857999ec26ba2e67073bf637a40e3ca00190d2d/Tracks%20Properties/mpl_Return%20control.lua";
+          sha256 = "009b98qil2sg1hpp04vz7x91dn24888z129fh72c44ljjhavxjdp";
+        }
+      ];
+    };
     mpl-search-tracks-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-search-tracks-lua-1-0";
@@ -32825,6 +32839,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/5e1e044526800de6997dffb5b1374706bb28e0b6/Tracks%20Properties/mpl_Send%20control.lua";
           sha256 = "16yn3aw869rvk57dg20hp5vrxj8khx87xgn24s4nzl7rjlq8xya1";
+        }
+      ];
+    };
+    mpl-send-control-lua-1-30 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-send-control-lua-1-30";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/f857999ec26ba2e67073bf637a40e3ca00190d2d/Tracks%20Properties/mpl_Send%20control.lua";
+          sha256 = "0jv7kfssgg58753f27smkdjvsg5l4fqasljl7fnxj8rdy9n5fbg8";
         }
       ];
     };

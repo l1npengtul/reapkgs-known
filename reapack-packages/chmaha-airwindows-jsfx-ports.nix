@@ -1832,6 +1832,34 @@
         }
       ];
     };
+    magnetica-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "magnetica-jsfx-1-0";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Various";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/ab3a734ba5402185910c307f42b4b892da311a6f/Various/Magnetica.jsfx";
+          sha256 = "09sz7wsy35gpka01ffgn1xw7xd3sw2k3x43flnjwbrqgrjw4sm99";
+        }
+      ];
+    };
+    magnetica-jsfx-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "magnetica-jsfx-1-1";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Various";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/f7becae3a6d17efde1f1f785d3c4eedddfe0df64/Various/Magnetica.jsfx";
+          sha256 = "1d0pq5r6zsxcr3cladzhjpyab2dzwyzjzrkr7rgcjhgsp5dx6x3v";
+        }
+      ];
+    };
     magnetique-jsfx-1-2 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "magnetique-jsfx-1-2";

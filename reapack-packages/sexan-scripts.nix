@@ -26077,7 +26077,7 @@
         {
           path = ''PieUtils.lua'';
           url = "https://github.com/GoranKovac/ReaScripts/raw/4341c6860e65c29a133e430bc21191d7307e704d/Pie3000/PieUtils.lua";
-          sha256 = "";
+          sha256 = "0vxpd34m4iph59xqsvbnicp1wnnpzw7zngmqnynam2bn6b6q3xqg";
         }
         {
           path = ''fontello1.ttf'';

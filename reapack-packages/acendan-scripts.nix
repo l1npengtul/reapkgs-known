@@ -1102,6 +1102,25 @@
         }
       ];
     };
+    acendan-lua-utilities-lua-9-23 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "acendan-lua-utilities-lua-9-23";
+      indexName = "ACendan Scripts";
+      categoryName = "Development";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/acendan/reascripts/raw/2ed663533680051e1276c8ad6bd3c68949e8f483/Development/acendan_Lua%20Utilities.lua";
+          sha256 = "1b0qx76w5wgh8ydbs7mi1yk05l5mlb6q3kmbz3j7dai9ak8yz95g";
+        }
+        {
+          path = ''Lib/yaml.lua'';
+          url = "https://github.com/acendan/reascripts/raw/2ed663533680051e1276c8ad6bd3c68949e8f483/Development/Lib/yaml.lua";
+          sha256 = "1c8lna4aysii5cj1g630mzqcj7xr3bi53w7qv5m2clphyqccfih5";
+        }
+      ];
+    };
     acendan-copy-selected-items-take-envelope-to-selected-automation-envelope-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "acendan-copy-selected-items-take-envelope-to-selected-automation-envelope-lua-1-0";
@@ -8425,6 +8444,45 @@
         {
           path = ''VSCode/last_renamer_schema.json'';
           url = "https://github.com/acendan/reascripts/raw/9c5e32ba7d8dc410ae308cdb073711aed7b7c019/Various/VSCode/last_renamer_schema.json";
+          sha256 = "15ifpxikfk963dzkgkgxj56c90gfj869jl7d505wg26vc0i0950g";
+        }
+      ];
+    };
+    acendan-the-last-renamer-lua-2-23 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "acendan-the-last-renamer-lua-2-23";
+      indexName = "ACendan Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/acendan/reascripts/raw/2ed663533680051e1276c8ad6bd3c68949e8f483/Various/acendan_The%20Last%20Renamer.lua";
+          sha256 = "135ymy0b7293492w0s9jiz2y5fa9bnn47125knk2cw0zc6mb6mkv";
+        }
+        {
+          path = ''Schemes/Example.yaml'';
+          url = "https://github.com/acendan/reascripts/raw/2ed663533680051e1276c8ad6bd3c68949e8f483/Various/Schemes/Example.yaml";
+          sha256 = "1gfbchkvyy805apjy70xk7xr1dc9mc581faim6jzkjypb1rx0dcz";
+        }
+        {
+          path = ''Schemes/Generic Game.yaml'';
+          url = "https://github.com/acendan/reascripts/raw/2ed663533680051e1276c8ad6bd3c68949e8f483/Various/Schemes/Generic%20Game.yaml";
+          sha256 = "11d6lda36ywdw0wi44hqj7afbd39mafgaj0z13k5zkgq53w4sbpc";
+        }
+        {
+          path = ''Schemes/UCS.yaml'';
+          url = "https://github.com/acendan/reascripts/raw/2ed663533680051e1276c8ad6bd3c68949e8f483/Various/Schemes/UCS.yaml";
+          sha256 = "025bb6x5yyr2qwjra7kpnydr843m57812cvznv2yj2hvm3drx4mq";
+        }
+        {
+          path = ''Meta/meta.yaml'';
+          url = "https://github.com/acendan/reascripts/raw/2ed663533680051e1276c8ad6bd3c68949e8f483/Various/Meta/meta.yaml";
+          sha256 = "0nss3rk7xx4b0nzffc0g6r5r27d8m5qhm0cl977qrdk15vbi855g";
+        }
+        {
+          path = ''VSCode/last_renamer_schema.json'';
+          url = "https://github.com/acendan/reascripts/raw/2ed663533680051e1276c8ad6bd3c68949e8f483/Various/VSCode/last_renamer_schema.json";
           sha256 = "15ifpxikfk963dzkgkgxj56c90gfj869jl7d505wg26vc0i0950g";
         }
       ];
