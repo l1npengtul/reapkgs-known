@@ -114285,6 +114285,1355 @@
         }
       ];
     };
+    sockmonkey72-transformer-lua-1-0-15 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sockmonkey72-transformer-lua-1-0-15";
+      indexName = "sockmonkey72 Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Transformer/TransformerActionDefs.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerActionDefs.lua";
+          sha256 = "1xzg86p1q13l9fxyc76cxyp7h52i913k1xjxrnbdd27pz715chl7";
+        }
+        {
+          path = ''Transformer/TransformerActionFuns.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerActionFuns.lua";
+          sha256 = "13lm15afykk6pspzy59mhp8jq7703n5s70d9jm0cv33g4dbrhmax";
+        }
+        {
+          path = ''Transformer/TransformerEventSelector.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerEventSelector.lua";
+          sha256 = "1p0ms72n1nfkfzhwx2zv7dgskyx2vwrjw0dmm812534n0v8jlmqg";
+        }
+        {
+          path = ''Transformer/TransformerEveryN.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerEveryN.lua";
+          sha256 = "1pnis35nwis5a8pb4lg6b6f02gnzas3iyygi093bd3gwx1ybj80j";
+        }
+        {
+          path = ''Transformer/TransformerFindDefs.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerFindDefs.lua";
+          sha256 = "0xlx69cy25r5b0kvmwicw3l9ac5r439pkkc99bg2pfk6gh8mrnds";
+        }
+        {
+          path = ''Transformer/TransformerFindFuns.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerFindFuns.lua";
+          sha256 = "1lhpc3077p3p72wpx81j5sz4yv4vd5h88lai75fbys1zg01z2j8k";
+        }
+        {
+          path = ''Transformer/TransformerGeneralDefs.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerGeneralDefs.lua";
+          sha256 = "1bvwbbjpv0qvpd8vbk9d23n2szqmzjfv7f6fvjy3pc7bwrxlbilc";
+        }
+        {
+          path = ''Transformer/TransformerGlobal.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerGlobal.lua";
+          sha256 = "1sgiw05i5s0dfssfpv4l03xf3by0001c9djvyy4m1fvzzhhaif9g";
+        }
+        {
+          path = ''Transformer/TransformerLib.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerLib.lua";
+          sha256 = "1w54m076v14cqvwvkn23fwm9z5zx0b13839vknwxk0vrvnvf806h";
+        }
+        {
+          path = ''Transformer/TransformerMetricGrid.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerMetricGrid.lua";
+          sha256 = "1njn7bvr267lik5msgwav29cnh3dyql1idhfbkiw2g5sf6w8gk5x";
+        }
+        {
+          path = ''Transformer/TransformerNewMIDIEvent.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerNewMIDIEvent.lua";
+          sha256 = "1rpdz9g0j98m3mhyc509ig9lfcjls07myy8m4kazn71zi2n20mk8";
+        }
+        {
+          path = ''Transformer/TransformerParam3.lua'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/TransformerParam3.lua";
+          sha256 = "02sdf3y47ll4ynjyqap3ynr17czn9asx9jwfxaky07x9y13kby7n";
+        }
+        {
+          path = ''Transformer/icons/focus.png'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/icons/focus.png";
+          sha256 = "076cyc7d4na07kfkb4p56p6ijcpfrnhr32a4l15mjh22h0l27kz2";
+        }
+        {
+          path = ''Transformer/icons/gear_40031.png'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/icons/gear_40031.png";
+          sha256 = "0lj6dhnjk0n7dcijbsz71qfkpap6kizi1jd21as4pbl9r28cva48";
+        }
+        {
+          path = ''Transformer/icons/icon_attribution.txt'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/icons/icon_attribution.txt";
+          sha256 = "0bjrjldyakj5x6mag5g5g5gln8lkklh5454jpakvg61z39jsh4fi";
+        }
+        {
+          path = ''Transformer/icons/left-arrow_9144323.png'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/icons/left-arrow_9144323.png";
+          sha256 = "17h3q80hhn03fpb09z0r2hf0fvz5yr9zwgffjmvs5kdiyms6w13m";
+        }
+        {
+          path = ''Transformer/icons/right-arrow_9144322.png'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer/icons/right-arrow_9144322.png";
+          sha256 = "0rw22kbcgrdsq16n4rh6hy78kl976bzk46bjnfm367w1gaqw17y5";
+        }
+        {
+          path = ''Transformer/MIDIUtils.lua'';
+          url = "https://raw.githubusercontent.com/jeremybernstein/ReaScripts/refs/heads/jb/extents_fixup/MIDI/MIDIUtils.lua";
+          sha256 = "0h4fw7dfdznkpw1bkddz3jybz5y5ndkrjqkb66bycw9a0ihz632z";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/All Event Types/Double Tempo.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/All%20Event%20Types/Double%20Tempo.tfmrPreset";
+          sha256 = "1vhigyw7y78fb9w3166ry4hgjfhl5y7f675198mr79j7q55b42kj";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/All Event Types/Extract Events on same channels of selected Events to New Track.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/All%20Event%20Types/Extract%20Events%20on%20same%20channels%20of%20selected%20Events%20to%20New%20Track.tfmrPreset";
+          sha256 = "1614pfn7s8awq73v7wbb083lc5s2ywcjimq0if1bvbpd8pqdlzcf";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/All Event Types/Halve Tempo.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/All%20Event%20Types/Halve%20Tempo.tfmrPreset";
+          sha256 = "1nk5kmp8yx36wb4fr58kyrgk2pn4sjwm8wc2742dzq6djcq7whhs";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Control Change/Copy/Copy CC1 on Ch1 to Ch2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Control%20Change/Copy/Copy%20CC1%20on%20Ch1%20to%20Ch2.tfmrPreset";
+          sha256 = "12jxc017cmbmgd5c6f36fvnfrbygblf1flvzx1bakg98dg3k114y";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Control Change/Move/Move selected CC +1 Frame.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Control%20Change/Move/Move%20selected%20CC%20+1%20Frame.tfmrPreset";
+          sha256 = "1pgiqnqd3chxzawd2w150v6g0s057r1k4viv73pk5shjh9752vdg";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Control Change/Move/Move selected CC +10 Ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Control%20Change/Move/Move%20selected%20CC%20+10%20Ticks.tfmrPreset";
+          sha256 = "0wm0sg8rmrhpbafcaxxgh4f5kwwq425y6h2dh9h36rcxcxwddmbv";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Control Change/Move/Move selected CC -1 Frame.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Control%20Change/Move/Move%20selected%20CC%20-1%20Frame.tfmrPreset";
+          sha256 = "0hq9649z7giw50k46nfac3189dcy34ja0b72mdy8jmaz07jq88rg";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Control Change/Move/Move selected CC -10 Ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Control%20Change/Move/Move%20selected%20CC%20-10%20Ticks.tfmrPreset";
+          sha256 = "0n5l22py7dnh871b2rhsw1l5y3qiq6p1ppd8492wb8v36zpd106q";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Control Change/Select/Scale all CC on same lanes of selected CCs by 10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Control%20Change/Select/Scale%20all%20CC%20on%20same%20lanes%20of%20selected%20CCs%20by%2010%25.tfmrPreset";
+          sha256 = "0rfrhjxj9k4z023nmyq77f83dparfc15wfrad542l31ry9rvxa7i";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Control Change/Select/Select all CC below 10 on same lanes of selected CCs.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Control%20Change/Select/Select%20all%20CC%20below%2010%20on%20same%20lanes%20of%20selected%20CCs.tfmrPreset";
+          sha256 = "05q60hpzjd6pwdljscjx4ijvnlh8wvm7jzx1c72zhn9x6k5gp8cs";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Control Change/Transform/Crescendo on selected CC1 and CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Control%20Change/Transform/Crescendo%20on%20selected%20CC1%20and%20CC11.tfmrPreset";
+          sha256 = "0mfy6l0phzp7ih0jpgknjaa3snvr497fbbripdc79rq3mq4pr42s";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Delete/Delete Events Inside Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Delete/Delete%20Events%20Inside%20Time%20Selection.tfmrPreset";
+          sha256 = "16hb90sqfvfanl6z8rs9wi931c36hnnkhfvvlf281bgi7vv9n4la";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Delete/Delete Events Outside Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Delete/Delete%20Events%20Outside%20Time%20Selection.tfmrPreset";
+          sha256 = "1gfhj8jfalwacyjhcany1rs12jdzyb4kbzb10fd9rr7xf5vp6l43";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Delete/Delete Muted Events.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Delete/Delete%20Muted%20Events.tfmrPreset";
+          sha256 = "0bfxggnvajy26ncnlaqw4pdpjpjpy81yhyhmx4r8ziwl2cw5ybmy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Delete/Delete Notes Out of Cmaj Scale.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Delete/Delete%20Notes%20Out%20of%20Cmaj%20Scale.tfmrPreset";
+          sha256 = "0nljj617kad6bsqw894xaq2qkfq6pymyv19gf51lv84lzbkhjk2n";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Delete/Delete Program Changes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Delete/Delete%20Program%20Changes.tfmrPreset";
+          sha256 = "1kh1rvqb521d2r2anfcbbi2l98bdac9z78q29vzins0zrbi5y8j3";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Delete/Delete Short Notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Delete/Delete%20Short%20Notes.tfmrPreset";
+          sha256 = "03qxa9vczp5fdl2q3s57vkwv8ygqkpwg2kvz24657l78sazk3ypc";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Delete/Delete SysEx.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Delete/Delete%20SysEx.tfmrPreset";
+          sha256 = "0y7kmizwcdfjcwrspis8c1qbsbdvq1znqihyxcr6r252mld12zfi";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Extract/Drums (GM)/Extract Hi-Hat (F#1 G#1 A#1) to Track.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Extract/Drums%20(GM)/Extract%20Hi-Hat%20(F%231%20G%231%20A%231)%20to%20Track.tfmrPreset";
+          sha256 = "0g44rz2jzscslw7g2wskdfbj8sza4m5fdaqfrjpypwlm948cj3q0";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Extract/Drums (GM)/Extract Kick Drum (C1) to Track.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Extract/Drums%20(GM)/Extract%20Kick%20Drum%20(C1)%20to%20Track.tfmrPreset";
+          sha256 = "12h81nj68aphlw5yd62whiyq1sfng0fwx4v90wvkpykrx7mpkn5i";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Extract/Drums (GM)/Extract Snare Drum (C#1 to E1) to Track.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Extract/Drums%20(GM)/Extract%20Snare%20Drum%20(C%231%20to%20E1)%20to%20Track.tfmrPreset";
+          sha256 = "1g85m02pbf05njikiwfz7v4528qwq73ibp6wwf0ay6gd13mgm0h9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Extract/Drums (GM)/Extract Toms to Track.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Extract/Drums%20(GM)/Extract%20Toms%20to%20Track.tfmrPreset";
+          sha256 = "07pm9sj9yvpf4yqg5wg8mpv2i3g7ydpdr3xpajsjvmw8ld301c5i";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Extract/Extract Volume (CC7) and Pan (CC10) to Track.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Extract/Extract%20Volume%20(CC7)%20and%20Pan%20(CC10)%20to%20Track.tfmrPreset";
+          sha256 = "0547xpbyy0s2nm1khp9bmmv77ds85mm7jfv8zmphgfqnfl60s5ky";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Insert Events/Insert C3 at Edit Cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Insert%20Events/Insert%20C3%20at%20Edit%20Cursor.tfmrPreset";
+          sha256 = "0wn4bh5f2pvjphs58ahbdxxjfx70lxbkcmivdixsn911zpg9x3lg";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Insert Events/Insert Cmaj Scale at Edit Cursor (8ths).tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Insert%20Events/Insert%20Cmaj%20Scale%20at%20Edit%20Cursor%20(8ths).tfmrPreset";
+          sha256 = "0m65kzsqgcdwimxvk7akjy8vsl7d279ix7zisnjib67r78wh87b3";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Insert Events/Insert Cmaj7 at Edit Cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Insert%20Events/Insert%20Cmaj7%20at%20Edit%20Cursor.tfmrPreset";
+          sha256 = "1d8cq0z7ghkhnb0cxsjxqhl6a69ks2h0g8kpc3xgf626wahx8q99";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Insert Events/Niceties/Insert Dmin LICC at Edit Cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Insert%20Events/Niceties/Insert%20Dmin%20LICC%20at%20Edit%20Cursor.tfmrPreset";
+          sha256 = "0qr7l0jww28bmacn8ihdh9xv541n4908l2cbixrdy7wysrwxr9fy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Insert Events/Niceties/Insert Dmin RICC at Edit Cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Insert%20Events/Niceties/Insert%20Dmin%20RICC%20at%20Edit%20Cursor.tfmrPreset";
+          sha256 = "1xgckby0x6r596x2zpc24nwalvm5zvx5gnzgxdwr0xhsc43dl2vc";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Insert Events/Niceties/Insert nice things at Edit Cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Insert%20Events/Niceties/Insert%20nice%20things%20at%20Edit%20Cursor.tfmrPreset";
+          sha256 = "1xgckby0x6r596x2zpc24nwalvm5zvx5gnzgxdwr0xhsc43dl2vc";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Insert Events/Repedal.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Insert%20Events/Repedal.tfmrPreset";
+          sha256 = "11ia6phgch51vfs979r24pmj5khai1jrjgbpav71f49kwwyx0di1";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Note Pitch and Chords/Add Low Octave to Chords.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Note%20Pitch%20and%20Chords/Add%20Low%20Octave%20to%20Chords.tfmrPreset";
+          sha256 = "01psp3dcy23il4kl0x88ff0ja0aqb63p04p1pdis75spacr0kp1a";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Note Pitch and Chords/Change all E in project to Eb.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Note%20Pitch%20and%20Chords/Change%20all%20E%20in%20project%20to%20Eb.tfmrPreset";
+          sha256 = "1nw2fs8zkc8bbdzv6zw3jmvnvgkasjg89wdv4g9bvlzhxfcryl0r";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Note Pitch and Chords/Next Chord Inversion.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Note%20Pitch%20and%20Chords/Next%20Chord%20Inversion.tfmrPreset";
+          sha256 = "1xrwzhcv3ki5xa265mranyl17wnl9rxl31imgns8dcsb61kypzqb";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Note Pitch and Chords/Previous Chord Inversion.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Note%20Pitch%20and%20Chords/Previous%20Chord%20Inversion.tfmrPreset";
+          sha256 = "177lqzq5cfy8ddda4qvwrlgzs3ld6x8m7alr2mggbqf0nmfh5gd8";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Length/Decrease selected Notes Length -1 Frame.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Length/Decrease%20selected%20Notes%20Length%20-1%20Frame.tfmrPreset";
+          sha256 = "1vm3kh8pvpzyzk4a7ygd6ir7mpkvhl4hc2f1xxpmkc4xrmw46hab";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Length/Decrease selected Notes Length -10 Ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Length/Decrease%20selected%20Notes%20Length%20-10%20Ticks.tfmrPreset";
+          sha256 = "0271vazhv218i7ji62pdwdq7bilzb0q1zdmisqwzydnjan3f2b5n";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Length/Increase selected Notes Length +1 Frame.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Length/Increase%20selected%20Notes%20Length%20+1%20Frame.tfmrPreset";
+          sha256 = "16nzin8gmls118pv8wq33x92mszhnxsj3il7mpnjdyvpjhxalczy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Length/Increase selected Notes Length +10 Ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Length/Increase%20selected%20Notes%20Length%20+10%20Ticks.tfmrPreset";
+          sha256 = "1xbsbdjdw6wnc10b915bid1vry9q77vgn1hlliszygvrdcy7fi2j";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Length/Randomize Length of 16th notes +-3%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Length/Randomize%20Length%20of%2016th%20notes%20+-3%25.tfmrPreset";
+          sha256 = "1jpfw8jgfy96x1af46sc54k18cy4qdhbl8nk229wzcfv54n3h17c";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Length/Randomize Length of 4th notes +-3%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Length/Randomize%20Length%20of%204th%20notes%20+-3%25.tfmrPreset";
+          sha256 = "0wz0nrc9j565sgq9ij09521zpvd2m38nmkns10gszkg2qd6a9dba";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Length/Randomize Length of 8th notes +-3%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Length/Randomize%20Length%20of%208th%20notes%20+-3%25.tfmrPreset";
+          sha256 = "1jynhcwp5bc5a8wqzvl97npiwzl8kfjxpdh475sva78ya3ibl6wj";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Positioning and Quantize/Move selected Notes +1 Frame.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Positioning%20and%20Quantize/Move%20selected%20Notes%20+1%20Frame.tfmrPreset";
+          sha256 = "1apayf1w02gx2wklb1jqhxg6zwfpfg03v2mx5h72kw2lyckw3ihy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Positioning and Quantize/Move selected Notes +10 Ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Positioning%20and%20Quantize/Move%20selected%20Notes%20+10%20Ticks.tfmrPreset";
+          sha256 = "14qhcyyk4lvv5k8wa7b4rm4vwg6jqgi4gb7v6zd8qqvga3kdryqc";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Positioning and Quantize/Move selected Notes -1 Frame.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Positioning%20and%20Quantize/Move%20selected%20Notes%20-1%20Frame.tfmrPreset";
+          sha256 = "0v5v1jzx6i17pfam9a33caw10353ipwws882cij48nrmy1fawsy7";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Positioning and Quantize/Move selected Notes -10 Ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Positioning%20and%20Quantize/Move%20selected%20Notes%20-10%20Ticks.tfmrPreset";
+          sha256 = "1a4skl9ay9mmknlxl8y6qnjz4qikcmzrkixl9l1hpbrp3bab14rf";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Positioning and Quantize/Quantize selected Notes to Quarter Notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Positioning%20and%20Quantize/Quantize%20selected%20Notes%20to%20Quarter%20Notes.tfmrPreset";
+          sha256 = "0brd5bwgqd444hdvldq206b89y3gy1v8rdcc19lnl8k7mbjwgjnx";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Notes Positioning and Quantize/Randomize Notes Position +-10 Ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Notes%20Positioning%20and%20Quantize/Randomize%20Notes%20Position%20+-10%20Ticks.tfmrPreset";
+          sha256 = "15lj2sqbr9w5g1mifdiza11clljrca2z9z50i4fkcvpjhylbf1bc";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Rhythm/Select by Rhythm - 16th Bossa Clave.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Rhythm/Select%20by%20Rhythm%20-%2016th%20Bossa%20Clave.tfmrPreset";
+          sha256 = "1rjqw1hvlyycy286hp8321iql00havcna028p5nd9vb3bdapg2kz";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Rhythm/Select by Rhythm - 16th Even.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Rhythm/Select%20by%20Rhythm%20-%2016th%20Even.tfmrPreset";
+          sha256 = "0fa13471w9qvnr0f5icfvrf0sjzfnw3hs8vkjwp07l1mpfpxwpsr";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Rhythm/Select by Rhythm - 16th Odd.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Rhythm/Select%20by%20Rhythm%20-%2016th%20Odd.tfmrPreset";
+          sha256 = "1j5jyfkx338dbrhrx593y1h2h2yif5jyf9b9clgrb8zpzgsq1liy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Rhythm/Select by Rhythm - 8th Bossa Clave.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Rhythm/Select%20by%20Rhythm%20-%208th%20Bossa%20Clave.tfmrPreset";
+          sha256 = "0pbhs3rgynkyi03yd3977asp7k8jn4p8dkm7lhzxcvqw1hjjmc28";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Rhythm/Select by Rhythm - 8th _3 feel_.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Rhythm/Select%20by%20Rhythm%20-%208th%20_3%20feel_.tfmrPreset";
+          sha256 = "1x2ivlniq1xzmxi00h0n1w0s4b21867w4i1bjix2apqqr9ynkv6p";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Rhythm/Select by Rhythm - Backbeat (2-4).tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Rhythm/Select%20by%20Rhythm%20-%20Backbeat%20(2-4).tfmrPreset";
+          sha256 = "1i1ic1l5klp5mbc6g2s9l2l40ad9c6gsysw00v0w09kn28fbwgc1";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Rhythm/Select by Rhythm - Downbeat.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Rhythm/Select%20by%20Rhythm%20-%20Downbeat.tfmrPreset";
+          sha256 = "079lhijwfmaq7cc711mj38wxzjdb9vb2fp2h239vfrrkkda2rinl";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Aftertouch in Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Aftertouch%20in%20Time%20Selection.tfmrPreset";
+          sha256 = "1620i8cjwgvcy0mjywz4q35rlr637143m1yfa14s8jaykj34awjm";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select CC in Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20CC%20in%20Time%20Selection.tfmrPreset";
+          sha256 = "0gnwvs5v8i0wfnk4wvn0vby2qbvr0l5m9rqvjfbg6xh93l3ynn3l";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Every other Hi-Hat (F#1).tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Every%20other%20Hi-Hat%20(F%231).tfmrPreset";
+          sha256 = "0765pbwb1qx7d8ihiwqvwmncwjv7y3r54ysyvqkk55c70n3kf816";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Every other Note.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Every%20other%20Note.tfmrPreset";
+          sha256 = "0cpmkmv2rii9l7hq5cnxljvxdjmvmm39ih4jpmw2q5wgklvswjhs";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Highest Note in Chord at Edit Cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Highest%20Note%20in%20Chord%20at%20Edit%20Cursor.tfmrPreset";
+          sha256 = "0n8p8g2b04gwg4l4il8aa932x6zx2h27f236hvwvak8i4dgpyhh1";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Lowest Note in Chord at Edit Cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Lowest%20Note%20in%20Chord%20at%20Edit%20Cursor.tfmrPreset";
+          sha256 = "0zaf0q2wb21f6zl73493plr0cak2ljadfkbj3ifp07zcp5957iir";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Notes at Edit Cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Notes%20at%20Edit%20Cursor.tfmrPreset";
+          sha256 = "1m5xhq25szx81qp6prmlpavb20zyavw8ra5j84k92xa4a1mzjf27";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Notes in Cmaj scale.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Notes%20in%20Cmaj%20scale.tfmrPreset";
+          sha256 = "01s3jss1fmfaw0vrvjzkrd9mxka5r8b1dwfq7yj4al0qj7l48gp3";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Notes in Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Notes%20in%20Time%20Selection.tfmrPreset";
+          sha256 = "1x2h4phlzdk004sw861j236lpbgy7y26rhv1jfdsi2cv815pxary";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Notes on same channels of selected notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Notes%20on%20same%20channels%20of%20selected%20notes.tfmrPreset";
+          sha256 = "0w79gmd344wcz1s9i8lv3h2c849hm2wnh3fy69iaa32famp0adw1";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Notes that start at beginning of measure.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Notes%20that%20start%20at%20beginning%20of%20measure.tfmrPreset";
+          sha256 = "16xq17cd7rgd9mzvjdb749911ylzpkisl3iknb58x906cc8wa55f";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Pitchbend in Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Pitchbend%20in%20Time%20Selection.tfmrPreset";
+          sha256 = "106s9hhl5k4sfx7h9ivc8wlxhkyv1y7fis4p5i732488nlhi47pv";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select Program Changes in Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20Program%20Changes%20in%20Time%20Selection.tfmrPreset";
+          sha256 = "1rp2lwan1fzd79yigvj9jbx3fhn61j9wihdwn6n8haymcxfk0d5c";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select notes in similar range to selected notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20notes%20in%20similar%20range%20to%20selected%20notes.tfmrPreset";
+          sha256 = "01rinzp9dzjihhjn736jc7zzn7v2yrn6mjb1pzva2kgqda06n9xm";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Select/Select notes with similar length to selected notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Select/Select%20notes%20with%20similar%20length%20to%20selected%20notes.tfmrPreset";
+          sha256 = "0q38nnlgbidajxdkb23zpkq93p2mpcy5khjc42vwqdh7ywsf3zc3";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC1 to CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC1%20to%20CC11.tfmrPreset";
+          sha256 = "1nl1n0m6n9hcxi0nfky3g690hbz3mapmv9a0c3k393m7jxb05frd";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC1 to CC2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC1%20to%20CC2.tfmrPreset";
+          sha256 = "0kkaqs4q82x321l3rr6h711637mvizkv2kjyz9acx4avxgzf30ba";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC1 to CC7.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC1%20to%20CC7.tfmrPreset";
+          sha256 = "1a73k7z250jzzcgaank8nfxqw207nil5middl82cv675ar54a5pw";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC11 to CC1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC11%20to%20CC1.tfmrPreset";
+          sha256 = "0y070jb5sjh8py42d8b3mcsmg8gs5r31q92jic0ycb3dqjvkpspv";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC11 to CC2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC11%20to%20CC2.tfmrPreset";
+          sha256 = "00nlm8fsmds6cj8mnm9s9qsjshzv5wplyp3jc1yfm09pqazri0m2";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC11 to CC7.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC11%20to%20CC7.tfmrPreset";
+          sha256 = "0qmb9abd5hzkc0h8a9766qmjj214d1p0qwjrq8znl8gyfs2k3lfn";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC2 to CC1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC2%20to%20CC1.tfmrPreset";
+          sha256 = "1a6vpabhw3srhn49d71lijkfjc8qsx4bpwi2cmdgslr6949bpq1j";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC2 to CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC2%20to%20CC11.tfmrPreset";
+          sha256 = "01p3ghqnb3szgkb3dxd463kly4jr1y1v1j881y7m51s6iz757hx6";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC2 to CC7.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC2%20to%20CC7.tfmrPreset";
+          sha256 = "0mb0mgm0pvbrp4vx701qmhqm3936m5j6p884mqsp48rp8hssbmq4";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC7 to CC1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC7%20to%20CC1.tfmrPreset";
+          sha256 = "0r3cv0d4wm6pykyhka4cr1ml5qvbbpkm9qwd4cicq0z9k7j3hvfb";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC7 to CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC7%20to%20CC11.tfmrPreset";
+          sha256 = "12c0zgyqn5d8h6ls2p052wx81mys3wk89xd0nvffvl52r9dib9cb";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Copy/Copy CC7 to CC2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Copy/Copy%20CC7%20to%20CC2.tfmrPreset";
+          sha256 = "04fq8mqcrazp3hz5qxrgry51fk3q0ng8sc61cay0jf5r717jfmsq";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC1 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC1%20after%20cursor.tfmrPreset";
+          sha256 = "1hslwvzzq9618qwprdphclm42c5njnlrmmv439whw7j1ngq4a6bn";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC1 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC1%20before%20cursor.tfmrPreset";
+          sha256 = "0xdlvi9n93rm25jm6ir1w0518ycdqa0kfv4dlv7fryp4jl71xz0g";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC1.tfmrPreset";
+          sha256 = "1paz957kq623q4y6qrny7ixhnyml31p233c03w6vv8ic30iqx3ny";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC11 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC11%20after%20cursor.tfmrPreset";
+          sha256 = "059lh9n2sahrnalhvdr3ay3p2lh3iswrncwc6n5vpgkmsinnczm5";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC11 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC11%20before%20cursor.tfmrPreset";
+          sha256 = "0gp470xynz1w1n7qni06irgn4xggjpa2m9kglrn2phn26rkzm1pj";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC11.tfmrPreset";
+          sha256 = "0wzqiyg5q08j36rf9zavhjd1w4rb73lrp2jnzvrwg208qbh4ncd8";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC2 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC2%20after%20cursor.tfmrPreset";
+          sha256 = "0i7fish1mgwfsil272qnx29zagz7gmwf9w1bfd3qvc4lrx9bqyls";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC2 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC2%20before%20cursor.tfmrPreset";
+          sha256 = "1dazf5yw9p2r99sfvswy8nsa2q4m3ipwgy8417ypp05x5i1xb5az";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC2.tfmrPreset";
+          sha256 = "1xzqsbhgpza2ry9740chlwzsk354r73jnilni2rcix1dzd10a2cg";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC64 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC64%20after%20cursor.tfmrPreset";
+          sha256 = "009zihh0zync2yk696hcjciadys77l53gpqa1s5sxq5lciy6d8kz";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC64 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC64%20before%20cursor.tfmrPreset";
+          sha256 = "0b3s3j0kinjzlnpcim7pqs9j1sgkgbi1p9gwa05y4cpqc0algnqy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC64.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC64.tfmrPreset";
+          sha256 = "19q07y2k05gwdr2agvzcf69xdmazs9y2dgj9sns4fd7d4bw0gy62";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC7 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC7%20after%20cursor.tfmrPreset";
+          sha256 = "0z4avgq338vp4bpfdfm3j8swzc36cmndbay95y7qyrswcsa5lhpf";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC7 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC7%20before%20cursor.tfmrPreset";
+          sha256 = "1vdmxv5x3qhz6bhyq18rqd05dl4nrllwdc62sb1632bglb4d6fik";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC7.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC7.tfmrPreset";
+          sha256 = "1a327jv7vlz2ybl6ssqaqavslzn8z5cwbwb9pqn9g4k6355x817v";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete all CCs after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20all%20CCs%20after%20cursor.tfmrPreset";
+          sha256 = "0sx4lrq8hi1pwq4x6gxa18nlr3499xkm87aapxrlq0kvk1jdln49";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete all CCs before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20all%20CCs%20before%20cursor.tfmrPreset";
+          sha256 = "043vaaw9p2kb3wpb4r2l3apm9flz9p86wgrcsvavvc1mh7d5an2y";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete all CCs.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20all%20CCs.tfmrPreset";
+          sha256 = "1yiq634hf0gkq54qhp0n98fl79x2rkv5gaj0kwxp6nkhh82885i2";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC1 to CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC1%20to%20CC11.tfmrPreset";
+          sha256 = "13y5miypsbwn57dw8al0la1n7yk65my862bhfwfy73fc3k8zlc04";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC1 to CC2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC1%20to%20CC2.tfmrPreset";
+          sha256 = "0j9ayxw8qxqd1sdlysrm21yriadbm52v68k13qrr2gfcnbckp4z9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC1 to CC7.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC1%20to%20CC7.tfmrPreset";
+          sha256 = "1rj6wrv7njz377gb8m8ggsq3zyc1dscd2rh8fby8hf3ddgg5kph2";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC11 to CC1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC11%20to%20CC1.tfmrPreset";
+          sha256 = "0ry24130i2785bcrwjs2a01x4a729laxk4fj1f5icb35l4mjc6zr";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC11 to CC2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC11%20to%20CC2.tfmrPreset";
+          sha256 = "1f9klcq2yq03xvyjg0zrr8s00hp6vbrinf8pzvysv35i20s4jp6x";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC11 to CC7.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC11%20to%20CC7.tfmrPreset";
+          sha256 = "0r3pmwjsy02m0mjmzwn77rln3pb8f08a64y8qpmnqs2lxj02j4w7";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC2 to CC1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC2%20to%20CC1.tfmrPreset";
+          sha256 = "0fm0yil6zrci928z81l5w6bd87216kby38lszxv4masnlbcny69i";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC2 to CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC2%20to%20CC11.tfmrPreset";
+          sha256 = "1r7i8wjcl85nrbn8pabqgv1443l299937zwd6mfw1iwn4j716gyi";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC2 to CC7.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC2%20to%20CC7.tfmrPreset";
+          sha256 = "1lc4c8dpqjbk1hqq5q65k9b739qshlzifhn0x0fdax6f08d90fy5";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC7 to CC1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC7%20to%20CC1.tfmrPreset";
+          sha256 = "0fb516phyblsawayxxz2qw7djkkj66p64mqxixyyv2paqwf0qr78";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC7 to CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC7%20to%20CC11.tfmrPreset";
+          sha256 = "0n3nfqi28cap002b5sfjcfj0mirgpmv0j8ypkwjbnh1rhgxps9ch";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Remap/Remap CC7 to CC2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Remap/Remap%20CC7%20to%20CC2.tfmrPreset";
+          sha256 = "0ifjq7b7qnrxq1qr8h6zpl89zax2jxjpmilclrs8s2p8r2ickshq";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC1 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC1%20after%20cursor.tfmrPreset";
+          sha256 = "0f40kcyjyg0y2f9nj3qc31l89y0zv5i8bchjipr8y6q1crcnv9b9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC1 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC1%20before%20cursor.tfmrPreset";
+          sha256 = "1g78w6yflz67r2rlf5352lb2qaxiccjhh0b6pw7hdvj2wb955p0s";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC1.tfmrPreset";
+          sha256 = "1aic2jv35y9m69nn8k896f9l6whbfx4cn115b9ays1p32sbc12d8";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC11 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC11%20after%20cursor.tfmrPreset";
+          sha256 = "1h3h7c995zzxaam9m6lwcanpci7307jnskpj5s0rysqxf6z5dl7k";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC11 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC11%20before%20cursor.tfmrPreset";
+          sha256 = "1vyvsdksmvs89b7s987d2v4bl7y8sv3ls36ya6b1s95rbq8nlvx6";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC11.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC11.tfmrPreset";
+          sha256 = "13bs8f3qahmwf52c1rp22syg6mc1r3vada5h3hwgldb0g52bf1py";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC2 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC2%20after%20cursor.tfmrPreset";
+          sha256 = "14fzwgbcracvw49sa8agg43b2mkjh80vq5aw7zkn90vqjdg0a0gy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC2 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC2%20before%20cursor.tfmrPreset";
+          sha256 = "0l4mi0k2xygdd7s4lzf34brnjv34bbw491ddhnardaa4gs29qqpl";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC2.tfmrPreset";
+          sha256 = "1dr2ilh6g48bd86s8zas6qgx1na6s7x1z5asv4bipj2l48v92xkd";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC64 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC64%20after%20cursor.tfmrPreset";
+          sha256 = "0ry34ias59ykk0qp46zzwd8lpygf3r6bdjz8lb9ww56jifzv140v";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC64 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC64%20before%20cursor.tfmrPreset";
+          sha256 = "0h6f7kxzwnk2afsk7b6h1v5b5x0rg0cng6j2x1r2xp1rq6dyy9kp";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC64.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC64.tfmrPreset";
+          sha256 = "060jp4pcd2nn3mh5n1hv71pvf88i3g3ylccb0rhavfil4716syhh";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC7 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC7%20after%20cursor.tfmrPreset";
+          sha256 = "14ykphyxrjsvn64a9k2a2f46k83ma6ygap77basg2lwgvwc6rra5";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC7 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC7%20before%20cursor.tfmrPreset";
+          sha256 = "1zm5ylmdh2z2wh35zhrgnpsxfq24b7sg2bi0xn4rqv7mya1psqd2";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select CC7.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20CC7.tfmrPreset";
+          sha256 = "1pap0ia8kkvmzqjz7ax18rj10pxvc3b5f2923ly5d9kacf0qi2yl";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select all CCs after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20all%20CCs%20after%20cursor.tfmrPreset";
+          sha256 = "1hcydp80cx0g2vpz514nzpgdf7n72dvlbxafhhzhldmc3szpznwb";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select all CCs before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20all%20CCs%20before%20cursor.tfmrPreset";
+          sha256 = "0n5a50kg21846b57zbpmq407zfm3yc85i304dcvav4q1sq5a84q0";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Select/Select all CCs.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Select/Select%20all%20CCs.tfmrPreset";
+          sha256 = "07mg46l3p05d00vwm4b2lzn0wbd3rd38jv73czyyl63bayih75p0";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Decrease CC1 -10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Decrease%20CC1%20-10%25.tfmrPreset";
+          sha256 = "1bfq9l2l7mna6qchck2gmj03lq0p0xpidcsh5lm4flc5lixybkd9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Decrease CC11 -10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Decrease%20CC11%20-10%25.tfmrPreset";
+          sha256 = "0pa000y61jivg2y5g8hpbriw02dqvdyaxm1izmr95mc43ybij6mp";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Decrease CC2 -10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Decrease%20CC2%20-10%25.tfmrPreset";
+          sha256 = "0m6izsw1blhxkch7a0pxv9qhfd06pgh58ig62rfwrxr2j4zx3mrj";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Decrease CC7 -10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Decrease%20CC7%20-10%25.tfmrPreset";
+          sha256 = "0xpbl5mnygna2nxggcldjm48jp0vvp43cspra04lf86dq9123vhf";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Increase CC1 +10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Increase%20CC1%20+10%25.tfmrPreset";
+          sha256 = "0zl6lvzwnhhzk49i01sylbhklh11b39cvyrcarvc1kdfbfg3di5q";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Increase CC11 +10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Increase%20CC11%20+10%25.tfmrPreset";
+          sha256 = "01lawpn87vxi2cn238xia08znizqrj8dizhm6fcj2g4hvy6c7pj0";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Increase CC2 +10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Increase%20CC2%20+10%25.tfmrPreset";
+          sha256 = "182g3zch458ix1k6w26gf7fp780rydisvjnxkr7w5hlfv0gb8gmh";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Increase CC7 +10%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Increase%20CC7%20+10%25.tfmrPreset";
+          sha256 = "1al0221hakxzbpssadhzvhk8waqnsq54y594lxa9dckfnzw8jqmm";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC1 to 0 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC1%20to%200%20after%20cursor.tfmrPreset";
+          sha256 = "0qxnq3fsrjabdc9bdspzshaznvpcxxbxy0xq32pn2xdzrr9knqgs";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC1 to 0 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC1%20to%200%20before%20cursor.tfmrPreset";
+          sha256 = "1n28ka8skkhxrcp8qnd4g2ijxkn11yddyqxxpi264zhagrbcv011";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC1 to 0.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC1%20to%200.tfmrPreset";
+          sha256 = "0awx8f0xavvxnv7mbb5skcj6nw2r1bxw9g9nihgah5wl1cdhs3ra";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC11 to 0 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC11%20to%200%20after%20cursor.tfmrPreset";
+          sha256 = "1gqldm0rk5bplmv7cisyxj2x5887121jgfcwc2x432m2q2gi65qy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC11 to 0 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC11%20to%200%20before%20cursor.tfmrPreset";
+          sha256 = "1pgdz9hjwwck52n6ds37mz5imvgpn2f2cm16bxrpvabclp79s61h";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC11 to 0.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC11%20to%200.tfmrPreset";
+          sha256 = "1lxqsx09fxvppj8x3h0xaysfar2kl5xblrim1b7nn1apja4z11nr";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC64 to 0 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC64%20to%200%20after%20cursor.tfmrPreset";
+          sha256 = "04kdkchlncm2qnscxwfvyk75lscxajvga0zanx8mi8s3xhzr2d5l";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC64 to 0 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC64%20to%200%20before%20cursor.tfmrPreset";
+          sha256 = "0r3i053wfpr60wq54bq2p7qark3ip87fknf1kda0c96nlv8faca7";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC64 to 0.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC64%20to%200.tfmrPreset";
+          sha256 = "0p2ks09m2far6pgc8jqc851yqqmfai7ha9cnnbmfs14bx1lp0cb1";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC64 to 127 after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC64%20to%20127%20after%20cursor.tfmrPreset";
+          sha256 = "0dd6zdf3k6swjr860jbzghcssgbvkclg1m1l3v02ya1q1zwrg43j";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC64 to 127 before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC64%20to%20127%20before%20cursor.tfmrPreset";
+          sha256 = "1xsjv26kg3rvlpva94q729yn3bckagfxad6hwcdr5c93p3vqwza3";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Transform/Set CC64 to 127.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Transform/Set%20CC64%20to%20127.tfmrPreset";
+          sha256 = "15ncn0mv8vjp3fm2mzsmdv87c7h4ha6argjr5zh4kq53aldbywrl";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete all notes after cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20all%20notes%20after%20cursor.tfmrPreset";
+          sha256 = "09fcs88jp1d1g59ra574x0cqscdm5q1m7mlgxzdcidlmaaffybnh";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete all notes before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20all%20notes%20before%20cursor.tfmrPreset";
+          sha256 = "00ffidm7gz5kkzianpn144pb1d7vsb59vq95aai6zplmflxbh2qr";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete all notes in note row after cursor .tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20all%20notes%20in%20note%20row%20after%20cursor%20.tfmrPreset";
+          sha256 = "0bak2snnlhnyqv2dii88ynzlqax7ynabmcjb4kznn2yqiq9jllys";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete all notes in note row before cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20all%20notes%20in%20note%20row%20before%20cursor.tfmrPreset";
+          sha256 = "0mgqprqahpc4qj454anl431xannslrjarjfravrkmz205dnhvb3l";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete all notes under cursor.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20all%20notes%20under%20cursor.tfmrPreset";
+          sha256 = "0w0ancaxd87lf6l1kb47lnc4r3p3z5ky4kykzmifd3njlrsh45d6";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete every 2nd note.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20every%202nd%20note.tfmrPreset";
+          sha256 = "0ysh7j4dq40pga3p0hiwpgnhgi0z76cpplihc5s5sfgm9sb97rdr";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete every 3rd note.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20every%203rd%20note.tfmrPreset";
+          sha256 = "0qkgaq11a86qc1q87rjqqf9kdf10x2jxdz7zac42im2d2gc1lhp9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete every 4th note.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20every%204th%20note.tfmrPreset";
+          sha256 = "1n5hlh0jzqmswkrfkdqbb5ddxj3y5civvq1l1cg6q8zhxhsvh4a9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Delete/Delete muted notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Delete/Delete%20muted%20notes.tfmrPreset";
+          sha256 = "0hbak4skqfcwh3khwi684k0k5ncslg1h652i9xz5dsr2b2p7bj9x";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Divide length by 2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Divide%20length%20by%202.tfmrPreset";
+          sha256 = "0zq9k6nfx7x1d7jixkj3s43863s8hhhf55i6pnq8wgk4x0brfyhq";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Length +1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Length%20+1.tfmrPreset";
+          sha256 = "0rbr2nri4vhnbzkv2y18jvgzxy357468v9gdpv8is6d5cn1ln084";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Length +6.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Length%20+6.tfmrPreset";
+          sha256 = "0asgjzvyca23zx9pnghfw3abdzf37n2vy749ng72ahcbfjl35nyp";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Length -1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Length%20-1.tfmrPreset";
+          sha256 = "1mavd7m674ai9g5rxq97dgv2q8r9sd6znaywhn1lpv6rhlj88qfh";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Length -6.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Length%20-6.tfmrPreset";
+          sha256 = "0fzylfb5gnkx4rn3nrizrl7akmsd4rgnnlh21c21v1r6szna0zp5";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-1.tfmrPreset";
+          sha256 = "1j1ywl6wdkmqzx8wgpwafblyijhm0y5n1iix853nyy9nb9v7zn3g";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-16.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-16.tfmrPreset";
+          sha256 = "080lh53h72jjbnvm8286119xk8cjbnyki93qabp4jkci67sa51la";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-16D.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-16D.tfmrPreset";
+          sha256 = "1agr5dwwfrwrq9spiv763wxn2vasdvnwvl844lij3f2j9rdj14dx";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-16T.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-16T.tfmrPreset";
+          sha256 = "0rd1ax4l7pfvpmjy489jnlqali40sjxg52f988xg3vbqp9qv974m";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-2.tfmrPreset";
+          sha256 = "04zxidnlmkjkl49s8fbdzdxpkc7n66hdcxlyfkdlm97ihqdpikfs";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-32.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-32.tfmrPreset";
+          sha256 = "1kqzhv113z2x7calc1g7qlz3xrq4csqg92kxkxqapr2gnmiqn3v5";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-64.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-64.tfmrPreset";
+          sha256 = "0l3cl30738igjrj4dgyqgxz3ji7g33vhnflljayc9dclygicdhd3";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-8.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-8.tfmrPreset";
+          sha256 = "0fjdsz0d2r6s6k5104pkxqqpa3qf0qwanb95622zkqnxab73a1pl";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-8D.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-8D.tfmrPreset";
+          sha256 = "0i3rwb1jqh6h412mq0741w0ig1mr8passh35ifxi6x027wc2mbli";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 1-8T.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%201-8T.tfmrPreset";
+          sha256 = "1kmh93z0bxzy741mbf3k3jh8fqwk7lz5yk5wllxqb79gip3shk3n";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Length/Set length to 20 ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Length/Set%20length%20to%2020%20ticks.tfmrPreset";
+          sha256 = "03v6apd2hawdicdwypwi79shzhm7nbark8dza8c2w45v96vb00qg";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Add +12.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Add%20+12.tfmrPreset";
+          sha256 = "0k9sicf4l7cdxjlbxizjydvhqx5sfj9hgfr5540k05jd574wqlva";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Add +24.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Add%20+24.tfmrPreset";
+          sha256 = "1dhgdnslzbfaz9ynkh9z2bqrazp0sfrh9ada2d7sx4jzx48s1hc9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Add -12.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Add%20-12.tfmrPreset";
+          sha256 = "1drc9gy34q3lw2l58msyjm7lzih2cmz4c4y9y0id995jl9hr3rrf";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Add -24.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Add%20-24.tfmrPreset";
+          sha256 = "1y4k919cxrvmqiqn9dj6aj1bfa9p64gg8vhsvlg24zpyvmr79pii";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Transpose +1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Transpose%20+1.tfmrPreset";
+          sha256 = "0kvb3rvmxpcpcs4yr1v4capwdpf4b01x5mw6g2fx92z80p6an91m";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Transpose +12.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Transpose%20+12.tfmrPreset";
+          sha256 = "0k20i2c04rcspq4p5xy4wm6d2wa24h54af0g7q98h1xq0k7szbcn";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Transpose +2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Transpose%20+2.tfmrPreset";
+          sha256 = "18i4kyc3q24fdwdmwzh4cdk2x06bykhswpq2h9adl4glvrw7x27m";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Transpose -1.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Transpose%20-1.tfmrPreset";
+          sha256 = "1m3nphqlk8lnaqq4vhw7vva0kz0wq1dncq57kvwjqxavlvhyqmgh";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Transpose -12.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Transpose%20-12.tfmrPreset";
+          sha256 = "0n5wqa5w0xy2afpp6iksix71w1sbjcip68q59qw07n5z029fxrc4";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Pitch/Transpose -2.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Pitch/Transpose%20-2.tfmrPreset";
+          sha256 = "0m23phhrnrl79xqpxvszb4vlsbs0lngal6xzjsqixnkadpscq2ym";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Humanize by 10 ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Humanize%20by%2010%20ticks.tfmrPreset";
+          sha256 = "08gl2p1pln9jlm8lw5q7wg4m062kq2zxlivn04q1vvfdm1ji3xlc";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Humanize by 5 ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Humanize%20by%205%20ticks.tfmrPreset";
+          sha256 = "0w44agjf6rhd8c1q6jlkdkwzjy0avpq60w67cyzi68y3x1z0pxr5";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Nudge notes +2 ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Nudge%20notes%20+2%20ticks.tfmrPreset";
+          sha256 = "0h8ixas6h64x08a664lcnzpnkasfv3j6zwixfq09rr2c3dhvql7p";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Nudge notes -2 ticks.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Nudge%20notes%20-2%20ticks.tfmrPreset";
+          sha256 = "1vm46mh9inyc7sgghb1n54znan0vf3bdwwx85g3xn7cs8xb9bgs9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-1 100%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-1%20100%25.tfmrPreset";
+          sha256 = "1r5n4xy6i87lk74snn1gfslxhgnssiclhgg4wc92g245a5wjlrvb";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-1 50%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-1%2050%25.tfmrPreset";
+          sha256 = "19lm3ml5lmxnjcz3k0wai31s7anvnfxmash063vcg846h5z7qngl";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-16 100%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-16%20100%25.tfmrPreset";
+          sha256 = "0jrrjixd88rbgbxji6vhlgycqqggjhcv7dbk435vmfjp57dr6i8s";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-16 50%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-16%2050%25.tfmrPreset";
+          sha256 = "0wzdk1480cn9fm1vn1zw4vx4w1d0apcphbkcy2kl99zl56zvhldg";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-16T 100%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-16T%20100%25.tfmrPreset";
+          sha256 = "1dj07g26bgx8zc53x5rp4gi90152wnc10xklva8vhpfjsym6ww1n";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-16T 50%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-16T%2050%25.tfmrPreset";
+          sha256 = "13q5mp3pv5li2akzh97f1vlb749fxk7l0k9ch2y64xgzzljdjm0m";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-2 100%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-2%20100%25.tfmrPreset";
+          sha256 = "1q7v5nk2jlpy0f07zyrbkhiydlfbss0qxdyzs2i1rfscil959s2h";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-2 50%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-2%2050%25.tfmrPreset";
+          sha256 = "04bn18pqzvlgqaljiz6g58vbb399apppbn55kgqrdlgqvp3pv1ha";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-4 100%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-4%20100%25.tfmrPreset";
+          sha256 = "079iwp3fx7k1fr3505kmkxqy8brx7xc41a98x6k2623ydpdrsypp";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-4 50%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-4%2050%25.tfmrPreset";
+          sha256 = "1xf87g903as41x8v5p1q92iprsl3xlik8b383gsnlvz72pnb60ca";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-8 100%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-8%20100%25.tfmrPreset";
+          sha256 = "1fb13qw2hljndyynxhchg9nndqg6bypp8mk0swl2r185zjqw43r7";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-8 50%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-8%2050%25.tfmrPreset";
+          sha256 = "00rks95lw59mv1g7a77zf039bvdmhzg5wmmgwd43463zwv8jrcpa";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-8T 100%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-8T%20100%25.tfmrPreset";
+          sha256 = "0k3v5cddqaxc9v8l6kllqdcw3k5rfbbzx2ddcj3xs02vdz3n43ij";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Position/Quantize 1-8T 50%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Position/Quantize%201-8T%2050%25.tfmrPreset";
+          sha256 = "1pa64i0vhdq6pjihs9wrh047ngpdv2770n2qzzcpqk9bzm5k90qs";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by length/Select 16th notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20length/Select%2016th%20notes.tfmrPreset";
+          sha256 = "0hgns4kdcn2bhvx9ra2lj61vz5w6d0f0x8czh0hcl8b215hk9sgp";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by length/Select 4th notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20length/Select%204th%20notes.tfmrPreset";
+          sha256 = "1a58m9ca7z7y8mw4wkdr0a5sbg7nvzylvcb8dp14paydbd7j926k";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by length/Select 8th notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20length/Select%208th%20notes.tfmrPreset";
+          sha256 = "1vcra26z7dlniwzlvamskphlk9sc2kx0rkclfr3xsh9r899cyfn0";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by pitch/Select 3rd voice in chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20pitch/Select%203rd%20voice%20in%20chord.tfmrPreset";
+          sha256 = "164h5v54ss4m4cn81by9vq2lcy2gifrf4ljxjfcigl69bq48ajgs";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by pitch/Select 4th voice in chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20pitch/Select%204th%20voice%20in%20chord.tfmrPreset";
+          sha256 = "1ng4n8m2qafkqiry50k0fz0wxvpjrfbapfzd6yf93x2jpxmxwrc8";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by pitch/Select 5th voice in chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20pitch/Select%205th%20voice%20in%20chord.tfmrPreset";
+          sha256 = "01hq0652g4l18a883r3sw2f11jm623rg9mfxxixk0wsnzjjh062j";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by pitch/Select 6th voice in chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20pitch/Select%206th%20voice%20in%20chord.tfmrPreset";
+          sha256 = "0jw7hi7y6a3k1n0k38qw9gvfgsqwc208x8i4hn64k5c7nxbmbm55";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by pitch/Select 7th voice in chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20pitch/Select%207th%20voice%20in%20chord.tfmrPreset";
+          sha256 = "0w1iagybyihx4g40vzpdlqymppjxk07ja6xv3q1j8abjfb4miras";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by pitch/Select 8th voice in chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20pitch/Select%208th%20voice%20in%20chord.tfmrPreset";
+          sha256 = "0a0c6gbq81n094liv6v4ndbc9df62327vrzb909nzdlhk0wy3a54";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by pitch/Select highest voice in chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20pitch/Select%20highest%20voice%20in%20chord.tfmrPreset";
+          sha256 = "05wb3cjfqzfz4jx3ih2qsipvnhzbq94wdaw8s4xrmq793vgfldnj";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by pitch/Select lowest voice in chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20pitch/Select%20lowest%20voice%20in%20chord.tfmrPreset";
+          sha256 = "0lnq99bdhrbcsqdzgljcp63w4jpa4c8nz42bbrhqwf8bbkfdh7fm";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by rhythm/Select 16th offbeat.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20rhythm/Select%2016th%20offbeat.tfmrPreset";
+          sha256 = "0b064dvaz5gi8w50fl8yf41ga2mrv4lcgz9f4j6h2cihnj246685";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by rhythm/Select 8th offbeat.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20rhythm/Select%208th%20offbeat.tfmrPreset";
+          sha256 = "0wf39z2q37prm75h0c71v29bplzcl4xpd8w2ixp2nq7x75hw5y0f";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by rhythm/Select notes on every 16th grid.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20rhythm/Select%20notes%20on%20every%2016th%20grid.tfmrPreset";
+          sha256 = "0aq7m583nrxgzm2v9lv4n3lfpm51sxz47mjid62wf2gqbi7pymk2";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by rhythm/Select notes on every 4th grid.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20rhythm/Select%20notes%20on%20every%204th%20grid.tfmrPreset";
+          sha256 = "0i149vp7cifm68n8w2lfn21iz03iwahwgvv4i5fcmmbvr9lpm2fq";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select by rhythm/Select notes on every 8th grid.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select%20by%20rhythm/Select%20notes%20on%20every%208th%20grid.tfmrPreset";
+          sha256 = "17i05hppz33krjcdsw6ms29wqaiaz1xm260qa68w38zcc1f63iz7";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select/Invert selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select/Invert%20selection.tfmrPreset";
+          sha256 = "0hkh643g0r2m9yrm9ssjv9ka8d8bp7kvksg0x7pd6a7aqnrf9hg8";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select/Select muted notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select/Select%20muted%20notes.tfmrPreset";
+          sha256 = "0hvq321gj8bizdvdf328lca5swb9ln1123r7azqs3897r6gccrcd";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Select/Select notes in Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Select/Select%20notes%20in%20Time%20Selection.tfmrPreset";
+          sha256 = "09xs9dm4g0rz7vb1ijq26n7aw6i1mm5rp6bv18fycgx4j46vygkz";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Compress velocity.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Compress%20velocity.tfmrPreset";
+          sha256 = "0fbxfm7wxglfivs2apjmlvf5n6z9csxaqflsvdikban1jxgj57pl";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Crescendo.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Crescendo.tfmrPreset";
+          sha256 = "1k9v7pha3wqzyq9lg7hl6jmsx2pphpdfb0dkii9bwc0mmngv81wh";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/De-Crescendo.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/De-Crescendo.tfmrPreset";
+          sha256 = "1g022f8b692qanyc5mzxp4fjp1jxp02n3yv3ry5gfnv00yfrb0ij";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Downbeat +5 and randomize.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Downbeat%20+5%20and%20randomize.tfmrPreset";
+          sha256 = "1yqc6rc0g1l8qlm8zcxsab613479znja65z8kb36yin9aj8b62m3";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Downbeat -5 and randomize.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Downbeat%20-5%20and%20randomize.tfmrPreset";
+          sha256 = "1fhgcsygs3gc5aclr42r2crxzigr2rnkspz0a5hh72fi2dvf6brz";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/E +5 and randomize.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/E%20+5%20and%20randomize.tfmrPreset";
+          sha256 = "0yp5597xccyjmiilh7671ndbg0yz5idqqrf61gyx90hfirwgs1g9";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/E -5 and randomize.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/E%20-5%20and%20randomize.tfmrPreset";
+          sha256 = "0bgmfay5wdc9sx3z6yhc9pi6pgvwl7nzf97lbbwvmg3jf1r6ky8c";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/E2 +5 and randomize.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/E2%20+5%20and%20randomize.tfmrPreset";
+          sha256 = "1lzq4inpfsslf99j3zkd5flsn1ml09ip44svwlrlhqygpji1zgvd";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/E2 -5 and randomize.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/E2%20-5%20and%20randomize.tfmrPreset";
+          sha256 = "0l6frc46w8dvnqzchfxgi89jnix9xcdmjvk4brf24i57kzcfhxp7";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Expand velocity.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Expand%20velocity.tfmrPreset";
+          sha256 = "02xx8k1hzzhp251fvz3smfqhjkiyrgr45qppkx7pcyfff4qc27fv";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Randomize velocity -10 +10.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Randomize%20velocity%20-10%20+10.tfmrPreset";
+          sha256 = "15vvx4yfhq9fq668b0g1zhjmkxb9n7ybmfac6nv2h8b79rbw5nzn";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Randomize velocity -5 +5.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Randomize%20velocity%20-5%20+5.tfmrPreset";
+          sha256 = "0rir7h9f02wgig3pvfh01k9rka8m45ndndmgk1fj78xgyfx3ibn1";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Velocity +6.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Velocity%20+6.tfmrPreset";
+          sha256 = "0skslvkrfi33vj1kwi114vx87nf0n778xvr2snsva7cfdv3i8gp3";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Stevie/Notes/Velocity/Velocity -6.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/Notes/Velocity/Velocity%20-6.tfmrPreset";
+          sha256 = "18n6wx4x5ibhz7iycaqfkjck8fz9r63raivcwx600sib5xh397az";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/+10% Velocity to Backbeat (2-4).tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/+10%25%20Velocity%20to%20Backbeat%20(2-4).tfmrPreset";
+          sha256 = "0zl1ibs0lvvklxzni85k94fd82wgx6h1mpqi9iwail6kmpwrd76r";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/+10% Velocity to Downbeat.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/+10%25%20Velocity%20to%20Downbeat.tfmrPreset";
+          sha256 = "15qnp23qpn3bsv5wcc1zw4aza3pik9b7ym5z0hdkjdzs0pk6540z";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/+10% Velocity to Notes Cmaj Scale.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/+10%25%20Velocity%20to%20Notes%20Cmaj%20Scale.tfmrPreset";
+          sha256 = "0jyn80sn0rkq50dbyddd20zvnq9s1w3k7lcv68xnk88i4br07sai";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/+10% Velocity to Notes in Chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/+10%25%20Velocity%20to%20Notes%20in%20Chord.tfmrPreset";
+          sha256 = "17wm0j9axj9p2fp1rw2whga6a6akdpbmrc8lkr6cf7jx103j8nqi";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/+10% Velocity to Selected Notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/+10%25%20Velocity%20to%20Selected%20Notes.tfmrPreset";
+          sha256 = "1ryk47p21wnkh6208nbshj37slq06w4hff58zhxik3s4fwi94y9j";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/-10% Velocity to Backbeat (2-4).tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/-10%25%20Velocity%20to%20Backbeat%20(2-4).tfmrPreset";
+          sha256 = "0i594njh4zb8ij9496asigbiwmk07gr6rvmdv6fy82imlr2qsdrq";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/-10% Velocity to Downbeat.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/-10%25%20Velocity%20to%20Downbeat.tfmrPreset";
+          sha256 = "089b0j3n495dzjf36d9x4aj7lwh1firkdxd7fjbhkw5xfbwl99gy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/-10% Velocity to Notes Cmaj Scale.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/-10%25%20Velocity%20to%20Notes%20Cmaj%20Scale.tfmrPreset";
+          sha256 = "0r1jdr5x8k7n380wlafb7wmiilzdqf5clwclvxc8n1ajj1388fyy";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/-10% Velocity to Notes in Chord.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/-10%25%20Velocity%20to%20Notes%20in%20Chord.tfmrPreset";
+          sha256 = "1zxphjy7hkiq538dz7rhrz0h8wx2ib6x0fwxy18vmazwwnw8a2w2";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/-10% Velocity to Selected Notes.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/-10%25%20Velocity%20to%20Selected%20Notes.tfmrPreset";
+          sha256 = "1ryk47p21wnkh6208nbshj37slq06w4hff58zhxik3s4fwi94y9j";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/Compress Velocity Higher than 100 to 80%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/Compress%20Velocity%20Higher%20than%20100%20to%2080%25.tfmrPreset";
+          sha256 = "100sq2nndy1rfj2m9g78izd1yffds7nn13rr637j2gy6vy2sz0ql";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/Crescendo Velocity in Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/Crescendo%20Velocity%20in%20Time%20Selection.tfmrPreset";
+          sha256 = "1zf9hlzfrskpkx519948lbvj8wfhc1axv1zh9r8xybflarv3zw9m";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/Decrescendo Velocity in Time Selection.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/Decrescendo%20Velocity%20in%20Time%20Selection.tfmrPreset";
+          sha256 = "0j77hfy17z2qd85knspvl4f7mq6knv1p584k97wy8hgbzsj1nyzs";
+        }
+        {
+          path = ''../Transformer Presets/Factory Presets/Velocity/Expand Velocity Less than 20 to 120%.tfmrPreset'';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Velocity/Expand%20Velocity%20Less%20than%2020%20to%20120%25.tfmrPreset";
+          sha256 = "0b4s0yn67815m3ijyrx3qin597j6v363fgxpkk1z4ivfpnkkmv5q";
+        }
+        {
+          path = '''';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/cf5158885e84ded3d904ca6c1bf624faa9ac4679/MIDI%20Editor/sockmonkey72_Transformer.lua";
+          sha256 = "1g4znzrbxwy9y6z81p1hya3vl22m82k0dfas9bkdrh7s1qfji6da";
+        }
+      ];
+    };
     sockmonkey72-mousemapfactory-lua-0-0-1-beta-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "sockmonkey72-mousemapfactory-lua-0-0-1-beta-1";
@@ -114960,7 +116309,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.1";
-          sha256 = "059b8731za7y9c7as1d9hrgrfmwy92nw4r3mdjp4s03nqmgz0a1k";
+          sha256 = "16ffvpvbkp7xf0rg9i1xgshcgqchvymhqm79vs7kpzxshf54s4f2";
         }
       ];
     };
@@ -114974,7 +116323,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.2";
-          sha256 = "0gcaa0bjc5v7fhnnnmkf7v1gk2hm8mwvfhl7dp5yqn520nx8afa6";
+          sha256 = "19ih234qh5w3daiim0cdwccpxgji1ah2r6qay19dg37z7isf8f76";
         }
       ];
     };
@@ -114988,7 +116337,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.3";
-          sha256 = "1njnz3xsbjzgmalfxf54h0bgvlfszwb795mvdjk9d9k52h276zz2";
+          sha256 = "1qzznrfhnqgimxlvbmjhf2nvkvzgr3vgd1qzjmyxx41fbi9psqyr";
         }
       ];
     };
@@ -115002,7 +116351,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.4";
-          sha256 = "0y867zjs8wd0wj80cip4wvclxdm0rrjnhhzlasdzsn0g6rhf0c53";
+          sha256 = "0hbh9ij4v1qzfmlqr8yyqlxyhfm7mhdfxja0kkwdrasm82fy94w3";
         }
       ];
     };

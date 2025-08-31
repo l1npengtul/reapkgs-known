@@ -1090,6 +1090,34 @@
         }
       ];
     };
+    sonatareverb-jsfx-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sonatareverb-jsfx-1-1";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Reverbs";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/63f0554f5ba7d573f9c4bc330c2b492af54b6639/Reverbs/SonataReverb.jsfx";
+          sha256 = "15vqk928if79svqvarzgkyf12xa2wbx8alifh7y3zfddyak57g5a";
+        }
+      ];
+    };
+    sonatareverb-jsfx-1-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sonatareverb-jsfx-1-2";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Reverbs";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/860b95de34d7d4e866115279e005ac234337cd80/Reverbs/SonataReverb.jsfx";
+          sha256 = "0nwnj4grjkfk2yxgilr5cvr1s6qywf05qbywd9pv40lvcjsmvlwi";
+        }
+      ];
+    };
     _78slewclipper-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "_78slewclipper-jsfx-1-0";
@@ -1661,6 +1689,48 @@
           path = '''';
           url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/aec0822f6a0d1a8301d71bc52fccccd0547a882a/Various/FrostHype.jsfx";
           sha256 = "1my2n2z1fxcnbk8hgnyzjmgxcjjq8bxhs89q122snfhfg6mssg7y";
+        }
+      ];
+    };
+    groovelens-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "groovelens-jsfx-1-0";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Various";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/032900df279a8d9df01b16ace59a749f8a516228/Various/GrooveLens.jsfx";
+          sha256 = "1b8s65jnmal4cxgz4wra2l1gvb8nqrcfkw1q6dpgqf8yff2mg0np";
+        }
+      ];
+    };
+    groovelens-jsfx-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "groovelens-jsfx-1-1";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Various";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/51463638ddd40ea15f94c45fa6da9380f67da7da/Various/GrooveLens.jsfx";
+          sha256 = "0582bwq9ygavcifyca14icdylpqz4mdf21ix3mnd7kal9bm93kpm";
+        }
+      ];
+    };
+    groovelens-jsfx-1-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "groovelens-jsfx-1-2";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Various";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/4be350cf47970acc24de7281353262cb1585c070/Various/GrooveLens.jsfx";
+          sha256 = "1pazj9p4zzq3kn4xa0xw0cp6j7csw9p3p9vy3mljij6gvam7k5ll";
         }
       ];
     };

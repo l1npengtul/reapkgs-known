@@ -131,6 +131,20 @@
         }
       ];
     };
+    x-raym-automatically-set-edit-cursor-pos-at-mouse-position-if-mouse-over-ruler-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-automatically-set-edit-cursor-pos-at-mouse-position-if-mouse-over-ruler-lua-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Cursor";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/efdf392bc68c491b99fd4f85d767b11b79040d11/Cursor/X-Raym_Automatically%20set%20edit%20cursor%20pos%20at%20mouse%20position%20if%20mouse%20over%20ruler.lua";
+          sha256 = "0bj51szvlppbqh5r67625ggkzfhmqrzrmnrd066c5h5h3hbm1q6n";
+        }
+      ];
+    };
     x-raym-go-to-start-of-next-region-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-go-to-start-of-next-region-lua-1-0";
@@ -4247,6 +4261,20 @@
         }
       ];
     };
+    x-raym-trim-left-edge-of-selected-items-to-first-transient-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-trim-left-edge-of-selected-items-to-first-transient-lua-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/807fb891b39356ec84d1404b84720e2e90b8b609/Items%20Editing/X-Raym_Trim%20left%20edge%20of%20selected%20items%20to%20first%20transient.lua";
+          sha256 = "046h7xazs6njvpnssv14wavzxskyfzv1yfyr2rqggilpks4khh35";
+        }
+      ];
+    };
     x-raym-trim-right-edge-of-item-under-mouse-or-the-previous-one-to-mouse-cursor-without-changing-fade-out-start-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-trim-right-edge-of-item-under-mouse-or-the-previous-one-to-mouse-cursor-without-changing-fade-out-start-lua-1-0";
@@ -4314,6 +4342,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/fe19da18bed7c81b32eca95926a6ede6ffc950fb/Items%20Editing/X-Raym_Trim%20selected%20items%20at%20first%20and%20last%20transient.lua";
           sha256 = "0ckl5mqpblqd06bfzwnjs5xndc3d5ap92aan4vvm253v68n3i684";
+        }
+      ];
+    };
+    x-raym-trim-selected-items-at-first-and-last-transient-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-trim-selected-items-at-first-and-last-transient-lua-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/807fb891b39356ec84d1404b84720e2e90b8b609/Items%20Editing/X-Raym_Trim%20selected%20items%20at%20first%20and%20last%20transient.lua";
+          sha256 = "09nmlaw2xa26lwk7b51b6xnkpjw401f5mlmnlypcymb2hyy3d0ji";
         }
       ];
     };
@@ -6610,6 +6652,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/9cea1e13721fabaec8f8c06b53d6e09833f3e7ca/Items%20Properties/X-Raym_Set%20selected%20items%20notes%20to%20their%20current%20region%20name.lua";
           sha256 = "0fyc2zs9mpdz3xy4irbf71h75l6m9h9irk91173ndj3kx4d2fsh7";
+        }
+      ];
+    };
+    x-raym-set-selected-items-snap-offset-to-first-transient-lua-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-selected-items-snap-offset-to-first-transient-lua-1-0-0";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/807fb891b39356ec84d1404b84720e2e90b8b609/Items%20Properties/X-Raym_Set%20selected%20items%20snap%20offset%20to%20first%20transient.lua";
+          sha256 = "0n2f65dw9zacps0cf9bqnj7b74mh0yi3s1ch8ky4q7wnqpbnhzv3";
         }
       ];
     };
@@ -14319,6 +14375,20 @@
         }
       ];
     };
+    x-raym-toggle-mute-reference-tracks-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-toggle-mute-reference-tracks-lua-1-0";
+      indexName = "X-Raym Scripts";
+      categoryName = "Track Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/807fb891b39356ec84d1404b84720e2e90b8b609/Track%20Properties/X-Raym_Toggle%20mute%20reference%20tracks.lua";
+          sha256 = "1plw8iisy7a3k89hnyhrphvvm8jn8nsxzz9qwbmaxivpb052m22g";
+        }
+      ];
+    };
     x-raym-toggle-selected-tracks-solo-no-undo-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-toggle-selected-tracks-solo-no-undo-lua-1-0";
@@ -14372,6 +14442,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/3347ec5612eb8deb755e3be06d87d26507e932c1/Track%20Properties/X-Raym_Toggle%20solo%20exclusive%20reference%20tracks.lua";
           sha256 = "0j6ra99va5fd65kp6rdz6fmsa8dcjj2ila3m35nhr43jxihajm5q";
+        }
+      ];
+    };
+    x-raym-toggle-solo-exclusive-reference-tracks-lua-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-toggle-solo-exclusive-reference-tracks-lua-1-0-2";
+      indexName = "X-Raym Scripts";
+      categoryName = "Track Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/807fb891b39356ec84d1404b84720e2e90b8b609/Track%20Properties/X-Raym_Toggle%20solo%20exclusive%20reference%20tracks.lua";
+          sha256 = "05nbmf9advywfmanas68vg2p61g35l0hwza4qm7k5ijxalhkw1x6";
         }
       ];
     };
