@@ -423,6 +423,34 @@
         }
       ];
     };
+    albthealbatross-midi-chord-strummer-jsfx-2-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "albthealbatross-midi-chord-strummer-jsfx-2-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/e7b31cd1b72ea5fbbfedb4d74229061e3f6240e2/MIDI/albthealbatross_MIDI%20Chord%20Strummer.jsfx";
+          sha256 = "1bnqwmgzdxq9x27jpsjia84i0cscy3pn1mnwiiiq3zbxplss6j45";
+        }
+      ];
+    };
+    albthealbatross-multi-channel-midi-timing-randomizer-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "albthealbatross-multi-channel-midi-timing-randomizer-jsfx-1-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/9c17c1b123be711d71de0e60d905221b5dacbe7d/MIDI/albthealbatross_Multi-Channel%20MIDI%20Timing%20Randomizer.jsfx";
+          sha256 = "0d88rwrz6fqq5glfp04hxck7sz27akzq62pdw8r8qs01lvdk9bpl";
+        }
+      ];
+    };
     bertbouwhuis-midi-controller-for-s8-looper-with-fade-in-and-out-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "bertbouwhuis-midi-controller-for-s8-looper-with-fade-in-and-out-jsfx-1-0";

@@ -15831,6 +15831,20 @@
         }
       ];
     };
+    chinese-simplified-reaperlangpack-7-45 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "chinese-simplified-reaperlangpack-7-45";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Translations";
+      packageType = "langpack";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/b0626f8a7e956dbdacaf23e40e27e3623ec58ba9/Translations/Chinese%20(Simplified).ReaperLangPack";
+          sha256 = "1vil32fx6alvgxm6aqf2skz7l6ql6al0llc8ai1xhivfvj1yibzb";
+        }
+      ];
+    };
     chinese-traditional-reaperlangpack-1-0-724 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "chinese-traditional-reaperlangpack-1-0-724";
@@ -16052,6 +16066,20 @@
           path = '''';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/3741276b6ca487414b806c83388b58789041083a/Translations/Chinese%20(Traditional).ReaperLangPack";
           sha256 = "0v5afqf91qyavd7yzn8dm39cxs1ibcj3vmm2zhiwakdwpli4ylm7";
+        }
+      ];
+    };
+    chinese-traditional-reaperlangpack-7-45 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "chinese-traditional-reaperlangpack-7-45";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Translations";
+      packageType = "langpack";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/b0626f8a7e956dbdacaf23e40e27e3623ec58ba9/Translations/Chinese%20(Traditional).ReaperLangPack";
+          sha256 = "15px1mpnhc6d4c3z8anpx2nwqw4jfy4hlhi6f506ddixld9vsrkj";
         }
       ];
     };
@@ -44205,6 +44233,84 @@
           path = ''Soundmole/data/icons.otf'';
           url = "https://github.com/zaibuyidao/ReaScripts/raw/c7fe73f5c70fa200e46e6781c39bb23f3a161ca7/Various/Soundmole/data/icons.otf";
           sha256 = "0cy5l85wb95ryx1kgfz351q1nilv5swc3c9gjxndrxgbhp515ncv";
+        }
+      ];
+    };
+    soundmole-lua-1-0-50 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "soundmole-lua-1-0-50";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Soundmole/zaibuyidao_Soundmole.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/960fa5577991ee78fccc43c8fdca082180afda21/Various/Soundmole/zaibuyidao_Soundmole.lua";
+          sha256 = "1119j348xfxq9hdk3cp4g14314ky4phdpl3j4isj79gf0wi563v7";
+        }
+        {
+          path = ''Soundmole/lib/core.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/960fa5577991ee78fccc43c8fdca082180afda21/Various/Soundmole/lib/core.lua";
+          sha256 = "1c2s8lm1zpzjp7nfmqn2r2n0xrpqc86hwxa4fq45hcl7d5n2vgq4";
+        }
+        {
+          path = ''Soundmole/lib/utils.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/960fa5577991ee78fccc43c8fdca082180afda21/Various/Soundmole/lib/utils.lua";
+          sha256 = "096sicfcbndv63fzd2jqsckwg7lia08n8dkyvf0jiq395dqcqh2f";
+        }
+        {
+          path = ''Soundmole/data/thesaurus.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/960fa5577991ee78fccc43c8fdca082180afda21/Various/Soundmole/data/thesaurus.csv";
+          sha256 = "0wa3zc08jrfz63mqpa1i2dndca520z7wcxabzcxjxwckl5zi9jda";
+        }
+        {
+          path = ''Soundmole/data/ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/960fa5577991ee78fccc43c8fdca082180afda21/Various/Soundmole/data/ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+        {
+          path = ''Soundmole/data/icons.otf'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/960fa5577991ee78fccc43c8fdca082180afda21/Various/Soundmole/data/icons.otf";
+          sha256 = "10isb8jr3csrxdj06qd7dqb8z00fykblfba3wiwhs2b5nwrw47gq";
+        }
+      ];
+    };
+    soundmole-lua-1-0-51 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "soundmole-lua-1-0-51";
+      indexName = "zaibuyidao Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''Soundmole/zaibuyidao_Soundmole.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/081236ccabbc87a287829148cf0f2fe066a75513/Various/Soundmole/zaibuyidao_Soundmole.lua";
+          sha256 = "1s4zmj71ynffgy8n9a6ndbbn34i9w0qx8f4mbq7wivmd7nsqp79v";
+        }
+        {
+          path = ''Soundmole/lib/core.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/081236ccabbc87a287829148cf0f2fe066a75513/Various/Soundmole/lib/core.lua";
+          sha256 = "1c2s8lm1zpzjp7nfmqn2r2n0xrpqc86hwxa4fq45hcl7d5n2vgq4";
+        }
+        {
+          path = ''Soundmole/lib/utils.lua'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/081236ccabbc87a287829148cf0f2fe066a75513/Various/Soundmole/lib/utils.lua";
+          sha256 = "096sicfcbndv63fzd2jqsckwg7lia08n8dkyvf0jiq395dqcqh2f";
+        }
+        {
+          path = ''Soundmole/data/thesaurus.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/081236ccabbc87a287829148cf0f2fe066a75513/Various/Soundmole/data/thesaurus.csv";
+          sha256 = "0wa3zc08jrfz63mqpa1i2dndca520z7wcxabzcxjxwckl5zi9jda";
+        }
+        {
+          path = ''Soundmole/data/ucs.csv'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/081236ccabbc87a287829148cf0f2fe066a75513/Various/Soundmole/data/ucs.csv";
+          sha256 = "08qsq2m7c3gqd09zhj4v6ss161i12pjw76gxxf8sz0iz1b729cqs";
+        }
+        {
+          path = ''Soundmole/data/icons.otf'';
+          url = "https://github.com/zaibuyidao/ReaScripts/raw/081236ccabbc87a287829148cf0f2fe066a75513/Various/Soundmole/data/icons.otf";
+          sha256 = "10isb8jr3csrxdj06qd7dqb8z00fykblfba3wiwhs2b5nwrw47gq";
         }
       ];
     };

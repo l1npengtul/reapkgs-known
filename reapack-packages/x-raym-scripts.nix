@@ -551,6 +551,20 @@
         }
       ];
     };
+    x-raym-set-selected-envelope-points-value-from-value-at-edit-cursor-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-selected-envelope-points-value-from-value-at-edit-cursor-lua-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/dae43f313fef5da23dc6c8f5d24436cad8902a11/Envelopes/X-Raym_Set%20selected%20envelope%20points%20value%20from%20value%20at%20edit%20cursor.lua";
+          sha256 = "0i1ihbsvl5sk7vnrhqll01m5sr2zqxpwf8gv66a1698rx6yg6v6n";
+        }
+      ];
+    };
     x-raym-unselect-envelope-point-at-edit-cursor-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-unselect-envelope-point-at-edit-cursor-lua-1-0";

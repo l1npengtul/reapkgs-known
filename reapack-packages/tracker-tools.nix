@@ -6869,5 +6869,59 @@
         }
       ];
     };
+    tracker-lua-3-36 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "tracker-lua-3-36";
+      indexName = "Tracker tools";
+      categoryName = "Tracker";
+      packageType = "script";
+      sources = [
+        {
+          path = ''scales.lua'';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/scales.lua";
+          sha256 = "1lz4fayajiwrylsslsw375wgbyrljihwx22vpqw1ca6k8iz49lbl";
+        }
+        {
+          path = '''';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/tracker.lua";
+          sha256 = "1dzl0adllkjrbkl77xwrp7kzpv1fq9v9czdv32q3bs5zakphjmpn";
+        }
+        {
+          path = ''hackey_trackey_tracker.lua'';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/hackey_trackey_tracker.lua";
+          sha256 = "1zgszrn5nhpsj7lh8687jv5rnx47ilmhx9jbrzk8cfy2aad6f2nz";
+        }
+        {
+          path = ''hackey_trackey_load_sample.lua'';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/hackey_trackey_load_sample.lua";
+          sha256 = "02v3xlji3bipms540zn1xmb0mp7cgwcv5ldrr6w5klz6yc1811sb";
+        }
+        {
+          path = ''Hackey_MIDI_Detector.jsfx'';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/Hackey_MIDI_Detector.jsfx";
+          sha256 = "1k5a5pa2cn3h62zyp3ryqx3gw03yrk2acxv5s8r9zcw77sy7f5bc";
+        }
+        {
+          path = ''Hackey_Sample_Playback.jsfx'';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/Hackey_Sample_Playback.jsfx";
+          sha256 = "0bdkq0ywkxryirsbrgiik0c80syv9kih9ppkpg3nidckb6cqyp7x";
+        }
+        {
+          path = ''htp_midi.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/htp_midi.jsfx-inc";
+          sha256 = "1m63jg69p22hh1a1gkcs3dc8i4dg1zzwrwxn0v8fsr069naqaxvy";
+        }
+        {
+          path = ''htp_sample_editor.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/htp_sample_editor.jsfx-inc";
+          sha256 = "1s7s1k3haajdy4rgnd8fvc9yznkn4sw1lm6cd24s1v9vziq168aq";
+        }
+        {
+          path = ''Hackey Trackey Channel Cycler.jsfx'';
+          url = "https://github.com/JoepVanlier/Hackey-Trackey/raw/5bce183481c4d2b45fb480c755156bae5941255c/Tracker/Hackey%20Trackey%20Channel%20Cycler.jsfx";
+          sha256 = "0rkfh4mfv0win05fpp99sigfjsj2c8vh71yr77jyqilzfw6rawrr";
+        }
+      ];
+    };
   };
 }

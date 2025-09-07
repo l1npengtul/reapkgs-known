@@ -9758,6 +9758,85 @@
         }
       ];
     };
+    tilr-snapshooter-lua-1-5-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "tilr-snapshooter-lua-1-5-1";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Envelopes";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter.lua";
+          sha256 = "0midj4pyw2k893826h103s76ikrrsybhw56sw1kdxb28f28fayld";
+        }
+        {
+          path = ''tilr_Snapshooter/rtk.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/rtk.lua";
+          sha256 = "14cjwnb6qib26fp9yhcn2ja7dwkjhi8bpjb4gfq0flf3ss26yfg4";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter apply snap 1.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20apply%20snap%201.lua";
+          sha256 = "1dvs94v69p1dzhd3xl3jyhbjjvj1k66aw86zsdj2x8y40g0kjkv7";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter apply snap 2.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20apply%20snap%202.lua";
+          sha256 = "0px8r6j4p752m86n5ixzxkinnn628b6h0vc44cp6hwgln0wxis1z";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter apply snap 3.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20apply%20snap%203.lua";
+          sha256 = "093n36ds1hvn5mmc2nvfqx0xpkx7w8x338m37qhskllbl9mgz1gy";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter apply snap 4.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20apply%20snap%204.lua";
+          sha256 = "1x2xpfd3ipwfm8milfrb20fgdfxm36538ndc9jx25gfhckka95j4";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter save snap 1.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20save%20snap%201.lua";
+          sha256 = "1l2hrnl1mjpxxq0x4y5bfmzkc99g57bm7f6kki9vh5gyw1k2f7wm";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter save snap 2.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20save%20snap%202.lua";
+          sha256 = "1kamxi5npn8sdz0dw7yrdm1xjrck4f0a8xjdbsq1ly5gy5scycj7";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter save snap 3.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20save%20snap%203.lua";
+          sha256 = "1pv2nam3jgv8gfc3zavmmb7rrlfl29125pam3ihgqy5aqzsyrrgj";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter save snap 4.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20save%20snap%204.lua";
+          sha256 = "029j14da0z99a5z9199f0x02np73fnds09d0nbk9i5pqqj9pxj7r";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter write snap 1.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20write%20snap%201.lua";
+          sha256 = "0c8km3147zkd954dm0c8nc0mqpgpw4rdizbyjxfalrlwsxk74mgm";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter write snap 2.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20write%20snap%202.lua";
+          sha256 = "0wwvmy8d7dmkbn1493hmy4pbzzxzyjn0xy9la890v86qblq897vv";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter write snap 3.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20write%20snap%203.lua";
+          sha256 = "092f1kl23g278v3lny2avhimwwjcavyxqrhcnaz2cdq1k1yahacw";
+        }
+        {
+          path = ''tilr_Snapshooter/tilr_Snapshooter write snap 4.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/84ba3bf3568cf92c8dada29d200d0ee3ba6ed8d5/Envelopes/tilr_Snapshooter/tilr_Snapshooter%20write%20snap%204.lua";
+          sha256 = "1r8b5jhi46a8c2gi06nap0lxzy8pq19hhgwknhzpcvj949qkgppx";
+        }
+      ];
+    };
     amagalma-insert-pooled-instances-of-automation-items-in-all-razor-edit-areas-for-each-envelope-type-according-to-envelope-name-lua-1-00 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "amagalma-insert-pooled-instances-of-automation-items-in-all-razor-edit-areas-for-each-envelope-type-according-to-envelope-name-lua-1-00";
@@ -15941,6 +16020,30 @@
         {
           path = ''az_Conform project using metadata (post-production tools)/az_Rename takes with last used settings (post-production tools).lua'';
           url = "https://github.com/ReaTeam/ReaScripts/raw/96b9dc4ce15ff11840a3b5171b9ce19ae2715f07/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools)/az_Rename%20takes%20with%20last%20used%20settings%20(post-production%20tools).lua";
+          sha256 = "1vn6jjpmc6zyq0ig5bgz6jfrmqc5c61fkhal6sbvb2349d274x92";
+        }
+      ];
+    };
+    az-conform-project-using-metadata-post-production-tools-lua-0-7-3 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "az-conform-project-using-metadata-post-production-tools-lua-0-7-3";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/9c19e785d73f6b106f7a20e70fa55bf8e696448f/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools).lua";
+          sha256 = "090q58mkbiwbmc69g3m4g1qc000a43zz3abhwpfg68gj602fbm00";
+        }
+        {
+          path = ''az_Conform project using metadata (post-production tools)/az_Conform project_Core.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/9c19e785d73f6b106f7a20e70fa55bf8e696448f/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools)/az_Conform%20project_Core.lua";
+          sha256 = "1ad2ippcklv227bba623n8rvzq01819f30daznw2wdvma3028c28";
+        }
+        {
+          path = ''az_Conform project using metadata (post-production tools)/az_Rename takes with last used settings (post-production tools).lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/9c19e785d73f6b106f7a20e70fa55bf8e696448f/Items%20Editing/az_Conform%20project%20using%20metadata%20(post-production%20tools)/az_Rename%20takes%20with%20last%20used%20settings%20(post-production%20tools).lua";
           sha256 = "1vn6jjpmc6zyq0ig5bgz6jfrmqc5c61fkhal6sbvb2349d274x92";
         }
       ];

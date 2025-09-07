@@ -29035,6 +29035,20 @@
         }
       ];
     };
+    mpl-check-if-multichannel-item-has-mono-source-convert-to-mono-item-if-need-lua-1-04 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-check-if-multichannel-item-has-mono-source-convert-to-mono-item-if-need-lua-1-04";
+      indexName = "MPL Scripts";
+      categoryName = "Takes Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/a94d2a044c9088bfab2074c8990596eb0aec52bb/Takes%20Properties/mpl_Check%20if%20multichannel%20item%20has%20mono%20source,%20convert%20to%20mono%20item%20if%20need%20.lua";
+          sha256 = "1v0d3q3bzfwi0bgxcix2svdsaj0g7wlgjm1p1gdpwz62276cmyjy";
+        }
+      ];
+    };
     mpl-color-drums-shots-by-spectral-content-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-color-drums-shots-by-spectral-content-lua-1-0";
