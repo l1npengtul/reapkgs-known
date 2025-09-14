@@ -50694,6 +50694,25 @@
         }
       ];
     };
+    cfillion-apply-render-preset-lua-2-1-9 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "cfillion-apply-render-preset-lua-2-1-9";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Rendering";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/265054ab08ac86a08daba2da2787588659d758be/Rendering/cfillion_Apply%20render%20preset.lua";
+          sha256 = "0b7wgxbrap50nhvmd3nxfv6chmb1ipdrpd3fp5rx6acgpv63fmib";
+        }
+        {
+          path = ''cfillion_Apply render preset (create action).lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/265054ab08ac86a08daba2da2787588659d758be/Rendering/cfillion_Apply%20render%20preset.lua";
+          sha256 = "0b7wgxbrap50nhvmd3nxfv6chmb1ipdrpd3fp5rx6acgpv63fmib";
+        }
+      ];
+    };
     dsg-render-time-selection-to-new-track-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "dsg-render-time-selection-to-new-track-lua-1-0";
@@ -52694,6 +52713,34 @@
           path = '''';
           url = "https://github.com/ReaTeam/ReaScripts/raw/4d2bc7f20fa189fdb0dc68ccb0972f847befd86e/Tracks%20Properties/amagalma_Normalize%20selected%20tracks%20-%20calculate%20only%20for%20the%20time%20selection,%20if%20present%20(peakRMSLUFS)....lua";
           sha256 = "1j8a0bj3fq4rbgscjnhynb05zs3r4sv43lipmk2q6dj0jnrla6hz";
+        }
+      ];
+    };
+    amagalma-normalize-selected-tracks-calculate-only-for-the-time-selection-if-present-peakrmslufs-lua-1-04 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "amagalma-normalize-selected-tracks-calculate-only-for-the-time-selection-if-present-peakrmslufs-lua-1-04";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/cb76af09b57ce2c21c2defc2736018bd266f17d6/Tracks%20Properties/amagalma_Normalize%20selected%20tracks%20-%20calculate%20only%20for%20the%20time%20selection,%20if%20present%20(peakRMSLUFS)....lua";
+          sha256 = "13q4c305li4gx00s6pk540awdlpvdbxz9i1xnjqay7zxi9va7zrd";
+        }
+      ];
+    };
+    amagalma-normalize-selected-tracks-calculate-only-for-the-time-selection-if-present-peakrmslufs-lua-1-07 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "amagalma-normalize-selected-tracks-calculate-only-for-the-time-selection-if-present-peakrmslufs-lua-1-07";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/f009af5aabe82059c643a1bde07dbb2f06662acd/Tracks%20Properties/amagalma_Normalize%20selected%20tracks%20-%20calculate%20only%20for%20the%20time%20selection,%20if%20present%20(peakRMSLUFS)....lua";
+          sha256 = "1rl75zppcns3dy20inx3rfk9hxmf2dx8w737xfsvgc52ckqs3lh0";
         }
       ];
     };

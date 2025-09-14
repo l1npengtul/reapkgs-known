@@ -2287,6 +2287,20 @@
         }
       ];
     };
+    x-raym-perform-action-until-keyboard-shortcut-released-functions-lua-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-perform-action-until-keyboard-shortcut-released-functions-lua-1-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Functions";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/9a06b279bcbfe9afbefd12597c4b75482401ea37/Functions/X-Raym_Perform%20action%20until%20keyboard%20shortcut%20released_functions.lua";
+          sha256 = "15481fll2prx27dma6kygx7f8l4qxbii0m4k0ihzzhn3h1rmgzrw";
+        }
+      ];
+    };
     x-raym-bypass-inactive-take-fx-of-selected-items-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-bypass-inactive-take-fx-of-selected-items-lua-1-0";
@@ -17775,6 +17789,34 @@
         }
       ];
     };
+    x-raym-lyrics-www-1-4-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-lyrics-www-1-4-4";
+      indexName = "X-Raym Scripts";
+      categoryName = "Web Interfaces";
+      packageType = "webinterface";
+      sources = [
+        {
+          path = ''X-Raym_Lyrics.html'';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/7f7447cbc8acba45bdb37c1bb9a35dd64c531a43/Web%20Interfaces/X-Raym_Lyrics.html";
+          sha256 = "03f61clhkjz9m73r6sk3069szsk4x5fqi35vl3619c5x1vh00rh9";
+        }
+      ];
+    };
+    x-raym-lyrics-www-1-4-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-lyrics-www-1-4-5";
+      indexName = "X-Raym Scripts";
+      categoryName = "Web Interfaces";
+      packageType = "webinterface";
+      sources = [
+        {
+          path = ''X-Raym_Lyrics.html'';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/e9d1107e2507e69ad11cb331184f9818df52e8fd/Web%20Interfaces/X-Raym_Lyrics.html";
+          sha256 = "03f61clhkjz9m73r6sk3069szsk4x5fqi35vl3619c5x1vh00rh9";
+        }
+      ];
+    };
     x-raym-scrolling-lyrics-www-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-scrolling-lyrics-www-1-0";
@@ -17856,6 +17898,20 @@
           path = ''X-Raym_Scrolling Lyrics.html'';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/42d11da86d9bebb0f6b1d9876f13a8e5a63fc5da/Web%20Interfaces/X-Raym_Scrolling%20Lyrics.html";
           sha256 = "1zszzkh4xwrrqx0ra1yl18pall3snk4x9qk0q6h6xcygfmahc507";
+        }
+      ];
+    };
+    x-raym-scrolling-lyrics-www-1-0-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-scrolling-lyrics-www-1-0-6";
+      indexName = "X-Raym Scripts";
+      categoryName = "Web Interfaces";
+      packageType = "webinterface";
+      sources = [
+        {
+          path = ''X-Raym_Scrolling Lyrics.html'';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/88a7ff4eea150580c6635b57e5271d8a02862cc6/Web%20Interfaces/X-Raym_Scrolling%20Lyrics.html";
+          sha256 = "18lh8fmj4625lvqrsd1qvzq1w42bcd6dl9mzf9n32p2z5xgngab1";
         }
       ];
     };
