@@ -23678,5 +23678,314 @@
         }
       ];
     };
+    acendan-ucs-renaming-tool-setup-www-8-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "acendan-ucs-renaming-tool-setup-www-8-5";
+      indexName = "ACendan Scripts";
+      categoryName = "Web Interfaces";
+      packageType = "webinterface";
+      sources = [
+        {
+          path = ''acendan_UCS Renaming Tool.html'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/acendan_UCS%20Renaming%20Tool.html";
+          sha256 = "1s157y80lkvfhpf5qgkhakkmx38zsmvzcllaaqqrhq1sdfg9cya6";
+        }
+        {
+          path = ''ucs-renaming-tool.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs-renaming-tool.js";
+          sha256 = "063ixgfwrdvbwl2wnfs1rxjjjiwp62lzvygzrk4adp4fzrsz21fz";
+        }
+        {
+          path = ''ucs_libraries/UCS_Presets.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/UCS_Presets.txt";
+          sha256 = "0l2q3ddm62qdvka58f9dbcpmnhc1w2gckm9ywgycrfp0wng5fnmi";
+        }
+        {
+          path = ''ucs_libraries/bloodhound.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/bloodhound.js";
+          sha256 = "038jmwyv3hk6lbldg2as19hzy0dgl7sf7y2p4zmp9gi5cmjlcknn";
+        }
+        {
+          path = ''ucs_libraries/bootstrap.min.css'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/bootstrap.min.css";
+          sha256 = "0vc73w6ldgj4aiznjqkdb7qxzjnqis1spr0g5463hzixx77ks3rc";
+        }
+        {
+          path = ''ucs_libraries/bootstrap.min.css.map'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/bootstrap.min.css.map";
+          sha256 = "1f70qprwzffd8viafd1amjfdxr4ggkpd0xhbiqm7nj10xdhky6qh";
+        }
+        {
+          path = ''ucs_libraries/bootstrap.min.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/bootstrap.min.js";
+          sha256 = "06xhk5r1dvg03l09fxf5qy045yxxza51hddw7cjb8l2lxv73dvg7";
+        }
+        {
+          path = ''ucs_libraries/bootstrap.min.js.map'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/bootstrap.min.js.map";
+          sha256 = "02g7zi6clnp9wmg81da7882nm9gx6knv1gjka3vpivjbh5v5ddj5";
+        }
+        {
+          path = ''ucs_libraries/countrystatecity.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/countrystatecity.js";
+          sha256 = "18p667hj0p0nwxpr0klvhmw0d0r9p68hgbsnj32arg4hj6qqzsz5";
+        }
+        {
+          path = ''ucs_libraries/dark-feedback-icon.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/dark-feedback-icon.png";
+          sha256 = "1cvp9wni1vg70cxsix6b7s6m7c5k620i9wxsfgcvifd93c327bw2";
+        }
+        {
+          path = ''ucs_libraries/dark-mode-icon.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/dark-mode-icon.png";
+          sha256 = "10fggbwbirh9pqih6zb7cswy4f11n95cgck89yxli6aqjj06ls2z";
+        }
+        {
+          path = ''ucs_libraries/data-transfer-download.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/data-transfer-download.svg";
+          sha256 = "0vspkddsn2chwj5pd9vpjivnl2d9jy33h2kabk98mx1x13xbvvgz";
+        }
+        {
+          path = ''ucs_libraries/dataTables.bootstrap4.min.css'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/dataTables.bootstrap4.min.css";
+          sha256 = "1gv8rwn5z0n342a5lch97c1zaa92mc234sf5vb9av12d9z76l2ms";
+        }
+        {
+          path = ''ucs_libraries/dataTables.bootstrap4.min.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/dataTables.bootstrap4.min.js";
+          sha256 = "1g8rmxc8wgszmvv36hghpa203f7nd58iwp5cqn9nk4hm9vcypdnm";
+        }
+        {
+          path = ''ucs_libraries/dialogue.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/dialogue.svg";
+          sha256 = "0c4j7y3p5s1k55z9wx61jrl1cis8qzfizmshrd7lw2qs4bmgyc5n";
+        }
+        {
+          path = ''ucs_libraries/export-data-2.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/export-data-2.svg";
+          sha256 = "00qwpmdvkg50rr5zpvarfvl9mmrc1fwphr030slylzd6irs3z21c";
+        }
+        {
+          path = ''ucs_libraries/flags32.css'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/flags32.css";
+          sha256 = "0prbyq9mdcnin3m8gvgbqi0im54gxzb9cglfdnnl0hkqvjhlfcsq";
+        }
+        {
+          path = ''ucs_libraries/flags32.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/flags32.png";
+          sha256 = "16lyk9gdl09iv0kabpi3s3vx5220ywqs0c6zlc8wpa4xsj97z5i5";
+        }
+        {
+          path = ''ucs_libraries/gbx_logo.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/gbx_logo.png";
+          sha256 = "1d7gq055sdfvcvywkl3ril03jrir6vvym3m218b9vncc7csrn1yw";
+        }
+        {
+          path = ''ucs_libraries/import-data.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/import-data.svg";
+          sha256 = "13ynj6b4sgwvwh56v2zc6bnbqw4isjdi6l732g43zbnsazhpclsf";
+        }
+        {
+          path = ''ucs_libraries/info.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/info.svg";
+          sha256 = "1xbgnzd25zszg2191pwjmymcwcfg1ckj59x4mf8py78gvzib1mn8";
+        }
+        {
+          path = ''ucs_libraries/jquery-3.5.1.min.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/jquery-3.5.1.min.js";
+          sha256 = "0gbfbfcbcpl8nq2shknsyz5pirf5wbnb54m3dynxs68x9y4sbxpp";
+        }
+        {
+          path = ''ucs_libraries/jquery.dataTables.min.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/jquery.dataTables.min.js";
+          sha256 = "0q5sxsqz72rhg5hh24ag25pbj96r4qpzn11bhi51bzp5nbdyig7z";
+        }
+        {
+          path = ''ucs_libraries/light-feedback-icon.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/light-feedback-icon.png";
+          sha256 = "1h62hm5qz0nh54jpvd4kjaqmxl5086hlm1ifpc5mgba1bnnzirrq";
+        }
+        {
+          path = ''ucs_libraries/light-mode-icon.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/light-mode-icon.png";
+          sha256 = "1dbhkxa4m7h53zs7fpq5rb5nzrh46z3y724kcmb0475cd72dgwp3";
+        }
+        {
+          path = ''ucs_libraries/music2.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/music2.svg";
+          sha256 = "0hk31p4m2fpkb7r36fzn2qwcxrh9gal6z97wxcq25hy37n0wy66v";
+        }
+        {
+          path = ''ucs_libraries/popper.min.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/popper.min.js";
+          sha256 = "0rhdzwvsya9lmi68pvldw956kifzc810a2pfashazjkv9njplbx5";
+        }
+        {
+          path = ''ucs_libraries/popper.min.js.map'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/popper.min.js.map";
+          sha256 = "02d2f2iay8lwbhrppxwxax8jpayxym4ykzgqwn163si17kcr8fhj";
+        }
+        {
+          path = ''ucs_libraries/reacall.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/reacall.svg";
+          sha256 = "0gqrl9xqk9kcgy8q36c9cjyy6rlj05lljqqpks710pk0wlirrkm7";
+        }
+        {
+          path = ''ucs_libraries/settings-icon-dark.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/settings-icon-dark.png";
+          sha256 = "1dwqx5lf6wla7wn42zzixskxmclh598llw8ainb9b8pvx4lx02bi";
+        }
+        {
+          path = ''ucs_libraries/settings-icon-light.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/settings-icon-light.png";
+          sha256 = "1v49gvv580arl416qc0hsc8r3gsfnimdkw79krmjybdkplxz475v";
+        }
+        {
+          path = ''ucs_libraries/settings.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/settings.svg";
+          sha256 = "1wilmpa5mf5l55gz6p57xysmy5clndssjsn2rcf599d3iy97dbyw";
+        }
+        {
+          path = ''ucs_libraries/sfx.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/sfx.svg";
+          sha256 = "0kvnai0hcyn1yz18n7a0rm0qmz9z6qq012yjdnwiqx2g07vdysv6";
+        }
+        {
+          path = ''ucs_libraries/share.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/share.svg";
+          sha256 = "0lxprgm3ahrn8gjx76whb2gwm42xpgkfqc06nd9zc08a6h2zcyqk";
+        }
+        {
+          path = ''ucs_libraries/typeahead.bundle.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/typeahead.bundle.js";
+          sha256 = "1hhr12d02kkc3ziiw0vsi1hr3l6sj52v9lwqap7v4883lw1ib8ch";
+        }
+        {
+          path = ''ucs_libraries/typeahead.jquery.js'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/typeahead.jquery.js";
+          sha256 = "081is8yyqy8la04q39si37iwpwplrqxcc0cbw2sfgvd9bxacmr55";
+        }
+        {
+          path = ''ucs_libraries/ucs_logo_black_on_white.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/ucs_logo_black_on_white.png";
+          sha256 = "1pfaffw1awjgpyqmvsszs4mshxhhrq08b26xm3kiad9ga7vq2idp";
+        }
+        {
+          path = ''ucs_libraries/ucs_logo_white_on_black.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/ucs_logo_white_on_black.png";
+          sha256 = "0nfq7v1ivf233vajd3va1jw62zhl3p57ai93vbnxn1k4zszk6spj";
+        }
+        {
+          path = ''ucs_libraries/ucs_toolbar_icon_black.png'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/ucs_toolbar_icon_black.png";
+          sha256 = "11vf1jf4hj2yhxfw5cxbayfl3db48y80r34sh2pkidc81ypqhgzn";
+        }
+        {
+          path = ''ucs_libraries/wifi.svg'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_libraries/wifi.svg";
+          sha256 = "0h4myvv6yk20bvfjy2hrnqardxnqwq45gglrh0d8602c8jkvylia";
+        }
+        {
+          path = ''ucs_languages/UCS_br.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_br.txt";
+          sha256 = "1a418harm8002jb1ca68fwzknbw6aaqzlfs8sk42czsal6g9hqrc";
+        }
+        {
+          path = ''ucs_languages/UCS_cn.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_cn.txt";
+          sha256 = "1hrci9lbzr7d9n62br6qp1dangskwd1bx80hbsa781as39yzab04";
+        }
+        {
+          path = ''ucs_languages/UCS_de.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_de.txt";
+          sha256 = "1ym4l5ddwx6d5ifwgnfakq2gssj9hvcrrncpj8smqkfm17d96rfg";
+        }
+        {
+          path = ''ucs_languages/UCS_dk.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_dk.txt";
+          sha256 = "1r5hdqd7b62v3bfx15b52jsf5srr038r3pqvwkhsf3irmb303klv";
+        }
+        {
+          path = ''ucs_languages/UCS_es.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_es.txt";
+          sha256 = "0xabid4nra1zywia4npd48izbjfj7qcx160k9483syj7z8pqz7fc";
+        }
+        {
+          path = ''ucs_languages/UCS_fi.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_fi.txt";
+          sha256 = "04cphklwwk9vd2sqyxkplk1x3j29jpxmawgvxprahj0sw0dr6yqg";
+        }
+        {
+          path = ''ucs_languages/UCS_fr.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_fr.txt";
+          sha256 = "1mc8mbc9q4mpx8l469lahiw1apq7f08c8vk3a799l743ydbqcp73";
+        }
+        {
+          path = ''ucs_languages/UCS_it.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_it.txt";
+          sha256 = "1c2gna8m9rwsbymcclhm90p4iih726jrqz596hbv1dgnfvllzw5c";
+        }
+        {
+          path = ''ucs_languages/UCS_jp.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_jp.txt";
+          sha256 = "0sd5l59wwdk2d4qa507m6ya3z3bm8znynaf424snh2p1mg8clb3v";
+        }
+        {
+          path = ''ucs_languages/UCS_kr.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_kr.txt";
+          sha256 = "1k7vi14bb7k0bp8xmx98hkrh5lcnfkw48kr18npyh7c6lgrrhk9w";
+        }
+        {
+          path = ''ucs_languages/UCS_nl.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_nl.txt";
+          sha256 = "00iclxv8a3xv46vrzrb6zwlsvvywl2s00xrgzfkd3a61xqwzyvr1";
+        }
+        {
+          path = ''ucs_languages/UCS_no.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_no.txt";
+          sha256 = "1n9dwam003s0jy1sxa1gdj9sl00l2l83dlbwqx8kxla94ab5abkj";
+        }
+        {
+          path = ''ucs_languages/UCS_pl.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_pl.txt";
+          sha256 = "01yzyc12kwm1wfnk8ywn65alk0g284rxklirbcigvcwdd1ayczsk";
+        }
+        {
+          path = ''ucs_languages/UCS_pt.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_pt.txt";
+          sha256 = "0snqkphznmdwlf6bkz3335ckrlinr9njjr7ff5kwvwx5rh740br0";
+        }
+        {
+          path = ''ucs_languages/UCS_ru.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_ru.txt";
+          sha256 = "1ydfpmgbl7hdwsgd7qyx4f43k0ffcykiq2qmxgyf9w950vyb89rq";
+        }
+        {
+          path = ''ucs_languages/UCS_se.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_se.txt";
+          sha256 = "138cdn10i7r1xqkddayji2j8p9imk55hc4qny8r2kq09s3g41c8j";
+        }
+        {
+          path = ''ucs_languages/UCS_tr.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_tr.txt";
+          sha256 = "0c3r2cgbv2bnhkhf2j5i0wgdwpz13z1gsv6y35x9c0gyy8dn9q5g";
+        }
+        {
+          path = ''ucs_languages/UCS_tw.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_tw.txt";
+          sha256 = "00ljb6v3bv5bq0wsik74jlidsfvxqkm762zvp4x9ksz6x778xzrx";
+        }
+        {
+          path = ''ucs_languages/UCS_ua.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_ua.txt";
+          sha256 = "05c5fjrvk3ig47gzf1pxw1cdgmczv3qsm0xdf4irx8spnfb4vlih";
+        }
+        {
+          path = ''ucs_languages/UCS_us.txt'';
+          url = "https://github.com/acendan/reascripts/raw/8dc194ac62a606183a51a299094dcc3d08854e69/Web%20Interfaces/ucs_languages/UCS_us.txt";
+          sha256 = "1khk3scjc3z31d0v625q2ff3cblnldcvk33sna96bm4q9bfkni5c";
+        }
+      ];
+    };
   };
 }

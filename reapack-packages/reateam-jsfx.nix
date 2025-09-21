@@ -437,6 +437,25 @@
         }
       ];
     };
+    albthealbatross-midi-chord-strummer-jsfx-2-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "albthealbatross-midi-chord-strummer-jsfx-2-0-1";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/ed050b8907df6a31929747031139ea4d38d0124a/MIDI/albthealbatross_MIDI%20Chord%20Strummer.jsfx";
+          sha256 = "19i4kj7mqrl06cdns274c504h5v2p431mjb1cjmrjf8qwdr1kkjv";
+        }
+        {
+          path = ''albthealbatross_MIDI Chord Strummer/strummer_diagram.png'';
+          url = "https://github.com/ReaTeam/JSFX/raw/ed050b8907df6a31929747031139ea4d38d0124a/MIDI/albthealbatross_MIDI%20Chord%20Strummer/strummer_diagram.png";
+          sha256 = "1kacaqi7k7q4r1jggz1wyx4hhn7sfc8yz56p96mq86s0599r7np1";
+        }
+      ];
+    };
     albthealbatross-multi-channel-midi-timing-randomizer-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "albthealbatross-multi-channel-midi-timing-randomizer-jsfx-1-0";

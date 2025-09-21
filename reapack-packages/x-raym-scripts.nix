@@ -11521,6 +11521,25 @@
         }
       ];
     };
+    x-raym-parent-script-of-preset-script-template-lua-1-0-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-parent-script-of-preset-script-template-lua-1-0-4";
+      indexName = "X-Raym Scripts";
+      categoryName = "Templates/Script Preset";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/18e73ae3da1cef940cbf5b2f4c164025b3cebc0e/Templates/Script%20Preset/X-Raym_Parent%20script%20of%20preset%20script_template.lua";
+          sha256 = "1vxhcpzb4i36ccrkcgsf13zbaimp5dd3xh7md06i5lc6r2l28s1z";
+        }
+        {
+          path = ''README.md'';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/18e73ae3da1cef940cbf5b2f4c164025b3cebc0e/Templates/Script%20Preset/README.md";
+          sha256 = "04f536myqim14jwzd5r2k4sg8ss2cfsrzbrym4kv4imdryz4rqky";
+        }
+      ];
+    };
     x-raym-preset-script-template-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-preset-script-template-lua-1-0";
@@ -11532,6 +11551,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/eef3980d2eaa2edca044f6d00a57784ea6cd4863/Templates/Script%20Preset/X-Raym_Preset%20script_template.lua";
           sha256 = "06qdmxcrasbnpqnlzb0vaxh6ws4bv259zq37c775h3q21j11hhbv";
+        }
+      ];
+    };
+    x-raym-preset-script-template-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-preset-script-template-lua-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Templates/Script Preset";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/94a22f1ca5531ae3dd35a2dfe6b9069de1e3c89e/Templates/Script%20Preset/X-Raym_Preset%20script_template.lua";
+          sha256 = "0c8490ca28dlz715nxfbdypfhkk8ca7jnrk4dc7sf8s1h2fqjy4n";
         }
       ];
     };

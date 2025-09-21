@@ -2702,6 +2702,25 @@
         }
       ];
     };
+    sockmonkey72-eventeditor-lua-1-9-beta-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sockmonkey72-eventeditor-lua-1-9-beta-1";
+      indexName = "sockmonkey72 Scripts";
+      categoryName = "MIDI Editor";
+      packageType = "script";
+      sources = [
+        {
+          path = ''EventEditor/MIDIUtils.lua'';
+          url = "https://raw.githubusercontent.com/jeremybernstein/ReaScripts/main/MIDI/MIDIUtils.lua";
+          sha256 = "1vrwz80nkky4c924y777a3lq59vxjr4gm50w7qfiqz0xg43q02l9";
+        }
+        {
+          path = '''';
+          url = "https://github.com/jeremybernstein/ReaScripts/raw/12f03cf9cde85631db0f8fc2a1705a58b410dbe6/MIDI%20Editor/sockmonkey72_EventEditor.lua";
+          sha256 = "05j4g6m0p0p3hxqym8l73vmwcq7a8dyylc6abj0lvd0p0idv5z94";
+        }
+      ];
+    };
     sockmonkey72-extendmidiitemtonearestbars-lua-1-0-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "sockmonkey72-extendmidiitemtonearestbars-lua-1-0-1";
@@ -109419,7 +109438,7 @@
         {
           path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC11.tfmrPreset'';
           url = "https://github.com/jeremybernstein/ReaScripts/raw/b700b5207cfe1d3835e226c76cdc240233d48983/MIDI%20Editor/Transformer%20Presets/Factory%20Presets/Stevie/CCs/Delete/Delete%20CC11.tfmrPreset";
-          sha256 = "";
+          sha256 = "0wzqiyg5q08j36rf9zavhjd1w4rb73lrp2jnzvrwg208qbh4ncd8";
         }
         {
           path = ''../Transformer Presets/Factory Presets/Stevie/CCs/Delete/Delete CC2 after cursor.tfmrPreset'';
@@ -116309,7 +116328,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.1";
-          sha256 = "1da9aci4h0lkf5mzvc1kxxdvyznqy6695zqp0nn1xbcv4ahp7lmj";
+          sha256 = "0b350yd8ir8k0wvbjagcrn7kvjwkdpr4skyxbjc9mdsdqj8l383z";
         }
       ];
     };
@@ -116323,7 +116342,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.2";
-          sha256 = "0n2iq4wq32mxm78qmpq7bqd5zqcwb3d20h4vjgbrjcs7yilgnzpq";
+          sha256 = "16nb8qlpj6n4vp0r1gq9m9p72h435p0r74mqn1jwv17pr0aqqzqy";
         }
       ];
     };
@@ -116337,7 +116356,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.3";
-          sha256 = "0767qpni23adilfgrrrijvihimbc20al12hip49x8bx5i9agxr8c";
+          sha256 = "0s2apba9hvl4jwvd482fhygl1v29s91sxgn1dpw1ah54mr9ncsz4";
         }
       ];
     };
@@ -116351,7 +116370,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.4";
-          sha256 = "1z4vsps6h2dpvlgkvsh1g3qfkjbvvr567f3sh1rac137ycx7mi0w";
+          sha256 = "1i82mxrpiy2cnywkmky98qyxjf7xa5f1bvqq3a7xidwxjzrv79dl";
         }
       ];
     };
@@ -116688,6 +116707,20 @@
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/download/v1.7.5-beta.3/Peace_MOD.ReaperThemeZip";
           sha256 = "16bqq4fj4h6mz60awwx1y8pwavgd3jnx05wnwk91lfbq4iidkgv9";
+        }
+      ];
+    };
+    sockmonkey72-peace-mod-theme-1-7-5 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "sockmonkey72-peace-mod-theme-1-7-5";
+      indexName = "sockmonkey72 Scripts";
+      categoryName = "Themes";
+      packageType = "theme";
+      sources = [
+        {
+          path = ''Peace_MOD.ReaperThemeZip'';
+          url = "https://github.com/jeremybernstein/REAPER_Peace/releases/download/v1.7.5/Peace_MOD.ReaperThemeZip";
+          sha256 = "1zjmfcvy21ffi8nv28xnyxjzqcaam76dxfj2jzzk04mfgkir445q";
         }
       ];
     };
