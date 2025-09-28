@@ -7018,6 +7018,34 @@
         }
       ];
     };
+    tomaszpio-akai-apc-mini-grid-toggle-jsfx-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "tomaszpio-akai-apc-mini-grid-toggle-jsfx-1-0-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/c8ab0e4dce9b81436442e2ef26816ab832f4605e/MIDI/tomaszpio_AKAI%20APC%20mini%20grid%20toggle.jsfx";
+          sha256 = "0i2gm837r6c0b0misbi8a8zy3r0cilhkyd3hcx19m12f3nq6a0c2";
+        }
+      ];
+    };
+    tomaszpio-apc-pad-blinker-sync-to-transport-jsfx-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "tomaszpio-apc-pad-blinker-sync-to-transport-jsfx-1-0-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/8d0fdc416983c49ef15a50daf94e1366ab2a28e2/MIDI/tomaszpio_APC%20Pad%20Blinker%20(Sync%20to%20Transport).jsfx";
+          sha256 = "1s84zgk23awjcg1hbq9dx0npyqi3962mjpfq7xw52z0ik07h892l";
+        }
+      ];
+    };
     urtzurd-midi-glissando-jsfx-0-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "urtzurd-midi-glissando-jsfx-0-1";

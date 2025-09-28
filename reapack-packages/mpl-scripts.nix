@@ -28587,6 +28587,171 @@
         }
       ];
     };
+    mpl-propagate-active-take-spectral-edits-to-other-takes-lua-1-01 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-propagate-active-take-spectral-edits-to-other-takes-lua-1-01";
+      indexName = "MPL Scripts";
+      categoryName = "Spectral edits";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/50b7b9ec56d469baabbc9167d4dbe7c905470553/Spectral%20edits/mpl_Propagate%20active%20take%20spectral%20edits%20to%20other%20takes.lua";
+          sha256 = "062p4qq7s4mv5jzkyr4wyh8kcwjxf8k6pxyizlznw9cbk4vgsgm1";
+        }
+      ];
+    };
+    mpl-propagate-item-spectral-edits-to-items-with-same-name-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-propagate-item-spectral-edits-to-items-with-same-name-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "Spectral edits";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/50b7b9ec56d469baabbc9167d4dbe7c905470553/Spectral%20edits/mpl_Propagate%20item%20spectral%20edits%20to%20items%20with%20same%20name.lua";
+          sha256 = "0ljnlxc4vg9j3pgc8vcdawwsk4p2rz1lwid40zjd32jmafljsr02";
+        }
+      ];
+    };
+    mpl-propagate-item-spectral-edits-to-other-items-in-group-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-propagate-item-spectral-edits-to-other-items-in-group-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "Spectral edits";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/50b7b9ec56d469baabbc9167d4dbe7c905470553/Spectral%20edits/mpl_Propagate%20item%20spectral%20edits%20to%20other%20items%20in%20group.lua";
+          sha256 = "0b7j4vsjr23xms91ack7f5xnpqkf1hcmh7b27kpi8l30bxn7h17w";
+        }
+      ];
+    };
+    mpl-spectral-edits-save-load-presets-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-spectral-edits-save-load-presets-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "Spectral edits";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/50b7b9ec56d469baabbc9167d4dbe7c905470553/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1yjx5jqrc8xcvh0qjb2dk5b00hmcvmv3q93hbj9kgccaxpqmv7w4";
+        }
+      ];
+    };
+    mpl-spectral-edits-save-load-presets-lua-1-01 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-spectral-edits-save-load-presets-lua-1-01";
+      indexName = "MPL Scripts";
+      categoryName = "Spectral edits";
+      packageType = "script";
+      sources = [
+        {
+          path = ''mpl_Save selected spectral edits to slot 1.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 2.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 3.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 4.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 5.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 6.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 7.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 8.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 9.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Save selected spectral edits to slot 10.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 1.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 2.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 3.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 4.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 5.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 6.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 7.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 8.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 9.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+        {
+          path = ''mpl_Load spectral edits from slot 10.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d12141c2978e9775a97c4be6785630a1b23777de/Spectral%20edits/mpl_Spectral%20edits%20save%20load%20presets.lua";
+          sha256 = "1gk8m44zp297w56lmyfzhl231b4y2nhi28g5haqsq09ch2jq889h";
+        }
+      ];
+    };
     mpl-toggle-bypass-for-selected-items-all-takes-spectral-edits-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-toggle-bypass-for-selected-items-all-takes-spectral-edits-lua-1-0";

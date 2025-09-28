@@ -3069,6 +3069,20 @@
         }
       ];
     };
+    wide-crosstalk-jsfx-2-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "wide-crosstalk-jsfx-2-0";
+      indexName = "StevieKeys JSFX";
+      categoryName = "Stereo Enhancers";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/4088d64dc48493c2f179713cf2ed1b66ce98e2e1/Stereo%20Enhancers/Wide%20Crosstalk.jsfx";
+          sha256 = "062p9k090pkdldb6gg5x14lzj5kwwxwxqlrnswqyk73f7c7mxz26";
+        }
+      ];
+    };
     auto-deesser-jsfx-0-2-0beta = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "auto-deesser-jsfx-0-2-0beta";

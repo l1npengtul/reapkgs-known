@@ -157,6 +157,25 @@
         }
       ];
     };
+    reawwise-ext-1-0-7 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "reawwise-ext-1-0-7";
+      indexName = "Audiokinetic";
+      categoryName = "Extensions";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_reawwise.dll'';
+          url = "https://github.com/audiokinetic/ReaWwise/releases/download/1.0.7/reaper_reawwise.dll";
+          sha256 = "0rc00vplyyx0xysgyj556gg5dn1qgk1vhlhlx4ss5r974bn380s8";
+        }
+        {
+          path = ''reaper_reawwise.dylib'';
+          url = "https://github.com/audiokinetic/ReaWwise/releases/download/1.0.7/reaper_reawwise.dylib";
+          sha256 = "1k8zfbpdi31h2qibiv1ryz2pxa07hxpdb5vfh36jzixglcrnv3hs";
+        }
+      ];
+    };
     openassociatedreaperproject-lua-1-0-0-rc-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "openassociatedreaperproject-lua-1-0-0-rc-1";
