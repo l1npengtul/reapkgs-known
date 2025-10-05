@@ -27477,6 +27477,20 @@
         }
       ];
     };
+    mpl-render-in-place-lua-1-24 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-render-in-place-lua-1-24";
+      indexName = "MPL Scripts";
+      categoryName = "Render";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/4a38b3018da15aebe7d3daf6202aab15e6aeadcb/Render/mpl_Render-in-place.lua";
+          sha256 = "1gr66bjfnf2p4v826wqs2m01kj50nhkrq2qhhjlgvmxsj0ra9hy8";
+        }
+      ];
+    };
     mpl-set-render-bounds-to-entire-project-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-set-render-bounds-to-entire-project-lua-1-0";
@@ -32041,17 +32055,17 @@
         }
       ];
     };
-    mpl-delete-x-characters-from-selected-track-names-eel-1-0 = mkReapackPackage {
+    mpl-delete-x-characters-from-selected-track-names-lua-1-01 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "mpl-delete-x-characters-from-selected-track-names-eel-1-0";
+      name = "mpl-delete-x-characters-from-selected-track-names-lua-1-01";
       indexName = "MPL Scripts";
       categoryName = "Tracks Properties";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/1b0ddb39acd4a2f7fc85317e482f1b6155f1b91c/Tracks%20Properties/mpl_Delete%20x%20characters%20from%20selected%20track%20names.eel";
-          sha256 = "14c76ggmlm96rw8d5awxisf71scn1yz5b8fshri906plj96lhdga";
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/b7dc28047fd939e6a838b186174d6cd194cba391/Tracks%20Properties/mpl_Delete%20x%20characters%20from%20selected%20track%20names.lua";
+          sha256 = "01vblcgjk76l50wp0ysmsmfl7zf6cmxk5997m2pqd3qgm4lzv971";
         }
       ];
     };

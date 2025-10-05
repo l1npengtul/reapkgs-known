@@ -7162,6 +7162,295 @@
         }
       ];
     };
+    ruxton-tascamus2400-ext-1-2-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ruxton-tascamus2400-ext-1-2-1-1";
+      indexName = "ReaTeam Extensions";
+      categoryName = "Control Surfaces";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_csurf_us2400.dll'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/releases/download/1.2.1/reaper_csurf_us2400.dll";
+          sha256 = "0nx2sdrh7sy73f50lzjz913wv8gx68cnv8bzswlf4vycnqg5rg8n";
+        }
+        {
+          path = ''Automation/Remove envelopes from selected tracks (US-2400 - FKey - 6).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Automation/Remove%20envelopes%20from%20selected%20tracks%20(US-2400%20-%20FKey%20-%206).py";
+          sha256 = "01qqzkkxdsvpprf2sb8yp8jd03qvskkb0xgsysz9dfkn25bkd93v";
+        }
+        {
+          path = ''Automation/Show or hide envelopes (US-2400 - FKey - 5).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Automation/Show%20or%20hide%20envelopes%20(US-2400%20-%20FKey%20-%205).py";
+          sha256 = "052hlyrcpyf0p2yrgdfssglbqr1fzwp2kbv92kazqy16jyljs5hd";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - FKey - 1).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20FKey%20-%201).py";
+          sha256 = "096cxnf9lfb26307zpf82hk50ldifyf7vn5af4f11r886p4znvji";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - FKey - 2).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20FKey%20-%202).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - FKey - 3).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20FKey%20-%203).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - FKey - 4).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20FKey%20-%204).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - FKey - 5).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20FKey%20-%205).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - FKey - 6).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20FKey%20-%206).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 1).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20MKey%20-%201).py";
+          sha256 = "0lz0nnppch438ynp6f1j7p008zp2rwkx31np3nnhh077i5wj70jr";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 2).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20MKey%20-%202).py";
+          sha256 = "09i5pg0sms8xwfkpkyv9kh1fg09yhr7p3paq4kz4a9jfabxvxj6m";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 3).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20MKey%20-%203).py";
+          sha256 = "1nwn40py250xrw4fgcpi2b44aa96i13dyigl362liigl938w9pwb";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 4).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20MKey%20-%204).py";
+          sha256 = "1cwfsrrzs8syx85d38ljbz2imfigpajpkfk3m5zl2pzgrkxn92v6";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 5).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20MKey%20-%205).py";
+          sha256 = "1vnyzh7afgvjjcwdbkmbg2g5lrn3f7rwb5inm682jkpvnq6klcx7";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - MKey - 6).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20MKey%20-%206).py";
+          sha256 = "1594yv27wpj2a1a5kw0h9fk1cqm43i7g4pwzhqrh1wl506ps2v34";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 1).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%201).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 2).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%202).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 3).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%203).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 4).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%204).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 5).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%205).py";
+          sha256 = "06f6zdgl8r97fa9pczf0p57zzxrz8kp5njrvvka59b6vlih7q6rk";
+        }
+        {
+          path = ''FX Favorites/Insert Plug-in - XXX (US-2400 - Chan - Shift - 6).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/FX%20Favorites/Insert%20Plug-in%20-%20XXX%20(US-2400%20-%20Chan%20-%20Shift%20-%206).py";
+          sha256 = "1liap9rslczf0s5w1ckkjqh5kwpzpwc2k54rzf67nmlvapn140h7";
+        }
+        {
+          path = ''General/Redo (US-2400 - FKey - FFwd).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/General/Redo%20(US-2400%20-%20FKey%20-%20FFwd).py";
+          sha256 = "10sj8r5aqxvf8pjn0454wbxnrbf21hfxkr0a68fx7w78x12s6n4r";
+        }
+        {
+          path = ''General/Render (US-2400 - FKey - Rec).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/General/Render%20(US-2400%20-%20FKey%20-%20Rec).py";
+          sha256 = "02q0l5ba28i2f43gpv3yprp2kij13kgcx7p0i4fqiciglbarrihv";
+        }
+        {
+          path = ''General/Save (US-2400 - FKey - Play).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/General/Save%20(US-2400%20-%20FKey%20-%20Play).py";
+          sha256 = "1pb788j6v507v06k9nsv1iscsgw8dwibhli91gj6dr310g1z9xwp";
+        }
+        {
+          path = ''General/Undo (US-2400 - FKey - Rew).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/General/Undo%20(US-2400%20-%20FKey%20-%20Rew).py";
+          sha256 = "0clb94v37ky4qk6igxhqlcfafvqm7pjsjay05pzr7lw0zfbp1swc";
+        }
+        {
+          path = ''Splits/JS/(Auto Vol - Add Receive)'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(Auto%20Vol%20-%20Add%20Receive)";
+          sha256 = "11l1g3rdd2k2jp77s8xakqdrh1hb1i4xq9r2klgm65s4k71c653p";
+        }
+        {
+          path = ''Splits/JS/(Auto Vol - Send)'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(Auto%20Vol%20-%20Send)";
+          sha256 = "1frzjxvzaym107gs5c9qwdd2zfjqmviz9d06grj4px901av944m9";
+        }
+        {
+          path = ''Splits/JS/(Auto Vol - Split Receive)'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(Auto%20Vol%20-%20Split%20Receive)";
+          sha256 = "1n9kgzgqqfk09cyrx3519mljsdqv1c0bw2gkkizvj1h83xd8qzbs";
+        }
+        {
+          path = ''Splits/JS/(LH-Split)'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(LH-Split)";
+          sha256 = "07ggn7wvpc69lvbdwbp3qvpyz52pps77nrr3ipd96nwv69jiqkx4";
+        }
+        {
+          path = ''Splits/JS/(LMH-Split)'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(LMH-Split)";
+          sha256 = "0i8bck6gwdf8lh42ydvf2d1w14gjj13xcx61g9wmznx2ql7ll1sf";
+        }
+        {
+          path = ''Splits/JS/(LMMH-Split)'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(LMMH-Split)";
+          sha256 = "159f2s66qmjd9pr1f82cvyw9cv20fqr5nmqal9g314xh806fddws";
+        }
+        {
+          path = ''Splits/JS/(LR-Split)'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(LR-Split)";
+          sha256 = "1y8ygaihajb6y8j9cphdy8cdgz4ywwy72m0kpxg2k6czzwg1pkp5";
+        }
+        {
+          path = ''Splits/JS/(MS-Split)'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/JS/(MS-Split)";
+          sha256 = "0l5l7p243w3152vmls3ihsagd8l53va527vnhcbm1ldrvyf2vgh0";
+        }
+        {
+          path = ''Splits/ReaScript/Add parallel processor to first selected track (US-2400 - MKey - 6).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Add%20parallel%20processor%20to%20first%20selected%20track%20(US-2400%20-%20MKey%20-%206).py";
+          sha256 = "109bg0l0vjzh40ahzyv1zch4mwzm7gk1fii8kha0ya5fmzk36dlh";
+        }
+        {
+          path = ''Splits/ReaScript/Split first selected track LFHF (US-2400 - MKey - 3).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20LFHF%20(US-2400%20-%20MKey%20-%203).py";
+          sha256 = "0nnigbymjvgkhnz6dgrnviwmcbq6sbwlavckdblq8rlkzdmdjcdd";
+        }
+        {
+          path = ''Splits/ReaScript/Split first selected track LMH (US-2400 - MKey - 4).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20LMH%20(US-2400%20-%20MKey%20-%204).py";
+          sha256 = "0jjp5zcp1i0mphjky886zyqrd6anpw7b3zinl70bximczl2bsylb";
+        }
+        {
+          path = ''Splits/ReaScript/Split first selected track LMMH (US-2400 - MKey - 5).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20LMMH%20(US-2400%20-%20MKey%20-%205).py";
+          sha256 = "0wkd7af2nivj1jsw4idhx7bn4db3b5c0814kdqh6pz47f8kfkcpw";
+        }
+        {
+          path = ''Splits/ReaScript/Split first selected track LR (US-2400 - MKey - 1).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20LR%20(US-2400%20-%20MKey%20-%201).py";
+          sha256 = "0cf3vg62lkavgdi0qv5899r3mng3acxx2bzmv424nvqk04mq338n";
+        }
+        {
+          path = ''Splits/ReaScript/Split first selected track MS (US-2400 - MKey - 2).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Split%20first%20selected%20track%20MS%20(US-2400%20-%20MKey%20-%202).py";
+          sha256 = "0h5ybh4fmh2470c9n4hbqii1jvc9r5ifcvkgrxspldxqrcgqla3r";
+        }
+        {
+          path = ''Splits/ReaScript/Unsplit first selected split (US-2400 - MKey - Null).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Splits/ReaScript/Unsplit%20first%20selected%20split%20(US-2400%20-%20MKey%20-%20Null).py";
+          sha256 = "1ylhcfnw3jpwxrc1xbjjcdyz3bbva16hm8bkpiynv103jrf4f5hk";
+        }
+        {
+          path = ''Time Zoom Scroll/Next POI (US-2400 - NoKey - FFwd).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Next%20POI%20(US-2400%20-%20NoKey%20-%20FFwd).py";
+          sha256 = "0r1jvzn5ywcih7913xcd9z9ngc5wnsgn170hc3akzcqv8p2y5h79";
+        }
+        {
+          path = ''Time Zoom Scroll/Previous POI (US-2400 - NoKey - Rew).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Previous%20POI%20(US-2400%20-%20NoKey%20-%20Rew).py";
+          sha256 = "15a5vlizhvv8gnzl04z7rwan0xgl73z2wr41914l45b7dz6cz5h6";
+        }
+        {
+          path = ''Time Zoom Scroll/Show playpos (US-2400 - FKey - Null).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Show%20playpos%20(US-2400%20-%20FKey%20-%20Null).py";
+          sha256 = "1gm61i3hmzmr5f718h6v5bj1dy17jra7b0si11b03halbai88wrd";
+        }
+        {
+          path = ''Time Zoom Scroll/Toggle scroll playpos (US-2400 - FKey - Stop).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Toggle%20scroll%20playpos%20(US-2400%20-%20FKey%20-%20Stop).py";
+          sha256 = "0mk7j3bcqv2ph8w8y0jala9n9vps0xzz440nqlq9nwfsyr47ykga";
+        }
+        {
+          path = ''Time Zoom Scroll/Zoom time selection (US-2400 - NoKey - Null).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Zoom%20time%20selection%20(US-2400%20-%20NoKey%20-%20Null).py";
+          sha256 = "0dw248lb25br4vrfv4sbhkl7y9ld0pll6kgbxwqdhwjp68cwa5sg";
+        }
+        {
+          path = ''Time Zoom Scroll/Zoom track selection (US-2400 - Shift - Null).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Time%20Zoom%20Scroll/Zoom%20track%20selection%20(US-2400%20-%20Shift%20-%20Null).py";
+          sha256 = "1kvnf6girbwnj648psjawy1cq85d9hk3f174kb8bzh884wngy5c7";
+        }
+        {
+          path = ''Track Actions/Delete selected tracks (US-2400 - Shift - 5).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Delete%20selected%20tracks%20(US-2400%20-%20Shift%20-%205).py";
+          sha256 = "02nv9jh45vn6z3d8k70lk5ksjhmzsj29iq2r2rvkv1smjb06kafr";
+        }
+        {
+          path = ''Track Actions/Duplicate selected tracks (US-2400 - FKey - 3).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Duplicate%20selected%20tracks%20(US-2400%20-%20FKey%20-%203).py";
+          sha256 = "1pacpbs2jp5rx20lk9spkpkvs6ab34b5vmpid5iqs0xl4d041m1n";
+        }
+        {
+          path = ''Track Actions/Fold or unfold selected folders (US-2400 - Shift - 2).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Fold%20or%20unfold%20selected%20folders%20(US-2400%20-%20Shift%20-%202).py";
+          sha256 = "00dkmcj8p9fhf1arfhm6hdg67dm5139kqqcgx39df2r5zn17gp0d";
+        }
+        {
+          path = ''Track Actions/Group selected tracks (US-2400 - Shift - 3).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Group%20selected%20tracks%20(US-2400%20-%20Shift%20-%203).py";
+          sha256 = "10sy3lbbc80ksz88ad7kd7jkjz72q76jks6j83kans5nssf9s4v5";
+        }
+        {
+          path = ''Track Actions/Insert track before first selected (US-2400 - Shift - 4).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Insert%20track%20before%20first%20selected%20(US-2400%20-%20Shift%20-%204).py";
+          sha256 = "079155hfa3fbggpwx7aam7m78vgx96dinwx8lf3c5jwbf75l21kq";
+        }
+        {
+          path = ''Track Actions/Move selected tracks left (US-2400 - FKey - 1).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Move%20selected%20tracks%20left%20(US-2400%20-%20FKey%20-%201).py";
+          sha256 = "0428am8ycbf1m3nyhk6nx0pwzfssa9jcjvgzr0m9w8xfkink1h9z";
+        }
+        {
+          path = ''Track Actions/Move selected tracks right (US-2400 - FKey - 2).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Move%20selected%20tracks%20right%20(US-2400%20-%20FKey%20-%202).py";
+          sha256 = "0j9b67mxsa9adqyqgc6nqhw61n686h340rhln9jz9icvfjy2i0qw";
+        }
+        {
+          path = ''Track Actions/Rename selected tracks (US-2400 - FKey - 4).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Rename%20selected%20tracks%20(US-2400%20-%20FKey%20-%204).py";
+          sha256 = "1jfrqg13px2xyaai8rk859vgx4ahvh20ppa0ma3cyv332cjznv50";
+        }
+        {
+          path = ''Track Actions/Ungroup selected tracks (US-2400 - Shift - 6).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Ungroup%20selected%20tracks%20(US-2400%20-%20Shift%20-%206).py";
+          sha256 = "1jlrj1q2arb3gb90g5h4fnwwhyq2sahdfiv0i0z4iq411gdb52i9";
+        }
+        {
+          path = ''Track Actions/Wrap or unwrap selected tracks (US-2400 - Shift - 1).py'';
+          url = "https://github.com/Ruxton/reaper-csurf-us2400/raw/1.2.1/Install/Custom%20Actions/Track%20Actions/Wrap%20or%20unwrap%20selected%20tracks%20(US-2400%20-%20Shift%20-%201).py";
+          sha256 = "1czml3g803nfr938h0plgfk3l2a82clczbqyzjq6l03kaxwh3mgc";
+        }
+      ];
+    };
     reaper-oss-sws-ext-2-14-beta = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "reaper-oss-sws-ext-2-14-beta";

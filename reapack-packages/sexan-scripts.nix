@@ -1213,7 +1213,7 @@
         {
           path = ''Modules/Area_51_functions_code.lua'';
           url = "https://github.com/GoranKovac/ReaScripts/raw/46358656c85751325fd6a20411671483f0ce6882/Area51/Modules/Area_51_functions_code.lua";
-          sha256 = "0gbvwcwrnpyjkmb9b4gf12vzsv0kz5jjs3m21ajn9r38x6qa466w";
+          sha256 = "";
         }
         {
           path = ''Modules/Area_51_ghosts.lua'';
@@ -1223,7 +1223,7 @@
         {
           path = ''Modules/Area_51_key_functions.lua'';
           url = "https://github.com/GoranKovac/ReaScripts/raw/46358656c85751325fd6a20411671483f0ce6882/Area51/Modules/Area_51_key_functions.lua";
-          sha256 = "10y3p3jwd8hdhrl6j9sdkr30h6i7xvbw7wgycaj5pyag4nssgg24";
+          sha256 = "";
         }
         {
           path = ''Modules/Area_51_keyboard.lua'';
@@ -1233,7 +1233,7 @@
         {
           path = ''Modules/Area_51_mouse.lua'';
           url = "https://github.com/GoranKovac/ReaScripts/raw/46358656c85751325fd6a20411671483f0ce6882/Area51/Modules/Area_51_mouse.lua";
-          sha256 = "096n3vgc3fmbmal8n99hq81zmivwkfd7ydz6m7n3n810x8w7bg0y";
+          sha256 = "";
         }
       ];
     };
@@ -1247,7 +1247,7 @@
         {
           path = '''';
           url = "https://github.com/GoranKovac/ReaScripts/raw/9d8df69d56252824c0e3369b4729b12c6a5032bf/Area51/Area_51_RW.lua";
-          sha256 = "0kjm823y58z6f77i4cjwkzpqgkqisrkvd6wy1gdpdpn5zi58y77n";
+          sha256 = "";
         }
         {
           path = ''Modules/Area_51_class.lua'';

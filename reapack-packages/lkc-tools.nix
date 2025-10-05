@@ -653,6 +653,25 @@
         }
       ];
     };
+    bfo-amp-lkc-folder-items-lua-1-04 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "bfo-amp-lkc-folder-items-lua-1-04";
+      indexName = "LKC Tools";
+      categoryName = "Misc";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/a2a96424ee66a737a90cbe604a2e414075a67fae/Misc/BFO%20&amp;%20LKC%20-%20Folder%20items.lua";
+          sha256 = "";
+        }
+        {
+          path = ''LKC - Toggle faint peaks in folders.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/a2a96424ee66a737a90cbe604a2e414075a67fae/Misc/LKC%20-%20Toggle%20faint%20peaks%20in%20folders.lua";
+          sha256 = "0vza9ccd8w9piq5nn5lqclhkfw6hxv994ipfx94j76l8jwfmg6cy";
+        }
+      ];
+    };
     lkc-1-frame-fadein-to-all-selected-items-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "lkc-1-frame-fadein-to-all-selected-items-lua-1-0";
@@ -1649,6 +1668,64 @@
           path = ''Lokasenna_GUI/Core.dat'';
           url = "https://github.com/nikolalkc/LKC-Tools/raw/06e650aa0a3bf77df837e207b853b6e5b8f66499/ReaOpen/Lokasenna_GUI/Core.dat";
           sha256 = "0q9k9sr8hb6kf728w4xckxgi0p67663849x8lyvm3byqhr17skz9";
+        }
+      ];
+    };
+    lkc-p4-set-workspace-name-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "lkc-p4-set-workspace-name-lua-1-0";
+      indexName = "LKC Tools";
+      categoryName = "Source Control";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/2d968309a4b35dd8b63ec6276f20aa2aa1b98f46/Source%20Control/LKC%20-%20P4%20Set%20Workspace%20name.lua";
+          sha256 = "19shzcafmmaklw0bs05v63cj05hj96v96q2qn3x5mgz6365ijxfs";
+        }
+        {
+          path = ''LKC - P4 Revert unchanged files.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/2d968309a4b35dd8b63ec6276f20aa2aa1b98f46/Source%20Control/LKC%20-%20P4%20Revert%20unchanged%20files.lua";
+          sha256 = "0ar3rd3w0m87y8bwlm2sjff8frsn69anj0k3z9sgqa0rs5qa341v";
+        }
+        {
+          path = ''LKC - P4 Reconcile current project folder.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/2d968309a4b35dd8b63ec6276f20aa2aa1b98f46/Source%20Control/LKC%20-%20P4%20Reconcile%20current%20project%20folder.lua";
+          sha256 = "0l7d7xzl451ky1mgbkjifd0dvlrj3xsaxb4sm8nlgzcw3cnh7xs4";
+        }
+        {
+          path = ''LKC - P4 Checkout current project folder.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/2d968309a4b35dd8b63ec6276f20aa2aa1b98f46/Source%20Control/LKC%20-%20P4%20Checkout%20current%20project%20folder.lua";
+          sha256 = "07dg1rp3m0jv94aixxj66akgy4vamjzyxgis6142mq58g10xfzjv";
+        }
+      ];
+    };
+    lkc-p4-set-workspace-name-lua-1-01 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "lkc-p4-set-workspace-name-lua-1-01";
+      indexName = "LKC Tools";
+      categoryName = "Source Control";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/2c3d1fdafaa98e11fab3559cfaae9a016f36dc01/Source%20Control/LKC%20-%20P4%20Set%20Workspace%20name.lua";
+          sha256 = "0v6sc9vj3ikyfa4rbncvyd3xwz7awk6g906cwlrwrlx02mdm0ayw";
+        }
+        {
+          path = ''LKC - P4 Revert unchanged files.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/2c3d1fdafaa98e11fab3559cfaae9a016f36dc01/Source%20Control/LKC%20-%20P4%20Revert%20unchanged%20files.lua";
+          sha256 = "0ar3rd3w0m87y8bwlm2sjff8frsn69anj0k3z9sgqa0rs5qa341v";
+        }
+        {
+          path = ''LKC - P4 Reconcile current project folder.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/2c3d1fdafaa98e11fab3559cfaae9a016f36dc01/Source%20Control/LKC%20-%20P4%20Reconcile%20current%20project%20folder.lua";
+          sha256 = "0l7d7xzl451ky1mgbkjifd0dvlrj3xsaxb4sm8nlgzcw3cnh7xs4";
+        }
+        {
+          path = ''LKC - P4 Checkout current project folder.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/2c3d1fdafaa98e11fab3559cfaae9a016f36dc01/Source%20Control/LKC%20-%20P4%20Checkout%20current%20project%20folder.lua";
+          sha256 = "07dg1rp3m0jv94aixxj66akgy4vamjzyxgis6142mq58g10xfzjv";
         }
       ];
     };
