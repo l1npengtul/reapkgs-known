@@ -27491,6 +27491,48 @@
         }
       ];
     };
+    mpl-render-in-place-lua-1-25 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-render-in-place-lua-1-25";
+      indexName = "MPL Scripts";
+      categoryName = "Render";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/092138f0cb87511db4ca6c077b897e2e90f66abe/Render/mpl_Render-in-place.lua";
+          sha256 = "0bcrdhpw246904sx0ihhy4dkmkb2mwbi55by3ziv8i2nslykwpdh";
+        }
+      ];
+    };
+    mpl-render-in-place-lua-1-26 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-render-in-place-lua-1-26";
+      indexName = "MPL Scripts";
+      categoryName = "Render";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/339e01f29f0be162c293b707014b7151a15a8d23/Render/mpl_Render-in-place.lua";
+          sha256 = "1zh3q1g9k2i5fw819cfh05ynjli40ibds8vcp24z5ws27hp5xiik";
+        }
+      ];
+    };
+    mpl-render-in-place-lua-1-27 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-render-in-place-lua-1-27";
+      indexName = "MPL Scripts";
+      categoryName = "Render";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/217639c3d995bd994cb06bc0a841e213860a5d88/Render/mpl_Render-in-place.lua";
+          sha256 = "1y3dmbr60ihbvm1bkgphhgwwa2w3mny05ivqhhvgnln7zpna7ldw";
+        }
+      ];
+    };
     mpl-set-render-bounds-to-entire-project-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-set-render-bounds-to-entire-project-lua-1-0";

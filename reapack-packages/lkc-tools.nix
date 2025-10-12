@@ -1671,61 +1671,32 @@
         }
       ];
     };
-    lkc-p4-set-workspace-name-lua-1-0 = mkReapackPackage {
+    lkc-perforce-p4-current-workspace-settings-lua-1-02 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "lkc-p4-set-workspace-name-lua-1-0";
+      name = "lkc-perforce-p4-current-workspace-settings-lua-1-02";
       indexName = "LKC Tools";
       categoryName = "Source Control";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/nikolalkc/LKC-Tools/raw/2d968309a4b35dd8b63ec6276f20aa2aa1b98f46/Source%20Control/LKC%20-%20P4%20Set%20Workspace%20name.lua";
-          sha256 = "19shzcafmmaklw0bs05v63cj05hj96v96q2qn3x5mgz6365ijxfs";
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/98ae6531de90796e38b4be8939906d4eeabec786/Source%20Control/LKC%20-%20Perforce%20P4%20-%20Current%20workspace%20settings.lua";
+          sha256 = "1mv86pwikxbpbspmy0vmnlg5qd7snn2n6a2q55wlnnzpwziiavgl";
         }
         {
-          path = ''LKC - P4 Revert unchanged files.lua'';
-          url = "https://github.com/nikolalkc/LKC-Tools/raw/2d968309a4b35dd8b63ec6276f20aa2aa1b98f46/Source%20Control/LKC%20-%20P4%20Revert%20unchanged%20files.lua";
-          sha256 = "0ar3rd3w0m87y8bwlm2sjff8frsn69anj0k3z9sgqa0rs5qa341v";
+          path = ''LKC - Perforce P4 - Checkout current project folder.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/98ae6531de90796e38b4be8939906d4eeabec786/Source%20Control/LKC%20-%20Perforce%20P4%20-%20Checkout%20current%20project%20folder.lua";
+          sha256 = "0cdjjgvhqr84i4vmr56hqqps8fypkxx1f543xx32sywngxfkihgh";
         }
         {
-          path = ''LKC - P4 Reconcile current project folder.lua'';
-          url = "https://github.com/nikolalkc/LKC-Tools/raw/2d968309a4b35dd8b63ec6276f20aa2aa1b98f46/Source%20Control/LKC%20-%20P4%20Reconcile%20current%20project%20folder.lua";
-          sha256 = "0l7d7xzl451ky1mgbkjifd0dvlrj3xsaxb4sm8nlgzcw3cnh7xs4";
+          path = ''LKC - Perforce P4 - Reconcile current project folder.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/98ae6531de90796e38b4be8939906d4eeabec786/Source%20Control/LKC%20-%20Perforce%20P4%20-%20Reconcile%20current%20project%20folder.lua";
+          sha256 = "185nmdk28nqk4sfvhcgxmidy1b8yx43ri0bvsnz0kl9r08bi27fy";
         }
         {
-          path = ''LKC - P4 Checkout current project folder.lua'';
-          url = "https://github.com/nikolalkc/LKC-Tools/raw/2d968309a4b35dd8b63ec6276f20aa2aa1b98f46/Source%20Control/LKC%20-%20P4%20Checkout%20current%20project%20folder.lua";
-          sha256 = "07dg1rp3m0jv94aixxj66akgy4vamjzyxgis6142mq58g10xfzjv";
-        }
-      ];
-    };
-    lkc-p4-set-workspace-name-lua-1-01 = mkReapackPackage {
-      inherit lib stdenv fetchurl;
-      name = "lkc-p4-set-workspace-name-lua-1-01";
-      indexName = "LKC Tools";
-      categoryName = "Source Control";
-      packageType = "script";
-      sources = [
-        {
-          path = '''';
-          url = "https://github.com/nikolalkc/LKC-Tools/raw/2c3d1fdafaa98e11fab3559cfaae9a016f36dc01/Source%20Control/LKC%20-%20P4%20Set%20Workspace%20name.lua";
-          sha256 = "0v6sc9vj3ikyfa4rbncvyd3xwz7awk6g906cwlrwrlx02mdm0ayw";
-        }
-        {
-          path = ''LKC - P4 Revert unchanged files.lua'';
-          url = "https://github.com/nikolalkc/LKC-Tools/raw/2c3d1fdafaa98e11fab3559cfaae9a016f36dc01/Source%20Control/LKC%20-%20P4%20Revert%20unchanged%20files.lua";
-          sha256 = "0ar3rd3w0m87y8bwlm2sjff8frsn69anj0k3z9sgqa0rs5qa341v";
-        }
-        {
-          path = ''LKC - P4 Reconcile current project folder.lua'';
-          url = "https://github.com/nikolalkc/LKC-Tools/raw/2c3d1fdafaa98e11fab3559cfaae9a016f36dc01/Source%20Control/LKC%20-%20P4%20Reconcile%20current%20project%20folder.lua";
-          sha256 = "0l7d7xzl451ky1mgbkjifd0dvlrj3xsaxb4sm8nlgzcw3cnh7xs4";
-        }
-        {
-          path = ''LKC - P4 Checkout current project folder.lua'';
-          url = "https://github.com/nikolalkc/LKC-Tools/raw/2c3d1fdafaa98e11fab3559cfaae9a016f36dc01/Source%20Control/LKC%20-%20P4%20Checkout%20current%20project%20folder.lua";
-          sha256 = "07dg1rp3m0jv94aixxj66akgy4vamjzyxgis6142mq58g10xfzjv";
+          path = ''LKC - Perforce P4 - Revert unchanged files in current project folder.lua'';
+          url = "https://github.com/nikolalkc/LKC-Tools/raw/98ae6531de90796e38b4be8939906d4eeabec786/Source%20Control/LKC%20-%20Perforce%20P4%20-%20Revert%20unchanged%20files%20in%20current%20project%20folder.lua";
+          sha256 = "14y1abiwcbd7ppa63m2ngayf0xi7h84fngmfcywfmfxnlxfrv171";
         }
       ];
     };
