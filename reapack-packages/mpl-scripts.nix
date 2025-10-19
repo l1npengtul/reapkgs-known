@@ -9357,6 +9357,95 @@
         }
       ];
     };
+    mpl-toggle-bypass-fx-with-latency-pdc-higher-than-x-samples-lua-1-08 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-toggle-bypass-fx-with-latency-pdc-higher-than-x-samples-lua-1-08";
+      indexName = "MPL Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = ''mpl_Toggle bypass all project FX with latency (PDC) higher than 64 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass all project FX with latency (PDC) higher than 128 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass all project FX with latency (PDC) higher than 256 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass all project FX with latency (PDC) higher than 512 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass all project FX with latency (PDC) higher than 1024 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass all project FX with latency (PDC) higher than 2048 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass all project FX with latency (PDC) higher than 4096 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass all project FX with latency (PDC) higher than 8192 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass selected track FX with latency (PDC) higher than 64 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass selected track FX with latency (PDC) higher than 128 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass selected track FX with latency (PDC) higher than 256 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass selected track FX with latency (PDC) higher than 512 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass selected track FX with latency (PDC) higher than 1024 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass selected track FX with latency (PDC) higher than 2048 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass selected track FX with latency (PDC) higher than 4096 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+        {
+          path = ''mpl_Toggle bypass selected track FX with latency (PDC) higher than 8192 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20bypass%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "0y094y2f61p5hf456098yqaqn53h8amzd040jgidi8dpg929k3vs";
+        }
+      ];
+    };
     mpl-toggle-float-instrument-on-track-under-mouse-cursor-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-toggle-float-instrument-on-track-under-mouse-cursor-lua-1-0";
@@ -10178,6 +10267,55 @@
           path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 8192 samples.lua'';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/82bd289bb859259bd77f16aa313acf6b95947ae1/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
           sha256 = "0fjn6jf8qk8ylxwg6bkf9xfcaq3zf7i3l0jjc1dh6x8f63q9yfwr";
+        }
+      ];
+    };
+    mpl-toggle-offline-fx-with-latency-pdc-higher-than-x-samples-lua-1-09 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-toggle-offline-fx-with-latency-pdc-higher-than-x-samples-lua-1-09";
+      indexName = "MPL Scripts";
+      categoryName = "FX";
+      packageType = "script";
+      sources = [
+        {
+          path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 64 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "1h1mmsjjxghkjmbbf59jrpha5v029p0hjjglz2pfqmzwgkx4q781";
+        }
+        {
+          path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 128 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "1h1mmsjjxghkjmbbf59jrpha5v029p0hjjglz2pfqmzwgkx4q781";
+        }
+        {
+          path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 256 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "1h1mmsjjxghkjmbbf59jrpha5v029p0hjjglz2pfqmzwgkx4q781";
+        }
+        {
+          path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 512 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "1h1mmsjjxghkjmbbf59jrpha5v029p0hjjglz2pfqmzwgkx4q781";
+        }
+        {
+          path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 1024 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "1h1mmsjjxghkjmbbf59jrpha5v029p0hjjglz2pfqmzwgkx4q781";
+        }
+        {
+          path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 2048 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "1h1mmsjjxghkjmbbf59jrpha5v029p0hjjglz2pfqmzwgkx4q781";
+        }
+        {
+          path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 4096 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "1h1mmsjjxghkjmbbf59jrpha5v029p0hjjglz2pfqmzwgkx4q781";
+        }
+        {
+          path = ''mpl_Toggle offline selected track FX with latency (PDC) higher than 8192 samples.lua'';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/FX/mpl_Toggle%20offline%20FX%20with%20latency%20(PDC)%20higher%20than%20X%20samples.lua";
+          sha256 = "1h1mmsjjxghkjmbbf59jrpha5v029p0hjjglz2pfqmzwgkx4q781";
         }
       ];
     };
@@ -21984,17 +22122,31 @@
         }
       ];
     };
-    mpl-change-gain-of-item-audio-segment-under-mouse-cursor-lua-1-0 = mkReapackPackage {
+    mpl-build-4-points-segment-of-take-envelope-under-mouse-cursor-based-on-audio-source-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
-      name = "mpl-change-gain-of-item-audio-segment-under-mouse-cursor-lua-1-0";
+      name = "mpl-build-4-points-segment-of-take-envelope-under-mouse-cursor-based-on-audio-source-lua-1-0";
       indexName = "MPL Scripts";
       categoryName = "Items Editing";
       packageType = "script";
       sources = [
         {
           path = '''';
-          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/cc24bae3f13940be30c00e397d002df2000c2777/Items%20Editing/mpl_Change%20gain%20of%20item%20audio%20segment%20under%20mouse%20cursor.lua";
-          sha256 = "1vg6nv28hhh8h4qfcjc7qracrc4yxcffwk74rf0ywbcwifyn2kxk";
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/f21cb3899d148942dc2baf87df3495a8d8df6bf0/Items%20Editing/mpl_Build%204%20points%20segment%20of%20take%20envelope%20under%20mouse%20cursor%20based%20on%20audio%20source.lua";
+          sha256 = "1zsjdymyfsjbp875cvi7y4ssxb2nji07mmgff9b7ln9y5am61254";
+        }
+      ];
+    };
+    mpl-build-time-selection-based-on-audio-of-take-under-mouse-cursor-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-build-time-selection-based-on-audio-of-take-under-mouse-cursor-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/8368c475c38795d166893bf632cbade39e57126c/Items%20Editing/mpl_Build%20time%20selection%20based%20on%20audio%20of%20take%20under%20mouse%20cursor.lua";
+          sha256 = "1scilz9j123m15v4yhhmjkkij7x25m6pak6qjmm8wk644wdwivg5";
         }
       ];
     };
@@ -23684,6 +23836,20 @@
         }
       ];
     };
+    mpl-chord-reverse-positions-lua-1-02 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-chord-reverse-positions-lua-1-02";
+      indexName = "MPL Scripts";
+      categoryName = "MIDI";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/MIDI/mpl_Chord%20-%20reverse%20positions.lua";
+          sha256 = "1gjywyzvzrh6idvvd1zcw5d6708iij423b4pivhwqlkdj6wq42sh";
+        }
+      ];
+    };
     mpl-chord-voicing-clear-internal-data-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-chord-voicing-clear-internal-data-lua-1-0";
@@ -23754,6 +23920,20 @@
         }
       ];
     };
+    mpl-chord-voicing-randomize-lua-1-03 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-chord-voicing-randomize-lua-1-03";
+      indexName = "MPL Scripts";
+      categoryName = "MIDI";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/MIDI/mpl_Chord%20voicing%20-%20randomize.lua";
+          sha256 = "0si6qyjybb6z8bs6awb1fvwqb7sijacafvxch18g2hczvzhs7r5a";
+        }
+      ];
+    };
     mpl-chord-voicing-select-higher-note-under-play-cursor-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-chord-voicing-select-higher-note-under-play-cursor-lua-1-0";
@@ -23810,6 +23990,20 @@
         }
       ];
     };
+    mpl-chord-voicing-select-higher-note-under-play-cursor-lua-1-04 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-chord-voicing-select-higher-note-under-play-cursor-lua-1-04";
+      indexName = "MPL Scripts";
+      categoryName = "MIDI";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/MIDI/mpl_Chord%20voicing%20-%20select%20higher%20note%20under%20play%20cursor.lua";
+          sha256 = "0amv7sd64cf0zczalblxn49b5nd35zfki04qblwkgjx13fm33jhb";
+        }
+      ];
+    };
     mpl-chord-voicing-select-higher-notes-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-chord-voicing-select-higher-notes-lua-1-0";
@@ -23849,6 +24043,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/5083e03c2d8bd82f9cb075d446e057a33431de79/MIDI/mpl_Chord%20voicing%20-%20select%20higher%20notes.lua";
           sha256 = "1zw3kgqszagy5jdl17jw5vjbxpsgjdvy7hz1hb291b5sr8bkc5dd";
+        }
+      ];
+    };
+    mpl-chord-voicing-select-higher-notes-lua-1-03 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-chord-voicing-select-higher-notes-lua-1-03";
+      indexName = "MPL Scripts";
+      categoryName = "MIDI";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/MIDI/mpl_Chord%20voicing%20-%20select%20higher%20notes.lua";
+          sha256 = "0c1q9jrhqrc3sn4rra407kr7l95qzd8pibs7q6diz3czvxhz5ms5";
         }
       ];
     };
@@ -23908,6 +24116,20 @@
         }
       ];
     };
+    mpl-chord-voicing-select-lower-note-under-play-cursor-lua-1-04 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-chord-voicing-select-lower-note-under-play-cursor-lua-1-04";
+      indexName = "MPL Scripts";
+      categoryName = "MIDI";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/MIDI/mpl_Chord%20voicing%20-%20select%20lower%20note%20under%20play%20cursor.lua";
+          sha256 = "0qbszpic2qahnbgnvg80xxzkik8n6kjwx4rp5ac5v2msqzfbkph4";
+        }
+      ];
+    };
     mpl-chord-voicing-select-lower-notes-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-chord-voicing-select-lower-notes-lua-1-0";
@@ -23947,6 +24169,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/5083e03c2d8bd82f9cb075d446e057a33431de79/MIDI/mpl_Chord%20voicing%20-%20select%20lower%20notes.lua";
           sha256 = "0sfy6bz9hmib9mk932hxs320px0n4h44h4jz932r86fwbnqx56p6";
+        }
+      ];
+    };
+    mpl-chord-voicing-select-lower-notes-lua-1-03 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-chord-voicing-select-lower-notes-lua-1-03";
+      indexName = "MPL Scripts";
+      categoryName = "MIDI";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6440cd14415cb16e12f7572e850bac9538417758/MIDI/mpl_Chord%20voicing%20-%20select%20lower%20notes.lua";
+          sha256 = "01rc6ri06mwcf09ihkn0088am6ddqqmzjvz4qd4l2hlcy0pbfjvd";
         }
       ];
     };
@@ -24143,6 +24379,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/e8846e7ef725ec1f95d2c39a680761d5cdc99066/MIDI/mpl_Quantize%20selected%20MIDI%20notes%20ends.lua";
           sha256 = "0j9mydvdqwyfmpx6db37p68mpramz31qi4iwz0l159llir761l4q";
+        }
+      ];
+    };
+    mpl-quantize-selected-midi-notes-ends-lua-1-17 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-quantize-selected-midi-notes-ends-lua-1-17";
+      indexName = "MPL Scripts";
+      categoryName = "MIDI";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/89abd5516fff89d4f02268a75cc63e2482731771/MIDI/mpl_Quantize%20selected%20MIDI%20notes%20ends.lua";
+          sha256 = "0bvw5fjbs5vys0rq71c5zzj41ss1rbprvxmnkpjcjgfr52da30ml";
         }
       ];
     };
@@ -27530,6 +27780,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/217639c3d995bd994cb06bc0a841e213860a5d88/Render/mpl_Render-in-place.lua";
           sha256 = "1y3dmbr60ihbvm1bkgphhgwwa2w3mny05ivqhhvgnln7zpna7ldw";
+        }
+      ];
+    };
+    mpl-render-in-place-lua-1-28 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-render-in-place-lua-1-28";
+      indexName = "MPL Scripts";
+      categoryName = "Render";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/62b586a9a674c3e6d12d1ade4f49c486dde7265c/Render/mpl_Render-in-place.lua";
+          sha256 = "166cim0j7q7l66f6vrnr32j9hn4r0lgphwh0kci5divq4rx2ln5r";
         }
       ];
     };
@@ -32097,6 +32361,20 @@
         }
       ];
     };
+    mpl-decrease-trim-volume-envelope-of-selected-tracks-by-1db-lua-1-02 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-decrease-trim-volume-envelope-of-selected-tracks-by-1db-lua-1-02";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/e2849b0b9a889f5dfe99ff4d8f561531fd88f444/Tracks%20Properties/mpl_Decrease%20trim%20volume%20envelope%20of%20selected%20tracks%20by%201dB.lua";
+          sha256 = "0l6lq8ar2l9zv909198si9k28l3l2640mjyjk84w3ppg906apwkx";
+        }
+      ];
+    };
     mpl-delete-x-characters-from-selected-track-names-lua-1-01 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-delete-x-characters-from-selected-track-names-lua-1-01";
@@ -33441,6 +33719,34 @@
         }
       ];
     };
+    mpl-store-selected-track-as-fixed-arm-track-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-store-selected-track-as-fixed-arm-track-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/951cb6b8d13d4d204f6db2b565d89d0f1ba5d721/Tracks%20Properties/mpl_Store%20selected%20track%20as%20fixed-arm%20track.lua";
+          sha256 = "1b6ysjhjwdwb63aawj17439zyzx9n1442nh19w1r5zs723hq7v29";
+        }
+      ];
+    };
+    mpl-store-selected-track-as-fixed-arm-track-lua-1-01 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-store-selected-track-as-fixed-arm-track-lua-1-01";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/b880777465905ce3e8f90a8609b0c7f215449dd5/Tracks%20Properties/mpl_Store%20selected%20track%20as%20fixed-arm%20track.lua";
+          sha256 = "1m1827lgjasnb17qlf8140av63vipgs9cgiwax4825dgrh9pk6jf";
+        }
+      ];
+    };
     mpl-swap-master-channels-cycle-width-100-100-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-swap-master-channels-cycle-width-100-100-lua-1-0";
@@ -33466,6 +33772,62 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/002ad736f4670669a14cdf007f53e573cac57c6c/Tracks%20Properties/mpl_Swap%20master%20channels%20(cycle%20width%20100...-100).lua";
           sha256 = "1zqa3492kwi2wxfa9az6y29lgb7svkpaphxvjnq2hdj2amw0gsmr";
+        }
+      ];
+    };
+    mpl-toggle-arm-for-fixed-arm-track-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-toggle-arm-for-fixed-arm-track-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/951cb6b8d13d4d204f6db2b565d89d0f1ba5d721/Tracks%20Properties/mpl_Toggle%20arm%20for%20fixed-arm%20track.lua";
+          sha256 = "1cqsj1jp7mxnja5iac3kg433071whyiw7dl606ywkk8ag8mv1s9g";
+        }
+      ];
+    };
+    mpl-toggle-arm-for-fixed-arm-track-lua-1-01 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-toggle-arm-for-fixed-arm-track-lua-1-01";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/179ff269666bf90c7917fc59dafbf44a8080673f/Tracks%20Properties/mpl_Toggle%20arm%20for%20fixed-arm%20track.lua";
+          sha256 = "1dzxbn0ywg7qim81wlc65ml3lm3zxvx0mfxpnmxp0fw3149zqqx8";
+        }
+      ];
+    };
+    mpl-toggle-arm-for-fixed-arm-track-lua-1-02 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-toggle-arm-for-fixed-arm-track-lua-1-02";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/d8103daa0f3e6c23c79ee50620418970cc338387/Tracks%20Properties/mpl_Toggle%20arm%20for%20fixed-arm%20track.lua";
+          sha256 = "1prb0yk7ja85da0jym4xvzbv01smjarffyy37k7n12sgqjjd0ihl";
+        }
+      ];
+    };
+    mpl-toggle-arm-for-fixed-arm-track-lua-1-03 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-toggle-arm-for-fixed-arm-track-lua-1-03";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/b880777465905ce3e8f90a8609b0c7f215449dd5/Tracks%20Properties/mpl_Toggle%20arm%20for%20fixed-arm%20track.lua";
+          sha256 = "1gf8h9qqsi5kmqp1x4x4wnrqdib3awsj0vhxwffivq8jiwzz9a2h";
         }
       ];
     };

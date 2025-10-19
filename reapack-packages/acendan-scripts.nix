@@ -8811,6 +8811,20 @@
         }
       ];
     };
+    acendan-timecode-manager-lua-1-08 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "acendan-timecode-manager-lua-1-08";
+      indexName = "ACendan Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/acendan/reascripts/raw/92a328d645e02aa0c078a44fd415e70eaa44d1cd/Various/acendan_Timecode%20Manager.lua";
+          sha256 = "05qw2zza9b5vnqcym2ydb0yadk789pafmhx3zcy69smrb0a5s4w7";
+        }
+      ];
+    };
     acendan-ucs-renaming-tool-media-explorer-filter-lua-4-2 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "acendan-ucs-renaming-tool-media-explorer-filter-lua-4-2";

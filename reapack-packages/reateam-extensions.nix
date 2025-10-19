@@ -6873,6 +6873,35 @@
         }
       ];
     };
+    navelpluisje-reasonus-native-ext-0-3-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "navelpluisje-reasonus-native-ext-0-3-0";
+      indexName = "ReaTeam Extensions";
+      categoryName = "Control Surfaces";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_ReasonusNative-arm64-x86_64.dylib'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.3.0/reaper_ReasonusNative-arm64-x86_64.dylib";
+          sha256 = "1nd4n44s7a2fi99bn7vjayg1bw0x61scpp8clhw2v60g1abszw0r";
+        }
+        {
+          path = ''reaper_ReasonusNative-x64.dll'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.3.0/reaper_ReasonusNative-x64.dll";
+          sha256 = "1v4y7ci7i51sxd84kpi5wxlngmvh70v4li3gqrc2kmrk9nvddvcv";
+        }
+        {
+          path = ''reaper_ReasonusNative-x86.dll'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.3.0/reaper_ReasonusNative-x86.dll";
+          sha256 = "0z96xl69503g5zdbk0gbiyjfa8p3sb7j2q4q0yzzjfx4aiasv8xk";
+        }
+        {
+          path = ''reaper_ReasonusNative-arm64-x86_64.dylib'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.3.0/reaper_ReasonusNative-arm64-x86_64.dylib";
+          sha256 = "1nd4n44s7a2fi99bn7vjayg1bw0x61scpp8clhw2v60g1abszw0r";
+        }
+      ];
+    };
     ruxton-tascamus2400-ext-1-2-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ruxton-tascamus2400-ext-1-2-1";

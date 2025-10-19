@@ -397,6 +397,20 @@
         }
       ];
     };
+    x-raym-round-selected-envelope-points-value-eel-1-3-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-round-selected-envelope-points-value-eel-1-3-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/X-Raym_Round%20selected%20envelope%20points%20value.eel";
+          sha256 = "026gk9gmim22myccrp4360zzxz58irci6ayp0rnmg5sjmvxpmj28";
+        }
+      ];
+    };
     x-raym-select-envelope-point-at-edit-cursor-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-select-envelope-point-at-edit-cursor-lua-1-0";
@@ -646,6 +660,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/b5a1cae8185f739e631c15ca844ec9a1c6460a13/Envelopes/Across%20Tracks/X-Raym_Merge%20visible%20armed%20envelopes%20of%20selected%20track%20to%20selected%20tracks%20VCA%20like).lua";
           sha256 = "10gn6vmynd8354p91v1clsmfvfms49a8dnc6ai7bx58im4hd6kjy";
+        }
+      ];
+    };
+    x-raym-merge-visible-armed-envelopes-of-selected-track-to-selected-tracks-vca-like-lua-1-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-merge-visible-armed-envelopes-of-selected-track-to-selected-tracks-vca-like-lua-1-1-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/Across Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/Across%20Tracks/X-Raym_Merge%20visible%20armed%20envelopes%20of%20selected%20track%20to%20selected%20tracks%20VCA%20like).lua";
+          sha256 = "0qn7kl0skswk0gl724rlq6fhc928aav6laf57h1qs0q17b8x2dxl";
         }
       ];
     };
@@ -1307,6 +1335,20 @@
         }
       ];
     };
+    x-raym-add-envelope-points-at-time-selection-edges-from-xdb-to-xdb-preserving-edges-on-volume-envelope-lua-1-0-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-add-envelope-points-at-time-selection-edges-from-xdb-to-xdb-preserving-edges-on-volume-envelope-lua-1-0-2";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Add%20envelope%20points%20at%20time%20selection%20edges%20from%20XdB%20to%20XdB%20preserving%20edges%20on%20Volume%20envelope.lua";
+          sha256 = "0r3znjrsx6rn9njmh7k9mwrjahl03zzvy7kmkbpd929bakc7jxax";
+        }
+      ];
+    };
     x-raym-add-point-on-envelopes-at-edit-cursor-with-center-value-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-add-point-on-envelopes-at-edit-cursor-with-center-value-lua-1-0";
@@ -1699,6 +1741,20 @@
         }
       ];
     };
+    x-raym-invert-envelope-points-values-preserving-edges-if-time-selection-lua-1-5-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-invert-envelope-points-values-preserving-edges-if-time-selection-lua-1-5-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Invert%20envelope%20points%20values%20preserving%20edges%20if%20time%20selection.lua";
+          sha256 = "1hvpa5w6anndajl3q79a5lkcrjwmylc5ly4i0hzmww776z8qnqyc";
+        }
+      ];
+    };
     x-raym-invert-envelope-points-values-lua-1-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-invert-envelope-points-values-lua-1-1";
@@ -1724,6 +1780,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/b5a1cae8185f739e631c15ca844ec9a1c6460a13/Envelopes/On%20Tracks/X-Raym_Invert%20envelope%20points%20values.lua";
           sha256 = "0l1c3cvwidsy5v088l04k2jjld8mr2v02i402y060ppx7pz333c3";
+        }
+      ];
+    };
+    x-raym-invert-envelope-points-values-lua-1-4-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-invert-envelope-points-values-lua-1-4-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Invert%20envelope%20points%20values.lua";
+          sha256 = "12fq5xp405x00fy5cfp4icicd13dip208bvpspdvi6j37q3dl8rl";
         }
       ];
     };
@@ -1909,6 +1979,20 @@
         }
       ];
     };
+    x-raym-set-flat-points-value-in-time-selection-preserving-edges-if-time-selection-lua-1-6-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-flat-points-value-in-time-selection-preserving-edges-if-time-selection-lua-1-6-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Set%20flat%20points%20value%20in%20time%20selection%20preserving%20edges%20if%20time%20selection.lua";
+          sha256 = "0qc08gdwxhyf52gg7n7flczxm2v9cmhnav0n813m1ddg0kxs854v";
+        }
+      ];
+    };
     x-raym-set-flat-points-value-in-time-selection-lua-1-6 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-set-flat-points-value-in-time-selection-lua-1-6";
@@ -1920,6 +2004,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/b5a1cae8185f739e631c15ca844ec9a1c6460a13/Envelopes/On%20Tracks/X-Raym_Set%20flat%20points%20value%20in%20time%20selection.lua";
           sha256 = "11cgibz19g1wk2c2bp6kkm3j0xy8k5r2j0mscxf718388mbd8dwj";
+        }
+      ];
+    };
+    x-raym-set-flat-points-value-in-time-selection-lua-1-6-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-flat-points-value-in-time-selection-lua-1-6-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Set%20flat%20points%20value%20in%20time%20selection.lua";
+          sha256 = "1p358a6am2lrdxp19jsg2frb934dx2s56d22zj2q1x76c7vlssjh";
         }
       ];
     };
@@ -1937,6 +2035,20 @@
         }
       ];
     };
+    x-raym-set-or-offset-envelope-points-preserving-edges-if-time-selection-lua-1-6-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-or-offset-envelope-points-preserving-edges-if-time-selection-lua-1-6-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Set%20or%20Offset%20envelope%20points%20preserving%20edges%20if%20time%20selection.lua";
+          sha256 = "1jf4hfnd6xl2cawg0cafs0xyxdl8fayg49shag4qqzqkq1qihkxn";
+        }
+      ];
+    };
     x-raym-set-or-offset-envelope-points-value-lua-1-6 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-set-or-offset-envelope-points-value-lua-1-6";
@@ -1948,6 +2060,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/b5a1cae8185f739e631c15ca844ec9a1c6460a13/Envelopes/On%20Tracks/X-Raym_Set%20or%20Offset%20envelope%20points%20value.lua";
           sha256 = "15v49wnwa1bwf5snzh1vx3snbrwpb8iyxhb7p0kaagq48xvrkfvi";
+        }
+      ];
+    };
+    x-raym-set-or-offset-envelope-points-value-lua-1-6-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-or-offset-envelope-points-value-lua-1-6-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Set%20or%20Offset%20envelope%20points%20value.lua";
+          sha256 = "14rbda5935ml9k3h11z4i0s0hh4h8x4ppdcgdqvggqzgwddfx1k1";
         }
       ];
     };
@@ -1976,6 +2102,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/5995415671bd8869000a7dfb999c878586f62c0a/Envelopes/On%20Tracks/X-Raym_Set%20selected%20tracks%20parameters%20values%20with%20envelopes%20values%20at%20edit%20cursor.lua";
           sha256 = "1zzkjy7yxr66lpc11xaxf5gfszi6acppkhm5k73bdl2zam32wgxk";
+        }
+      ];
+    };
+    x-raym-set-selected-tracks-parameters-values-with-envelopes-values-at-edit-cursor-lua-1-2-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-selected-tracks-parameters-values-with-envelopes-values-at-edit-cursor-lua-1-2-2";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Set%20selected%20tracks%20parameters%20values%20with%20envelopes%20values%20at%20edit%20cursor.lua";
+          sha256 = "1xhjydq84fqh2w5vr4a6zpw781n03r5lccsl8l2j00wjzvqrn425";
         }
       ];
     };
@@ -2032,6 +2172,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/b5a1cae8185f739e631c15ca844ec9a1c6460a13/Envelopes/On%20Tracks/X-Raym_Trim%20selected%20tracks%20parameters%20values%20with%20envelopes%20values%20at%20edit%20cursor.lua";
           sha256 = "1i27qwj27b3x97imdjp4xahlsgci7sx2vhx61fx1k43rjl2y0i31";
+        }
+      ];
+    };
+    x-raym-trim-selected-tracks-parameters-values-with-envelopes-values-at-edit-cursor-lua-1-2-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-trim-selected-tracks-parameters-values-with-envelopes-values-at-edit-cursor-lua-1-2-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Envelopes/On Tracks";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Envelopes/On%20Tracks/X-Raym_Trim%20selected%20tracks%20parameters%20values%20with%20envelopes%20values%20at%20edit%20cursor.lua";
+          sha256 = "0ql4cc4grqqnq53hp25g3z16d37bzlkj8lx5643knmrv6y7acxgb";
         }
       ];
     };
@@ -5395,6 +5549,20 @@
         }
       ];
     };
+    x-raym-nudge-active-takes-volume-randomly-normal-distribution-with-gui-eel-1-0-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-nudge-active-takes-volume-randomly-normal-distribution-with-gui-eel-1-0-4";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Nudge%20active%20takes%20volume%20randomly%20(normal%20distribution)%20with%20GUI.eel";
+          sha256 = "13y82b72s4lfg1v6h3hidiygzhwrwx9s5ajm2f6h2xv5igq4lj28";
+        }
+      ];
+    };
     x-raym-nudge-selected-items-volume-plus0-1db-eel-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-nudge-selected-items-volume-plus0-1db-eel-1-0";
@@ -5406,6 +5574,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/69e766a7098f62f3b320f2e23a6328613e95b8d2/Items%20Properties/X-Raym_Nudge%20selected%20items%20volume%20+0.1db.eel";
           sha256 = "08y0k75bdvbxjvadr0sfcdxvm9w8csv2din15ns90nsmxy4mvf5i";
+        }
+      ];
+    };
+    x-raym-nudge-selected-items-volume-plus0-1db-eel-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-nudge-selected-items-volume-plus0-1db-eel-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Nudge%20selected%20items%20volume%20+0.1db.eel";
+          sha256 = "0yn1m11fssqfspllv5nwk2fkq0pxafjr8fyds8x1v2rfyini5jf4";
         }
       ];
     };
@@ -5423,6 +5605,20 @@
         }
       ];
     };
+    x-raym-nudge-selected-items-volume-plus0-5db-eel-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-nudge-selected-items-volume-plus0-5db-eel-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Nudge%20selected%20items%20volume%20+0.5db.eel";
+          sha256 = "0f73jx5l6qyc825sad7qnxjg4zlr78g2m1kmg89fd8nmfrihfbif";
+        }
+      ];
+    };
     x-raym-nudge-selected-items-volume-0-1db-eel-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-nudge-selected-items-volume-0-1db-eel-1-0";
@@ -5437,6 +5633,20 @@
         }
       ];
     };
+    x-raym-nudge-selected-items-volume-0-1db-eel-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-nudge-selected-items-volume-0-1db-eel-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Nudge%20selected%20items%20volume%20-0.1db.eel";
+          sha256 = "02fx24fp5wanq5h6r2m71xjkqcyq7gjkqn46ky5qrvzi0x1v29sl";
+        }
+      ];
+    };
     x-raym-nudge-selected-items-volume-0-5db-eel-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-nudge-selected-items-volume-0-5db-eel-1-0";
@@ -5448,6 +5658,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/69e766a7098f62f3b320f2e23a6328613e95b8d2/Items%20Properties/X-Raym_Nudge%20selected%20items%20volume%20-0.5db.eel";
           sha256 = "08f4q81srbwxl4l9qamls5fza3qa9dpjfn6hx48air4rg2249py6";
+        }
+      ];
+    };
+    x-raym-nudge-selected-items-volume-0-5db-eel-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-nudge-selected-items-volume-0-5db-eel-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Nudge%20selected%20items%20volume%20-0.5db.eel";
+          sha256 = "05rbpwch54b4ymmlw0lw6y384hnb2pl79l03s8zqkczh6drj90d5";
         }
       ];
     };
@@ -6095,6 +6319,20 @@
         }
       ];
     };
+    x-raym-round-selected-items-volume-one-decimal-eel-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-round-selected-items-volume-one-decimal-eel-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Round%20selected%20items%20volume%20-%20one%20decimal.eel";
+          sha256 = "1ifvgpbj9fg7dlw0fdw6gdn14kx111r8m18pl5nhbp6hxzdp88ya";
+        }
+      ];
+    };
     x-raym-search-and-replace-in-selected-active-takes-names-lua-1-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-search-and-replace-in-selected-active-takes-names-lua-1-1";
@@ -6473,6 +6711,20 @@
         }
       ];
     };
+    x-raym-set-selected-audio-takes-gain-by-columns-according-to-takes-average-rms-lua-2-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-selected-audio-takes-gain-by-columns-according-to-takes-average-rms-lua-2-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Set%20selected%20audio%20takes%20gain%20by%20columns%20according%20to%20takes%20average%20RMS.lua";
+          sha256 = "1zhgylwhz2wzv2fs8x7k6pvnbf7zgdchp90w2nfq2ldczxqybsaz";
+        }
+      ];
+    };
     x-raym-set-selected-audio-takes-gain-by-columns-according-to-takes-max-peak-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-set-selected-audio-takes-gain-by-columns-according-to-takes-max-peak-lua-1-0";
@@ -6498,6 +6750,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/44d85aa6e4bb4e32cc6be6f2de095de6995d2681/Items%20Properties/X-Raym_Set%20selected%20audio%20takes%20gain%20by%20columns%20according%20to%20takes%20max%20peak.lua";
           sha256 = "0cf0hlwqfp9vy77q53sx2hkjs1wlxrw5prsjbnp6yfywyrcxh4lc";
+        }
+      ];
+    };
+    x-raym-set-selected-audio-takes-gain-by-columns-according-to-takes-max-peak-lua-2-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-selected-audio-takes-gain-by-columns-according-to-takes-max-peak-lua-2-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Set%20selected%20audio%20takes%20gain%20by%20columns%20according%20to%20takes%20max%20peak.lua";
+          sha256 = "19v2zjmdxm4yd4shapljgd7msrahs6k0s5a7wi87pidfpp72gp8j";
         }
       ];
     };
@@ -6764,6 +7030,20 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/69e766a7098f62f3b320f2e23a6328613e95b8d2/Items%20Properties/X-Raym_Set%20selected%20takes%20volume%20from%20-x%20to%20+x.eel";
           sha256 = "0pi877nc30d2q3qg8kz9dfz8kz3hfvflw816d7h74vfflb7jhyp5";
+        }
+      ];
+    };
+    x-raym-set-selected-takes-volume-from-x-to-plusx-eel-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-selected-takes-volume-from-x-to-plusx-eel-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Items Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/145811b445e303c3a8d432d8fb29171c13e46ac2/Items%20Properties/X-Raym_Set%20selected%20takes%20volume%20from%20-x%20to%20+x.eel";
+          sha256 = "0zhpyrlan8n52iaqmkvsg0flhg32cg842c8vnn2jywcz7y93hql2";
         }
       ];
     };

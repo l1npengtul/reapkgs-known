@@ -8020,6 +8020,20 @@
         }
       ];
     };
+    az-set-envelope-in-time-selection-or-segment-under-mouse-to-0-db-or-center-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "az-set-envelope-in-time-selection-or-segment-under-mouse-to-0-db-or-center-lua-1-0";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Envelopes";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/f98609245925fc07c9430e3e97a2c07733f9fdf2/Envelopes/az_Set%20envelope%20in%20time%20selection%20or%20segment%20under%20mouse%20to%200%20dB%20or%20center.lua";
+          sha256 = "0idk1drxc287b6n7ypggr55j8bqmvv0jn2aqgig7bify97ksqyg9";
+        }
+      ];
+    };
     buyone-un-collapse-envelope-lanes-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "buyone-un-collapse-envelope-lanes-lua-1-0";
@@ -16508,6 +16522,30 @@
         {
           path = ''az_Fade tool (work on context of mouse, razor or time selection)/az_Open options for az_Fade tool.lua'';
           url = "https://github.com/ReaTeam/ReaScripts/raw/b2f92de3e4019d87921ed2d99a9c613782f8fee0/Items%20Editing/az_Fade%20tool%20(work%20on%20context%20of%20mouse,%20razor%20or%20time%20selection)/az_Open%20options%20for%20az_Fade%20tool.lua";
+          sha256 = "08cwc7hvnrh113h3b3s4m4zdq6ycb1xaq9m5gfl0sc0qsy93pjxh";
+        }
+      ];
+    };
+    az-fade-tool-work-on-context-of-mouse-razor-or-time-selection-lua-2-4 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "az-fade-tool-work-on-context-of-mouse-razor-or-time-selection-lua-2-4";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bdf7f0112a031fee743b8dd98b19d35e5e24b4cb/Items%20Editing/az_Fade%20tool%20(work%20on%20context%20of%20mouse,%20razor%20or%20time%20selection).lua";
+          sha256 = "15y8a5m7l86w24h8rh74wpzxl157j27772nl8irb9s5mcn9wgyb8";
+        }
+        {
+          path = ''az_Fade tool (work on context of mouse, razor or time selection)/az_Options window for az_Fade tool.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bdf7f0112a031fee743b8dd98b19d35e5e24b4cb/Items%20Editing/az_Fade%20tool%20(work%20on%20context%20of%20mouse,%20razor%20or%20time%20selection)/az_Options%20window%20for%20az_Fade%20tool.lua";
+          sha256 = "0c2hmd09fnczjysr096anznljfzxkm351gccb5bn59qyiq51qzxn";
+        }
+        {
+          path = ''az_Fade tool (work on context of mouse, razor or time selection)/az_Open options for az_Fade tool.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bdf7f0112a031fee743b8dd98b19d35e5e24b4cb/Items%20Editing/az_Fade%20tool%20(work%20on%20context%20of%20mouse,%20razor%20or%20time%20selection)/az_Open%20options%20for%20az_Fade%20tool.lua";
           sha256 = "08cwc7hvnrh113h3b3s4m4zdq6ycb1xaq9m5gfl0sc0qsy93pjxh";
         }
       ];

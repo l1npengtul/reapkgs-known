@@ -3163,6 +3163,25 @@
         }
       ];
     };
+    tight-compressor-jsfx-0-23 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "tight-compressor-jsfx-0-23";
+      indexName = "Saike Tools";
+      categoryName = "Basics";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/JoepVanlier/JSFX/raw/573b3f55efb3983efb9da99a3354776e7d4ab170/Basics/Tight_Compressor.jsfx";
+          sha256 = "0n1p5wdih46grgxk7yfwxqq7xk1jzlq9zdpah6xv2kk3d962dsf8";
+        }
+        {
+          path = ''saike_upsamplers.jsfx-inc'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/573b3f55efb3983efb9da99a3354776e7d4ab170/Basics/saike_upsamplers.jsfx-inc";
+          sha256 = "0rhsh4kv8aq275hsfz1baalsn3hggy82djihc880ki0vww3v6m62";
+        }
+      ];
+    };
     tonestacks-jsfx-0-01 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "tonestacks-jsfx-0-01";
@@ -11153,6 +11172,25 @@
         {
           path = ''Filther.jsfx.rpl'';
           url = "https://github.com/JoepVanlier/JSFX/raw/f13d210af3e5fff22012701e94540921dbac6af0/Filther/Filther.jsfx.rpl";
+          sha256 = "10x3xfa2zmrkd4ba0cxr3q8axmnhs724ffg3gkbh3ac5yvwa3y38";
+        }
+      ];
+    };
+    filther-jsfx-3-21 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "filther-jsfx-3-21";
+      indexName = "Saike Tools";
+      categoryName = "Filther";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/JoepVanlier/JSFX/raw/72e293b920654af81771a45b660162fb6cebe63e/Filther/Filther.jsfx";
+          sha256 = "0ww1wzrqyy9sn36ry67zana577ad73w75gi27bc5sy0y5kv86ywa";
+        }
+        {
+          path = ''Filther.jsfx.rpl'';
+          url = "https://github.com/JoepVanlier/JSFX/raw/72e293b920654af81771a45b660162fb6cebe63e/Filther/Filther.jsfx.rpl";
           sha256 = "10x3xfa2zmrkd4ba0cxr3q8axmnhs724ffg3gkbh3ac5yvwa3y38";
         }
       ];
