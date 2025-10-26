@@ -160,22 +160,22 @@
         {
           path = ''yt-dlp/yt-dlp.exe'';
           url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe";
-          sha256 = "19yixirn2kfnff1ylwqccm5d7amd1013phvpbhaa59v4kc6bi94v";
+          sha256 = "0hsz4xdg8xcp7ncfh5bxyjby303zrjmvaa48y5jbc5sihpqqjjzm";
         }
         {
           path = ''yt-dlp/yt-dlp_macos'';
           url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos";
-          sha256 = "1d5hn32i4vwjjyax27zv7xapj0xflwzd9kifmirhhj2gsdzqvx5p";
+          sha256 = "1g72011wfl1p82abaaljmkl0hr65v4bnb89cchpsb6s3v6qxzh17";
         }
         {
           path = ''yt-dlp/yt-dlp_macos'';
           url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos";
-          sha256 = "1d5hn32i4vwjjyax27zv7xapj0xflwzd9kifmirhhj2gsdzqvx5p";
+          sha256 = "1g72011wfl1p82abaaljmkl0hr65v4bnb89cchpsb6s3v6qxzh17";
         }
         {
           path = ''yt-dlp/yt-dlp_linux'';
           url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp";
-          sha256 = "0s0bdqmlhm5dzdvx7c4ag8038kzshhlbhnllb8b5zzkiz01q2k8h";
+          sha256 = "0kwxk1rby8i62701zpdwwzrh0a8hb463j8cb9l4n609l8mv6i6gx";
         }
         {
           path = '''';

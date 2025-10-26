@@ -1428,6 +1428,48 @@
         }
       ];
     };
+    mschnellsid-xy-pad-x-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mschnellsid-xy-pad-x-jsfx-1-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/60fb85c40ba5892eedb920858713c0520b814064/MIDI/mschnellsid_XY%20Pad%20X.jsfx";
+          sha256 = "02rvwjgl7qzxaigq2j6h2kzc8kfdc8di4bynr67rwk1v22fpdfg4";
+        }
+      ];
+    };
+    mschnellsid-xy-pad-x-jsfx-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mschnellsid-xy-pad-x-jsfx-1-1";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/ceca2b742cd905179d7425ff84c65db331e10993/MIDI/mschnellsid_XY%20Pad%20X.jsfx";
+          sha256 = "1ncczllpz6bh4i2b01g73f46kbbfnxmp2swxf146radyl5hn36rm";
+        }
+      ];
+    };
+    mschnellsid-xy-pad-x-jsfx-1-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mschnellsid-xy-pad-x-jsfx-1-2";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/6ec56a68405ab3ff39da422a8665e9c2030b3086/MIDI/mschnellsid_XY%20Pad%20X.jsfx";
+          sha256 = "04zf1ibyhr0f5p5m320qq9v9f1sxbh0hp5swh5lzxcjdwgn6s775";
+        }
+      ];
+    };
     polgo-midi-envelocity-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "polgo-midi-envelocity-jsfx-1-0";

@@ -13206,6 +13206,48 @@
         }
       ];
     };
+    x-raym-set-selected-items-text-notes-stretching-to-fit-lua-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-selected-items-text-notes-stretching-to-fit-lua-1-0-0";
+      indexName = "X-Raym Scripts";
+      categoryName = "Text Items and Item Notes/Formatting";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/5d63abf07f3e4b87389a25e88e44602c2d1ccb17/Text%20Items%20and%20Item%20Notes/Formatting/X-Raym_Set%20selected%20items%20text%20notes%20stretching%20to%20fit.lua";
+          sha256 = "066g2sfry3m6sl8xmfq8fnh6l2d4p4v368g2d8jix15hvjsgxh65";
+        }
+      ];
+    };
+    x-raym-set-selected-items-text-notes-stretching-to-off-lua-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-set-selected-items-text-notes-stretching-to-off-lua-1-0-0";
+      indexName = "X-Raym Scripts";
+      categoryName = "Text Items and Item Notes/Formatting";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/5d63abf07f3e4b87389a25e88e44602c2d1ccb17/Text%20Items%20and%20Item%20Notes/Formatting/X-Raym_Set%20selected%20items%20text%20notes%20stretching%20to%20off.lua";
+          sha256 = "0bgyjgl8h26fcwjyginyz2vyzi0inkxs9gfv1rjhmv8jn5wh5jgx";
+        }
+      ];
+    };
+    x-raym-toggle-selected-items-text-notes-stretching-lua-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-toggle-selected-items-text-notes-stretching-lua-1-0-0";
+      indexName = "X-Raym Scripts";
+      categoryName = "Text Items and Item Notes/Formatting";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/5d63abf07f3e4b87389a25e88e44602c2d1ccb17/Text%20Items%20and%20Item%20Notes/Formatting/X-Raym_Toggle%20selected%20items%20text%20notes%20stretching.lua";
+          sha256 = "1zcv7swk9g8x2q4b3k8wp9yk15ym06f87y0fa5ilgalpx97yjjvy";
+        }
+      ];
+    };
     x-raym-uppercase-selected-items-notes-lua-2-0-2 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-uppercase-selected-items-notes-lua-2-0-2";

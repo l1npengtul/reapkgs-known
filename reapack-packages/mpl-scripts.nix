@@ -27797,6 +27797,20 @@
         }
       ];
     };
+    mpl-render-in-place-lua-1-29 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-render-in-place-lua-1-29";
+      indexName = "MPL Scripts";
+      categoryName = "Render";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/6859f305413ee7b73d4a17a74922ae0fb2fa7c3d/Render/mpl_Render-in-place.lua";
+          sha256 = "1xhj0i0s1rlyhhqc017hm7vnxr34jag4lcq9giifrk20yc40agbj";
+        }
+      ];
+    };
     mpl-set-render-bounds-to-entire-project-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-set-render-bounds-to-entire-project-lua-1-0";
@@ -35133,6 +35147,20 @@
         }
       ];
     };
+    mpl-align-takes-lua-3-11 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-align-takes-lua-3-11";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/ed79b6630821a6052dd83bb04a86a060c64ec867/Various/mpl_Align%20takes.lua";
+          sha256 = "1bq8h6fbn8cmhnlkfkmz80iknszw6m6fw91qzbzp8jwmnyrdmv0a";
+        }
+      ];
+    };
     mpl-delete-non-existing-scripts-from-actionlist-lua-1-02 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-delete-non-existing-scripts-from-actionlist-lua-1-02";
@@ -37014,6 +37042,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/94359b237c1c84e5e67d1a5fe08bdb89148ab01c/Various/mpl_ImportSessionData.lua";
           sha256 = "1jfk57026miax09sxidn2sqqz6akfhkw83wdsz7zb26bnmyq7rs9";
+        }
+      ];
+    };
+    mpl-importsessiondata-lua-2-28 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-importsessiondata-lua-2-28";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/20f2f688e82ed0afbf05e74cfd18bfdeb188b90c/Various/mpl_ImportSessionData.lua";
+          sha256 = "1hcxz6mm4wz377swswkarin5djsxv4s7m4z3za9rhk0114qwdb6f";
         }
       ];
     };

@@ -5,6 +5,20 @@
   fetchurl,
 }: {
   ply-scripts = {
+    ply-add-empty-items-on-selected-tracks-within-time-selection-lua-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ply-add-empty-items-on-selected-tracks-within-time-selection-lua-1-0-0";
+      indexName = "ply Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ply/ReaScripts/raw/57446c55502ad19487e34dc31857d4033775da7e/Items%20Editing/ply_Add%20empty%20items%20on%20selected%20tracks%20within%20time%20selection.lua";
+          sha256 = "1p6kwwznka1wl23y88y7dd2kwl3mdag95k7hcybxj9s65kzj2dk0";
+        }
+      ];
+    };
     ply-synchronize-and-heal-selected-items-lua-0-2-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ply-synchronize-and-heal-selected-items-lua-0-2-1";
@@ -216,6 +230,65 @@
         }
       ];
     };
+    ply-delete-marker-lua-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ply-delete-marker-lua-1-0-0";
+      indexName = "ply Scripts";
+      categoryName = "Markers";
+      packageType = "script";
+      sources = [
+        {
+          path = ''ply_Delete marker 01.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 02.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 03.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 04.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 05.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 06.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 07.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 08.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 09.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+        {
+          path = ''ply_Delete marker 10.lua'';
+          url = "https://github.com/ply/ReaScripts/raw/dc589fb4ceaa27caedb402276b6cd748264f55c5/Markers/ply_Delete%20marker.lua";
+          sha256 = "03zqbalw34j2vr1rwn8yqqj1z25zpc9g92zw1wf0c9l2iv0didcy";
+        }
+      ];
+    };
     ply-insert-marker-with-id-larger-than-10-at-playback-position-dialog-lua-1-2-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "ply-insert-marker-with-id-larger-than-10-at-playback-position-dialog-lua-1-2-1";
@@ -325,6 +398,20 @@
           path = '''';
           url = "https://github.com/ply/ReaScripts/raw/c6272281b98d970362e8ec526d78075b343c1e14/Various/ply_Playhead%20vs%20selected%20track%20items%20and%20markers%20window.lua";
           sha256 = "0hcsdmq9kfp4nghb8xar4mi2zqvac58prkz2bj8xif7kjhrmfxys";
+        }
+      ];
+    };
+    ply-playhead-vs-selected-track-items-and-markers-window-lua-1-3-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "ply-playhead-vs-selected-track-items-and-markers-window-lua-1-3-0";
+      indexName = "ply Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ply/ReaScripts/raw/deb3f4ee23cfea235168e7df5a0c5c800cfe7998/Various/ply_Playhead%20vs%20selected%20track%20items%20and%20markers%20window.lua";
+          sha256 = "056j54x1lxa5vcz6pdjzz3i823ap4zmw7j1p3lzbi2xsrj5ixc85";
         }
       ];
     };

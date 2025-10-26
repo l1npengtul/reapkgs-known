@@ -3153,6 +3153,20 @@
         }
       ];
     };
+    auto-deesser-jsfx-0-5-0beta = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "auto-deesser-jsfx-0-5-0beta";
+      indexName = "StevieKeys JSFX";
+      categoryName = "utility";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/Steviekeys/StevieKeys_JSFX2/raw/6fbde838fbc4c7656d6c145f47eff339a6396c13/utility/Auto%20DeEsser.jsfx";
+          sha256 = "1h5g9ph3j8j0mcfvlp17f31mz4mwxyv3d0f0ci0m9w101h3wk9x0";
+        }
+      ];
+    };
     dual-360-pan-jsfx-0-8-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "dual-360-pan-jsfx-0-8-0";
