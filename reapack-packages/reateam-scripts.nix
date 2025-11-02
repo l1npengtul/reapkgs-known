@@ -7782,6 +7782,153 @@
         }
       ];
     };
+    talagan-reaimgui-markdown-lua-0-1-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-reaimgui-markdown-lua-0-1-6";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Development";
+      packageType = "script";
+      sources = [
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/ext/imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/deabe41bcc0adb17c13acdc431850cafa62cda94/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/ext/imgui.lua";
+          sha256 = "0r349qv1gd4b42vavk6b0l4i6psphn1psn3ga2wmwfvvnmrk8r9c";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-ast.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/deabe41bcc0adb17c13acdc431850cafa62cda94/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-ast.lua";
+          sha256 = "1pmsdv269c4rg0lw9wxamn2357r2pvy0cny0dj7vjj244z55w6jn";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-html.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/deabe41bcc0adb17c13acdc431850cafa62cda94/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-html.lua";
+          sha256 = "0bc2hx54n5wlybqhn858z8nc91vn3zk6sahd3sxhcnpf4hddv905";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/deabe41bcc0adb17c13acdc431850cafa62cda94/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-imgui.lua";
+          sha256 = "0mq8wyp6ilg2m8xxzxd9zwakp24ifp3phbvc9i34lfwvp56lnrrs";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-test.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/deabe41bcc0adb17c13acdc431850cafa62cda94/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-test.lua";
+          sha256 = "05ll2h2vijcrsrs8cy78i4b7yi7zk407rrb5xm4x39f74qs9wppm";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-text.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/deabe41bcc0adb17c13acdc431850cafa62cda94/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-text.lua";
+          sha256 = "0ycb6k9hx09x6rz85i617x6hm2d9bavakgr3yakn9zq26531j52j";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/deabe41bcc0adb17c13acdc431850cafa62cda94/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown.lua";
+          sha256 = "0qdcj4ic5yfj4lcd154f5f1c5b4d3kn4s22mvcdsc4mnnbnw7azv";
+        }
+        {
+          path = ''./talagan_ReaImGui Markdown Demo.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/deabe41bcc0adb17c13acdc431850cafa62cda94/Development/talagan_ReaImGui%20Markdown/actions/talagan_ReaImGui%20Markdown%20Demo.lua";
+          sha256 = "1a9zmjrv19305aryn6hcwskk242b5jyag75fwdwq84xiphw6anfv";
+        }
+      ];
+    };
+    talagan-reaimgui-markdown-lua-0-1-7 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-reaimgui-markdown-lua-0-1-7";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Development";
+      packageType = "script";
+      sources = [
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/ext/imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bb511969cb48239bb26d8c893b24c3d0500a76aa/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/ext/imgui.lua";
+          sha256 = "0r349qv1gd4b42vavk6b0l4i6psphn1psn3ga2wmwfvvnmrk8r9c";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-ast.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bb511969cb48239bb26d8c893b24c3d0500a76aa/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-ast.lua";
+          sha256 = "01zhmhzlk70whckqa4fp2rzp3wzpkmakphkgd1j0vlv0d5mlamp2";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-html.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bb511969cb48239bb26d8c893b24c3d0500a76aa/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-html.lua";
+          sha256 = "0bc2hx54n5wlybqhn858z8nc91vn3zk6sahd3sxhcnpf4hddv905";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bb511969cb48239bb26d8c893b24c3d0500a76aa/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-imgui.lua";
+          sha256 = "0mq8wyp6ilg2m8xxzxd9zwakp24ifp3phbvc9i34lfwvp56lnrrs";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-test.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bb511969cb48239bb26d8c893b24c3d0500a76aa/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-test.lua";
+          sha256 = "012y5caras278pv487p7va29fsma1xrrwiaijkk24fbi3sfkjw4n";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-text.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bb511969cb48239bb26d8c893b24c3d0500a76aa/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-text.lua";
+          sha256 = "0ycb6k9hx09x6rz85i617x6hm2d9bavakgr3yakn9zq26531j52j";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bb511969cb48239bb26d8c893b24c3d0500a76aa/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown.lua";
+          sha256 = "0qdcj4ic5yfj4lcd154f5f1c5b4d3kn4s22mvcdsc4mnnbnw7azv";
+        }
+        {
+          path = ''./talagan_ReaImGui Markdown Demo.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/bb511969cb48239bb26d8c893b24c3d0500a76aa/Development/talagan_ReaImGui%20Markdown/actions/talagan_ReaImGui%20Markdown%20Demo.lua";
+          sha256 = "1a9zmjrv19305aryn6hcwskk242b5jyag75fwdwq84xiphw6anfv";
+        }
+      ];
+    };
+    talagan-reaimgui-markdown-lua-0-1-8 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-reaimgui-markdown-lua-0-1-8";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Development";
+      packageType = "script";
+      sources = [
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/ext/imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/46cf751d1edeb3eb54da3445b5444202c8628c15/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/ext/imgui.lua";
+          sha256 = "0r349qv1gd4b42vavk6b0l4i6psphn1psn3ga2wmwfvvnmrk8r9c";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-ast.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/46cf751d1edeb3eb54da3445b5444202c8628c15/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-ast.lua";
+          sha256 = "0lm79w1fqpkjz556sihjv2k79y38wm5cd6frs6i4qvr67qhl8ff4";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-html.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/46cf751d1edeb3eb54da3445b5444202c8628c15/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-html.lua";
+          sha256 = "0bc2hx54n5wlybqhn858z8nc91vn3zk6sahd3sxhcnpf4hddv905";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/46cf751d1edeb3eb54da3445b5444202c8628c15/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-imgui.lua";
+          sha256 = "1lr6h4wjmxbr67j246751issh35adj86xkpg3fv5gk0c66hdlj25";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-test.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/46cf751d1edeb3eb54da3445b5444202c8628c15/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-test.lua";
+          sha256 = "012y5caras278pv487p7va29fsma1xrrwiaijkk24fbi3sfkjw4n";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown/markdown-text.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/46cf751d1edeb3eb54da3445b5444202c8628c15/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown/markdown-text.lua";
+          sha256 = "1r9wnlp1yggza322fcr1mfd9z4hy9c2spxa5khfz1g4ci271kqxk";
+        }
+        {
+          path = ''talagan_ReaImGui Markdown/reaimgui_markdown.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/46cf751d1edeb3eb54da3445b5444202c8628c15/Development/talagan_ReaImGui%20Markdown/reaimgui_markdown.lua";
+          sha256 = "0wkmr0i9iwx0s9b0q1sam2a3hy3gqw630pgalm5pyzw5i2s4b414";
+        }
+        {
+          path = ''./talagan_ReaImGui Markdown Demo.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/46cf751d1edeb3eb54da3445b5444202c8628c15/Development/talagan_ReaImGui%20Markdown/actions/talagan_ReaImGui%20Markdown%20Demo.lua";
+          sha256 = "1hwzlrjkvjl04ikr7mwkg80xfl21x22d3g0k3w0dkxam3p7lrpid";
+        }
+      ];
+    };
     willdevelop-read-tags-for-plugin-tag-system-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "willdevelop-read-tags-for-plugin-tag-system-lua-1-0";
@@ -70769,6 +70916,214 @@
         {
           path = ''talagan_Reannotate Quick Preview.lua'';
           url = "https://github.com/ReaTeam/ReaScripts/raw/7ca420b5a1c5830f1acce07d2fc976668870d77c/Various/talagan_Reannotate/actions/talagan_Reannotate%20Quick%20Preview.lua";
+          sha256 = "11pwd71i78idsvvxpvy24dmc8wvjxbmmj7qllf1qbfa4fby7injp";
+        }
+      ];
+    };
+    talagan-reannotate-lua-0-3-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-reannotate-lua-0-3-6";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''talagan_Reannotate/ext/dependencies.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/ext/dependencies.lua";
+          sha256 = "0c7a1bfvfiqgjcyi07c9r3nh8xia82pc3nfzq9g3syskmvfy52mw";
+        }
+        {
+          path = ''talagan_Reannotate/ext/imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/ext/imgui.lua";
+          sha256 = "1k0l24srr08gj72fpli5l667kdvsviwfj26fs8dxrkhfrx4zv6n8";
+        }
+        {
+          path = ''talagan_Reannotate/ext/json.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/ext/json.lua";
+          sha256 = "0s9cdbqxx8v4ra5klzz0qwzi0ck99fzfks4d5hz4ynl01r27glya";
+        }
+        {
+          path = ''talagan_Reannotate/classes/app_context.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/classes/app_context.lua";
+          sha256 = "0r3dvjq9yd3h1zfj6d3470076n78qjym8xi2wzh43mgfak4pnx5y";
+        }
+        {
+          path = ''talagan_Reannotate/classes/arrange_view_watcher.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/classes/arrange_view_watcher.lua";
+          sha256 = "0iqia93c93s41f8zr9jjyn4viqm31qkkxl3zvxvzgjbzyhp0skpz";
+        }
+        {
+          path = ''talagan_Reannotate/classes/color.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/classes/color.lua";
+          sha256 = "0y2x3yalk374lj1clk58idxd97g9ji9gfwjzj25sc8z6gwfhb9d5";
+        }
+        {
+          path = ''talagan_Reannotate/classes/launch_context.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/classes/launch_context.lua";
+          sha256 = "1sir8b6frdrqi8yl00wngqzfpq490db65gp0vjl390j039gvvsnw";
+        }
+        {
+          path = ''talagan_Reannotate/classes/mouse_observer.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/classes/mouse_observer.lua";
+          sha256 = "1g0kvvbbw3c9q54grymrd3mwwkc67q4yhlndyf7r7qx8vhf3aqnd";
+        }
+        {
+          path = ''talagan_Reannotate/classes/notes.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/classes/notes.lua";
+          sha256 = "1v8lckyrp3j6gw16mjwdw0k4s9m5j691sp7hqhamwmfgd7i6rzg8";
+        }
+        {
+          path = ''talagan_Reannotate/images/settings.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/images/settings.lua";
+          sha256 = "19vml8jx2djf42nryiqz5z1pdw967dh3r65svscb96hm4brkvpr3";
+        }
+        {
+          path = ''talagan_Reannotate/modules/debug.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/modules/debug.lua";
+          sha256 = "028wrswqhi7mdvb6sv0g7p4zfzpm86nhlsqc2cix5bk7vkp5h8rb";
+        }
+        {
+          path = ''talagan_Reannotate/modules/reaper_ext.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/modules/reaper_ext.lua";
+          sha256 = "1jwrlb4235zbs4yyk4033v3g8xyp125jwkcjbadw4i2vnscaqcn3";
+        }
+        {
+          path = ''talagan_Reannotate/modules/settings.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/modules/settings.lua";
+          sha256 = "0n3z37qmvkh5vf77mb92zj7x49ygqb8k93qss0fr5nqp96zpwhsm";
+        }
+        {
+          path = ''talagan_Reannotate/modules/unit_tests.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/modules/unit_tests.lua";
+          sha256 = "1dvp74b5xj5cw55z5yrg9v947sg0dsj2c4ji4xp229s7l1jyvpn0";
+        }
+        {
+          path = ''talagan_Reannotate/widgets/note_editor.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/widgets/note_editor.lua";
+          sha256 = "0858c74s5ja22j84hlqr713lhdw9l0yn3994z8z6kl1m8ixhshdr";
+        }
+        {
+          path = ''talagan_Reannotate/widgets/overlay_canvas.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/widgets/overlay_canvas.lua";
+          sha256 = "0b78v7lj9nc7igvwrnnwfhyzma4hilvav8lz9hv6bjkay4n5cm9n";
+        }
+        {
+          path = ''talagan_Reannotate/widgets/quick_preview_overlay.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/widgets/quick_preview_overlay.lua";
+          sha256 = "16vz4zlrvnz20693cpbm4jm6c4h9c7ww3rhw8q6xry5zlqw2vqxf";
+        }
+        {
+          path = ''talagan_Reannotate/widgets/settings_editor.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/widgets/settings_editor.lua";
+          sha256 = "0ysbyah2ygs25i5rg750nrx4j36r99djhmnxsq4xzar4hz10jrp0";
+        }
+        {
+          path = ''talagan_Reannotate Quick Preview.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/b924c205564b4eb12d5efd764aacb7629c78f7c2/Various/talagan_Reannotate/actions/talagan_Reannotate%20Quick%20Preview.lua";
+          sha256 = "11pwd71i78idsvvxpvy24dmc8wvjxbmmj7qllf1qbfa4fby7injp";
+        }
+      ];
+    };
+    talagan-reannotate-lua-0-3-7 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "talagan-reannotate-lua-0-3-7";
+      indexName = "ReaTeam Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = ''talagan_Reannotate/ext/dependencies.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/ext/dependencies.lua";
+          sha256 = "0c7a1bfvfiqgjcyi07c9r3nh8xia82pc3nfzq9g3syskmvfy52mw";
+        }
+        {
+          path = ''talagan_Reannotate/ext/imgui.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/ext/imgui.lua";
+          sha256 = "1k0l24srr08gj72fpli5l667kdvsviwfj26fs8dxrkhfrx4zv6n8";
+        }
+        {
+          path = ''talagan_Reannotate/ext/json.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/ext/json.lua";
+          sha256 = "0s9cdbqxx8v4ra5klzz0qwzi0ck99fzfks4d5hz4ynl01r27glya";
+        }
+        {
+          path = ''talagan_Reannotate/classes/app_context.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/classes/app_context.lua";
+          sha256 = "0r3dvjq9yd3h1zfj6d3470076n78qjym8xi2wzh43mgfak4pnx5y";
+        }
+        {
+          path = ''talagan_Reannotate/classes/arrange_view_watcher.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/classes/arrange_view_watcher.lua";
+          sha256 = "0iqia93c93s41f8zr9jjyn4viqm31qkkxl3zvxvzgjbzyhp0skpz";
+        }
+        {
+          path = ''talagan_Reannotate/classes/color.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/classes/color.lua";
+          sha256 = "0y2x3yalk374lj1clk58idxd97g9ji9gfwjzj25sc8z6gwfhb9d5";
+        }
+        {
+          path = ''talagan_Reannotate/classes/launch_context.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/classes/launch_context.lua";
+          sha256 = "1sir8b6frdrqi8yl00wngqzfpq490db65gp0vjl390j039gvvsnw";
+        }
+        {
+          path = ''talagan_Reannotate/classes/mouse_observer.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/classes/mouse_observer.lua";
+          sha256 = "1g0kvvbbw3c9q54grymrd3mwwkc67q4yhlndyf7r7qx8vhf3aqnd";
+        }
+        {
+          path = ''talagan_Reannotate/classes/notes.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/classes/notes.lua";
+          sha256 = "1v8lckyrp3j6gw16mjwdw0k4s9m5j691sp7hqhamwmfgd7i6rzg8";
+        }
+        {
+          path = ''talagan_Reannotate/images/settings.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/images/settings.lua";
+          sha256 = "19vml8jx2djf42nryiqz5z1pdw967dh3r65svscb96hm4brkvpr3";
+        }
+        {
+          path = ''talagan_Reannotate/modules/debug.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/modules/debug.lua";
+          sha256 = "028wrswqhi7mdvb6sv0g7p4zfzpm86nhlsqc2cix5bk7vkp5h8rb";
+        }
+        {
+          path = ''talagan_Reannotate/modules/reaper_ext.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/modules/reaper_ext.lua";
+          sha256 = "1jwrlb4235zbs4yyk4033v3g8xyp125jwkcjbadw4i2vnscaqcn3";
+        }
+        {
+          path = ''talagan_Reannotate/modules/settings.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/modules/settings.lua";
+          sha256 = "0n3z37qmvkh5vf77mb92zj7x49ygqb8k93qss0fr5nqp96zpwhsm";
+        }
+        {
+          path = ''talagan_Reannotate/modules/unit_tests.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/modules/unit_tests.lua";
+          sha256 = "1dvp74b5xj5cw55z5yrg9v947sg0dsj2c4ji4xp229s7l1jyvpn0";
+        }
+        {
+          path = ''talagan_Reannotate/widgets/note_editor.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/widgets/note_editor.lua";
+          sha256 = "0858c74s5ja22j84hlqr713lhdw9l0yn3994z8z6kl1m8ixhshdr";
+        }
+        {
+          path = ''talagan_Reannotate/widgets/overlay_canvas.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/widgets/overlay_canvas.lua";
+          sha256 = "0b78v7lj9nc7igvwrnnwfhyzma4hilvav8lz9hv6bjkay4n5cm9n";
+        }
+        {
+          path = ''talagan_Reannotate/widgets/quick_preview_overlay.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/widgets/quick_preview_overlay.lua";
+          sha256 = "0xshnj3prmvf9miadnl3izgw7bfmixcgi94mwrl8znzx5yn32vav";
+        }
+        {
+          path = ''talagan_Reannotate/widgets/settings_editor.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/widgets/settings_editor.lua";
+          sha256 = "0ysbyah2ygs25i5rg750nrx4j36r99djhmnxsq4xzar4hz10jrp0";
+        }
+        {
+          path = ''talagan_Reannotate Quick Preview.lua'';
+          url = "https://github.com/ReaTeam/ReaScripts/raw/0a6fa07fc93110cdc4c40b153a6f5ad2f82be594/Various/talagan_Reannotate/actions/talagan_Reannotate%20Quick%20Preview.lua";
           sha256 = "11pwd71i78idsvvxpvy24dmc8wvjxbmmj7qllf1qbfa4fby7injp";
         }
       ];

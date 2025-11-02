@@ -13248,6 +13248,20 @@
         }
       ];
     };
+    x-raym-toggle-selected-items-text-notes-stretching-lua-1-0-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-toggle-selected-items-text-notes-stretching-lua-1-0-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "Text Items and Item Notes/Formatting";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/a649773b9a18441c4d4a9196f97e5f7d53059e6c/Text%20Items%20and%20Item%20Notes/Formatting/X-Raym_Toggle%20selected%20items%20text%20notes%20stretching.lua";
+          sha256 = "1li6sgbcp4xbzsagi1zwfimb5mj38v869rdvj2iqgnixdxlwa9cy";
+        }
+      ];
+    };
     x-raym-uppercase-selected-items-notes-lua-2-0-2 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-uppercase-selected-items-notes-lua-2-0-2";
