@@ -470,6 +470,20 @@
         }
       ];
     };
+    amagalma-midi-keyboard-split-route-transpose-jsfx-1-00 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "amagalma-midi-keyboard-split-route-transpose-jsfx-1-00";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/aef689be3707685e7c8aa4ab016ecbac32243442/MIDI/amagalma_MIDI%20Keyboard%20Split%20Route%20Transpose.jsfx";
+          sha256 = "0w0bnqbyvs8xafh4q8snclf1kviwpj30jv22ni5hp4g8hyal9jav";
+        }
+      ];
+    };
     bertbouwhuis-midi-controller-for-s8-looper-with-fade-in-and-out-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "bertbouwhuis-midi-controller-for-s8-looper-with-fade-in-and-out-jsfx-1-0";

@@ -4975,6 +4975,20 @@
         }
       ];
     };
+    acendan-extend-selected-regions-by-length-lua-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "acendan-extend-selected-regions-by-length-lua-1-1";
+      indexName = "ACendan Scripts";
+      categoryName = "Regions";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/acendan/reascripts/raw/9e84585dfaab5916ae0f70fac6e843497d6bde28/Regions/acendan_Extend%20selected%20regions%20by%20length.lua";
+          sha256 = "0i1inv0pfggfn8b0h1wzflgrwgl8qwviyswmj1j3ldcvxrzcpszq";
+        }
+      ];
+    };
     acendan-import-region-names-from-text-file-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "acendan-import-region-names-from-text-file-lua-1-0";
