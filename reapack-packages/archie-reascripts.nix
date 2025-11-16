@@ -4322,7 +4322,7 @@
         {
           path = '''';
           url = "https://github.com/ArchieScript/Archie_ReaScripts/raw/afd5d0b3726eb229a22494ee35b71574bfcf2d4a/MAIN/FX/Archie_FX;%20Show%20all%20active%20floating%20FX%20windows%20for%20selected%20tracks.lua";
-          sha256 = "";
+          sha256 = "0v6hf5akhfhmyfwi9lcprw81iq4mbdh0h9iardb07m107a4fqm15";
         }
       ];
     };

@@ -7102,6 +7102,20 @@
         }
       ];
     };
+    tomaszpio-midi-hold-notes-range-jsfx-1-0-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "tomaszpio-midi-hold-notes-range-jsfx-1-0-0";
+      indexName = "ReaTeam JSFX";
+      categoryName = "MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/ReaTeam/JSFX/raw/ce70663a65b33ead55e9f365c01f992e9015a2d5/MIDI/tomaszpio_MIDI%20hold%20notes%20range.jsfx";
+          sha256 = "07l4pa59rfx236c13rrh8dnqkq9wdwnh3szaig9v5bqp5bzkswmy";
+        }
+      ];
+    };
     urtzurd-midi-glissando-jsfx-0-1 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "urtzurd-midi-glissando-jsfx-0-1";

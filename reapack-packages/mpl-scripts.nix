@@ -22689,6 +22689,20 @@
         }
       ];
     };
+    mpl-auto-crop-item-at-40db-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-auto-crop-item-at-40db-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "Items Editing";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/4b22b0c05892a78d0d7094e428d332901fd611f0/Items%20Editing/mpl_Auto%20crop%20item%20at%20-40dB.lua";
+          sha256 = "0qc1kgfrs3wasn4053aympy1yvnw2zp8qczvp5vqg3jl7fzq77p2";
+        }
+      ];
+    };
     mpl-build-4-points-segment-of-take-envelope-under-mouse-cursor-based-on-audio-source-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-build-4-points-segment-of-take-envelope-under-mouse-cursor-based-on-audio-source-lua-1-0";
@@ -34952,6 +34966,20 @@
           path = '''';
           url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/a6e240c240fd1ac1b6d5ea10cdab96f992c7d42d/Tracks%20Properties/mpl_Toggle%20show%20tracks%20if%20time%20selection%20crossing%20any%20of%20their%20items.lua";
           sha256 = "1h38wg9mcdysr0mcs02khcjl06p2db6bnbhr5vi4gw5hr24wvcws";
+        }
+      ];
+    };
+    mpl-ungroup-track-from-all-groups-lua-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-ungroup-track-from-all-groups-lua-1-0";
+      indexName = "MPL Scripts";
+      categoryName = "Tracks Properties";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/8bf4bd842994198fc8eae394f4d4f8a71b27d0a5/Tracks%20Properties/mpl_Ungroup%20track%20from%20all%20groups.lua";
+          sha256 = "16ka8l8cclv4lgl0hkc2k5iza77xgz08k77s39l7yq281wnmixqw";
         }
       ];
     };

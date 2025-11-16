@@ -1734,6 +1734,20 @@
         }
       ];
     };
+    groovelens2-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "groovelens2-jsfx-1-0";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Various";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/fd0fb30f45fe30ba96c863c888dcd6dff1cd01c5/Various/GrooveLens2.jsfx";
+          sha256 = "1d9zzkmwl2vrx9z5kzq3y62805fk2fyb40fdi1ralhs7ii2855m0";
+        }
+      ];
+    };
     heft-jsfx-1-2 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "heft-jsfx-1-2";
@@ -2406,6 +2420,20 @@
         }
       ];
     };
+    squishmallow-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "squishmallow-jsfx-1-0";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Various";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/0165e9fab17bab79e61f114a5392cf83cb2d8c32/Various/Squishmallow.jsfx";
+          sha256 = "1ycghnjdsaiw5asgjgj3xvppaldv1m1sb8i61qppic3sn5rmdbmi";
+        }
+      ];
+    };
     stratos-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "stratos-jsfx-1-0";
@@ -2515,6 +2543,20 @@
           path = '''';
           url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/1befb663e2faf08e585b227d0c30549eaf23f2a4/Various/Valvity.jsfx";
           sha256 = "08v977v3l73zbvihsi9bmpx1gn9hid0mhh1q1daq8lys291ip9nd";
+        }
+      ];
+    };
+    velveteq-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "velveteq-jsfx-1-0";
+      indexName = "chmaha airwindows JSFX Ports";
+      categoryName = "Various";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/chmaha/airwindows-JSFX-ports/raw/ea06a6b755085c10ffaf12401c6d272f5a47e325/Various/VelvetEQ.jsfx";
+          sha256 = "14vp6jy3jw7cfp0kjxvn7ry8j8w7v0dxi0dd5h4asp6vh1nhq6g7";
         }
       ];
     };
