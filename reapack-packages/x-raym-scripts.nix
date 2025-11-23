@@ -7481,6 +7481,20 @@
         }
       ];
     };
+    x-raym-stereo-downmixer-jsfx-1-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-stereo-downmixer-jsfx-1-0";
+      indexName = "X-Raym Scripts";
+      categoryName = "JSFX";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/8149e7f04f55f143c395a7441d79dd663b5e49ef/JSFX/X-Raym_Stereo%20downmixer.jsfx";
+          sha256 = "0kzmrjkyppllhmwx27w1niw45bcncmj78zm045p03zwrxirbcq0g";
+        }
+      ];
+    };
     x-raym-tap-tempo-jsfx-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "x-raym-tap-tempo-jsfx-1-0";
@@ -9398,6 +9412,34 @@
           path = '''';
           url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/fe19da18bed7c81b32eca95926a6ede6ffc950fb/JSFX/MIDI/X-Raym_MIDI%20single%20note%20map.jsfx";
           sha256 = "006x8qjb75dqbcbb5fnpsxldwkb5px33q5wlx529q9cv09ihhmsf";
+        }
+      ];
+    };
+    x-raym-midi-single-note-map-jsfx-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-midi-single-note-map-jsfx-1-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "JSFX/MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/410c40441efbb77201068d2429291b4f3ea4e9b0/JSFX/MIDI/X-Raym_MIDI%20single%20note%20map.jsfx";
+          sha256 = "1dn3y7zqzzld2zsj2cb7ia5mrxg8zjvnf9lr6p7rid2x3waic2ny";
+        }
+      ];
+    };
+    x-raym-midi-single-note-map-jsfx-1-1-1 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "x-raym-midi-single-note-map-jsfx-1-1-1";
+      indexName = "X-Raym Scripts";
+      categoryName = "JSFX/MIDI";
+      packageType = "effect";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/X-Raym/REAPER-ReaScripts/raw/e70744882a4a298a354b77822a54b6cb74545053/JSFX/MIDI/X-Raym_MIDI%20single%20note%20map.jsfx";
+          sha256 = "10dcqfnd07s1fs4rb0jc5d671jav0b5hwsjmmfl74mwlfqh4pmax";
         }
       ];
     };

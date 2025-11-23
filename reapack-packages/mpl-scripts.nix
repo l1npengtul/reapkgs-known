@@ -37777,6 +37777,62 @@
         }
       ];
     };
+    mpl-importsessiondata-lua-3-0 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-importsessiondata-lua-3-0";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/aeab0d2f4d1571787dcb83d027a859d88742c2c0/Various/mpl_ImportSessionData.lua";
+          sha256 = "0hkfq5aggvxqsxwcnm1jdx8zv8bbh8z087psvajdk0wkiqiga1dk";
+        }
+      ];
+    };
+    mpl-importsessiondata-lua-3-01 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-importsessiondata-lua-3-01";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/591bc90b43ae507b7411b0159f998a8dde5adffe/Various/mpl_ImportSessionData.lua";
+          sha256 = "0z2599a40jx4309w1xaqcjs6qwcldlnrw5pg4mcz4px41klsdcki";
+        }
+      ];
+    };
+    mpl-importsessiondata-lua-3-02 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-importsessiondata-lua-3-02";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/40e688f44f757355f54ee3f18ac51babe86ed4d8/Various/mpl_ImportSessionData.lua";
+          sha256 = "0jna1m6wnzmlahad8y3y50bpqn067f2r67zgpjqhk1hmpxzgnhqy";
+        }
+      ];
+    };
+    mpl-importsessiondata-lua-3-03 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "mpl-importsessiondata-lua-3-03";
+      indexName = "MPL Scripts";
+      categoryName = "Various";
+      packageType = "script";
+      sources = [
+        {
+          path = '''';
+          url = "https://github.com/MichaelPilyavskiy/ReaScripts/raw/e5577e894a54f216a891657ba43f48a77a51065a/Various/mpl_ImportSessionData.lua";
+          sha256 = "0x34alpk7xwygh6n04x6blaw6l572y3v7x02iqx2w12d5hnk20ra";
+        }
+      ];
+    };
     mpl-interactivetoolbar-lua-1-0 = mkReapackPackage {
       inherit lib stdenv fetchurl;
       name = "mpl-interactivetoolbar-lua-1-0";

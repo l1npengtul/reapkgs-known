@@ -15,7 +15,7 @@
         {
           path = ''Default_4.0 + width.ReaperThemeZip'';
           url = "http://stash.reaper.fm/27310/Default_4.0_width.ReaperThemeZip";
-          sha256 = "1lzrv9ygdbq9zr4d2178ab4s1iwbhlrlwzycz68jpn4knc02rpsp";
+          sha256 = "";
         }
       ];
     };
@@ -29,7 +29,7 @@
         {
           path = ''Default 5.0 Nitpicky Edition.ReaperThemeZip'';
           url = "https://stash.reaper.fm/24878/Default%205.0%20Nitpicky%20Edition.ReaperThemeZip";
-          sha256 = "1py8d83zpflr35r50vhz2bvhbgx7fbcgysgklmgdizfhksrk71md";
+          sha256 = "";
         }
       ];
     };
@@ -43,7 +43,7 @@
         {
           path = ''Default 5.0 Nitpicky Edition.ReaperThemeZip'';
           url = "https://www.dropbox.com/s/pqkb6kv8qomi3to/Default%205.0%20Nitpicky%20Edition.ReaperThemeZip?dl=1";
-          sha256 = "0w7p2qsn6nl76ny6afhcdmkjrg6cir29025vwvsq8hrs7p3sklak";
+          sha256 = "01q2x1kiaqqskybqdfpsnnqsv648cydwsdj4wf4lwdwj13mgchd0";
         }
       ];
     };
@@ -71,7 +71,7 @@
         {
           path = ''Default_5_Dark.ReaperThemeZip'';
           url = "http://stash.reaper.fm/29513/Default_5_Dark.ReaperThemeZip";
-          sha256 = "1h85dmfpmql9750nfhkhmssl6596q223kbfx9rq20x37d1wjjrhp";
+          sha256 = "";
         }
       ];
     };
@@ -85,7 +85,7 @@
         {
           path = ''Default_5_Dark.ReaperThemeZip'';
           url = "http://stash.reaper.fm/29513/Default_5_Dark.ReaperThemeZip";
-          sha256 = "1h85dmfpmql9750nfhkhmssl6596q223kbfx9rq20x37d1wjjrhp";
+          sha256 = "";
         }
       ];
     };
@@ -99,7 +99,7 @@
         {
           path = ''Default_5_Dark_Extended.ReaperThemeZip'';
           url = "http://stash.reaper.fm/30492/Default_5_Dark_Extended.ReaperThemeZip";
-          sha256 = "0zbjnrxbd0pzjf1ll8m94ji06spxv9yhmjmc7l4pw9nwcdw5gl4z";
+          sha256 = "";
         }
       ];
     };
@@ -113,7 +113,7 @@
         {
           path = ''Default_5_Dark_Extended.ReaperThemeZip'';
           url = "http://stash.reaper.fm/30492/Default_5_Dark_Extended.ReaperThemeZip";
-          sha256 = "0zbjnrxbd0pzjf1ll8m94ji06spxv9yhmjmc7l4pw9nwcdw5gl4z";
+          sha256 = "";
         }
       ];
     };

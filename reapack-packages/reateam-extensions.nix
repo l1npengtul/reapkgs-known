@@ -6734,7 +6734,7 @@
         {
           path = ''reaper_kontrol.dylib'';
           url = "https://stash.reaper.fm/38633/reaper_kontrol.dylib";
-          sha256 = "0zxl8r5zz07di8kvnadrzwk84nfaygcgn0fym2iagr83pxg51kfl";
+          sha256 = "";
         }
       ];
     };
@@ -6966,6 +6966,40 @@
         {
           path = ''ReaSonus/en-US.ini'';
           url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.4.1/en-US.ini";
+          sha256 = "1awr0nwgba6f5q0whs6va8di8sdjnh43kx0vnylyc899zfyxwcd6";
+        }
+      ];
+    };
+    navelpluisje-reasonus-native-ext-0-4-2 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "navelpluisje-reasonus-native-ext-0-4-2";
+      indexName = "ReaTeam Extensions";
+      categoryName = "Control Surfaces";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_ReasonusNative-arm64-x86_64.dylib'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.4.2/reaper_ReasonusNative-arm64-x86_64.dylib";
+          sha256 = "009wvy72zhb1rs0sa9jmz7sgfh0fffmxa1x09bll2whgghsgzm84";
+        }
+        {
+          path = ''reaper_ReasonusNative-x64.dll'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.4.2/reaper_ReasonusNative-x64.dll";
+          sha256 = "0vk8ymxnkm4kmq9wrc08igr6h1fy8zrf881q5iqa9zkmzjyzwh1c";
+        }
+        {
+          path = ''reaper_ReasonusNative-x86.dll'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.4.2/reaper_ReasonusNative-x86.dll";
+          sha256 = "16i3wnzsyb10zmyq158myppsbafsi799m8174hh5ab476309lk0n";
+        }
+        {
+          path = ''reaper_ReasonusNative-arm64-x86_64.dylib'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.4.2/reaper_ReasonusNative-arm64-x86_64.dylib";
+          sha256 = "009wvy72zhb1rs0sa9jmz7sgfh0fffmxa1x09bll2whgghsgzm84";
+        }
+        {
+          path = ''ReaSonus/en-US.ini'';
+          url = "https://github.com/navelpluisje/Reasonus-Native/releases/download/0.4.2/en-US.ini";
           sha256 = "1awr0nwgba6f5q0whs6va8di8sdjnh43kx0vnylyc899zfyxwcd6";
         }
       ];

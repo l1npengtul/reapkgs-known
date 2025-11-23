@@ -116328,7 +116328,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.1";
-          sha256 = "01h4mxb5if0cxix7xrip3drzmb23gnvv8qggh8aq4pbwaz64ihw5";
+          sha256 = "0j0q5s0fsfcwaifjpdfzd8h5j48sdjzm65g747qjg1innx5mg3gv";
         }
       ];
     };
@@ -116342,7 +116342,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.2";
-          sha256 = "1q31np6bm2h9mhxgsf8457zkd9skn93h4fvys45qs1kh3qjn11x1";
+          sha256 = "07w5jxnl455m6lc8y2hg4wm5w20zk9lih0x2lvbbl74h1krm8wdh";
         }
       ];
     };
@@ -116356,7 +116356,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.3";
-          sha256 = "1bkwgrx9xxqnhy65kn0n01xajylm1nr2mfpygjqca6yl9wpjjqzb";
+          sha256 = "1h34mx0vzdq6f5pm4dl7gwf3q2mb02f2rhj8vi4bvnbmqsfkgs4x";
         }
       ];
     };
@@ -116370,7 +116370,7 @@
         {
           path = ''Peace_MOD.ReaperThemeZip'';
           url = "https://github.com/jeremybernstein/REAPER_Peace/releases/tag/v1.7.0-beta.4";
-          sha256 = "04qjcfjkpc4vis91v3cyhwsshndyd91pfclday90c32flpf2l3y6";
+          sha256 = "0awhd2b7xfnvlsdg9iq5vzq6fqpi3vabpq9lbdakkdl6x1vd259z";
         }
       ];
     };
